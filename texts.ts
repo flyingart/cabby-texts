@@ -200,6 +200,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_STARTED"]}
     ],
     "timeout": [10, 20],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are currently experiencing a delay. We apologize for the inconvenience and we will keep you updated on the progress. We are working hard to get you on your way as soon as possible. Thank you for your patience.",
@@ -228,6 +229,7 @@ const texts: Text[] = [
       {"type": "runtimeFlightMetadata", "key": "arrivalDelay", "value": [1]}
     ],
     "timeout": [21, 21],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "We would like to apologize you again for the delay. We hope that you had a pleasant flight and we are looking forward to seeing you again soon.",
@@ -451,6 +453,7 @@ const texts: Text[] = [
     "category": "crew-information-about-upcoming-service",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB']},
     "timeout": [30, 60],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, please remain seated while we climb to our cruising altitude. We will be starting our in-flight service shortly. You can find our sky menu in the seat pocket in front of you.",
@@ -478,6 +481,7 @@ const texts: Text[] = [
     "category": "crew-service-information",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB'], "ignoreFlightStateChange": ['FLIGHT_CRUISE']},
     "timeout": [240, 360],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are now starting our in-flight service. We'd like to remind you that we accept card payments as well as cash. You can find our sky menu in the seat pocket in front of you. Please remain seated while we serve you. If you need anything, please don't hesitate to ask one of our cabin crew members. Thank you.",
@@ -508,6 +512,7 @@ const texts: Text[] = [
       {"type": "airlineCode", "value": ["RYR"]}
     ],
     "timeout": [300, 420],
+    "runtimeGenerated": true,
     "weight": 9,
     "texts": [
       {
@@ -525,6 +530,7 @@ const texts: Text[] = [
     "category": "crew-shopping-information",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CRUISE']},
     "timeout": [300, 420],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are now starting our in-flight shopping service. Today we have a special offer for you. If you buy two perfumes, you will get a 10% discount on the third one. On this flight we highly recommend latest fragrances from our collection. You can find our shopping catalog in the seat pocket in front of you. We accept card payments as well as cash.",
@@ -580,6 +586,7 @@ const texts: Text[] = [
     "category": "captain-information-about-upcoming-actions",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_DESCENT']},
     "timeout": [10, 30],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please follow the instructions of the cabin crew as we prepare for landing. Thank you.",
@@ -608,6 +615,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_DESCENT"]}
     ],
     "timeout": [5, 10],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -636,6 +644,7 @@ const texts: Text[] = [
       {"type": "settingNotActive", "value": ["captain-information-about-upcoming-actions"]}
     ],
     "timeout": [10, 30],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -682,6 +691,7 @@ const texts: Text[] = [
     "category": "crew-taxi-to-gate-welcome-message",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_POST_LANDING']},
     "timeout": [15, 20],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, welcome to {destinationCityName}. Please remain seated with your seatbelt fastened until the aircraft has come to a complete stop and the seatbelt sign has been turned off. Please make sure you have all your personal belongings with you before you leave the aircraft. On behalf of the crew, I would like to thank you for flying with us today. We hope you had a pleasant flight and we look forward to welcoming you on board again soon.",
@@ -709,6 +719,7 @@ const texts: Text[] = [
     "category": "crew-deboarding",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_ON_BLOCKS']},
     "timeout": [10, 20],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Doors will be opened shortly. Please remember to take all your personal belongings with you. Make sure you have everything you brought on board. Thank you.",
