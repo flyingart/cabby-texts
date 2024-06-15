@@ -5,6 +5,7 @@ type Text = {
   runtimeGenerated?: boolean; // If set to true, the text will be generated at runtime, not in pre-flight generation. This may be useful when the text should be generated based on the current state of the flight (e.g. captain random information about the flight).
   onlyPriorityLanguage?: boolean; // If set to true, the text will be played only in the priority language.
   numberOfEagerTextGenerations?: number; // Number of eager text generations. If some message can be played multiple times (like Seatbelt sign change), you can set this number to generate multiple texts in advance.
+  chime?: 'DING' | 'DONG' | 'DING_DONG'; // If set, the sound will be played before the text.
 
   // Trigger event
   trigger: {
@@ -75,13 +76,13 @@ const texts: Text[] = [
         "it": "Signore e signori, abbiamo appena ricevuto informazioni su alcune leggere turbolenze in vista. Si prega di tornare ai propri posti e rimanere seduti fino allo spegnimento del segnale delle cinture di sicurezza."
       },
       {
-        "en": "Hi folks, this is your captain speaking. We had to turn on the seatbelt sign due to some light turbulence ahead. Please return to your seats and fasten your seat belts.",
-        "pl": "Witajcie, tu kapitan. Musieliśmy włączyć sygnał zapięcia pasów z powodu lekkich turbulencji przed nami. Prosimy o powrót na miejsca i zapięcie pasów.",
-        "de": "Hallo Leute, hier spricht Ihr Kapitän. Aufgrund leichter Turbulenzen vor uns wurde das Anschnallzeichen aktiviert. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
+        "en": "Hello, this is your captain speaking. We had to turn on the seatbelt sign due to some light turbulence ahead. Please return to your seats and fasten your seat belts.",
+        "pl": "Szanowni państwo, tu kapitan. Musieliśmy włączyć sygnał zapięcia pasów z powodu lekkich turbulencji przed nami. Prosimy o powrót na miejsca i zapięcie pasów.",
+        "de": "Hallo, hier spricht Ihr Kapitän. Aufgrund leichter Turbulenzen vor uns wurde das Anschnallzeichen aktiviert. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
         "pt": "Olá pessoal, aqui é o comandante da aeronave. Tivemos que ligar o aviso de atar os cintos devido a uma turbulância leve a frente, por favor, retornem aos seus assentos e afivelem os cintos de segurança.",
-        "es": "Hola amigos, les habla su capitán. Tuvimos que encender la señal de cinturón de seguridad debido a unas ligeras turbulencias más adelante. Por favor regresen a sus asientos y abróchense los cinturones.",
-        "fr": "Salut les amis, c'est votre capitaine qui parle. Nous avons dû allumer le panneau de ceinture de sécurité en raison de légères turbulences à venir. Veuillez retourner à vos places et attacher vos ceintures de sécurité.",
-        "it": "Ciao gente, qui parla il vostro capitano. Abbiamo dovuto accendere il segnale delle cinture di sicurezza a causa di una leggera turbolenza davanti a noi. Vi preghiamo di ritornare ai vostri posti e di allacciare le cinture di sicurezza."
+        "es": "Hola, les habla su capitán. Tuvimos que encender la señal de cinturón de seguridad debido a unas ligeras turbulencias más adelante. Por favor regresen a sus asientos y abróchense los cinturones.",
+        "fr": "Bonjour, c'est votre capitaine qui parle. Nous avons dû allumer le panneau de ceinture de sécurité en raison de légères turbulences à venir. Veuillez retourner à vos places et attacher vos ceintures de sécurité.",
+        "it": "Salve, qui parla il vostro capitano. Abbiamo dovuto accendere il segnale delle cinture di sicurezza a causa di una leggera turbolenza davanti a noi. Vi preghiamo di ritornare ai vostri posti e di allacciare le cinture di sicurezza."
       }
     ]
   },
@@ -250,6 +251,7 @@ const texts: Text[] = [
     "category": "captain-pre-flight-welcome-message",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_STARTED']},
     "timeout": [0, 60],
+    "chime": "DING_DONG",
     "texts": [
       {
         "en": "Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}. My name is {captainName} and I am the captain of this flight. I would like to welcome you on board and thank you for choosing to fly with us today. We are currently preparing for departure and we will be taking off shortly. Our flight today will take approximately {flightTime}. If you have any questions or need assistance, please don't hesitate to ask one of our cabin crew members. Thank you for flying with {airlineName}.",
@@ -270,9 +272,9 @@ const texts: Text[] = [
         "it": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Mi chiamo {captainName} e sono il capitano di questo volo. Attualmente ci stiamo preparando per il decollo e presto inizieremo a rullare. [Thank you for choosing {airlineName}.] Avere un bel volo."
       },
       {
-        "en": "Hi folks, this is your captain speaking. Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing to fly with us today.",
-        "pl": "Z tej strony kapitan. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Obecnie przygotowujemy się do startu i wkrótce rozpoczniemy kołowanie. Dziękujemy za wybór naszego przewoźnika.",
-        "de": "Hallo Leute, hier spricht Ihr Kapitän. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. Vielen Dank, dass Sie sich entschieden haben, heute mit uns zu fliegen.",
+        "en": "Hello, this is your captain speaking. Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing to fly with us today.",
+        "pl": "Szanowni państwo, tu kapitan. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Obecnie przygotowujemy się do startu i wkrótce rozpoczniemy kołowanie. Dziękujemy za wybór naszego przewoźnika.",
+        "de": "Hallo, hier spricht Ihr Kapitän. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Wir bereiten uns derzeit auf den Abflug vor und werden in Kürze abheben. Vielen Dank, dass Sie sich entschieden haben, heute mit uns zu fliegen.",
         "pt": "Olá pessoal aqui é o comandante falando. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] No momento estamos nos preparando para a partida e decolaremos em breve. Obrigado por escolher voar conosco hoje.",
         "es": "Este es el capitán. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Actualmente nos estamos preparando para el despegue y pronto comenzaremos a rodar. Gracias por elegir nuestro transportista.",
         "fr": "C'est le capitaine. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Nous préparons actuellement le décollage et commencerons bientôt à rouler. Merci d'avoir choisi notre transporteur.",
@@ -315,6 +317,7 @@ const texts: Text[] = [
       {"type": "settingNotActive", "value": ["captain-pre-flight-welcome-message"]}
     ],
     "timeout": [0, 60],
+    "chime": "DING_DONG",
     "texts": [
       {
         "en": "Welcome aboard on this {airlineName} flight. Today we are flying from {originCityName} to {destinationCityName}. My name is {crewName} and I am the cabin crew member on this flight. We are currently preparing for departure and we will be taking off shortly. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. If you have any questions or need assistance, please don't hesitate to ask me or one of my colleagues. Thank you for flying with {airlineName}.",
@@ -342,6 +345,7 @@ const texts: Text[] = [
     "category": "captain-basic-information-about-the-flight",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_STARTED']},
     "timeout": [60, 120],
+    "chime": "DING_DONG",
     "texts": [
       {
         "en": "Our flight today will take approximately {flightTime}. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}. Please remember to keep your seatbelt fastened while seated and whenever the seatbelt sign is illuminated.",
@@ -398,6 +402,7 @@ const texts: Text[] = [
       {"type": "settingNotActive", "value": ["captain-basic-information-about-the-flight"]}
     ],
     "timeout": [60, 120],
+    "chime": "DING_DONG",
     "texts": [
       {
         "en": "Our flight today will take approximately {flightTime}. Captain just let me know that flight should be smooth. Shortly after takeoff we'll start serving snacks and drinks. You can find our sky menu in the seat pocket in front of you.",
@@ -454,6 +459,7 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB']},
     "timeout": [30, 60],
     "runtimeGenerated": true,
+    "chime": "DING",
     "texts": [
       {
         "en": "Ladies and gentlemen, please remain seated while we climb to our cruising altitude. We will be starting our in-flight service shortly. You can find our sky menu in the seat pocket in front of you.",
@@ -482,6 +488,7 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB'], "ignoreFlightStateChange": ['FLIGHT_CRUISE']},
     "timeout": [240, 360],
     "runtimeGenerated": true,
+    "chime": "DING",
     "texts": [
       {
         "en": "Ladies and gentlemen, we are now starting our in-flight service. We'd like to remind you that we accept card payments as well as cash. You can find our sky menu in the seat pocket in front of you. Please remain seated while we serve you. If you need anything, please don't hesitate to ask one of our cabin crew members. Thank you.",
@@ -512,6 +519,7 @@ const texts: Text[] = [
       {"type": "airlineCode", "value": ["RYR"]}
     ],
     "timeout": [300, 420],
+    "chime": "DING",
     "runtimeGenerated": true,
     "weight": 9,
     "texts": [
@@ -530,6 +538,7 @@ const texts: Text[] = [
     "category": "crew-shopping-information",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CRUISE']},
     "timeout": [300, 420],
+    "chime": "DING_DONG",
     "runtimeGenerated": true,
     "texts": [
       {
@@ -558,6 +567,7 @@ const texts: Text[] = [
     "category": "captain-random-information-about-the-flight",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CRUISE']},
     "timeout": [600, 720],
+    "chime": "DING_DONG",
     "runtimeGenerated": true,
     "texts": [
       {
@@ -586,6 +596,7 @@ const texts: Text[] = [
     "category": "captain-information-about-upcoming-actions",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_DESCENT']},
     "timeout": [10, 30],
+    "chime": "DING_DONG",
     "runtimeGenerated": true,
     "texts": [
       {
@@ -644,6 +655,7 @@ const texts: Text[] = [
       {"type": "settingNotActive", "value": ["captain-information-about-upcoming-actions"]}
     ],
     "timeout": [10, 30],
+    "chime": "DING_DONG",
     "runtimeGenerated": true,
     "texts": [
       {
@@ -719,6 +731,7 @@ const texts: Text[] = [
     "category": "crew-deboarding",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_ON_BLOCKS']},
     "timeout": [10, 20],
+    "chime": "DING_DONG",
     "runtimeGenerated": true,
     "texts": [
       {
