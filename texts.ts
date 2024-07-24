@@ -71,7 +71,7 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, we've just received information about some light turbulence ahead. Please return to your seats and remain seated until the seatbelt sign is turned off.",
         "pl": "Szanowni państwo, właśnie otrzymaliśmy informację o lekkich turbulencjach przed nami. Prosimy o powrót na miejsca i pozostanie na nich do momentu wyłączenia sygnału zapięcia pasów.",
-        "de": "Sehr geehrte Damen und Herren, wir haben gerade Informationen über leichte Turbulenzen erhalten. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis das Anschnallzeichen erlischt.",
+        "de": "Sehr geehrte Damen und Herren, wir haben gerade Informationen über leichte Turbulenzen erhalten. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis die Anschnallzeichen erlischen.",
         "pt": "Senhoras e senhores, acabamos de receber informações sobre uma leve turbulência à frente. Por favor, retornem aos seus assentos e permaneçam sentados até que o aviso de atar os cintos seja desligado.",
         "es": "Damas y caballeros, acabamos de recibir información sobre una ligera turbulencia que se avecina. Por favor regrese a sus asientos y permanezca sentado hasta que se apague la señal del cinturón de seguridad.",
         "fr": "Mesdames et messieurs, nous venons de recevoir des informations concernant de légères turbulences à venir. Veuillez retourner à vos sièges et rester assis jusqu'à ce que le signal de ceinture de sécurité s'éteigne.",
@@ -82,7 +82,7 @@ const texts: Text[] = [
       {
         "en": "Hello, this is your captain speaking. We had to turn on the seatbelt sign due to some light turbulence ahead. Please return to your seats and fasten your seat belts.",
         "pl": "Szanowni państwo, tu kapitan. Musieliśmy włączyć sygnał zapięcia pasów z powodu lekkich turbulencji przed nami. Prosimy o powrót na miejsca i zapięcie pasów.",
-        "de": "Hallo, hier spricht Ihr Kapitän. Aufgrund leichter Turbulenzen vor uns wurde das Anschnallzeichen aktiviert. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
+        "de": "Hallo, hier spricht Ihr Kapitän. Aufgrund leichter Turbulenzen vor uns wurden die Anschnallzeichen aktiviert. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
         "pt": "Olá pessoal, aqui é o comandante da aeronave. Tivemos que ligar o aviso de atar os cintos devido a uma turbulância leve a frente, por favor, retornem aos seus assentos e afivelem os cintos de segurança.",
         "es": "Hola, les habla su capitán. Tuvimos que encender la señal de cinturón de seguridad debido a unas ligeras turbulencias más adelante. Por favor regresen a sus asientos y abróchense los cinturones.",
         "fr": "Bonjour, c'est votre capitaine qui parle. Nous avons dû allumer le panneau de ceinture de sécurité en raison de légères turbulences à venir. Veuillez retourner à vos places et attacher vos ceintures de sécurité.",
@@ -104,7 +104,7 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, our captain has just informed us that we are expecting some light turbulence ahead. Please return to your seats and remain seated until the seatbelt sign is turned off. Use of the lavatories is not allowed at this time.",
         "pl": "Szanowni państwo, nasz kapitan właśnie poinformował nas, że spodziewamy się lekkich turbulencji. Prosimy o powrót na miejsca i zapięcie pasów do momentu wyłączenia sygnału. Używanie toalet nie jest dozwolone w tym czasie.",
-        "de": "Meine Damen und Herren, unser Kapitän hat uns gerade mitgeteilt, dass wir mit leichten Turbulenzen rechnen. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis das Anschnallzeichen erlischt. Die Nutzung der Toiletten ist derzeit nicht gestattet.",
+        "de": "Meine Damen und Herren, unser Kapitän hat uns gerade mitgeteilt, dass wir mit leichten Turbulenzen rechnen. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis die Anschnallzeichen erlischen. Die Nutzung der Toiletten ist derzeit nicht gestattet.",
         "pt": "Senhoras e senhores, o comandante acaba de nos informar que passaremos por uma turbulência leve à frente. Permaneçam sentados até que o aviso de atar os cintos seja apagado. Neste momento não está permitido o uso dos lavatórios.",
         "es": "Damas y caballeros, nuestro capitán nos acaba de informar que esperamos ligeras turbulencias por delante. Por favor regrese a sus asientos y permanezca sentado hasta que se apague la señal del cinturón de seguridad. No se permite el uso de los baños en este momento.",
         "fr": "Mesdames et Messieurs, notre capitaine vient de nous informer que nous attendons de légères turbulences devant nous. Veuillez retourner à vos sièges et rester assis jusqu'à ce que le signal de ceinture de sécurité s'éteigne. L'utilisation des toilettes n'est pas autorisée pour le moment.",
@@ -115,7 +115,7 @@ const texts: Text[] = [
       {
         "en": "Our captain has just informed us that we are expecting some light turbulence ahead. Please fasten your seatbelts.",
         "pl": "Nasz kapitan właśnie poinformował nas, że spodziewamy się lekkich turbulencji. Prosimy o zapięcie pasów.",
-        "de": "Unser Kapitän hat uns gerade mitgeteilt, dass wir mit leichten Turbulenzen rechnen. Bitte legen Sie den Gurt an.",
+        "de": "Unser Kapitän hat uns gerade mitgeteilt, dass wir mit leichten Turbulenzen rechnen. Bitte schnallen sie sich an.",
         "pt": "Senhoras e senhores, o comandante acaba de nos informar que passaremos por uma turbulência leve à frente. Por favor, afivelem seus cintos de segurança.",
         "es": "Nuestro capitán nos acaba de informar que se esperan ligeras turbulencias por delante. Por favor, abrochen sus cinturones.",
         "fr": "Notre capitaine vient de nous informer que nous attendons de légères turbulences devant nous. Veuillez attacher vos ceintures de sécurité.",
@@ -149,7 +149,7 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, the captain has turned on the seatbelt sign. Please return to your seats and fasten your seat belts.",
         "pl": "Szanowni państwo, kapitan właśnie włączył sygnał zapięcia pasów. Prosimy o powrót na miejsca i zapięcie pasów bezpieczeństwa.",
-        "de": "Meine Damen und Herren, der Kapitän hat das Anschnallzeichen eingeschaltet. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
+        "de": "Meine Damen und Herren, der Kapitän hat die Anschnallzeichen eingeschaltet. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
         "pt": "Senhoras e senhores, o comandante ligou o aviso de atar os cintos. Por favor, retornem aos seus assentos e afivelem seus cintos de segurança.",
         "es": "Damas y caballeros, el capitán ha activado la señal de cinturón de seguridad. Por favor regresen a sus asientos y abróchense los cinturones.",
         "fr": "Mesdames et messieurs, le capitaine a allumé le panneau de ceinture de sécurité. Veuillez retourner à vos places et attacher vos ceintures de sécurité.",
@@ -160,7 +160,7 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, the seatbelt sign has been turned on. Please return to your seats and fasten your seat belts. Use of the lavatories is not allowed at this time.",
         "pl": "Szanowni państwo, sygnał zapięcia pasów został właśnie włączony. Prosimy o powrót na miejsca i zapięcie pasów. Używanie toalet nie jest dozwolone w tym czasie.",
-        "de": "Meine Damen und Herren, das Anschnallzeichen ist eingeschaltet. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an. Die Nutzung der Toiletten ist derzeit nicht gestattet.",
+        "de": "Meine Damen und Herren, die Anschnallzeichen sind eingeschaltet. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an. Die Nutzung der Toiletten ist derzeit nicht gestattet.",
         "pt": "Senhoras e senhores, o aviso de atar os cintos foi aceso. Por favor, retornem aos seus assentos e afivelem os cintos de segurança. Neste momento não está permitido o uso dos lavatórios.",
         "es": "Damas y caballeros, se ha encendido la señal del cinturón de seguridad. Por favor regresen a sus asientos y abróchense los cinturones. No se permite el uso de los baños en este momento.",
         "fr": "Mesdames et messieurs, le signal de ceinture de sécurité est allumé. Veuillez retourner à vos places et attacher vos ceintures de sécurité. L'utilisation des toilettes n'est pas autorisée pour le moment.",
@@ -182,7 +182,7 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, the captain has turned off the seatbelt sign. You may now move around the cabin, but we recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
         "pl": "Szanowni państwo, kapitan wyłączył sygnał zapięcia pasów. Możecie państwo teraz poruszać się po kabinie, ale zalecamy, aby pasy były zapięte podczas siedzenia na wypadek niespodziewanych turbulencji.",
-        "de": "Meine Damen und Herren, der Kapitän hat das Anschnallzeichen ausgeschaltet. Sie können sich jetzt in der Kabine bewegen, wir empfehlen Ihnen jedoch, im Sitzen den Sicherheitsgurt angelegt zu lassen, um unerwartete Turbulenzen zu vermeiden.",
+        "de": "Meine Damen und Herren, der Kapitän hat die Anschnallzeichen ausgeschaltet. Sie können sich jetzt in der Kabine frei bewegen, wir empfehlen Ihnen jedoch, im Sitzen jederzeit angeschnallt zu sein, um verletzungen bei unerwartete Turbulenzen zu vermeiden.",
         "pt": "Senhoras e senhores, o comandante desligou o aviso de atar os cintos. A partir de agora você pode se movimentar pela cabine, mas nós recomendamos o uso do cinto de segurança enquanto estiver sentado, em caso de turbulência inesperada.",
         "es": "Damas y caballeros, el capitán ha desactivado la señal de cinturón de seguridad. Ahora puedes moverte por la cabina, pero te recomendamos que mantengas abrochado el cinturón de seguridad mientras estás sentado en caso de turbulencias inesperadas.",
         "fr": "Mesdames et messieurs, le capitaine a éteint le signal de ceinture de sécurité. Vous pouvez désormais vous déplacer dans la cabine, mais nous vous recommandons de garder votre ceinture de sécurité attachée lorsque vous êtes assis en cas de turbulences inattendues.",
@@ -193,7 +193,7 @@ const texts: Text[] = [
       {
         "en": "As you can see, the seatbelt sign has been turned off. You may now move around the cabin, but we recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
         "pl": "Jak mogli państwo zauważyć, sygnał zapięcia pasów został wyłączony. Możecie państwo teraz poruszać się po kabinie, ale zalecamy, aby pasy były zapięte podczas siedzenia na wypadek niespodziewanych turbulencji.",
-        "de": "Wie Sie sehen, wurden die Anschnallzeichen ausgeschaltet. Sie können sich jetzt in der Kabine bewegen, wir empfehlen Ihnen jedoch, im Sitzen den Sicherheitsgurt angelegt zu lassen, um unerwartete Turbulenzen zu vermeiden.",
+        "de": "Wie Sie sehen, wurden die Anschnallzeichen ausgeschaltet. Sie können sich jetzt in der Kabine bewegen, wir empfehlen Ihnen jedoch, im Sitzen jederzeit angeschnallt zu sein, um verletzungen bei unerwartete Turbulenzen zu vermeiden.",
         "pt": "Como você pode ver, o aviso de atar os cintos foi apagado. A partir de agora você pode se movimentar pela cabine, mas nós recomendamos o uso do cinto de segurança enquanto estiver sentado, em caso de turbulência inesperada.",
         "es": "Como puede ver, la señal del cinturón de seguridad se ha apagado. Ahora puedes moverte por la cabina, pero te recomendamos que mantengas abrochado el cinturón de seguridad mientras estás sentado en caso de turbulencias inesperadas.",
         "fr": "Comme vous pouvez le constater, le signal de ceinture de sécurité a été éteint. Vous pouvez désormais vous déplacer dans la cabine, mais nous vous recommandons de garder votre ceinture de sécurité attachée lorsque vous êtes assis en cas de turbulences inattendues.",
