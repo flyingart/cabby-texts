@@ -14,6 +14,7 @@ You can find more information about the Cabby [on the official website](https://
 - Polish (pl)
 - Turkish (tr)
 - Dutch (nl)
+- Korean (ko)
 
 Please feel free to add more languages by creating a pull request. The more languages we have, the better the service will be.
 
