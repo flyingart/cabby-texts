@@ -724,7 +724,7 @@ const texts: Text[] = [
       },
       {
         "en": "Ladies and gentlemen, we are starting our descent. Please follow the instructions of the cabin crew as we prepare for landing. Thank you.",
-        "pl": "Ladies and gentlemen, we are starting our descent. Proszę postępować zgodnie z instrukcjami członków załogi. Dziękujemy.",
+        "pl": "Panie i Panowie, rozpoczynamy zniżanie. Proszę postępować zgodnie z instrukcjami członków załogi. Dziękujemy.",
         "de": "Sehr geehrte Damen und Herren, wir beginnen unseren Sinkflug. Bitte folgen Sie den Anweisungen des Kabinenpersonals, während wir uns auf die Landung vorbereiten. Danke schön.",
         "pt": "Senhoras e senhores, estamos iniciando a descida. Por favor, siga as instruções dos comissários enquanto nos preparamos para o pouso. Obrigado.",
         "es": "Damas y caballeros, estamos iniciando nuestro descenso. Siga las instrucciones de la tripulación de cabina mientras nos preparamos para el aterrizaje. Gracias.",
