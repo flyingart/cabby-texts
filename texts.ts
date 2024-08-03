@@ -72,7 +72,7 @@ const texts: Text[] = [
       {
         "en": "Ladies and gentlemen, we've just received information about some light turbulence ahead. Please return to your seats and remain seated until the seatbelt sign is turned off.",
         "pl": "Szanowni państwo, właśnie otrzymaliśmy informację o lekkich turbulencjach przed nami. Prosimy o powrót na miejsca i pozostanie na nich do momentu wyłączenia sygnału zapięcia pasów.",
-        "de": "Sehr geehrte Damen und Herren, wir haben gerade Informationen über leichte Turbulenzen erhalten. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis die Anschnallzeichen erlischen.",
+        "de": "Sehr geehrte Damen und Herren, wir haben gerade Informationen über leichte Turbulenzen erhalten. Bitte kehren Sie zu Ihren Plätzen zurück und bleiben Sie sitzen, bis die Anschnallzeichen erloschen sind.",
         "pt": "Senhoras e senhores, acabamos de receber informações sobre uma leve turbulência à frente. Por favor, retornem aos seus assentos e permaneçam sentados até que o aviso de atar os cintos seja desligado.",
         "es": "Damas y caballeros, acabamos de recibir información sobre una ligera turbulencia que se avecina. Por favor regrese a sus asientos y permanezca sentado hasta que se apague la señal del cinturón de seguridad.",
         "fr": "Mesdames et messieurs, nous venons de recevoir des informations concernant de légères turbulences à venir. Veuillez retourner à vos sièges et rester assis jusqu'à ce que le signal de ceinture de sécurité s'éteigne.",
