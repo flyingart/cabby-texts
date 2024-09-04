@@ -288,6 +288,18 @@ const texts: Text[] = [
 
   // Flight state changes
 
+  // Boarding
+  {
+    "category": "crew-boarding",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_BOARDING']},
+    "timeout": [0, 0],
+    "texts": [
+      {
+        "en": "Boarding started.",
+      }
+    ]
+  },
+
   // Pre-flight
   {
     "category": "captain-pre-flight-welcome-message",
