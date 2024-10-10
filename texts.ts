@@ -68,7 +68,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, önümüzde hafif bir türbülans bekliyoruz. Lütfen koltuklarınıza dönün ve emniyet kemerlerinizi bağlayın.",
         "nl": "Dames en heren, er is lichte turbulentie op komst. Neemt u alstublieft plaats in uw stoel met uw stoelriem vast.",
         "ko": "승객 여러분, 잠시 후 약간의 난기류가 있을 것으로 예상됩니다. 자리로 돌아가 좌석벨트를 착용해 주시기 바랍니다.",
-        "pt_pt": "Caros passageiros, esperamos uma ligeira turbulência à frente. Por favor, retornem aos vossos lugares e apertem o cinto de segurança."
+        "pt_pt": "Caros passageiros, esperamos uma ligeira turbulência à frente. Por favor, retornem aos vossos lugares e apertem o cinto de segurança.",
+        "no": "Mine damer og herrer, vi forventer litt lett turbulens foran oss. Vennligst returner tilbake til ditt sete og fest sikrrerhetsbeltet."
       },
       {
         "en": "Ladies and gentlemen, we've just received information about some light turbulence ahead. Please return to your seats and remain seated until the seatbelt sign is turned off.",
@@ -81,7 +82,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, az önce önümüzdeki hafif türbülansa dair bilgi aldık. Lütfen koltuklarınıza dönün ve emniyet kemeri işareti sönene kadar yerlerinizde kalın.",
         "nl": "Dames en heren, we zijn zojuist geïnformeerd over lichte turbulentie op komst. Neemt u alstublieft plaats in uw stoel en blijft u zitten totdat het stoelriemen vast teken is uitgeschakeld.",
         "ko": "승객 여러분, 방금 앞에 가벼운 난기류가 있다는 정보를 받았습니다. 좌석벨트 싸인이 꺼질 때까지 자리로 돌아가 자리를 지켜주세요.",
-        "pt_pt": "Senhoras e senhores, acabamos de receber informações sobre uma ligeira turbulência à frente. Por favor, regressem aos vossos lugares e permaneçam sentados até que o aviso de apertar os cintos seja desligado."
+        "pt_pt": "Senhoras e senhores, acabamos de receber informações sobre uma ligeira turbulência à frente. Por favor, regressem aos vossos lugares e permaneçam sentados até que o aviso de apertar os cintos seja desligado.",
+        "no": "Mine damer og herrer, vi har nettopp mottatt informasjon om litt lett turbulens foran oss. Vennligst returner tilbake til ditt sete og bli sittende til skiltet med sikkerhetsbeltet er slått av."
       },
       {
         "en": "Hello, this is your captain speaking. We had to turn on the seatbelt sign due to some light turbulence ahead. Please return to your seats and fasten your seat belts.",
@@ -94,7 +96,8 @@ const texts: Text[] = [
         "tr": "Merhaba, kaptanınız konuşuyor. İlerideki hafif türbülans nedeniyle emniyet kemeri işaretini açmak zorunda kaldık. Lütfen koltuklarınıza dönün ve emniyet kemerlerinizi bağlayın.",
         "nl": "Hallo, hier spreekt uw gezagvoerder. We hebben het stoelriemen vast teken moeten activeren door wat lichte turbulentie op komst. Gaat u alstublieft terug naar uw stoel en maak uw stoelriem vast.",
         "ko": "안녕하세요, 기장입니다. 앞에 가벼운 난기류가 있기 때문에 좌석벨트 싸인을 켰습니다. 자리로 돌아가 좌석벨트를 착용해 주세요.",
-        "pt_pt": "Caros passageiros, aqui é fala comandante. Tivemos que ligar o aviso de apertar os cintos devido a uma ligeira turbulência à frente. Por favor, regressem aos vossos lugares e apertem os cintos de segurança."
+        "pt_pt": "Caros passageiros, aqui é fala comandante. Tivemos que ligar o aviso de apertar os cintos devido a uma ligeira turbulência à frente. Por favor, regressem aos vossos lugares e apertem os cintos de segurança.",
+        "no": "Hei, dette er kapteinen som snakker. Vi måtte slå på skiltet med fest-sikkerhetsbeltet på grunn av litt lett turbulens foran oss. Vennligst returner tilbake til ditt sete og fest sikkerhetsbeltene."
       }
     ]
   },
@@ -118,7 +121,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, kaptanımız az önce önümüzde hafif bir türbülans beklediğimizi bildirdi. Lütfen koltuklarınıza dönün ve emniyet kemeri işareti sönene kadar yerlerinizde kalın. Şu anda tuvaletlerin kullanılmasına izin verilmiyor.",
         "nl": "Dames en heren, de gezagvoerder heeft ons zojuist geïnformeerd dat we lichte turbulentie verwachten. Gaat u alstublieft terug naar uw stoel en blijft u zitten totdat het stoelriemen vast teken is uitgeschakeld. Het gebruik van de toiletten is momenteel niet toegestaan.",
         "ko": "승객 여러분, 기장님께서 곧 가벼운 난기류가 예상된다고 하셨습니다. 자리로 돌아가 좌석벨트 싸인이 꺼질 때까지 자리에 앉아계시기 바랍니다. 지금은 화장실을 사용할 수 없습니다.",
-        "pt_pt": "Senhoras e senhores, o nosso comandante acaba de nos informar que estamos a esperar uma ligeira turbulência à frente. Por favor, regressem aos vossos lugares e permaneçam sentados até que o sinal de apertar os cintos seja desligado. O uso das casas de banho não é permitido neste momento."
+        "pt_pt": "Senhoras e senhores, o nosso comandante acaba de nos informar que estamos a esperar uma ligeira turbulência à frente. Por favor, regressem aos vossos lugares e permaneçam sentados até que o sinal de apertar os cintos seja desligado. O uso das casas de banho não é permitido neste momento.",
+        "no": "Mine damer og herrer, kapteinen har nettopp informert oss om at vi forventer litt lett turbulens foran oss. Vennligst returner tilbake til ditt sete og bli sittende til skiltet med sikkerhetsbeltet er slått av. Bruk av toalettene er ikke tillatt på dette tidspunktet."
       },
       {
         "en": "Our captain has just informed us that we are expecting some light turbulence ahead. Please fasten your seatbelts.",
@@ -131,7 +135,8 @@ const texts: Text[] = [
         "tr": "Kaptanımız az önce önümüzde hafif bir türbülans beklediğimizi bildirdi. Lütfen emniyet kemerlerinizi bağlayın.",
         "nl": "Dames en heren, de gezagvoerder heeft ons zojuist geïnformeerd dat er lichte turbulentie op komst is. Maakt u alstublieft uw stoelriem vast.",
         "ko": "기장님께서 조금 전에 가벼운 난기류가 예상된다고 하셨습니다. 좌석벨트를 착용해 주시기 바랍니다.",
-        "pt_pt": "O nosso comandante acaba de nos informar que estamos a prever uma ligeira turbulência à frente. Por favor, apertem os cintos de segurança."
+        "pt_pt": "O nosso comandante acaba de nos informar que estamos a prever uma ligeira turbulência à frente. Por favor, apertem os cintos de segurança.",
+        "no": "Kapteinen har nettopp informert oss om at vi forventer litt lett turbulens foran oss. Vennligst fest sikkerhetsbeltene deres."
       },
       {
         "en": "As you heard from our captain, we are expecting some light turbulence ahead. Please return to your seats and fasten your seat belts. Use of the lavatories is not allowed at this time.",
@@ -144,7 +149,8 @@ const texts: Text[] = [
         "tr": "Kaptanımızdan duyduğunuza göre önümüzde hafif bir türbülans bekliyoruz. Lütfen koltuklarınıza dönün ve emniyet kemerlerinizi bağlayın. Şu anda tuvaletlerin kullanılmasına izin verilmiyor.",
         "nl": "Zoals u van de gezagvoerder heeft gehoord, verwachten wij lichte turbulentie op komst. Gaat u alstublieft terug naar uw stoel en blijft u zitten totdat het stoelriemen vast teken is uitgeschakeld. Het gebruik van de toiletten is momenteel niet toegestaan.",
         "ko": "기장님 말씀대로 앞으로 약간의 난기류가 예상됩니다. 자리로 돌아가 좌석벨트를 착용해 주시기 바랍니다. 지금은 화장실을 사용할 수 없습니다.",
-        "pt_pt": "O comandante acaba de nos informar que estamos a esperar uma ligeira turbulência à frente. Por favor, apertem os cintos de segurança."
+        "pt_pt": "O comandante acaba de nos informar que estamos a esperar uma ligeira turbulência à frente. Por favor, apertem os cintos de segurança.",
+        "no": "Som dere hørte fra kapteinen, forventer vi litt lett turbulens foran oss. Vennligst returner tilbake til ditt sete og fest sikkerhetsbeltet. Bruk av toalettene er ikke tillatt på dette tidspunktet."
       }
     ]
   },
@@ -170,6 +176,7 @@ const texts: Text[] = [
         "nl": "Dames en heren, de gezagvoerder heeft het stoelriemen vast teken aangezet. Gaat u alstublieft terug naar uw stoel en maak uw stoelriem vast.",
         "ko": "승객 여러분, 기장님께서 좌석벨트 싸인을 켰습니다. 자리로 돌아가 좌석벨트를 착용해 주시기 바랍니다.",
         "pt_pt": "Senhoras e senhores, o comandante ligou o sinal de aperto dos cintos. Por favor, regressem aos vossos lugares e apertem os cintos de segurança.",
+        "no": "Mine damer og herrer, kapteinen har slått på skiltet med sikkerhetsbeltet. Vennligst returner tilbake til ditt sete og fest sikkerhetsbelte."
       },
       {
         "en": "Ladies and gentlemen, the seatbelt sign has been turned on. Please return to your seats and fasten your seat belts. Use of the lavatories is not allowed at this time.",
@@ -182,7 +189,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, emniyet kemeri işareti açıldı. Lütfen koltuklarınıza dönün ve emniyet kemerlerinizi bağlayın. Şu anda tuvaletlerin kullanılmasına izin verilmiyor.",
         "nl": "Dames en heren, het stoelriemen vast teken is geactiveerd. Neemt u alstublieft plaats in uw stoel met uw stoelriem vast. Het gebruik van de toiletten is momenteel niet toegestaan.",
         "ko": "승객 여러분, 좌석벨트 싸인이 켜졌습니다. 자리로 돌아가 좌석벨트를 착용해 주시기 바랍니다. 지금은 화장실 사용이 금지되어 있습니다.",
-        "pt_pt": "Senhoras e senhores passageiros, o sinal de apertar os cintos foi ligado. Por favor, regressem aos vossos lugares e apertem os cintos de segurança. O uso das casas de banho não é permitido neste momento."
+        "pt_pt": "Senhoras e senhores passageiros, o sinal de apertar os cintos foi ligado. Por favor, regressem aos vossos lugares e apertem os cintos de segurança. O uso das casas de banho não é permitido neste momento.",
+        "no": "Mine damer og herrer, skiltet med sikkerhetsbeltet har blitt slått på.Vennligst returner tilbake til ditt sete og fest sikkerhetsbeltet. Bruk av toalettene er ikke tillatt på dette tidspunktet."
       }
     ]
   },
@@ -206,7 +214,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, kaptan emniyet kemeri işaretini kapattı. Artık kabin içinde hareket edebilirsiniz ancak beklenmedik bir türbülansa karşı oturduğunuzda emniyet kemerinizi takılı tutmanızı öneririz.",
         "nl": "Dames en heren, de gezagvoerder heeft het stoelriemen vast teken uitgeschakeld. U mag nu vrij door de cabine bewegen, maar wij raden u aan om uw stoelriem vast te houden terwijl u zit in geval van onverwachte turbulentie.",
         "ko": "승객 여러분, 기장님께서 좌석벨트 싸인을 껐습니다. 이제 기내를 이동할 수 있지만 예기치 않은 난기류를 대비하여 좌석에 앉은 상태에서 좌석벨트를 계속 착용하는 것이 좋습니다.",
-        "pt_pt": "Senhoras e senhores, o comandante desligou o sinal de apertar os cintos. Podem agora circular pela cabine, mas recomendamos que mantenham os cintos de segurança apertados sempre que estiverem sentados, em caso de turbulência inesperada."
+        "pt_pt": "Senhoras e senhores, o comandante desligou o sinal de apertar os cintos. Podem agora circular pela cabine, mas recomendamos que mantenham os cintos de segurança apertados sempre que estiverem sentados, em caso de turbulência inesperada.",
+        "no": "Mine damer og herrer, kapteinen har slått av skiltet med fest-sikkerhetsbeltet. Dere kan nå bevege dere rundt i kabinen, men vi anbefaler at dere holder sikkerhetsbeltet festet mens dere sitter, i tilfelle uventet turbulens."
       },
       {
         "en": "As you can see, the seatbelt sign has been turned off. You may now move around the cabin, but we recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
@@ -219,7 +228,8 @@ const texts: Text[] = [
         "tr": "Gördüğünüz gibi emniyet kemeri işareti kapatılmış. Artık kabin içinde hareket edebilirsiniz ancak beklenmedik bir türbülansa karşı oturduğunuzda emniyet kemerinizi takılı tutmanızı öneririz.",
         "nl": "Zoals u kunt zien, is het stoelriemen vast teken uitgeschakeld. U mag nu vrij door de cabine bewegen, maar wij raden u aan om uw stoelriem vast te houden terwijl u zit in geval van onverwachte turbulentie.",
         "ko": "좌석벨트 싸인이 꺼졌습니다. 이제 객실 주변을 이동할 수 있지만 예기치 않은 난기류를 대비하여 좌석에 앉은 상태에서 좌석벨트를 착용하고 있는것이 좋습니다.",
-        "pt_pt": "Como podem ver, o sinal de apertar os cintos foi desligado. Podem agora circular pela cabine, mas recomendamos que mantenham os cintos de segurança apertados enquanto estiverem sentados, em caso de turbulência inesperada."
+        "pt_pt": "Como podem ver, o sinal de apertar os cintos foi desligado. Podem agora circular pela cabine, mas recomendamos que mantenham os cintos de segurança apertados enquanto estiverem sentados, em caso de turbulência inesperada.",
+        "no": "Som dere kan se, har skiltet med fest-sikkerhetsbeltet blitt slått av. Dere kan nå bevege dere rundt i kabinen, men vi anbefaler at dere holder sikkerhetsbeltet fastspent mens dere sitter, i tilfelle uventet turbulens."
       },
       {
         "en": "Seatbelt sign has just been turned off. You may now move around the cabin. We recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
@@ -232,7 +242,8 @@ const texts: Text[] = [
         "tr": "Emniyet kemeri işareti yeni kapatıldı. Artık kabinin içinde hareket edebilirsiniz. Beklenmedik bir türbülansa karşı oturduğunuzda emniyet kemerinizi bağlı tutmanızı öneririz.",
         "nl": "Het stoelriem vast teken is zojuist uitgeschakeld. U mag nu vrij door de cabine bewegen, maar wij raden u aan om uw stoelriem vast te houden terwijl u zit in geval van onverwachte turbulentie.",
         "ko": "좌석벨트 싸인이 방금 꺼졌습니다. 이제 객실 주변을 이동할 수 있습니다. 하지만 예기치 않은 난기류가 발생할 수 있기 때문에 좌석에 앉은 상태에서 좌석벨트를 계속 착용하고 있는 것이 좋습니다.",
-        "pt_pt": "O sinal de apertar os cintos acabou de ser desligado. Podem agora circular pela cabine. Recomendamos que mantenham os cintos de segurança apertados enquanto estiverem sentados, em caso de turbulência inesperada."
+        "pt_pt": "O sinal de apertar os cintos acabou de ser desligado. Podem agora circular pela cabine. Recomendamos que mantenham os cintos de segurança apertados enquanto estiverem sentados, em caso de turbulência inesperada.",
+        "no": "Skiltet med fest-sikkerhetsbeltet har nettopp blitt slått av. Dere kan nå bevege dere rundt i kabinen. Vi anbefaler at dere holder sikkerhetsbeltet fastspent mens dere sitter, i tilfelle uventet turbulens."
       }
     ]
   },
@@ -258,7 +269,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, şu anda bir gecikme yaşıyoruz. Bu rahatsızlıktan dolayı özür dileriz ve sizi gelişmelerden haberdar edeceğiz. Sizi en kısa sürede yolunuza çıkarmak için çok çalışıyoruz. Sabrınız için teşekkürler.",
         "nl": "Dames en heren, momenteel ondervinden wij vertraging. Onze excuses voor het ongemak, wij zullen u op de hoogte houden. Wij werken er hard aan om u zo snel mogelijk de lucht in te krijgen. Bedankt voor uw geduld.",
         "ko": "승객 여러분, 현재 우리 비행기가 지연되고 있습니다. 불편을 드려 죄송합니다. 진행 상황을 계속 알려드리겠습니다. 승무원들은 현재 최대한 빨리 진행될 수 있도록 노력하고 있습니다. 기다려 주셔서 감사합니다.",
-        "pt_pt": "Senhoras e senhores passageiros, estamos atualmente a enfrentar um atraso. Pedimos desculpa pelo incómodo e iremos mantê-los informados sobre o progresso. Estamos a trabalhar arduamente para que possam seguir viagem o mais rapidamente possível. Agradecemos a vossa paciência."
+        "pt_pt": "Senhoras e senhores passageiros, estamos atualmente a enfrentar um atraso. Pedimos desculpa pelo incómodo e iremos mantê-los informados sobre o progresso. Estamos a trabalhar arduamente para que possam seguir viagem o mais rapidamente possível. Agradecemos a vossa paciência.",
+        "no": "Mine damer og herrer, vi opplever for øyeblikket en forsinkelse. Vi beklager ulempene og vil holde dere oppdatert om fremdriften. Vi jobber hardt for å få dere videre så snart som mulig. Takk for tålmodigheten."
       },
       {
         "en": "Hi, this is your captain speaking. We are currently experiencing a delay. We apologize for the inconvenience and we will keep you updated on the progress. Thank you for your patience and understanding.",
@@ -271,7 +283,8 @@ const texts: Text[] = [
         "tr": "Merhaba, kaptanınız konuşuyor. Şu anda bir gecikme yaşıyoruz. Yaşanan rahatsızlıktan dolayı özür dileriz. Gelişmeler hakkında sizi bilgilendireceğiz. Sabrınız ve anlayışınız için teşekkür ederiz.",
         "nl": "Hallo, hier spreekt uw gezagvoerder. We ondervinden momenteel wat vertraging. Onze excuses voor het ongemak, wij zullen u op de hoogte houden. Bedankt voor uw geduld en begrip.",
         "ko": "안녕하세요, 저는 이 비행기의 기장입니다. 현재 우리 비행기는 지연되고 있습니다. 불편을 드려 죄송합니다. 진행 상황을 계속 알려드리겠습니다. 기다려주시고 이해해주셔서 감사드립니다.",
-        "pt_pt": "Caros passageiros, fala o vosso comandante. Estamos atualmente a enfrentar um atraso. Pedimos desculpa pelo incómodo e iremos mantê-los informados sobre o progresso. Agradecemos a vossa paciência e compreensão."
+        "pt_pt": "Caros passageiros, fala o vosso comandante. Estamos atualmente a enfrentar um atraso. Pedimos desculpa pelo incómodo e iremos mantê-los informados sobre o progresso. Agradecemos a vossa paciência e compreensão.",
+        "no": "Hei, dette er kapteinen som snakker. Vi opplever for øyeblikket en forsinkelse. Vi beklager ulempene og vil holde dere oppdatert om fremdriften. Takk for tålmodigheten og forståelsen."
       }
     ]
   },
@@ -295,7 +308,8 @@ const texts: Text[] = [
         "tr": "Gecikmeden dolayı tekrar özür dileriz. Keyifli bir uçuş geçirmenizi dileriz. Sizi en kısa zamanda tekrar aramızda görmekten mutluluk duyarız.",
         "nl": "Wij willen u nogmaals onze excuses aanbieden voor de vertraging. We hopen dat u een goede vlucht heeft gehad en kijken er naar uit om u binnenkort weer aan boord te verwelkomen.",
         "ko": "비행기 지연에 대해 다시 한번 사과드립니다. 즐거운 비행이 되셨기를 바라며 곧 다시 뵙기를 기대하겠습니다.",
-        "pt_pt": "Gostaríamos de pedir desculpa mais uma vez pelo atraso. Esperamos que tenham tido um voo agradável e esperamos vê-los novamente em breve."
+        "pt_pt": "Gostaríamos de pedir desculpa mais uma vez pelo atraso. Esperamos que tenham tido um voo agradável e esperamos vê-los novamente em breve.",
+        "no": "Vi vil igjen beklage forsinkelsen. Vi håper dere hadde en behagelig flytur, og vi ser frem til å se dere igjen snart."
       }
     ]
   },
@@ -332,7 +346,8 @@ const texts: Text[] = [
         "tr": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Adım {captainName} ve bu uçuşun kaptanıyım. Bu uçuşta size hoş geldiniz diyor ve bugün bizimle uçmayı seçtiğiniz için teşekkür ediyorum. Şu anda kalkışa hazırlanıyoruz ve kısa süre sonra yola çıkacağız. [Our flight today will take approximately {flightTime}.] Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa lütfen kabin ekibimizden birine sormaktan çekinmeyin. [Thank you for flying with {airlineName}.]",
         "nl": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Mijn naam is {captainName} en ik ben de gezagvoerder op deze vlucht. Ik heet u graag welkom aan boord en dank u dat u ervoor heeft gekozen om vandaag met ons te vliegen. Wij bereiden ons momenteel voor op vertrek en zullen binnenkort opstijgen. [Our flight today will take approximately {flightTime}.] Als u vragen of hulp nodig heeft, stel deze dan gerust aan het cabinepersoneel. [Thank you for flying with {airlineName}.]",
         "ko": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] [My name is {captainName} and I am the captain of this flight.] 여러분의 탑승을 환영하고 오늘 저희 비행기를 이용해 주셔서 감사의 말씀을 드립니다. 승무원들은 현재 출발을 준비하고 있으며 곧 이륙할 예정입니다. 오늘 저희 항공편은 약 {flightTime} 정도 소요될 예정입니다. 질문이 있거나 도움이 필요한 경우 주저하지 마시고 객실 승무원 중 한명에게 문의해 주시기 바랍니다. 저희와 함께 해주셔서 감사합니다.",
-        "pt_pt": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] O meu nome é {captainName} e sou o comandante deste voo. Gostaria de dar as boas-vindas a bordo e agradecer por terem escolhido voar connosco hoje. Estamos atualmente a preparar-nos para a descolagem e partiremos em breve. [Our flight today will take approximately {flightTime}.] Se tiverem alguma dúvida ou precisarem de assistência, não hesitem em pedir a um dos membros da nossa tripulação de cabine. [Thank you for flying with {airlineName}.]"
+        "pt_pt": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] O meu nome é {captainName} e sou o comandante deste voo. Gostaria de dar as boas-vindas a bordo e agradecer por terem escolhido voar connosco hoje. Estamos atualmente a preparar-nos para a descolagem e partiremos em breve. [Our flight today will take approximately {flightTime}.] Se tiverem alguma dúvida ou precisarem de assistência, não hesitem em pedir a um dos membros da nossa tripulação de cabine. [Thank you for flying with {airlineName}.]",
+        "no": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Jeg heter {captainName} og jeg er kaptein på denne flyvningen. Jeg vil gjerne ønske dere velkommen om bord og takke for at dere valgte å fly med oss i dag. Vi er for øyeblikket i ferd med å forberede oss til avgang, og forventer å sette i gang straks. [Our flight today will take approximately {flightTime}.] Hvis dere har spørsmål eller trenger assistanse, ikke nøl med å spørre en av våre kabinansatte. [Thank you for flying with {airlineName}.]"
       },
       {
         "en": "Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}. My name is {captainName} and I am the captain of this flight. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing {airlineName}. Enjoy your flight.",
@@ -345,7 +360,8 @@ const texts: Text[] = [
         "tr": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Adım {captainName} ve bu uçuşun kaptanıyım. Şu anda kalkışa hazırlanıyoruz ve kısa süre sonra yola çıkacağız. [Thank you for choosing {airlineName}.] İyi uçuşlar.",
         "nl": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Mijn naam is {captainName} en ik ben de gezagvoerder op deze vlucht. Wij bereiden ons momenteel voor op vertrek en zullen binnenkort opstijgen. [Thank you for choosing {airlineName}.] Fijne vlucht.",
         "ko": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] [My name is {captainName} and I am the captain of this flight.] 현재 출발 준비 중이며 곧 이륙할 예정입니다. {airlineName} 비행편을 선택해 주셔서 감사합니다. 즐거운 비행 되세요.",
-        "pt_pt": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] O meu nome é {captainName} e sou o comandante deste voo. Estamos atualmente a preparar-nos para a descolagem e partiremos em breve. [Thank you for choosing {airlineName}.] Desejamos-vos uma excelente viagem."
+        "pt_pt": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] O meu nome é {captainName} e sou o comandante deste voo. Estamos atualmente a preparar-nos para a descolagem e partiremos em breve. [Thank you for choosing {airlineName}.] Desejamos-vos uma excelente viagem.",
+        "no": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Jeg heter {captainName} og jeg er kaptein på denne flyvningen. Vi er for øyeblikket i ferd med å forberede oss til avgang, og forventer å sette i gang straks. [Thank you for choosing {airlineName}.] Nyt flyturen."
       },
       {
         "en": "Hello, this is your captain speaking. Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing to fly with us today.",
@@ -358,7 +374,8 @@ const texts: Text[] = [
         "tr": "Merhaba, kaptanınız konuşuyor. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Şu anda kalkışa hazırlanıyoruz ve kısa süre sonra yola çıkacağız. Bugün bizimle uçmayı seçtiğiniz için teşekkür ederiz.",
         "nl": "Hallo, hier spreekt uw gezagvoerder. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Wij bereiden ons momenteel voor op vertrek en zullen binnenkort opstijgen. Bedankt dat u heeft gekozen om vandaag met ons te vliegen.",
         "ko": "안녕하세요, 기장님입니다. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] 현재 출발 준비 중이며 곧 이륙할 예정입니다. 오늘 저희 비행기를 이용해 주셔서 감사합니다.",
-        "pt_pt": "Caros passageiros, fala o vosso comandante. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Estamos atualmente a preparar-nos para a descolagem e partiremos em breve. Obrigado por terem escolhido voar connosco hoje."
+        "pt_pt": "Caros passageiros, fala o vosso comandante. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Estamos atualmente a preparar-nos para a descolagem e partiremos em breve. Obrigado por terem escolhido voar connosco hoje.",
+        "no": "Hei, dette er kapteinen som snakker. [Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] Vi er for øyeblikket i ferd med å forberede oss til avgang, og forventer å sette i gang straks. Takk for at dere valgte å fly med oss i dag."
       }
     ]
   },
@@ -381,7 +398,8 @@ const texts: Text[] = [
         "tr": "Merhaba ve aramıza hoş geldiniz. Adım {crewName} ve bu uçuşta kabin ekibi üyesiyim. Kaptanımızdan da öğrendiğiniz üzere, şu anda kalkışa hazırlanıyoruz ve kısa süre sonra yola çıkacağız. Lütfen emniyet kemerinizin takılı olduğundan ve koltuk arkalığınızın ve tepsi masanızın dik konumda olduğundan emin olun. Lütfen dizüstü bilgisayarlar ve cep telefonları dahil tüm kişisel elektronik cihazları kapatın. Uçuş süresince sigara içmek yasaktır. Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa lütfen bana veya meslektaşlarımdan birine sormaya çekinmeyin.",
         "nl": "Hallo en welkom aan boord. Mijn naam is {crewName} en ik ben uw purser op deze vlucht. Zoals u van de gezagvoerder kon horen -  bereiden wij ons momenteel voor op vertrek en zullen we binnenkort opstijgen. Zorg ervoor dat uw veiligheidsgordel is vastgemaakt en dat de rugleuning en het tafelblad rechtop staan. Schakel alle persoonlijke elektronische apparaten uit, inclusief laptops en mobiele telefoons. Roken is niet toegestaan gedurende de hele vlucht. Als u vragen of hulp nodig heeft, stel deze dan gerust aan een van mijn collega's.",
         "ko": "안녕하세요. 승객 여러분, 탑승을 환영합니다. 저는 이 비행기의 객실 승무원입니다. 기장님이 말씀하신 것처럼, 현재 출발을 준비하고 있으며 곧 이륙할 예정입니다. 좌석벨트를 매고 좌석 등받이와 앞좌석 선반이 똑바로 접혀있는지 확인하십시오. 노트북과 휴대전화를 포함한 모든 개인 전자 기기의 전원을 꺼주세요. 비행 중에는 흡연이 금지되어 있습니다. 궁금한 점이나 도움이 필요한 경우 주저하지 마시고 객실 승무원들에게 문의바랍니다.",
-        "pt_pt": "Olá e bem-vindos a bordo. O meu nome é {crewName} e sou o tripulante de cabine deste voo. Como ouviram do nosso comandante, estamos atualmente a preparar-nos para a descolagem e partiremos em breve. Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e o encosto do vosso assento e a mesa estão na posição vertical. Por favor, desliguem todos os dispositivos eletrónicos pessoais, incluindo portáteis e telemóveis. É proibido fumar durante todo o voo. Se tiverem alguma dúvida ou precisarem de assistência, não hesitem em pedir a mim ou a um dos meus colegas."
+        "pt_pt": "Olá e bem-vindos a bordo. O meu nome é {crewName} e sou o tripulante de cabine deste voo. Como ouviram do nosso comandante, estamos atualmente a preparar-nos para a descolagem e partiremos em breve. Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e o encosto do vosso assento e a mesa estão na posição vertical. Por favor, desliguem todos os dispositivos eletrónicos pessoais, incluindo portáteis e telemóveis. É proibido fumar durante todo o voo. Se tiverem alguma dúvida ou precisarem de assistência, não hesitem em pedir a mim ou a um dos meus colegas.",
+        "no": "Hei og velkommen om bord. Jeg heter {crewName} og jeg er kabinpersonalet på denne flyvningen. Som dere har hørt fra kapteinen, forbereder vi oss nå for avgang, og vi vil ta av snart. Vennligst sørg for at sikkerhetsbeltet er festet, og at seteryggen og bordet er i oppreist posisjon. Vennligst slå av alle personlige elektroniske enheter, inkludert bærbare datamaskiner og mobiltelefoner. Røyking er forbudt under hele flyturen. Hvis dere har noen spørsmål eller trenger assistanse, ikke nøl med å spørre meg eller en av mine kolleger."
       },
       {
         "en": "Ladies and gentlemen, welcome onboard. My name is {crewName} and I am the cabin crew member on this flight. We ask that you please fasten your seatbelts at this time and secure all baggage underneath your seat or in the overhead compartments. We also ask that your seats and table trays are in the upright position for take-off. Please turn off all personal electronic devices, including laptops and cell phones. Smoking is prohibited for the duration of the flight. Thank you for choosing {airlineName}. Enjoy your flight.",
@@ -394,7 +412,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, gemiye hoş geldiniz. Adım {crewName} ve bu uçuşta kabin ekibi üyesiyim. Bu sırada emniyet kemerlerinizi takmanızı ve tüm bagajlarınızı koltuğunuzun altına veya baş üstü bölmelere yerleştirmenizi rica ediyoruz. Ayrıca kalkış için koltuklarınızın ve masa tablalarınızın dik konumda olmasını rica ediyoruz. Lütfen dizüstü bilgisayarlar ve cep telefonları dahil tüm kişisel elektronik cihazları kapatın. Uçuş süresince sigara içmek yasaktır. [Thank you for choosing {airlineName}.] İyi uçuşlar.",
         "nl": "Dames en heren, welkom aan boord. Mijn naam is {crewName} en ik ben uw purser op deze vlucht. Wij vragen u om op dit moment uw veiligheidsgordels vast te maken en alle bagage onder uw stoel of in de bagagevakken boven uw hoofd op te bergen. We vragen ook dat uw stoelen en tafelbladen rechtop staan voor het opstijgen. Schakelt u alstublieft alle persoonlijke elektronische apparaten uit, inclusief laptops en mobiele telefoons. Roken is niet toegestaan gedurende de hele vlucht. [Thank you for choosing {airlineName}.] Fijne vlucht.",
         "ko": "승객 여러분, 탑승을 환영합니다. [My name is {crewName} and I am the cabin crew member on this flight.] 자리에 앉으셔서 좌석벨트를 매시고 좌석 아래 또는 머리 위 칸의 모든 수하물을 고정해 주시기 바랍니다. 또한 이륙을 위해 좌석과 앞좌석 선반이 똑바로 접혀있는지 확인해주시고 노트북과 휴대전화를 포함한 모든 개인 전자 기기의 전원을 꺼주시기 바랍니다. 비행 중에는 흡연이 금지되어 있습니다. {airlineName} 항공편을 선택해 주셔서 감사합니다. 즐거운 비행 되세요.",
-        "pt_pt": "Senhoras e senhores, bem-vindos a bordo. O meu nome é {crewName} e sou o tripulante de cabine deste voo. Pedimos que, por favor, apertem os cintos de segurança neste momento e guardem toda a bagagem debaixo do vosso assento ou nos compartimentos superiores. Pedimos também que os vossos assentos e mesas estejam na posição vertical para a descolagem. Por favor, desliguem todos os dispositivos eletrónicos pessoais, incluindo portáteis e telemóveis. É proibido fumar durante todo o voo. [Thank you for choosing {airlineName}.] Desejamos-vos um bom voo."
+        "pt_pt": "Senhoras e senhores, bem-vindos a bordo. O meu nome é {crewName} e sou o tripulante de cabine deste voo. Pedimos que, por favor, apertem os cintos de segurança neste momento e guardem toda a bagagem debaixo do vosso assento ou nos compartimentos superiores. Pedimos também que os vossos assentos e mesas estejam na posição vertical para a descolagem. Por favor, desliguem todos os dispositivos eletrónicos pessoais, incluindo portáteis e telemóveis. É proibido fumar durante todo o voo. [Thank you for choosing {airlineName}.] Desejamos-vos um bom voo.",
+        "no": "Mine damer og herrer, velkommen om bord. Jeg heter {crewName} og jeg er kabinpersonalet på denne flyvningen. Vi ber dere vennligst om å feste sikkerhetsbeltene nå og sikre alt bagasje under setet deres eller i de oppbevaringsrommene over hodet. Vi ber også om at setene og bordene deres er i oppreist posisjon for avgang. Vennligst slå av alle personlige elektroniske enheter, inkludert bærbare datamaskiner og mobiltelefoner. Røyking er forbudt under hele flyturen. [Thank you for choosing {airlineName}.] Nyt flyturen."
       }
     ]
   },
@@ -418,7 +437,8 @@ const texts: Text[] = [
         "tr": "[Welcome aboard on this {airlineName} flight.] [Today we are flying from {originCityName} to {destinationCityName}.] Adım {crewName} ve bu uçuşta kabin ekibi üyesiyim. Şu anda kalkışa hazırlanıyoruz ve kısa süre sonra yola çıkacağız. Lütfen emniyet kemerinizin takılı olduğundan ve koltuk arkalığınızın ve tepsi masanızın dik konumda olduğundan emin olun. Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa lütfen bana veya meslektaşlarımdan birine sormaya çekinmeyin. [Thank you for flying with {airlineName}.]",
         "nl": "[Welcome aboard on this {airlineName} flight.] [Today we are flying from {originCityName} to {destinationCityName}.] Mijn naam is {crewName} en ik ben uw purser op deze vlucht. Wij bereiden ons momenteel voor op vertrek en zullen binnenkort opstijgen. Zorgt u er alstublieft voor dat uw veiligheidsgordel is vastgemaakt en dat de rugleuning en het tafelblad rechtop staan. Als u vragen of hulp nodig heeft, stel deze dan gerust aan een van mijn collega's. [Thank you for flying with {airlineName}.]",
         "ko": "[Welcome aboard on this {airlineName} flight.] [Today we are flying from {originCityName} to {destinationCityName}.] 제 이름은 {crewName}이고 이 항공편의 객실 승무원입니다. 현재 출발을 준비하고 있으며 곧 이륙할 예정입니다. 좌석벨트가 잘 매여 있고 좌석 등받이와 앞좌석 선반이 똑바로 접혀있는지 확인하십시오. 질문이 있거나 도움이 필요하면 주저하지 말고 객실 승무원에게 물어보세요. [Thank you for flying with {airlineName}.]",
-        "pt_pt": "[Welcome aboard on this {airlineName} flight.] [Today we are flying from {originCityName} to {destinationCityName}.] O meu nome é {crewName} e sou o tripulante de cabine deste voo. Estamos atualmente a preparar-nos para a descolagem e partiremos em breve. Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e o encosto do vosso assento e a mesa estão na posição vertical. Se tiverem alguma dúvida ou precisarem de assistência, não hesitem em pedir a mim ou a um dos meus colegas. [Thank you for flying with {airlineName}.]"
+        "pt_pt": "[Welcome aboard on this {airlineName} flight.] [Today we are flying from {originCityName} to {destinationCityName}.] O meu nome é {crewName} e sou o tripulante de cabine deste voo. Estamos atualmente a preparar-nos para a descolagem e partiremos em breve. Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e o encosto do vosso assento e a mesa estão na posição vertical. Se tiverem alguma dúvida ou precisarem de assistência, não hesitem em pedir a mim ou a um dos meus colegas. [Thank you for flying with {airlineName}.]",
+        "no": "[Welcome aboard on this {airlineName} flight.] [Today we are flying from {originCityName} to {destinationCityName}.] Jeg heter {crewName} og jeg er kabinpersonalet på denne flyvningen. Vi er for øyeblikket i ferd med å forberede avgang, og vi vil ta av snart. Vennligst sørg for at sikkerhetsbeltet er festet, og at seteryggen og bordet er i oppreist posisjon. Hvis dere har spørsmål eller trenger assistanse, ikke nøl med å spørre meg eller en av mine kolleger. [Thank you for flying with {airlineName}.]"
       },
       {
         "en": "Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}. My name is {crewName} and I am the cabin crew member on this flight. We ask that you please fasten your seatbelts at this time and secure all baggage underneath your seat or in the overhead compartments. We also ask that your seats and table trays are in the upright position for take-off. Please turn off all personal electronic devices, including laptops and cell phones. Smoking is prohibited for the duration of the flight. Thank you for choosing {airlineName}. Enjoy your flight.",
@@ -431,7 +451,8 @@ const texts: Text[] = [
         "tr": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Adım {crewName} ve bu uçuşta kabin ekibi üyesiyim. Bu sırada emniyet kemerlerinizi takmanızı ve tüm bagajlarınızı koltuğunuzun altına veya baş üstü bölmelere yerleştirmenizi rica ediyoruz. Ayrıca kalkış için koltuklarınızın ve tepsi masalarınızın dik konumda olmasını rica ediyoruz. Lütfen dizüstü bilgisayarlar ve cep telefonları dahil tüm kişisel elektronik cihazları kapatın. Uçuş süresince sigara içmek yasaktır. [Thank you for choosing {airlineName}.] İyi uçuşlar.",
         "nl": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Mijn naam is {crewName} en ik ben uw purser op deze vlucht. Wij vragen u om op dit moment uw veiligheidsgordels vast te maken en alle bagage onder uw stoel of in de bagagevakken boven uw hoofd op te bergen. We vragen ook dat uw stoelen en tafelbladen rechtop staan voor het opstijgen. Schakelt u alstublieft alle persoonlijke elektronische apparaten uit, inclusief laptops en mobiele telefoons. Roken is niet toegestaan gedurende de hele vlucht. [Thank you for choosing {airlineName}.] Fijne vlucht.",
         "ko": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] 저는 이 항공편의 객실 승무원입니다. 자리에 앉아서 좌석벨트를 매시고 좌석 아래 또는 머리 위칸에 모든 수하물을 고정해 주시기 바랍니다. 또한 이륙을 위해 좌석과 앞좌석 선반이 똑바로 접혀있는지 확인해주세요. 노트북과 휴대전화를 포함한 모든 개인 전자 기기의 전원을 꺼주시기 바랍니다. 비행 중에는 흡연이 금지되어 있습니다. [Thank you for flying with {airlineName}.]",
-        "pt_pt": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] O meu nome é {crewName} e sou o tripulante de cabine deste voo. Pedimos que, por favor, apertem os cintos de segurança neste momento e guardem toda a bagagem debaixo do vosso assento ou nos compartimentos superiores. Pedimos também que os vossos assentos e mesas estejam na posição vertical para a descolagem. Por favor, desliguem todos os dispositivos eletrónicos pessoais, incluindo portáteis e telemóveis. É proibido fumar durante todo o voo. [Thank you for choosing {airlineName}.] Desejamos-vos um bom voo.."
+        "pt_pt": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] O meu nome é {crewName} e sou o tripulante de cabine deste voo. Pedimos que, por favor, apertem os cintos de segurança neste momento e guardem toda a bagagem debaixo do vosso assento ou nos compartimentos superiores. Pedimos também que os vossos assentos e mesas estejam na posição vertical para a descolagem. Por favor, desliguem todos os dispositivos eletrónicos pessoais, incluindo portáteis e telemóveis. É proibido fumar durante todo o voo. [Thank you for choosing {airlineName}.] Desejamos-vos um bom voo.",
+        "no": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] Jeg heter {crewName} og jeg er kabinpersonalet på denne flyvningen. Vi ber dere vennligst om å feste sikkerhetsbeltene nå og sikre alt bagasje under setet deres eller i de oppbevaringsrommene over hodet. Vi ber også om at setene og bordene deres er i oppreist posisjon for avgang. Vennligst slå av alle personlige elektroniske enheter, inkludert bærbare datamaskiner og mobiltelefoner. Røyking er forbudt under hele flyturen. [Thank you for choosing {airlineName}.] Nyt flyturen."
       }
     ]
   },
@@ -454,7 +475,8 @@ const texts: Text[] = [
         "tr": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Lütfen oturduğunuzda ve emniyet kemeri işareti yandığında emniyet kemerinizi bağlı tutmayı unutmayın.",
         "nl": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Vergeet niet om uw stoelriem gesloten te houden terwijl u zit en wanneer het stoelriemen vast teken brandt.",
         "ko": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] 자리에 앉아 좌석벨트 싸인에 불이 켜질 때마다 좌석벨트 착용 하는것을 잊지마세요.",
-        "pt_pt": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Por favor, lembrem-se de manter o cinto de segurança apertado enquanto estiverem sentados e sempre que o sinal de apertar os cintos estiver iluminado."
+        "pt_pt": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Por favor, lembrem-se de manter o cinto de segurança apertado enquanto estiverem sentados e sempre que o sinal de apertar os cintos estiver iluminado.",
+        "no": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Vennligst husk å holde sikkerhetsbeltet festet mens dere sitter, og alltid når skiltet med sikkerhetsbeltet er tent."
       },
       {
         "en": "Ladies and gentleman, this is your captain speaking again. Our flight today will take approximately {flightTime}. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}. We expect a smooth flight with a small chance of light turbulences. Please relax and enjoy the flight.",
@@ -467,7 +489,8 @@ const texts: Text[] = [
         "tr": "Merhaba, yine ben. Sizinle bazı bilgileri paylaşacağımı düşündüm. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Hafif türbülans ihtimalinin düşük olduğu, sorunsuz bir uçuş bekliyoruz. Lütfen rahatlayın ve uçuşun tadını çıkarın.",
         "nl": "Hallo, ik ben het weer. Ik dacht, laat ik wat informatie met jullie delen. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Wij verwachten een voorspoedige vlucht met een kleine kans op lichte turbulentie. Ontspan en geniet van de vlucht.",
         "ko": "안녕하세요. 다시 기장입니다. 승객 여러분들에게 몇가지 정보를 알려드릴까 합니다. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] 가벼운 난기류가 발생할 가능성은 있지만 순조로운 비행을 예상하고 있습니다. 긴장을 풀고 비행을 즐기시기 바랍니다.",
-        "pt_pt": "Senhores passageiros, fala novamente o comandante. Queria partilhar algumas informações sobre voo convosco. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Esperamos um voo tranquilo com uma pequena possibilidade de ligeiras turbulências. Por favor, relaxem e desfrutem do voo."
+        "pt_pt": "Senhores passageiros, fala novamente o comandante. Queria partilhar algumas informações sobre voo convosco. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Esperamos um voo tranquilo com uma pequena possibilidade de ligeiras turbulências. Por favor, relaxem e desfrutem do voo.",
+        "no": "Mine damer og herrer, dette er kapteinen som snakker igjen. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Vi forventer en jevn flytur med liten sjanse for lett turbulens. Vennligst slapp av og nyt flyturen."
       }
     ]
   },
@@ -490,7 +513,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, kalkıştan kısa bir süre sonra atıştırmalık ve içecek servisi yapmaya başlayacağız. Gökyüzü menümüzü önünüzdeki koltuk cebinde bulabilirsiniz.",
         "nl": "Dames en heren, kort na het opstijgen beginnen we met het serveren van snacks en drankjes. Ons Sky-menu vindt u in het stoelvak voor u.",
         "ko": "승객 여러분, 이륙 직후 간식과 음료 서비스를 시작하겠습니다. 앞 좌석 주머니에서 스카이 메뉴를 찾을 수 있습니다.",
-        "pt_pt": "Senhoras e senhores, pouco depois da descolagem começaremos a servir snacks e bebidas. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente."
+        "pt_pt": "Senhoras e senhores, pouco depois da descolagem começaremos a servir snacks e bebidas. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente.",
+        "no": "Mine damer og herrer, rett etter avgang vil vi begynne å servere snacks og drikke. Dere kan finne menyen vår i setelommen foran dere."
       },
       {
         "en": "Shortly after takeoff we'll start serving snacks and drinks. You can find our sky menu in the seat pocket in front of you.",
@@ -503,7 +527,8 @@ const texts: Text[] = [
         "tr": "Kalkıştan kısa bir süre sonra atıştırmalık ve içecek servisi yapmaya başlayacağız. Gökyüzü menümüzü önünüzdeki koltuk cebinde bulabilirsiniz.",
         "nl": "Kort na het opstijgen beginnen we met het serveren van snacks en drankjes. Ons Sky-menu vindt u in het stoelvak voor u.",
         "ko": "이륙 직후 간식과 음료 서비스를 시작합니다. 앞 좌석 주머니에서 스카이 메뉴를 찾을 수 있습니다.",
-        "pt_pt": "Pouco depois da descolagem, começaremos a servir snacks e bebidas. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente."
+        "pt_pt": "Pouco depois da descolagem, começaremos a servir snacks e bebidas. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente.",
+        "no": "Rett etter avgang vil vi begynne å servere snacks og drikke. Dere kan finne menyen vår i setelommen foran dere."
       }
     ]
   },
@@ -527,7 +552,8 @@ const texts: Text[] = [
         "tr": "[Our flight today will take approximately {flightTime}.] Kaptan bana uçuşun sorunsuz olması gerektiğini söyledi. Kalkıştan kısa bir süre sonra atıştırmalık ve içecek servisi yapmaya başlayacağız. Gökyüzü menümüzü önünüzdeki koltuk cebinde bulabilirsiniz.",
         "nl": "[Our flight today will take approximately {flightTime}.] De gezagvoerder heeft mij zojuist laten weten dat het een voorspoedige vlucht gaat worden. Kort na het opstijgen beginnen we met het serveren van snacks en drankjes. Ons Sky-menu vindt u in het stoelvak voor u.",
         "ko": "[Our flight today will take approximately {flightTime}.] 기장님께서 비행이 원활해야 한다고 알려주셨습니다. 이륙 직후 간식과 음료 서비스를 시작하겠습니다. 앞 좌석 주머니에서 스카이 메뉴를 찾을 수 있습니다.",
-        "pt_pt": "[Our flight today will take approximately {flightTime}.] O comandante acabou de me informar que o voo deverá ser tranquilo. Pouco depois da descolagem, começaremos a servir snacks e bebidas. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente."
+        "pt_pt": "[Our flight today will take approximately {flightTime}.] O comandante acabou de me informar que o voo deverá ser tranquilo. Pouco depois da descolagem, começaremos a servir snacks e bebidas. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente.",
+        "no": "[Our flight today will take approximately {flightTime}.] Kapteinen har nettopp informert meg om at flyturen bør bli jevn. Rett etter avgang vil vi begynne å servere snacks og drikke. Dere kan finne menyen vår i setelommen foran dere."
       }
     ]
   },
@@ -549,7 +575,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, mürettebat adına, biz acil durum prosedürlerini incelerken lütfen dikkatinizi mürettebat üyelerine yöneltmenizi rica ediyorum. Bu uçakta {aircraftEmergencyExistsCount} acil çıkış bulunmaktadır. Size en yakın çıkışı bulmak için bir dakikanızı ayırın. En yakın çıkışın arkanızda olabileceğini unutmayın. Kabinde ani basınç kaybı olması durumunda sakin olun ve kabin ekibinin talimatlarını dinleyin. Oksijen maskeleri koltuğunuzun üzerinden aşağıya düşecek. Maskeyi ağzınıza ve burnunuza bu şekilde yerleştirin. Sıkmak için kayışı çekin. Çocuklarla seyahat ediyorsanız çocuklarınıza yardım etmeden önce kendi maskenizin takılı olduğundan emin olun. Nadir de olsa acil iniş ve tahliye durumunda, yanınızda taşıyabileceğiniz eşyalarınızı geride bırakın. Can salları koltuklarınızın altında bulunmaktadır ve acil durum aydınlatması sizi en yakın çıkışa yönlendirecektir. Uçuş sırasında tüm el bagajınızın güvenli bir şekilde saklandığından emin olmanızı rica ediyoruz. Biz kalkışı beklerken lütfen bir dakikanızı ayırıp önünüzdeki koltuk cebinde bulunan güvenlik kartını inceleyin. İlginiz için teşekkür ederiz.",
         "nl": "Dames en heren, namens de bemanning vraag ik u alstublieft uw aandacht terwijl wij de veiligheidsvoorzieningen demonstreren. Er zijn {aircraftEmergencyExistsCount} nooduitgangen in dit vliegtuig. Neem even de tijd om de dichtstbijzijnde uitgang te vinden. Houd er rekening mee dat de dichtstbijzijnde uitgang zich mogelijk achter u bevindt. Mocht er in de cabine plotseling drukverlies optreden, blijf dan kalm en luister naar de instructies van het cabinepersoneel. Zuurstofmaskers vallen van boven uw stoel naar beneden. Plaats het masker op deze manier over uw mond en neus. Trek aan de band om deze strakker te maken. Als u met kinderen reist, zorg er dan voor dat u eerst uw eigen masker op heeft voordat u uw kinderen helpt. In het onwaarschijnlijke geval van een noodlanding en evacuatie laat u uw handbagage achter. Reddingsvlotten bevinden zich onder uw stoelen en noodverlichting leidt u naar de dichtstbijzijnde uitgang. Wij vragen u ervoor te zorgen dat alle handbagage tijdens de vlucht veilig opgeborgen is. Terwijl we wachten op het opstijgen, verzoeken wij u even de tijd te nemen om de veiligheidskaart in het stoelvak voor u te bekijken. Bedankt voor uw aandacht.",
         "ko": "승객 여러분, 승무원을 대표하여 비상 절차를 검토하는 동안 승무원에게 주의를 기울여 주시기를 부탁드립니다. 이 항공기에는 {aircircuitEmergencyExistCount}개의 비상구가 있습니다. 잠시 시간을 내어 여러분과 가장 가까운 출구를 찾아보세요. 가장 가까운 출구는 뒤에 있을 수 있습니다. 객실에 갑작스러운 압력 이상이 발생하면 침착하게 객실 승무원의 지시를 따라주세요. 좌석 위에서 산소 마스크가 떨어질 것입니다. 이렇게 입과 코에 마스크를 착용하세요. 스트랩을 당겨 단단히 조입니다. 어린이와 함께 여행하는 경우 어린이를 돕기 전에 마스크를 먼저 착용하세요. 비상 착륙 및 대피 시 예상치 못한 경우 휴대품을 두고 가세요. 구명 뗏목은 좌석 아래에 있으며 비상등이 가장 가까운 출구로 안내해 줄 것입니다. 비행 중에 모든 휴대품을 안전하게 보관하십시오. 이륙을 기다리는 동안 잠시 시간을 내어 앞 좌석 주머니에 있는 안전 데이터 카드를 읽어봐주세요. 감사합니다.",
-        "pt_pt": "Senhoras e senhores, em nome da {airlineName}, peço que, por favor, dirijam a vossa atenção para os membros da tripulação enquanto revemos os procedimentos de emergência. Existem {aircraftEmergencyExistsCount} saídas de emergência nesta aeronave. Reservem um minuto para localizar a saída mais próxima de vós. Notem que a saída mais próxima pode estar atrás de vós. No caso de uma súbita perda de pressão na cabine, mantenham a calma e ouçam as instruções da tripulação de cabine. Máscaras de oxigénio cairão do compartimento acima do vosso assento. Coloque a máscara sobre a boca e o nariz, desta forma. Puxe a correia para apertá-la. Se estiver a viajar com crianças, coloque a sua própria máscara primeiro antes de ajudar as crianças. No improvável caso de uma aterragem de emergência e evacuação, deixem os vossos pertences de mão para trás. Os coletes salva-vidas estão localizados debaixo dos vossos assentos e a iluminação de emergência guiar-vos-á até à saída mais próxima. Pedimos que certifiquem-se de que toda a bagagem de mão está guardada de forma segura durante o voo. Enquanto aguardamos pela descolagem, por favor, reservem um momento para rever o cartão de segurança no bolso do assento à vossa frente. Obrigado pela vossa atenção."
+        "pt_pt": "Senhoras e senhores, em nome da {airlineName}, peço que, por favor, dirijam a vossa atenção para os membros da tripulação enquanto revemos os procedimentos de emergência. Existem {aircraftEmergencyExistsCount} saídas de emergência nesta aeronave. Reservem um minuto para localizar a saída mais próxima de vós. Notem que a saída mais próxima pode estar atrás de vós. No caso de uma súbita perda de pressão na cabine, mantenham a calma e ouçam as instruções da tripulação de cabine. Máscaras de oxigénio cairão do compartimento acima do vosso assento. Coloque a máscara sobre a boca e o nariz, desta forma. Puxe a correia para apertá-la. Se estiver a viajar com crianças, coloque a sua própria máscara primeiro antes de ajudar as crianças. No improvável caso de uma aterragem de emergência e evacuação, deixem os vossos pertences de mão para trás. Os coletes salva-vidas estão localizados debaixo dos vossos assentos e a iluminação de emergência guiar-vos-á até à saída mais próxima. Pedimos que certifiquem-se de que toda a bagagem de mão está guardada de forma segura durante o voo. Enquanto aguardamos pela descolagem, por favor, reservem um momento para rever o cartão de segurança no bolso do assento à vossa frente. Obrigado pela vossa atenção.",
+        "no": "Mine damer og herrer, på vegne av mannskapet ber jeg dere vennligst rette oppmerksomheten mot kabinpersonalet mens vi går gjennom sikkerhetsprosedyrene. Det er {aircraftEmergencyExistsCount} nødutganger på dette flyet. Ta et minutt for å finne ut hvilken utgang som er nærmest deg. Merk at den nærmeste utgangen kan være bak deg. Hvis kabinen opplever plutselig trykktap, hold dere rolige og lytt til instruksjoner fra kabinpersonalet. Oksygenmasker vil falle ned fra over hodet deres. Plasser masken over munnen og nesen, slik som dette. Trekk i stroppen for å stramme den. Hvis dere reiser med barn, sørg for at din egen maske er på før du hjelper barna dine. I det usannsynlige tilfelle av en nødlanding og evakuering, etterlat håndbagasjen din. Redningsflåtene er plassert under setene dine, og nødlys vil lede deg til nærmeste utgang. Vi ber om at dere sørger for at alt håndbagasje er oppbevart på en sikker måte under flyturen. Mens vi venter på avgang, vennligst ta et øyeblikk for å se over sikkerhetsdatakortet i setelommen foran dere. Takk for oppmerksomheten."
       }
     ]
   },
@@ -572,7 +599,8 @@ const texts: Text[] = [
         "tr": "Kabin ekibi, kalkışa hazırlanın.",
         "nl": "Cabinepersoneel, klaarmaken voor opstijgen.",
         "ko": "캐빈크루, 이륙 준비해주세요.",
-        "pt_pt": "Tripulação de cabine, preparem-se para a descolagem."
+        "pt_pt": "Tripulação de cabine, preparem-se para a descolagem.",
+        "no": "Kabinpersonalet, gjør dere klare for avgang."
       }
     ]
   },
@@ -596,7 +624,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, seyir irtifamıza tırmanırken lütfen yerlerinizde kalın. Kısa süre içerisinde uçak içi hizmetimize başlayacağız. Gökyüzü menümüzü önünüzdeki koltuk cebinde bulabilirsiniz.",
         "nl": "Dames en heren, blijft u alstublieft zitten terwijl we naar onze kruishoogte stijgen. We beginnen zo met onze service tijdens de vlucht. U vindt ons skymenu in de stoelzak voor u.",
         "ko": "승객 여러분, 비행기가 순항 고도에 올라가는 동안 자리에 앉아 계십시오. 잠시 후 기내 서비스를 시작하겠습니다. 앞쪽 좌석 주머니에서 스카이 메뉴를 찾을 수 있습니다.",
-        "pt_pt": "Senhoras e senhores, por favor, permaneçam sentados enquanto subimos para a nossa altitude de cruzeiro. Iniciaremos o nosso serviço de bordo em breve. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente."
+        "pt_pt": "Senhoras e senhores, por favor, permaneçam sentados enquanto subimos para a nossa altitude de cruzeiro. Iniciaremos o nosso serviço de bordo em breve. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente.",
+        "no": "Mine damer og herrer, vær vennlig å forbli sittende mens vi stiger til vår marsjhøyde. Vi vil snart starte vår service om bord. Dere kan finne menyen vår i setelommen foran dere."
       },
       {
         "en": "We are now climbing to our cruising altitude. We will be starting our in-flight service shortly. You can find our sky menu in the seat pocket in front of you.",
@@ -609,7 +638,8 @@ const texts: Text[] = [
         "tr": "Artık seyir irtifamıza tırmanıyoruz. Kısa süre içerisinde uçak içi hizmetimize başlayacağız. Gökyüzü menümüzü önünüzdeki koltuk cebinde bulabilirsiniz.",
         "nl": "We klimmen nu naar onze kruishoogte. We beginnen zo met onze service tijdens de vlucht. U vindt ons skymenu in de stoelzak voor u.",
         "ko": "우리 비행기 이제 순항 고도로 올라갑니다. 곧 기내 서비스를 시작할 예정입니다. 앞 좌석 주머니에서 스카이 메뉴를 찾을 수 있습니다.",
-        "pt_pt": "Estamos agora a subir para a nossa altitude de cruzeiro. Iniciaremos o nosso serviço de bordo em breve. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente."
+        "pt_pt": "Estamos agora a subir para a nossa altitude de cruzeiro. Iniciaremos o nosso serviço de bordo em breve. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente.",
+        "no": "Vi stiger nå til vår marsjhøyde. Vi vil snart starte vår service om bord. Dere kan finne menyen vår i setelommen foran dere."
       }
     ]
   },
@@ -633,7 +663,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, artık uçak içi hizmetimize başlıyoruz. Nakit ödemenin yanı sıra kartla da ödeme kabul ettiğimizi hatırlatmak isteriz. Gökyüzü menümüzü önünüzdeki koltuk cebinde bulabilirsiniz. Size hizmet ederken lütfen yerlerinizde kalın. Bir şeye ihtiyacınız olursa lütfen kabin ekibimizden birine sormaktan çekinmeyin. Teşekkür ederim.",
         "nl": "Dames en heren, we beginnen nu met onze in-flight service. We willen u eraan herinneren dat we zowel kaartbetalingen als contante betalingen accepteren. U vindt ons skymenu in de stoelzak voor u. Blijf alstublieft zitten terwijl wij u bedienen. Als u iets nodig hebt, aarzel dan niet om het aan een van onze cabinemedewerkers te vragen. Hartelijk dank.",
         "ko": "승객 여러분, 기내 서비스를 시작합니다. 저희는 현금뿐만 아니라 카드 결제도 가능하다는 것을 알려드리고자 합니다. 앞 좌석 주머니에 스카이 메뉴판이 있습니다. 서비스를 제공하는 동안 자리에 앉아 계십시오. 필요한 것이 있으시면 주저하지 마시고 객실 승무원을 불러주세요. 감사합니다.",
-        "pt_pt": "Senhoras e senhores, estamos agora a iniciar o nosso serviço de bordo. Gostaríamos de relembrar que aceitamos pagamentos com cartão, bem como em dinheiro. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente. Por favor, permaneçam sentados enquanto vos servimos. Se precisarem de alguma coisa, não hesitem em pedir a um dos nossos membros da tripulação de cabine. Obrigado."
+        "pt_pt": "Senhoras e senhores, estamos agora a iniciar o nosso serviço de bordo. Gostaríamos de relembrar que aceitamos pagamentos com cartão, bem como em dinheiro. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente. Por favor, permaneçam sentados enquanto vos servimos. Se precisarem de alguma coisa, não hesitem em pedir a um dos nossos membros da tripulação de cabine. Obrigado.",
+        "no": "Mine damer og herrer, vi starter nå vår service om bord. Vi vil minne om at vi aksepterer både kortbetalinger og kontanter. Dere kan finne menyen vår i setelommen foran dere. Vennligst forbli sittende mens vi serverer dere. Hvis dere trenger noe, ikke nøl med å spørre en av våre kabinansatte. Takk."
       },
       {
         "en": "We are now starting our in-flight service. We'd like to remind you that we accept card payments as well as cash. You can find our sky menu in the seat pocket in front of you. Please remain seated while we serve you. If you need anything, please don't hesitate to ask one of our cabin crew members. Thank you.",
@@ -646,7 +677,8 @@ const texts: Text[] = [
         "tr": "Artık uçak içi hizmetimize başlıyoruz. Nakit ödemenin yanı sıra kartla da ödeme kabul ettiğimizi hatırlatmak isteriz. Gökyüzü menümüzü önünüzdeki koltuk cebinde bulabilirsiniz. Size hizmet ederken lütfen yerlerinizde kalın. Bir şeye ihtiyacınız olursa lütfen kabin ekibimizden birine sormaktan çekinmeyin. Teşekkür ederim.",
         "nl": "We beginnen nu met onze in-flight service. We willen u eraan herinneren dat we zowel kaartbetalingen als contante betalingen accepteren. U vindt ons skymenu in de stoelzak voor u. Blijf alstublieft zitten terwijl wij u bedienen. Als u iets nodig hebt, aarzel dan niet om het aan een van onze cabinemedewerkers te vragen. Hartelijk dank.",
         "ko": "이제 기내 서비스를 시작합니다. 저희는 현금뿐만 아니라 카드 결제도 가능하다는 것을 알려드리고 싶습니다. 스카이 메뉴는 앞 좌석 포켓에 있습니다. 서비스를 제공하는 동안 자리에 앉아 계십시오. 필요한 것이 있으시면 주저하지 마시고 객실 승무원 중 한명에게 물어보세요. 감사합니다.",
-        "pt_pt": "Estamos agora a iniciar o nosso serviço de bordo. Gostaríamos de relembrar que aceitamos pagamentos com cartão, bem como em dinheiro. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente. Por favor, permaneçam sentados enquanto vos servimos. Se precisarem de alguma coisa, não hesitem em pedir a um dos nossos membros da tripulação de cabine. Obrigado."
+        "pt_pt": "Estamos agora a iniciar o nosso serviço de bordo. Gostaríamos de relembrar que aceitamos pagamentos com cartão, bem como em dinheiro. Podem encontrar o nosso menu de bordo no bolso do assento à vossa frente. Por favor, permaneçam sentados enquanto vos servimos. Se precisarem de alguma coisa, não hesitem em pedir a um dos nossos membros da tripulação de cabine. Obrigado.",
+        "no": "Vi starter nå vår service om bord. Vi vil minne om at vi aksepterer både kortbetalinger og kontanter. Dere kan finne menyen vår i setelommen foran dere. Vennligst forbli sittende mens vi serverer dere. Hvis dere trenger noe, ikke nøl med å spørre en av våre kabinansatte. Takk."
       }
     ]
   },
@@ -674,7 +706,8 @@ const texts: Text[] = [
         "tr": "Hanımlar beyler, artık uçak içi alışveriş hizmetimize başlıyoruz. Bugün size özel bir teklifimiz var. Kazı kazan kartlarımız artık satın alınabilir. Ücretsiz bir uçuş veya ücretsiz yemek ya da bir sonraki uçuşunuzda indirim gibi başka harika ödüller kazanabilirsiniz. En şanslı yolcular bedava tatil bile kazanabilirler. İyi şanlar!",
         "nl": "Dames en heren, we beginnen nu met onze in-flight shopping service. Vandaag hebben we een speciale aanbieding voor u. Onze kraskaarten zijn nu te koop. Je kunt een gratis vlucht winnen of andere geweldige prijzen, zoals een gratis maaltijd of korting op je volgende vlucht. De gelukkigste passagiers kunnen zelfs een gratis vakantie winnen. Veel succes!",
         "ko": "승객 여러분, 이제 기내 쇼핑 서비스를 시작합니다. 오늘 우리는 여러분을 위한 특별한 제안이 있습니다. 우리의 스크래치 카드를 구매할 수 있습니다. 여러분은 무료 비행기 또는 무료 식사 또는 다음 비행기 할인과 같은 다른 훌륭한 상품을 얻을 수 있습니다. 가장 운이 좋은 분은 무료 휴일도 얻을 수 있습니다. 행운을 빌어요!",
-        "pt_pt": "Senhoras e senhores, estamos agora a iniciar o nosso serviço de compras a bordo. Hoje temos uma oferta especial para vocês. Os nossos cartões de raspadinha estão agora disponíveis para compra. Podem ganhar um voo gratuito ou outros ótimos prémios, como uma refeição gratuita ou um desconto no vosso próximo voo. Os passageiros mais sortudos podem até ganhar umas férias gratuitas. Boa sorte!"
+        "pt_pt": "Senhoras e senhores, estamos agora a iniciar o nosso serviço de compras a bordo. Hoje temos uma oferta especial para vocês. Os nossos cartões de raspadinha estão agora disponíveis para compra. Podem ganhar um voo gratuito ou outros ótimos prémios, como uma refeição gratuita ou um desconto no vosso próximo voo. Os passageiros mais sortudos podem até ganhar umas férias gratuitas. Boa sorte!",
+        "no": "Mine damer og herrer, vi starter nå vår shoppingservice om bord. I dag har vi et spesielt tilbud til dere. Våre skrapelodd er nå tilgjengelige for kjøp. Dere kan vinne en gratis flytur eller andre flotte premier, som et gratis måltid eller rabatt på deres neste flyvning. De heldigste passasjerene kan til og med vinne en gratis ferie. Lykke til!"
       }
     ]
   },
@@ -696,7 +729,8 @@ const texts: Text[] = [
         "tr": "Hanımlar beyler, artık uçak içi alışveriş hizmetimize başlıyoruz. Bugün size özel bir teklifimiz var. İki parfüm alana üçüncüsünde %10 indirim uygulanacaktır. Bu uçuşta koleksiyonumuzdaki en yeni kokuları şiddetle tavsiye ediyoruz. Alışveriş kataloğumuzu önünüzdeki koltuk cebinde bulabilirsiniz. Nakit ödemenin yanı sıra kartla ödeme de kabul ediyoruz.",
         "nl": "Dames en heren, we beginnen nu met onze in-flight shopping service. Vandaag hebben we een speciale aanbieding voor u. Als je twee parfums koopt, krijg je 10% korting op de derde. Tijdens deze vlucht raden we u de nieuwste geuren uit onze collectie aan. Je vindt onze winkelcatalogus in de stoelzak voor je. We accepteren zowel kaartbetalingen als contante betalingen.",
         "ko": "승객 여러분, 이제 기내 쇼핑 서비스를 시작합니다. 오늘은 특별한 이벤트가 있습니다. 향수를 두개 구매하시면 세 번째 향수를 10% 할인해 드립니다. 이번 비행에서는 컬렉션의 최신 향수를 적극 추천합니다. 앞 좌석 주머니에서 쇼핑 카탈로그를 찾을 수 있습니다. 현금뿐만 아니라 카드 결제도 가능합니다.",
-        "pt_pt": "Senhoras e senhores, estamos agora a iniciar o nosso serviço de compras a bordo. Hoje temos uma oferta especial para vocês. Se comprarem dois perfumes, terão um desconto de 10% no terceiro. Neste voo, recomendamos vivamente as mais recentes fragrâncias da nossa coleção. Podem encontrar o nosso catálogo de compras no bolso do assento à vossa frente. Aceitamos pagamentos com cartão, bem como em numerario."
+        "pt_pt": "Senhoras e senhores, estamos agora a iniciar o nosso serviço de compras a bordo. Hoje temos uma oferta especial para vocês. Se comprarem dois perfumes, terão um desconto de 10% no terceiro. Neste voo, recomendamos vivamente as mais recentes fragrâncias da nossa coleção. Podem encontrar o nosso catálogo de compras no bolso do assento à vossa frente. Aceitamos pagamentos com cartão, bem como em numerario.",
+        "no": "Mine damer og herrer, vi starter nå vår shoppingservice om bord. I dag har vi et spesielt tilbud til dere. Hvis dere kjøper to parfymer, får dere 10 % rabatt på den tredje. På dette flyet anbefaler vi sterkt de nyeste duftene fra vår kolleksjon. Dere kan finne vår shoppingkatalog i setelommen foran dere. Vi aksepterer både kortbetalinger og kontanter."
       },
       {
         "en": "We are now starting our in-flight shopping service. Today we highly recommend our special offer - a set of three perfumes for the price of two. We also have a wide selection of other products available for purchase, like souvenirs, cosmetics, and snacks. You can find our shopping catalog in the seat pocket in front of you. We accept card payments as well as cash.",
@@ -709,7 +743,8 @@ const texts: Text[] = [
         "tr": "Artık uçak içi alışveriş hizmetimize başlıyoruz. Bugün özel teklifimizi şiddetle tavsiye ediyoruz - iki fiyatına üç parfümden oluşan set. Ayrıca hediyelik eşyalar, kozmetik ürünler ve atıştırmalıklar gibi satın alınabilecek geniş bir ürün yelpazemiz de mevcuttur. Alışveriş kataloğumuzu önünüzdeki koltuk cebinde bulabilirsiniz. Nakit ödemenin yanı sıra kartla ödeme de kabul ediyoruz.",
         "nl": "We beginnen nu met onze in-flight shopping service. Vandaag bevelen we onze speciale aanbieding van harte aan - een set van drie parfums voor de prijs van twee. We hebben ook een ruime keuze aan andere producten, zoals souvenirs, cosmetica en snacks. Je vindt onze winkelcatalogus in de stoelzak voor je. We accepteren zowel kaartbetalingen als contante betalingen.",
         "ko": "우리는 이제 기내 쇼핑 서비스를 시작합니다. 오늘 우리는 특별한 제안인 투 플러스 원 향수 세트를 적극 추천합니다. 또한 기념품, 화장품, 그리고 간식과 같은 다양한 구매 가능한 다른 상품들이 준비되어 있습니다. 앞의 좌석 주머니에서 쇼핑 카탈로그를 찾을 수 있습니다. 현금뿐만 아니라 카드 결제도 가능합니다.",
-        "pt_pt": "Estamos agora a iniciar o nosso serviço de compras a bordo. Hoje recomendamos vivamente a nossa oferta especial - um conjunto de três perfumes pelo preço de dois. Temos também uma ampla seleção de outros produtos disponíveis para compra, como souvenirs, cosméticos e snacks. Podem encontrar o nosso catálogo de compras no bolso do assento à vossa frente. Aceitamos pagamentos com cartão, bem como em dinheiro."
+        "pt_pt": "Estamos agora a iniciar o nosso serviço de compras a bordo. Hoje recomendamos vivamente a nossa oferta especial - um conjunto de três perfumes pelo preço de dois. Temos também uma ampla seleção de outros produtos disponíveis para compra, como souvenirs, cosméticos e snacks. Podem encontrar o nosso catálogo de compras no bolso do assento à vossa frente. Aceitamos pagamentos com cartão, bem como em dinheiro.",
+        "no": "Vi starter nå vår shoppingservice om bord. I dag anbefaler vi sterkt vårt spesialtilbud – et sett med tre parfymer til prisen av to. Vi har også et bredt utvalg av andre produkter tilgjengelig for kjøp, som suvenirer, kosmetikk og snacks. Dere kan finne vår shoppingkatalog i setelommen foran dere. Vi aksepterer både kortbetalinger og kontanter."
       }
     ]
   },
@@ -733,7 +768,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, kaptanınız konuşuyor. Sizinle bazı bilgileri paylaşayım. Şu anda {currentAltitudeFt} fit yükseklikte saatte {groundSpeedKm} kilometre hızla seyrediyoruz. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Uçuşun geri kalanı, hafif türbülansların az da olsa yaşanması ihtimaliyle birlikte sorunsuz geçmelidir. Lütfen oturduğunuzda ve emniyet kemeri işareti yandığında emniyet kemerinizi bağlı tutmayı unutmayın. Teşekkür ederim ve uçuşun tadını çıkarın.",
         "nl": "Dames en heren, hier spreekt uw gezagvoerder. Ik wil graag wat informatie met u delen. We vliegen momenteel op een hoogte van {currentAltitudeFt} voet met een snelheid van {groundSpeedKm} kilometer per uur. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] De rest van de vlucht zou vlot moeten verlopen, met een kleine kans op lichte turbulentie. Vergeet niet uw veiligheidsgordel te dragen wanneer u zit en wanneer het stoelriemen vast teken is geactiveerd. Bedankt en geniet van uw vlucht.",
         "ko": "승객 여러분, 기장입니다. 몇 가지 정보를 여러분과 공유하겠습니다. 우리는 현재 {currentAtlightFt}피트의 고도에서 시속 {groundSpeedKm}km로 순항하고 있습니다. {destinationCityName}의 날씨는 {destinationCityWheatherHumanDescription}이며 온도는 {destinationCityTemperature}도입니다. 앞으로 난기류가 발생할 가능성이 적으며 순조로운 비행이 될 것으로 보입니다. 자리에 앉아 좌석벨트 싸인에 불이 켜질 때마다 좌석벨트 착용하는 것을 기억하시기 바랍니다. 감사합니다, 즐거운 비행 되세요.",
-        "pt_pt": "Senhoras e senhores, fala o vosso comandante. Deixem-me partilhar algumas informações convosco. Estamos atualmente a voar a uma altitude de {currentAltitudeFt} pés a uma velocidade de {groundSpeedKm} quilómetros por hora. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] O resto do voo deverá ser tranquilo, com uma pequena possibilidade de ligeiras turbulências. Por favor, lembrem-se de manter o cinto de segurança apertado enquanto estiverem sentados e sempre que o sinal de apertar os cintos estiver iluminado. Obrigado e desfrutem do voo."
+        "pt_pt": "Senhoras e senhores, fala o vosso comandante. Deixem-me partilhar algumas informações convosco. Estamos atualmente a voar a uma altitude de {currentAltitudeFt} pés a uma velocidade de {groundSpeedKm} quilómetros por hora. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] O resto do voo deverá ser tranquilo, com uma pequena possibilidade de ligeiras turbulências. Por favor, lembrem-se de manter o cinto de segurança apertado enquanto estiverem sentados e sempre que o sinal de apertar os cintos estiver iluminado. Obrigado e desfrutem do voo.",
+        "no": "Mine damer og herrer, dette er kapteinen som snakker. La meg dele litt informasjon med dere. Vi flyr for øyeblikket på en høyde av {currentAltitudeFt} fot med en hastighet på {groundSpeedKm} kilometer i timen. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Resten av flyturen bør bli jevn, med liten sjanse for lett turbulens. Vennligst husk å holde sikkerhetsbeltet festet mens dere sitter, og alltid når skiltet med fest-sikkerhetsbeltet er tent. Takk, og nyt flyturen."
       },
       {
         "en": "Hi, it's me again. I just wanted to share some information with you. We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeedKm} kilometers per hour. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees. The rest of the flight should be smooth. In case of any questions, please don't hesitate to ask one of our cabin crew members. Thank you, and enjoy the flight.",
@@ -746,7 +782,8 @@ const texts: Text[] = [
         "tr": "Merhaba, yine ben. Sadece sizinle bazı bilgileri paylaşmak istedim. Şu anda {currentAltitudeFt} fit yükseklikte saatte {groundSpeedKm} kilometre hızla seyrediyoruz. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Uçuşun geri kalanı sorunsuz olmalı. Herhangi bir sorunuz olması durumunda lütfen kabin ekibimizden birine sormaktan çekinmeyin. Teşekkür ederim ve uçuşun tadını çıkarın.",
         "nl": "Hallo, ik ben het weer. Ik wil graag wat informatie met u delen. We vliegen momenteel op een hoogte van {currentAltitudeFt} voet met een snelheid van {groundSpeedKm} kilometer per uur. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] De rest van de vlucht zou vlot moeten verlopen. Als u vragen heeft, stel ze dan gerust aan het cabinepersoneel. Bedankt en geniet van uw vlucht.",
         "ko": "안녕하세요. 또 저예요. 여러분과 정보를 나누고 싶어서요. 저희는 현재 {currentAttributeFt}피트의 고도에서 시속 {groundSpeedKm}km로 순항하고 있습니다. {destinationCityName}의 날씨는 {destinationCityWeatherHumanDescription}이며 온도는 {destinationCityTemperature}도입니다. 남은 비행은 순조로울 것으로 보입니다. 궁금한 점이 있으시면 주저하지 말고 객실 승무원에게 물어보세요. 감사합니다. 즐거운 비행 되세요.",
-        "pt_pt": "Olá, o comandante novamente. Queria apenas partilhar algumas informações convosco. Estamos atualmente a voar a uma altitude de {currentAltitudeFt} pés a uma velocidade de {groundSpeedKm} quilómetros por hora. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] O resto do voo deverá ser tranquilo. Em caso de dúvidas, por favor, não hesitem em perguntar a um dos nossos membros da tripulação de cabine. Obrigado e desfrutem do voo."
+        "pt_pt": "Olá, o comandante novamente. Queria apenas partilhar algumas informações convosco. Estamos atualmente a voar a uma altitude de {currentAltitudeFt} pés a uma velocidade de {groundSpeedKm} quilómetros por hora. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] O resto do voo deverá ser tranquilo. Em caso de dúvidas, por favor, não hesitem em perguntar a um dos nossos membros da tripulação de cabine. Obrigado e desfrutem do voo.",
+        "no": "Hei, det er meg igjen. Jeg ville bare dele litt informasjon med dere. Vi flyr for øyeblikket på en høyde av {currentAltitudeFt} fot med en hastighet på {groundSpeedKm} kilometer i timen. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Resten av flyturen bør bli jevn. Hvis dere har spørsmål, ikke nøl med å spørre en av våre kabinansatte. Takk, og nyt flyturen."
       }
     ]
   },
@@ -770,7 +807,8 @@ const texts: Text[] = [
         "tr": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] İnişe hazırlanırken lütfen kabin ekibinin talimatlarını takip edin. Teşekkür ederim.",
         "nl": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Volg alstublieft de instructies van het cabinepersoneel terwijl we ons klaarmaken voor de landing. Hartelijk dank.",
         "ko": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] 착륙을 준비하는 동안 객실 승무원의 지시에 따라 주시기 바랍니다. 감사합니다.",
-        "pt_pt": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Por favor, sigam as instruções da tripulação de cabine enquanto nos preparamos para a aterragem. Obrigado."
+        "pt_pt": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Por favor, sigam as instruções da tripulação de cabine enquanto nos preparamos para a aterragem. Obrigado.",
+        "no": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Vennligst følg instruksjonene fra kabinpersonalet mens vi forbereder oss på landing. Takk."
       },
       {
         "en": "Ladies and gentlemen, we are starting our descent. Please follow the instructions of the cabin crew as we prepare for landing. Thank you.",
@@ -783,7 +821,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, inişimize başladık. İnişe hazırlanırken lütfen kabin ekibinin talimatlarına uyun. Teşekkür ederim.",
         "nl": "Dames en heren, we beginnen aan onze daling. Volg alstublieft de instructies van het cabinepersoneel terwijl we ons klaarmaken voor de landing. Hartelijk dank.",
         "ko": "승객 여러분, 이제 하강을 시작합니다. 착륙을 준비하는 동안 객실 승무원의 지시에 따라 주시기 바랍니다. 감사합니다.",
-        "pt_pt": "Senhoras e senhores, estamos a iniciar a nossa descida. Por favor, sigam as instruções da tripulação de cabine enquanto nos preparamos para a aterragem. Obrigado."
+        "pt_pt": "Senhoras e senhores, estamos a iniciar a nossa descida. Por favor, sigam as instruções da tripulação de cabine enquanto nos preparamos para a aterragem. Obrigado.",
+        "no": "Mine damer og herrer, vi begynner nå nedstigningen. Vennligst følg instruksjonene fra kabinpersonalet mens vi forbereder oss på landing. Takk."
       }
     ]
   },
@@ -807,7 +846,8 @@ const texts: Text[] = [
         "tr": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] Lütfen emniyet kemerinizin takılı olduğundan ve koltuk arkalığınızın ve tepsi masanızın dik konumda olduğundan emin olun. Kalan hizmet öğelerini birkaç dakika içinde toplayacağız. Teşekkür ederim.",
         "nl": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] Zorg ervoor dat uw stoelriem vastzit en dat de rugleuning en stoeltafel rechtop staan. We zullen de resterende service-items over een paar minuten ophalen. Alvast bedankt.",
         "ko": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] 좌석벨트를 매고 좌석 등받이와 앞좌석 선반이 똑바로 접혀있는지 확인하십시오. 몇 분안에 남은 서비스 물품을 수거하겠습니다. 감사합니다.",
-        "pt_pt": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e que o encosto do assento e a mesa estão na posição vertical. Iremos recolher os restantes itens de serviço dentro de alguns minutos. Obrigado."
+        "pt_pt": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e que o encosto do assento e a mesa estão na posição vertical. Iremos recolher os restantes itens de serviço dentro de alguns minutos. Obrigado.",
+        "no": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] Vennligst sørg for at sikkerhetsbeltet er festet, og at seteryggen og bordet er i oppreist posisjon. Vi vil hente inn eventuelle gjenværende søppel om noen minutter. Takk."
       },
       {
         "en": "Ladies and gentlemen, as you heard from our captain, we are starting our descent. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -820,7 +860,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, kaptanımızdan duyduğunuz gibi inişe başlıyoruz. Lütfen emniyet kemerinizin takılı olduğundan ve koltuk arkalığınızın ve tepsi masanızın dik konumda olduğundan emin olun. Kalan hizmet öğelerini birkaç dakika içinde toplayacağız. Teşekkür ederim.",
         "nl": "Dames en heren, zoals u van onze gezagvoerder hebt gehoord, beginnen we aan de daling. Zorg ervoor dat uw veiligheidsgordel vastzit en dat uw rugleuning en stoeltafel rechtop staan. We zullen over een paar minuten alle resterende service-items ophalen. Alvast bedankt.",
         "ko": "승객 여러분, 기장님 말씀대로 하강을 시작합니다. 좌석벨트를 매고 좌석 등받이와 앞좌석 선반이 똑바로 접혀있는지 확인하십시오. 몇 분 후에 남은 서비스 물품을 수거하겠습니다. 감사합니다.",
-        "pt_pt": "Senhoras e senhores, como ouviram do nosso comandante, estamos a iniciar a nossa descida. Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e que o encosto do assento e a mesa estão na posição vertical. Iremos recolher os restantes itens de serviço dentro de alguns minutos. Obrigado."
+        "pt_pt": "Senhoras e senhores, como ouviram do nosso comandante, estamos a iniciar a nossa descida. Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e que o encosto do assento e a mesa estão na posição vertical. Iremos recolher os restantes itens de serviço dentro de alguns minutos. Obrigado.",
+        "no": "Mine damer og herrer, som dere har hørt fra kapteinen, begynner vi nå nedstigningen. Vennligst sørg for at sikkerhetsbeltet er festet, og at seteryggen og bordet er i oppreist posisjon. Vi vil hente inn eventuelle gjenværende søppel om noen minutter. Takk."
       }
     ]
   },
@@ -845,7 +886,8 @@ const texts: Text[] = [
         "tr": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Lütfen emniyet kemerinizin takılı olduğundan ve koltuk arkalığınızın ve tepsi masanızın dik konumda olduğundan emin olun. Kalan hizmet öğelerini birkaç dakika içinde toplayacağız. Teşekkür ederim.",
         "nl": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Zorg ervoor dat uw veiligheidsgordel vastzit en dat uw rugleuning en stoeltafel rechtop staan. We zullen over een paar minuten alle resterende service-items ophalen. Alvast bedankt.",
         "ko": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] 좌석벨트가 매여 있고 좌석 등받이와 앞좌석 선반이 똑바로 접혀있는지 확인하십시오. 몇 분 후에 남은 서비스 항목을 수거하겠습니다. 감사합니다.",
-        "pt_pt": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e que o encosto do assento e a mesa estão na posição vertical. Iremos recolher os restantes itens de serviço dentro de alguns minutos. Obrigado."
+        "pt_pt": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e que o encosto do assento e a mesa estão na posição vertical. Iremos recolher os restantes itens de serviço dentro de alguns minutos. Obrigado.",
+        "no": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Vennligst sørg for at sikkerhetsbeltet er festet, og at seteryggen og bordet er i oppreist posisjon. Vi vil hente inn eventuelle gjenværende søppel om noen minutter. Takk."
       },
       {
         "en": "Ladies and gentlemen, we are starting our descent. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -858,7 +900,8 @@ const texts: Text[] = [
         "tr": "Bayanlar ve baylar, inişimize başladık. Lütfen emniyet kemerinizin takılı olduğundan ve koltuk arkalığınızın ve tepsi masanızın dik konumda olduğundan emin olun. Kalan hizmet öğelerini birkaç dakika içinde toplayacağız. Teşekkür ederim.",
         "nl": "Dames en heren, we beginnen aan de daling. Zorg ervoor dat uw veiligheidsgordel vastzit en dat uw rugleuning en stoeltafel rechtop staan. We zullen over een paar minuten alle resterende service-items ophalen. Dank u wel.",
         "ko": "승객 여러분, 하강을 시작합니다. 좌석벨트를 매고 좌석 등받이와 앞좌석 선반이 똑바로 접혀있는지 확인하십시오. 몇 분 후에 남은 서비스 물품을 수거하겠습니다. 감사합니다.",
-        "pt_pt": "Senhoras e senhores, estamos a iniciar a nossa descida. Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e que o encosto do assento e a mesa estão na posição vertical. Iremos recolher os restantes itens de serviço dentro de alguns minutos. Obrigado."
+        "pt_pt": "Senhoras e senhores, estamos a iniciar a nossa descida. Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e que o encosto do assento e a mesa estão na posição vertical. Iremos recolher os restantes itens de serviço dentro de alguns minutos. Obrigado.",
+        "no": "Mine damer og herrer, vi begynner nå nedstigningen. Vennligst sørg for at sikkerhetsbeltet er festet, og at seteryggen og bordet er i oppreist posisjon. Vi vil hente inn eventuelle gjenværende søppel om noen minutter. Takk."
       }
     ]
   },
@@ -881,7 +924,8 @@ const texts: Text[] = [
         "tr": "Kabin ekibi, iniş için yerlerinizi alın.",
         "nl": "Cabinepersoneel, neem plaats voor de landing.",
         "ko": "캐빈크루, 곧 착륙할 예정이니 자리에 앉아주세요.",
-        "pt_pt": "Tripulação de cabine, ocupem os vossos lugares para a aterragem."
+        "pt_pt": "Tripulação de cabine, ocupem os vossos lugares para a aterragem.",
+        "no": "Kabinpersonalet, gjør dere klare for landing."
       }
     ]
   },
@@ -904,7 +948,8 @@ const texts: Text[] = [
         "tr": "[Ladies and gentlemen, welcome to {destinationCityName}.] Uçak tamamen durana ve emniyet kemeri işareti kapatılana kadar lütfen emniyet kemeriniz bağlı olarak yerinizde kalın. Lütfen uçaktan ayrılmadan önce tüm kişisel eşyalarınızın yanınızda olduğundan emin olun. Mürettebat adına bugün bizimle uçtuğunuz için teşekkür etmek istiyorum. Keyifli bir uçuş geçirdiğinizi umar, sizi en kısa zamanda tekrar gemimizde ağırlamayı sabırsızlıkla bekliyoruz.",
         "nl": "[Ladies and gentlemen, welcome to {destinationCityName}.] Blijft u alstublieft zitten met uw veiligheidsgordel om totdat het toestel volledig tot stilstand is gekomen en het stoelriemen vast teken is uitgezet. Zorg ervoor dat u al uw persoonlijke bezittingen bij u heeft voordat u het toestel verlaat. Namens de bemanning wil ik u bedanken voor het vliegen met ons vandaag. We hopen dat u een prettige vlucht heeft gehad en we hopen u snel weer aan boord te mogen verwelkomen.",
         "ko": "[Ladies and gentlemen, welcome to {destinationCityName}.] 비행기가 완전히 정지하고 좌석벨트 싸인이 꺼질 때까지 좌석벨트를 매고 앉아 계십시오. 비행기를 떠나기 전에 잊으신 물건은 없는지 확인하시기 바랍니다. 승무원을 대표하여 오늘 저희와 함께 비행해 주셔서 감사드립니다. 즐거운 비행이 되셨기를 바라며 다시 만날 수 있기를 기대합니다.",
-        "pt_pt": "[Ladies and gentlemen, welcome to {destinationCityName}.] Por favor, permaneçam sentados com o cinto de segurança apertado até que a aeronave esteja completamente parada e o sinal de apertar os cintos seja desligado. Certifiquem-se de que têm todos os vossos pertences pessoais convosco antes de deixarem a aeronave. Em nome da tripulação, gostaria de vos agradecer por voarem connosco hoje. Esperamos que tenham tido um voo agradável e esperamos recebê-los a bordo novamente em breve."
+        "pt_pt": "[Ladies and gentlemen, welcome to {destinationCityName}.] Por favor, permaneçam sentados com o cinto de segurança apertado até que a aeronave esteja completamente parada e o sinal de apertar os cintos seja desligado. Certifiquem-se de que têm todos os vossos pertences pessoais convosco antes de deixarem a aeronave. Em nome da tripulação, gostaria de vos agradecer por voarem connosco hoje. Esperamos que tenham tido um voo agradável e esperamos recebê-los a bordo novamente em breve.",
+        "no": "[Ladies and gentlemen, welcome to {destinationCityName}.] Vennligst forbli sittende med sikkerhetsbeltet festet til flyet har kommet til full stopp og fest-sikkerhetsbelteskiltet er slått av. Sørg for at dere har alle personlige eiendeler med dere før dere forlater flyet. På vegne av mannskapet vil jeg takke dere for at dere fløy med oss i dag. Vi håper dere har hatt en behagelig flytur, og vi ser frem til å ønske dere velkommen om bord igjen snart."
       },
       {
         "en": "Welcome to {destinationCityName}. Please remain seated with your seatbelt fastened until the aircraft has come to a complete stop and the seatbelt sign has been turned off. Please make sure you have all your personal belongings with you before you leave the aircraft. On behalf of the crew, I would like to thank you for flying with us today. We hope you had a pleasant flight and we look forward to welcoming you on board again soon.",
@@ -917,7 +962,8 @@ const texts: Text[] = [
         "tr": "[Welcome to {destinationCityName}.] Uçak tamamen durana ve emniyet kemeri işareti kapatılana kadar lütfen emniyet kemeriniz bağlı olarak yerinizde kalın. Lütfen uçaktan ayrılmadan önce tüm kişisel eşyalarınızın yanınızda olduğundan emin olun. Mürettebat adına bugün bizimle uçtuğunuz için teşekkür etmek istiyorum. Keyifli bir uçuş geçirdiğinizi umar, sizi en kısa zamanda tekrar gemimizde ağırlamayı sabırsızlıkla bekliyoruz.",
         "nl": "[Welcome to {destinationCityName}.] Blijft u alstublieft zitten met uw veiligheidsgordel om totdat het vliegtuig volledig tot stilstand is gekomen en het stoelriemen vast teken is uitgeschakeld. Zorg ervoor dat u al uw persoonlijke bezittingen bij u heeft voordat u het toestel verlaat. Namens de bemanning wil ik u bedanken voor het vliegen met ons vandaag. We hopen dat u een prettige vlucht heeft gehad en verwelkomen u graag binnenkort weer aan boord.",
         "ko": "[Welcome to {destinationCityName}.] 비행기가 완전히 정지하고 좌석벨트 싸인이 꺼질 때까지 좌석벨트를 매고 앉아 계십시오. 항공기를 떠나기 전에 잊으신 물건은 없는지 확인하시기 바랍니다. 승무원을 대표하여 오늘 저희와 함께 비행해 주셔서 감사합니다. 즐거운 비행이 되었기를 바라며 곧 기내에서 다시 만날 수 있기를 기대합니다.",
-        "pt_pt": "[Welcome to {destinationCityName}.] Por favor, permaneçam sentados com o cinto de segurança apertado até que a aeronave esteja completamente parada e o sinal de apertar os cintos seja desligado. Certifiquem-se de que têm todos os vossos pertences pessoais convosco antes de deixarem a aeronave. Em nome da tripulação, gostaria de vos agradecer por voarem connosco hoje. Esperamos que tenham tido um voo agradável e esperamos recebê-los a bordo novamente em breve."
+        "pt_pt": "[Welcome to {destinationCityName}.] Por favor, permaneçam sentados com o cinto de segurança apertado até que a aeronave esteja completamente parada e o sinal de apertar os cintos seja desligado. Certifiquem-se de que têm todos os vossos pertences pessoais convosco antes de deixarem a aeronave. Em nome da tripulação, gostaria de vos agradecer por voarem connosco hoje. Esperamos que tenham tido um voo agradável e esperamos recebê-los a bordo novamente em breve.",
+        "no": "[Welcome to {destinationCityName}.] Vennligst forbli sittende med sikkerhetsbeltet festet til flyet har kommet til full stopp og fest-sikkerhetsbelteskiltet er slått av. Sørg for at dere har alle personlige eiendeler med dere før dere forlater flyet. På vegne av mannskapet vil jeg takke dere for at dere fløy med oss i dag. Vi håper dere har hatt en behagelig flytur, og vi ser frem til å ønske dere velkommen om bord igjen snart."
       }
     ]
   },
@@ -941,7 +987,8 @@ const texts: Text[] = [
         "tr": "Kapılar kısa süre içerisinde açılacaktır. Lütfen tüm kişisel eşyalarınızı yanınıza almayı unutmayın. Gemiye getirdiğiniz her şeyin yanınızda olduğundan emin olun. Teşekkür ederim.",
         "nl": "De deuren worden binnenkort geopend. Vergeet niet al uw persoonlijke bezittingen mee te nemen. Zorgt u ervoor dat u alles wat u heeft meegenomen aan boord meeneemt. Bedankt voor uw medewerking.",
         "ko": "곧 문이 열립니다. 개인 소지품은 모두 챙기시는 것을 잊지마세요. 잊으신 물건이 없는지 다시 한번 확인바랍니다. 감사합니다.",
-        "pt_pt": "As portas serão abertas brevemente. Por favor, lembrem-se de levar todos os vossos pertences pessoais convosco. Certifiquem-se de que têm tudo o que trouxeram a bordo. Obrigado."
+        "pt_pt": "As portas serão abertas brevemente. Por favor, lembrem-se de levar todos os vossos pertences pessoais convosco. Certifiquem-se de que têm tudo o que trouxeram a bordo. Obrigado.",
+        "no": "Dørene vil bli åpnet snart. Vennligst husk å ta med alle personlige eiendeler. Sørg for at dere har alt dere tok med om bord. Takk."
       },
       {
         "en": "We have arrived at the gate. Please remember to take all your personal belongings with you. Have a great day.",
@@ -954,7 +1001,8 @@ const texts: Text[] = [
         "tr": "Terminal kapısına geldik. Lütfen tüm kişisel eşyalarınızı yanınıza almayı unutmayın. İyi günler.",
         "nl": "We zijn aangekomen bij de gate. Vergeet niet al uw persoonlijke bezittingen mee te nemen. We wensen u een fijne dag.",
         "ko": "게이트에 도착했습니다. 개인 소지품은 모두 챙겨가시기 바랍니다. 좋은 하루 되세요.",
-        "pt_pt": "Chegámos à porta de embarque. Por favor, lembrem-se de levar todos os vossos pertences pessoais convosco. Tenham um ótimo dia e até à próxima."
+        "pt_pt": "Chegámos à porta de embarque. Por favor, lembrem-se de levar todos os vossos pertences pessoais convosco. Tenham um ótimo dia e até à próxima.",
+        "no": "Vi har ankommet gaten. Vennligst husk å ta med alle personlige eiendeler. Ha en flott dag."
       }
     ]
   }
