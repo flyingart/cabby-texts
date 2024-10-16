@@ -17,7 +17,7 @@ You can find more information about the Cabby [on the official website](https://
 - Dutch (nl)
 - Korean (ko)
 - Norwegian (no)
-- Thai (th)
+- Thai (th) - Temporary disabled due to translation service issues
 - Chinese - Simplified (zh)
 
 Please feel free to add more languages by creating a pull request. The more languages we have, the better the service will be.
