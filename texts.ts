@@ -635,6 +635,79 @@ const texts: Text[] = [
     ]
   },
 
+  // Dim lights for takeoff
+  {
+    "category": "captain-dim-lights",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_PRE_TAKEOFF']},
+    "conditions": [
+      {"type": "runtimeFlightMetadata", "key": "darkOutside", "value": [1]}
+    ],
+    "timeout": [120, 140],
+    "onlyPriorityLanguage": true,
+    "runtimeGenerated": true,
+    "texts": [
+      {
+        "en": "Cabin crew, please dim the lights for takeoff.",
+        "pl": "Proszę ściemnić światła przed startem.",
+        "de": "Kabinenpersonal, bitte dimmen Sie das Licht für den Start.",
+        "pt_br": "Tripulação de cabine, por favor diminuam as luzes antes da decolagem.",
+        "es": "Tripulación de cabina, por favor atenúe las luces para el despegue.",
+        "fr": "Personnel de cabine, veuillez baisser les lumières pour le décollage.",
+        "it": "Personale di cabina, per favore abbassate le luci prima del decollo.",
+        "tr": "Kabin ekibi, kalkış için ışıklarınızı lütfen kısın.",
+        "nl": "Cabinepersoneel, wilt u de lichten dimmen voor het opstijgen?",
+        "ko": "캐빈크루, 이륙을 위해 조명을 어둡게 해주세요.",
+        "pt_pt": "Tripulação de cabine, por favor diminuam as luzes antes da descolagem.",
+        "no": "Kabinpersonale, dimp lysene for start.",
+        "th": "ลูกเรือทุกท่าน กรุณาปิดแสงสำหรับการออกเดินทาง",
+        "zh": "机组人员，请为起飞调暗灯光。"
+      }
+    ]
+  },
+  {
+    "category": "crew-dim-lights",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_PRE_TAKEOFF']},
+    "conditions": [
+      {"type": "runtimeFlightMetadata", "key": "darkOutside", "value": [1]}
+    ],
+    "timeout": [140, 160],
+    "runtimeGenerated": true,
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, lights will be dimmed for takeoff due to safety reasons.",
+        "pl": "Szanowni państwo, światła zostaną ściemnione przed startem z powodów bezpieczeństwa.",
+        "de": "Meine Damen und Herren, aus Sicherheitsgründen werden die Lichter für den Start gedimmt.",
+        "pt_br": "Senhoras e senhores, as luzes serão reduzidas para a decolagem por motivos de segurança.",
+        "es": "Damas y caballeros, las luces se atenuarán para el despegue por razones de seguridad.",
+        "fr": "Mesdames et messieurs, les lumières seront atténuées pour le décollage pour des raisons de sécurité.",
+        "it": "Signore e signori, per motivi di sicurezza le luci saranno abbassate durante il decollo.",
+        "tr": "Sayın misafirler, güvenlik nedeniyle kalkışta ışıklar kısık olacaktır.",
+        "nl": "Dames en heren, om veiligheidsredenen worden de lichten tijdens het opstijgen gedimd.",
+        "ko": "캐빈크루, 이륙을 위해 조명을 어둡게 해주세요.",
+        "pt_pt": "Senhoras e senhores, as luzes serão reduzidas para a descolagem por motivos de segurança.",
+        "no": "Mine damer og herrer, lysene vil dimmes for takeoff av sikkerhetsmessige årsaker.",
+        "th": "ลูกเรือทุกท่าน กรุณาปิดแสงสำหรับการออกเดินทาง",
+        "zh": "机组人员，请为起飞调暗灯光。"
+      },
+      {
+        "en": "We will be dimming the lights for takeoff. Please use the reading light above your seat if you need additional light.",
+        "pl": "Światła zostaną ściemnione przed startem. Jeśli potrzebują państwa dodatkowego światła, proszę skorzystać z lampki do czytania nad swoim miejscem.",
+        "de": "Vor dem Start werden die Lichter gedimmt. Wenn Sie zusätzliches Licht benötigen, nutzen Sie bitte eine Leselampe über Ihrem Sitzplatz.",
+        "pt_br": "As luzes serão apagadas antes da decolagem. Se precisar de luz adicional, use uma lâmpada de leitura acima do seu assento.",
+        "es": "Las luces se atenuarán antes del despegue. Si necesita luz adicional, utilice una lámpara de lectura encima de su asiento.",
+        "fr": "Les lumières seront tamisées avant le décollage. Si vous avez besoin de lumière supplémentaire, veuillez utiliser une lampe de lecture au-dessus de votre siège.",
+        "it": "Le luci verranno abbassate prima del decollo. Se hai bisogno di luce aggiuntiva, utilizza una lampada da lettura sopra il sedile.",
+        "tr": "Kalkıştan önce ışıklar kısılacak. İlave ışığa ihtiyacınız varsa lütfen koltuğunuzun üzerinde bir okuma lambası kullanın.",
+        "nl": "Vóór het opstijgen worden de lichten gedimd. Als u extra licht nodig heeft, gebruik dan een leeslamp boven uw stoel.",
+        "ko": "이륙 전에는 조명이 어두워집니다. 추가 조명이 필요한 경우 좌석 위의 독서등을 사용하세요.",
+        "pt_pt": "As luzes serão apagadas antes da descolagem. Se precisar de luz adicional, utilize uma lâmpada de leitura acima do seu assento.",
+        "no": "Lysene vil dempes før avgang. Hvis du trenger ekstra lys, bruk en leselampe over setet.",
+        "th": "ไฟจะหรี่ลงก่อนเครื่องขึ้น หากคุณต้องการแสงสว่างเพิ่มเติม โปรดใช้โคมไฟอ่านหนังสือเหนือที่นั่งของคุณ",
+        "zh": "起飞前灯光将变暗。如果您需要额外的照明，请使用座位上方的阅读灯。"
+      }
+    ]
+  },
+
   // Takeoff
   {
     "category": "captain-ready-for-takeoff-message",
