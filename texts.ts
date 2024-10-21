@@ -671,6 +671,7 @@ const texts: Text[] = [
     "timeout": [120, 140],
     "onlyPriorityLanguage": true,
     "runtimeGenerated": true,
+    "chime": "DING",
     "texts": [
       {
         "en": "Cabin crew, please dim the lights for takeoff.",
