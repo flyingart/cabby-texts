@@ -10,11 +10,15 @@ You can find more information about the Cabby [on the official website](https://
 - Spanish (es)
 - French (fr)
 - Italian (it)
-- Portuguese (pt)
+- Portuguese - Brazil (pt_br)
+- Portuguese - Portugal (pt_pt)
 - Polish (pl)
 - Turkish (tr)
 - Dutch (nl)
 - Korean (ko)
+- Norwegian (no)
+- Thai (th) - Temporary disabled due to translation service issues
+- Chinese - Simplified (zh)
 
 Please feel free to add more languages by creating a pull request. The more languages we have, the better the service will be.
 
