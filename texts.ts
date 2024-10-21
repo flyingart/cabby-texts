@@ -666,7 +666,7 @@ const texts: Text[] = [
     "category": "captain-dim-lights",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_PRE_TAKEOFF']},
     "conditions": [
-      {"type": "runtimeFlightMetadata", "key": "darkOutside", "value": [1]}
+      {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
     ],
     "timeout": [120, 140],
     "onlyPriorityLanguage": true,
@@ -695,9 +695,9 @@ const texts: Text[] = [
     "category": "crew-dim-lights",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_PRE_TAKEOFF']},
     "conditions": [
-      {"type": "runtimeFlightMetadata", "key": "darkOutside", "value": [1]}
+      {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
     ],
-    "timeout": [140, 160],
+    "timeout": [140, 150],
     "onlyPriorityLanguage": true,
     "runtimeGenerated": true,
     "texts": [
