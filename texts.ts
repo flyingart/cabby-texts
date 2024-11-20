@@ -730,7 +730,7 @@ const texts: Text[] = [
       {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
     ],
     "timeout": [140, 150],
-    "onlyPriorityLanguage": true,
+    "onlyPriorityLanguage": false,
     "runtimeGenerated": true,
     "texts": [
       {
@@ -1121,6 +1121,81 @@ const texts: Text[] = [
         "no": "Mine damer og herrer, vi begynner nå nedstigningen. Vennligst sørg for at sikkerhetsbeltet er festet, og at seteryggen og bordet er i oppreist posisjon. Vi vil hente inn eventuelle gjenværende søppel om noen minutter. Takk.",
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เรากำลังเริ่มลดระดับลงสู่จุดหมายปลายทาง กรุณานั่งประจำที่และรัดเข็มขัดที่นั่ง ปรับพนักเก้าอี้ของท่านให้อยู่ในระดับตรง พับโต๊ะหน้าที่นั่ง เราจะเริ่มปิดการบริการในอีกไม่กี่นาที ขอบคุณค่ะ",
         "zh": "女士们，先生们，我们现在开始下降。请确保您的安全带已经系好，座椅靠背和小桌板处于竖直位置。我们将在几分钟内收集剩下的服务物品。谢谢。"
+      }
+    ]
+  },
+
+  // Dim lights for landing
+  {
+    "category": "captain-dim-lights-for-landing",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_DESCENT']},
+    "conditions": [
+      {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
+    ],
+    "timeout": [480, 500],
+    "onlyPriorityLanguage": true,
+    "runtimeGenerated": true,
+    "chime": "DING",
+    "texts": [
+      {
+        "en": "Cabin crew, please dim the lights for landing.",
+        "pl": "Proszę ściemnić światła do lądowania.",
+        "de": "Kabinenpersonal, bitte dimmen Sie die Lichter für die Landung.",
+        "pt_br": "Tripulação de cabine, por favor, diminuam as luzes para o pouso.",
+        "es": "Tripulación de cabina, por favor, atenúen las luces para el aterrizaje.",
+        "fr": "Personnel de cabine, veuillez atténuer les lumières pour l'atterrissage.",
+        "it": "Personale di cabina, si prega di abbassare le luci per l'atterraggio.",
+        "tr": "Kabin ekibi, lütfen iniş için ışıkları kısın.",
+        "nl": "Cabinepersoneel, dim alstublieft de lichten voor de landing.",
+        "ko": "캐빈크루, 착륙을 위해 조명을 어둡게 해주세요.",
+        "pt_pt": "Tripulação de cabine, por favor, diminuam as luzes para a aterragem.",
+        "no": "Kabinbesetning, vennligst demp lysene for landing.",
+        "th": "พนักงานบนเครื่อง กรุณาปิดแสงสำหรับการลงจอด",
+        "zh": "机组人员，请为着陆调暗灯光。"
+      }
+    ]
+  },
+  {
+    "category": "crew-dim-lights-for-landing",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_DESCENT']},
+    "conditions": [
+      {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
+    ],
+    "timeout": [500, 510],
+    "onlyPriorityLanguage": false,
+    "runtimeGenerated": true,
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, lights will be dimmed for landing due to safety reasons.",
+        "pl": "Szanowni Państwo, światła zostaną ściemnione przed lądowaniem z powodów bezpieczeństwa.",
+        "de": "Meine Damen und Herren, die Lichter werden aus Sicherheitsgründen für die Landung gedimmt.",
+        "pt_br": "Senhoras e senhores, as luzes serão reduzidas para o pouso por motivos de segurança.",
+        "es": "Señoras y señores, las luces se atenuarán para el aterrizaje por razones de seguridad.",
+        "fr": "Mesdames et messieurs, les lumières seront tamisées pour l'atterrissage pour des raisons de sécurité.",
+        "it": "Signore e signori, le luci verranno abbassate per l'atterraggio per motivi di sicurezza.",
+        "tr": "Bayanlar ve baylar, ışıkların iniş için güvenlik nedeniyle kısılacağını duyuruyoruz.",
+        "nl": "Dames en heren, de lichten worden gedimd voor de landing om veiligheidsredenen.",
+        "ko": "여러분, 안전상의 이유로 착륙을 위해 조명이 어두워집니다.",
+        "pt_pt": "Senhoras e senhores, as luzes serão reduzidas para a aterragem por razões de segurança.",
+        "no": "Damer og herrer, lysene vil dempes for landing av sikkerhetsgrunner.",
+        "th": "ท่านผู้โดยสารทุกท่าน ไฟจะหรี่ลงก่อนเครื่องขึ้น เนื่องจากเหตุผลด้านความปลอดภัย",
+        "zh": "女士们，先生们，由于"
+      },
+      {
+        "en": "We will be dimming the lights for landing. Please use the reading light above your seat if you need additional light.",
+        "pl": "Światła zostaną ściemnione przed lądowaniem. Prosimy o skorzystanie z lampki do czytania nad Państwa miejscem, jeśli potrzebują Państwo dodatkowego światła.",
+        "de": "Wir werden die Lichter für die Landung dimmen. Bitte verwenden Sie die Leselampe über Ihrem Sitz, wenn Sie zusätzliches Licht benötigen.",
+        "pt_br": "As luzes serão reduzidas para o pouso. Por favor, use a luz de leitura acima do seu assento se precisar de luz adicional.",
+        "es": "Bajaremos la intensidad de las luces para el aterrizaje. Utilice la luz de lectura que se encuentra sobre su asiento si necesita luz adicional.",
+        "fr": "Nous allons tamiser les lumières pour l'atterrissage. Veuillez utiliser la lampe de lecture au-dessus de votre siège si vous avez besoin de lumière supplémentaire.",
+        "it": "Abbasseremo le luci per l'atterraggio. Si prega di utilizzare la luce di lettura sopra il proprio sedile se si necessita di luce aggiuntiva.",
+        "tr": "İniş için ışıkları kısacağız. Ekstra ışığa ihtiyacınız varsa, lütfen koltuğunuzun üstündeki okuma lambasını kullanın.",
+        "nl": "We zullen de lichten dimmen voor de landing. Gebruik de leeslamp boven uw stoel als u extra licht nodig heeft.",
+        "ko": "착륙을 위해 조명을 어둡게 할 예정입니다. 추가 조명이 필요하시면 좌석 위의 조명을 사용해주세요.",
+        "pt_pt": "As luzes serão reduzidas para a aterragem. Por favor, use a luz de leitura acima do seu assento se precisar de luz adicional.",
+        "no": "Vi vil dempe lysene for landing. Vennligst bruk leselyset over setet ditt hvis du trenger ekstra lys.",
+        "th": "เราจะปิดแสงสำหรับการลงจอด กรุณาใช้ไฟส่องสำหรับการอ่านข้างบนเพื่อเพิ่มแสง",
+        "zh": "我们将为着陆调暗灯光。如果您需要额外的光，请使用座位上方的阅读灯。"
       }
     ]
   },
