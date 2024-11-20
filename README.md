@@ -68,6 +68,7 @@ You can use one of the following variables in the text, by wrapping them in curl
 - **flightTime** - _example: "2 hours and 30 minutes"_
 - **destinationCityTemperature** - _example: "25"_
 - **destinationCityWeatherHumanDescription** - _example: "sunny"_
+- **flightNumber** - _example: "123EW"_
 
 ### Translation
 
