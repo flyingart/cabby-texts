@@ -90,20 +90,52 @@ const texts: Text[] = [
         "zh": "女士们，先生们，我们刚刚收到前方有轻微颠簸的信息。请您回到座位，并保持就座，直到安全带标志熄灭。"
       },
       {
-        "en": "Hello, this is your captain speaking. We had to turn on the seatbelt sign due to some light turbulence ahead. Please return to your seats and fasten your seat belts.",
-        "pl": "Szanowni państwo, tu kapitan. Musieliśmy włączyć sygnał zapięcia pasów z powodu lekkich turbulencji przed nami. Prosimy o powrót na miejsca i zapięcie pasów.",
-        "de": "Hallo, hier spricht Ihr Kapitän. Aufgrund leichter Turbulenzen vor uns wurden die Anschnallzeichen aktiviert. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
-        "pt_br": "Olá pessoal, aqui é o comandante da aeronave. Tivemos que ligar o aviso de atar os cintos devido a uma turbulância leve a frente, por favor, retornem aos seus assentos e afivelem os cintos de segurança.",
-        "es": "Hola, les habla su capitán. Tuvimos que encender la señal de cinturón de seguridad debido a unas ligeras turbulencias más adelante. Por favor regresen a sus asientos y abróchense los cinturones.",
-        "fr": "Bonjour, ici votre commandant de bord. Nous avons dû allumer le signal de ceinture de sécurité en raison de légères turbulences à venir. Veuillez retourner à vos places et attacher vos ceintures de sécurité.",
-        "it": "Salve, qui parla il vostro capitano. Abbiamo dovuto accendere il segnale delle cinture di sicurezza a causa di una leggera turbolenza davanti a noi. Vi preghiamo di ritornare ai vostri posti e di allacciare le cinture di sicurezza.",
-        "tr": "Merhaba, kaptanınız konuşuyor. İlerideki hafif türbülans nedeniyle emniyet kemeri işaretini açmak zorunda kaldık. Lütfen koltuklarınıza dönün ve emniyet kemerlerinizi bağlayın.",
-        "nl": "Hallo, hier spreekt uw gezagvoerder. We hebben het stoelriemen vast teken moeten activeren door wat lichte turbulentie op komst. Gaat u alstublieft terug naar uw stoel en maak uw stoelriem vast.",
-        "ko": "안녕하세요, 기장입니다. 앞에 가벼운 난기류가 있기 때문에 좌석벨트 싸인을 켰습니다. 자리로 돌아가 좌석벨트를 착용해 주세요.",
-        "pt_pt": "Caros passageiros, aqui é fala comandante. Tivemos que ligar o aviso de apertar os cintos devido a uma ligeira turbulência à frente. Por favor, regressem aos vossos lugares e apertem os cintos de segurança.",
-        "no": "Hei, dette er kapteinen som snakker. Vi måtte slå på skiltet med fest-sikkerhetsbeltet på grunn av litt lett turbulens foran oss. Vennligst returner tilbake til ditt sete og fest sikkerhetsbeltene.",
-        "th": "นี่คือกัปตันครับ ขณะนี้เราได้เปิดสัญญาณแจ้งรัดเข็มขัดที่นั่ง เนื่องจากสภาพอากาศแปรปรวน ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดขัดนิรภัยของท่านให้กระชับ",
-        "zh": "女士们，先生们，我是机长。由于前方有轻微颠簸，我们不得不打开安全带标志。请您回到座位并系好安全带。"
+        "en": "Hello, this is your captain speaking. We had to turn on the seatbelt sign due to expected light turbulence. Please return to your seats and fasten your seat belts.",
+        "pl": "Szanowni państwo, tu kapitan. Musieliśmy włączyć sygnał zapięcia pasów z powodu przewidywanych lekkich turbulencji. Prosimy o powrót na miejsca i zapięcie pasów.",
+        "de": "Hallo, hier spricht Ihr Kapitän. Wir mussten das Anschnallzeichen aufgrund erwarteter leichter Turbulenzen einschalten. Bitte kehren Sie zu Ihren Plätzen zurück und schnallen Sie sich an.",
+        "pt_br": "Olá, aqui é o seu comandante. Tivemos que ligar o aviso de atar os cintos devido a uma ligeira turbulência esperada. Por favor",
+        "es": "Hola, aquí habla su capitán. Tuvimos que encender la señal de cinturón de seguridad debido a la ligera turbulencia esperada. Por favor regrese a sus asientos y abróchense los cinturones.",
+        "fr": "Bonjour, ici votre commandant. Nous avons dû allumer le signal de ceinture de sécurité en raison de légères turbulences attendues. Veuillez retourner à vos sièges et attacher vos ceintures.",
+        "it": "Ciao, qui parla il vostro capitano. Abbiamo dovuto accendere il segnale delle cinture di sicurezza a causa di una leggera turbolenza prevista. Si prega di tornare ai propri posti e allacciare le cinture di sicurezza.",
+        "tr": "Merhaba, burada kaptanınız konuşuyor. Beklenen hafif türbülans nedeniyle emniyet kemeri işaretini açmak zorunda kaldık. Lütfen koltuklarınıza dönün ve emniyet kemerlerinizi bağlayın.",
+        "nl": "Hallo, dit is uw gezagvoerder. We moesten het stoelriemen vast teken aanzetten vanwege verwachte lichte turbulentie. Gaat u alstublieft terug naar uw stoel en maak uw stoelriem vast.",
+        "ko": "여러분, 기장입니다. 예상되는 가벼운 난기류로 인해 좌석벨트 싸인을 켜야 했습니다. 자리로 돌아가 좌석벨트를 착용해 주세요.",
+        "pt_pt": "Olá, aqui é o seu comandante. Tivemos de ligar o sinal de apertar os cintos devido à ligeira turbulência esperada. Por favor, regressem aos vossos lugares e apertem os cintos de segurança.",
+        "no": "Hallo, dette er kapteinen som snakker. Vi måtte slå på sikkerhetsbeltet på grunn av forventet lett turbulens. Vennligst returner tilbake til ditt sete og fest sikkerhetsbeltet.",
+        "th": "สวัสดีครับ นี่คือกัปตันของคุณ ที่พูดคุย  เราต้องเปิดสัญญาณรัดเข็มขัดเนื่องจากมีการคาดการณ์ว่าจะมีการแรงอากาศแปรปรวน  ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดที่นั่งของท่านให้กระชับ",
+        "zh": "您好，这里是您的机长。由于预计会有轻微颠簸，我们不得不打开安全带标志。请您回到座位并系好安全带。"
+      },
+      {
+        "en": "Ladies and gentlemen, we’re expecting some changes in weather conditions ahead. As a precaution, the seatbelt sign has been turned on. Please remain seated and keep your seatbelt fastened. Thank you for your cooperation.",
+        "pl": "Szanowni państwo, spodziewamy się zmian w warunkach pogodowych przed nami. W związku z tym włączono sygnał zapięcia pasów. Prosimy o pozostanie na miejscach i zapięcie pasów. Dziękujemy za współpracę.",
+        "de": "Meine Damen und Herren, wir erwarten einige Änderungen in den Wetterbedingungen. Vorsichtshalber wurde das Anschnallzeichen eingeschaltet. Bitte bleiben Sie sitzen und halten Sie Ihren Sicherheitsgurt geschlossen. Vielen Dank für Ihre Kooperation.",
+        "pt_br": "Senhoras e senhores, estamos esperando algumas mudanças nas condições climáticas à frente. Como precaução, o aviso de atar os cintos foi ligado. Por favor, permaneçam sentados e mantenham seus cintos de segurança afivelados. Obrigado pela cooperação.",
+        "es": "Damas y caballeros, esperamos algunos cambios en las condiciones climáticas por delante. Como precaución, se ha encendido la señal de cinturón de seguridad. Por favor permanezcan sentados y mantengan abrochados sus cinturones de seguridad. Gracias por su cooperación.",
+        "fr": "Mesdames et messieurs, nous prévoyons quelques changements dans les conditions météorologiques à venir. Par précaution, le signal de ceinture de sécurité a été allumé. Veuillez rester assis et garder votre ceinture de sécurité attachée. Merci pour votre coopération.",
+        "it": "Signore e signori, ci aspettiamo alcuni cambiamenti nelle condizioni meteorologiche in vista. Come precauzione, il segnale delle cinture di sicurezza è stato acceso. Per favore, rimanete seduti e tenete le cinture di sicurezza allacciate. Grazie per la vostra collaborazione.",
+        "tr": "Bayanlar ve baylar, önümüzde hava koşullarında bazı değişiklikler bekliyoruz. Tedbir olarak emniyet kemeri işareti açıldı. Lütfen yerlerinizde oturun ve emniyet kemerinizi bağlı tutun. İşbirliğiniz için teşekkür ederiz.",
+        "nl": "Dames en heren, we verwachten enkele veranderingen in de weersomstandigheden voor ons. Uit voorzorg is het stoelriemen vast teken aangezet. Blijft u alstublieft zitten en houdt u uw stoelriem vast. Dank u voor uw medewerking.",
+        "ko": "여러분, 앞으로 날씨 상황에 변화가 예상됩니다. 예방 조치로 좌석벨트 싸인이 켜졌습니다. 자리에 앉아 좌석벨트를 착용해 주세요. 협조해 주셔서 감사합니다.",
+        "pt_pt": "Senhoras e senhores, estamos à espera de algumas mudanças nas condições climáticas à frente. Como precaução, o sinal de apertar os cintos foi ligado. Por favor, permaneçam sentados e mantenham os cintos de segurança apertados. Obrigado pela cooperação.",
+        "no": "Mine damer og herrer, vi forventer noen endringer i værforholdene foran oss. Som en forholdsregel har vi slått på sikkerhetsbeltet. Vennligst bli sittende og hold sikkerhetsbeltet festet. Takk for samarbeidet.",
+        "th": "ท่านผู้โดยสารทุกท่าน เรากำลังคาดการณ์ว่าจะมีการเปลี่ยนแปลงในสภาพอากาศข้างหน้า  ในการป้องกัน  เราได้เปิดสัญญาณรัดเข็มขัด  ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดท���่นั่งของท่านให้กระชับ ขอบคุณที่ร่วมมือ",
+        "zh": "女士们，先生们，我们预计前方的天气条件会有一些变化。作为预防措施，我们已经打开了安全带标志。请您保持就座，并系好安全带。感谢您的合作。"
+      },
+      {
+        "en": "Hello, this is your captain speaking. We’re encountering some unstable airflow at our cruising altitude, so we’ve turned on the seatbelt sign. For your safety, please remain seated with your seatbelts fastened until further notice.",
+        "pl": "Witajcie, tu kapitan. Napotkaliśmy niestabilny przepływ powietrza na naszej wysokości przelotowej, dlatego włączyliśmy sygnał zapięcia pasów. Dla waszego bezpieczeństwa prosimy o pozostanie na miejscach z zapiętymi pasami.",
+        "de": "Hallo, hier spricht Ihr Kapitän. Wir haben auf unserer Reisehöhe einen instabilen Luftstrom angetroffen, daher haben wir das Anschnallzeichen eingeschaltet. Bitte bleiben Sie aus Sicherheitsgründen sitzen und halten Sie Ihre Sicherheitsgurte geschlossen, bis auf Weiteres.",
+        "pt_br": "Olá, aqui é o seu comandante. Estamos encontrando um fluxo de ar instável em nossa altitude de cruzeiro, então ligamos o aviso de atar os cintos. Por sua segurança, permaneçam sentados com os cintos de segurança afivelados até novo aviso.",
+        "es": "Hola, aquí habla su capitán. Nos estamos encontrando con un flujo de aire inestable en nuestra altitud de crucero, por lo que hemos encendido la señal de cinturón de seguridad. Por su seguridad, por favor permanezcan sentados con los cinturones abrochados hasta nuevo aviso.",
+        "fr": "Bonjour, ici votre commandant. Nous rencontrons un flux d'air instable à notre altitude de croisière, c'est pourquoi nous avons allumé le signal de ceinture de sécurité. Pour votre sécurité, veuillez rester assis et garder vos ceintures attachées jusqu'à nouvel ordre.",
+        "it": "Ciao, qui parla il vostro capitano. Stiamo incontrando un flusso d'aria instabile alla nostra altitudine di crociera, quindi abbiamo acceso il segnale delle cinture di sicurezza. Per la vostra sicurezza, rimanete seduti con le cinture di sicurezza allacciate fino a nuovo avviso.",
+        "tr": "Merhaba, burada kaptanınız konuşuyor. Seyir irtifamızda karşılaştığımız dengesiz hava akımı nedeniyle emniyet kemeri işaretini açtık. Güvenliğiniz için lütfen yerlerinizde oturun ve emniyet kemerlerinizi bağlı tutun.",
+        "nl": "Hallo, dit is uw gezagvoerder. We ondervinden een onstabiele luchtstroom op onze kruishoogte, dus hebben we het stoelriemen vast teken aangezet. Voor uw veiligheid, blijft u alstublieft zitten met uw stoelriem vast tot nader order.",
+        "ko": "여러분, 기장입니다. 우리의 크루즈 고도에서 불안정한 공기 흐름을 만나고 있어 좌석벨트 싸인을 켰습니다. 안전을 위해 추가 안내가 있을 때까지 좌석에 앉아 좌석벨트를 착용해 주세요.",
+        "pt_pt": "Olá, aqui é o seu comandante. Estamos a encontrar um fluxo de ar instável na nossa altitude de cruzeiro, por isso ligámos o sinal de apertar os cintos. Para sua segurança, permaneçam sentados com os cintos de segurança apertados até novo aviso.",
+        "no": "Hallo, dette er kapteinen som snakker. Vi opplever en ustabil luftstrøm på vår cruisehøyde, så vi har slått på sikkerhetsbeltet. For din sikkerhet, vennligst bli sittende med sikkerhetsbeltet festet til ny beskjed gis.",
+        "th": "สวัสดีครับ นี่คือกัปตันของคุณ ที่พูดคุย เรากำลังพบกับการไหลลมที่ไม่เสถียรที่ระดับความสูงของเรา  ดังนั้นเราได้เปิดสัญญาณรัดเข็มขัด  สำหรับความปลอดภัยของท่าน  ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดที่นั่งของท่านให้กระชับ จนกว่าจะมีข้อความเพิ่มเติม",
+        "zh": "您好，这里是您的机长。我们在巡航高度遇到了一些不稳定的气流，所以我们打开了安全带标志。为了您的安全，请保持就座，并系好安全带，直到进一步通知。"
       }
     ]
   },
@@ -163,6 +195,54 @@ const texts: Text[] = [
         "no": "Som dere hørte fra kapteinen, forventer vi litt lett turbulens foran oss. Vennligst returner tilbake til ditt sete og fest sikkerhetsbeltet. Bruk av toalettene er ikke tillatt på dette tidspunktet.",
         "th": "ขณะนี้กัปตันกำลังจะบินผ่านเขตสภาพอากาศแปรปรวน ขอความกรุณาทุกท่านนั่งประจำที่ จนกว่าสัญญาณรัดเข็มขัดที่นั่งจะดับลง และกรุณางดใช้ห้องน้ำในช่วงเวลานี้",
         "zh": "正如机长所说，前方预计会有一些轻微的颠簸。请您回到座位并系好安全带。目前暂时不允许使用洗手间。"
+      },
+      {
+        "en": "Ladies and gentlemen, the seatbelt sign is now on. We ask that you remain seated as much as possible. For safety reasons, our cabin crew will also minimize their movement until conditions stabilize.",
+        "pl": "Szanowni państwo, sygnał zapięcia pasów jest włączony. Prosimy o pozostanie na miejscach. Ze względów bezpieczeństwa, personel pokładowy również ograniczy swoje ruchy, dopóki warunki nie ustabilizują się.",
+        "de": "Meine Damen und Herren, das Anschnallzeichen ist jetzt an. Wir bitten Sie, so viel wie möglich sitzen zu bleiben. Aus Sicherheitsgründen wird auch unser Kabinenpersonal ihre Bewegungen minimieren, bis sich die Bedingungen stabilisieren.",
+        "pt_br": "Senhoras e senhores, o aviso de atar os cintos está ligado. Pedimos que permaneçam sentados o máximo possível. Por motivos de segurança, nossa tripulação de cabine também minimizará seus movimentos até que as condições se estabilizem.",
+        "es": "Damas y caballeros, la señal de cinturón de seguridad está encendida. Les pedimos que permanezcan sentados tanto como sea posible. Por razones de seguridad, nuestro personal de cabina también minimizará sus movimientos hasta que las condiciones se estabilicen.",
+        "fr": "Mesdames et messieurs, le signal de ceinture de sécurité est allumé. Nous vous demandons de rester assis autant que possible. Pour des raisons de sécurité, notre personnel de cabine minimisera également ses mouvements jusqu'à ce que les conditions se stabilisent.",
+        "it": "Signore e signori, il segnale delle cinture di sicurezza è acceso. Vi preghiamo di rimanere seduti il più possibile. Per motivi di sicurezza, il nostro personale di cabina ridurrà al minimo anche i propri movimenti fino a quando le condizioni si stabilizzeranno.",
+        "tr": "Bayanlar ve baylar, emniyet kemeri işareti şu anda açık. Mümkün olduğunca oturmanızı rica ederiz. Güvenlik nedenleriyle kabin ekibimiz de koşullar stabilize olana kadar hareketlerini en aza indirecektir.",
+        "nl": "Dames en heren, het stoelriemen vast teken is nu aan. We vragen u om zoveel mogelijk te blijven zitten. Om veiligheidsredenen zal ons cabinepersoneel ook hun bewegingen minimaliseren totdat de omstandigheden stabiliseren.",
+        "ko": "여러분, 좌석벨트 싸인이 켜졌습니다. 최대한 앉아 계시기 바랍니다. 안전상의 이유로 우리의 승무원도 상황이 안정될 때까지 움직임을 최소화할 것입니다.",
+        "pt_pt": "Senhoras e senhores, o sinal de apertar os cintos está ligado. Pedimos que permaneçam sentados o máximo possível. Por motivos de segurança, a nossa tripulação de cabine também minimizará os seus movimentos até que as condições se estabilizem.",
+        "no": "Mine damer og herrer, skiltet med sikkerhetsbeltet er nå på. Vi ber om at dere forblir sittende så mye som mulig. Av sikkerhetsmessige årsaker vil også vårt kabinpersonell minimere bevegelsene sine til forholdene stabiliserer seg.",
+        "th": "ท่านผู้โดยสารทุกท่าน สัญญาณรัดเข็มขัดที่นั่งเปิดอยู่  ขอความกรุณาทุกท่านนั่งประจำที่  ในเวลานี้  ขอให้พนักงานบนเครื่องจำกัดการเคลื่อนไหวของตนเองให้น้อยลงจนกว่าส ภาพจะเสถียร",
+        "zh": "女士们，先生们，安全带标志现在已经打开。我们要求您尽量保持就座。出于安全考虑，我们的机组人员也会尽量减少移动，直到条件稳定。"
+      },
+      {
+        "en": "Ladies and gentlemen, for everyone’s safety, we ask that you avoid moving around the cabin while the seatbelt sign is on. If you’re not seated, please return to your seat immediately.",
+        "pl": "Szanowni państwo, dla bezpieczeństwa wszystkich, prosimy o unikanie poruszania się po kabinie, gdy sygnał zapięcia pasów jest włączony. Jeśli nie siedzą państwo, prosimy o natychmiastowy powrót na miejsce.",
+        "de": "Meine Damen und Herren, zur Sicherheit aller bitten wir Sie, sich während des eingeschalteten Anschnallzeichens nicht in der Kabine zu bewegen. Wenn Sie nicht sitzen, kehren Sie bitte sofort zu Ihrem Platz zurück.",
+        "pt_br": "Senhoras e senhores, para a segurança de todos, pedimos que evitem se movimentar pela cabine enquanto o aviso de atar os cintos estiver ligado. Se não estiverem sentados, por favor, retornem imediatamente aos seus assentos.",
+        "es": "Damas y caballeros, por la seguridad de todos, les pedimos que eviten moverse por la cabina mientras el cinturón de seguridad esté encendido. Si no están sentados, por favor regresen inmediatamente a sus asientos.",
+        "fr": "Mesdames et messieurs, pour la sécurité de tous, nous vous demandons d'éviter de vous déplacer dans la cabine lorsque le signal de ceinture est allumé. Si vous n'êtes pas assis, veuillez retourner immédiatement à votre siège.",
+        "it": "Signore e signori, per la sicurezza di tutti, vi chiediamo di evitare di muovervi in cabina mentre il segnale delle cinture di sicurezza è acceso. Se non siete seduti, vi preghiamo di tornare immediatamente al vostro posto.",
+        "tr": "Bayanlar ve baylar, herkesin güvenliği için emniyet kemeri işareti açıkken kabin içinde hareket etmekten kaçınmanızı rica ederiz. Eğer oturmuyorsanız, lütfen hemen koltuğunuza geri dönün.",
+        "nl": "Dames en heren, voor ieders veiligheid vragen wij u om niet door de cabine te lopen terwijl het stoelriemen vast teken aan staat. Als u niet zit, gaat u alstublieft onmiddellijk terug naar uw stoel.",
+        "ko": "여러분, 안전을 위해 좌석벨트 싸인이 켜져 있는 동안 캐빈 내에서 이동을 피해 주시기 바랍니다. 앉아 계시지 않은 경우 즉시 자리로 돌아가 주세요.",
+        "pt_pt": "Senhoras e senhores, para a segurança de todos, pedimos que evitem movimentar-se pela cabine enquanto o sinal de apertar os cintos estiver ligado. Se não estiverem sentados, por favor, retornem imediatamente aos vossos lugares.",
+        "no": "Mine damer og herrer, for alles sikkerhet ber vi om at dere unngår å bevege dere rund i kabinen mens skiltet med sikkerhetsbeltet er på. Hvis du ikke sitter, vennligst returner umiddelbart til ditt sete.",
+        "th": "ท่านผู้โดยสารทุกท่าน  เพื่อความปลอดภัยของทุกคน  ขอความกรุณาท่านงดการเคลื่อนไหวในห้องโดยสารขณะที่สัญญ าณรัดเข็มขัดที่นั่งเปิดอยู่  หากท่านไม่ได้นั่ง  ขอให้ท่านกลับไปนั่งที่นั่งของท่านทันที",
+        "zh": "女士们，先生们，为了所有人的安全，我们要求您在安全带标志打开时不要在机舱内移动。如果您没有坐下，请立即返回座位。"
+      },
+      {
+        "en": "Ladies and gentlemen, the seatbelt sign is now illuminated. Even if you’re familiar with flying, we kindly remind you to follow this safety procedure and remain seated. Thank you for your cooperation.",
+        "pl": "Szanowni państwo, sygnał zapięcia pasów jest teraz włączony. Nawet jeśli są państwo doświadczeni w podróżowaniu samolotem, uprzejmie przypominamy o przestrzeganiu tej procedury bezpieczeństwa i pozostaniu na miejscach. Dziękujemy za współpracę.",
+        "de": "Meine Damen und Herren, das Anschnallzeichen ist jetzt beleuchtet. Auch wenn Sie mit dem Fliegen vertraut sind, erinnern wir Sie höflich daran, dieses Sicherheitsverfahren zu befolgen und sitzen zu bleiben. Vielen Dank für Ihre Kooperation.",
+        "pt_br": "Senhoras e senhores, o aviso de atar os cintos está aceso. Mesmo que estejam acostumados a voar, lembramos gentilmente que sigam este procedimento de segurança e permaneçam sentados. Agradecemos a sua cooperação.",
+        "es": "Damas y caballeros, la señal de cinturón de seguridad está encendida. Incluso si están familiarizados con volar, les recordamos amablemente que sigan este procedimiento de seguridad y permanezcan sentados. Gracias por su cooperación.",
+        "fr": "Mesdames et messieurs, le signal de ceinture de sécurité est maintenant allumé. Même si vous êtes familier avec le vol, nous vous rappelons gentiment de suivre cette procédure de sécurité et de rester assis. Merci pour votre coopération.",
+        "it": "Signore e signori, il segnale delle cinture di sicurezza è acceso. Anche se siete abituati a volare, vi ricordiamo gentilmente di seguire questa procedura di sicurezza e di rimanere seduti. Grazie per la vostra collaborazione.",
+        "tr": "Bayanlar ve baylar, emniyet kemeri işareti şu anda yanıyor. Uçmaya aşina olsanız bile, bu güvenlik prosedürünü takip etmenizi ve oturmanızı rica ederiz. İşbirliğiniz için teşekkür ederiz.",
+        "nl": "Dames en heren, het stoelriemen vast teken is nu verlicht. Ook als u bekend bent met vliegen, herinneren wij u vriendelijk om deze veiligheidsprocedure te volgen en te blijven zitten. Dank u voor uw medewerking.",
+        "ko": "여러분, 좌석벨트 싸인이 켜져 있습니다. 비행에 익숙하시더라도 이 안전 절차를 따르고 앉아 계시기 바랍니다. 협조해 주셔서 감사합니다.",
+        "pt_pt": "Senhoras e senhores, o sinal de apertar os cintos está aceso. Mesmo que estejam habituados a voar, lembramos gentilmente que sigam este procedimento de segurança e permaneçam sentados. Agradecemos a sua cooperação.",
+        "no": "Mine damer og herrer, skiltet med sikkerhetsbeltet er nå tent. Selv om du er kjent med å fly, minner vi deg vennlig om å følge denne sikkerhetsprosedyren og forbli sittende. Takk for din samarbeid.",
+        "th": "ท่านผู้โดยสารทุกท่าน  สัญญาณรัดเข็มขัดที่นั่งเปิดอยู่  แม้ว่าท่านจะเคยเคลื่อนไหวในเครื่องบินมาก่อน  ข อความกรุณาท่านปฏิบัติตามขั้นตอนการรักษาความปลอดภัยนี้ และนั่งอยู่ ขอบคุณท่านที่ร่วมมือ",
+        "zh": "女士们，先生们，安全带标志现在已经点亮。即使您已经熟悉飞行，我们也要求您遵守这一安全程序并保持就座。感谢您的合作。"
       }
     ]
   },
@@ -207,6 +287,54 @@ const texts: Text[] = [
         "no": "Mine damer og herrer, skiltet med sikkerhetsbeltet har blitt slått på.Vennligst returner tilbake til ditt sete og fest sikkerhetsbeltet. Bruk av toalettene er ikke tillatt på dette tidspunktet.",
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เราได้เปิดสัญญาณแจ้งรัดเข็มขัดที่นั่ง ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดขัดนิรภัยของท่านให้กระชับ และกรุณางดใช้ห้องน้ำในช่วงเวลานี้",
         "zh": "女士们，先生们，安全带标志已经打开。请您回到座位并系好安全带。目前暂时不允许使用洗手间。"
+      },
+      {
+        "en": "Ladies and gentlemen, the seatbelt sign is now on. We ask that you remain seated as much as possible. For safety reasons, our cabin crew will also minimize their movement until conditions stabilize.",
+        "pl": "Szanowni państwo, sygnał zapięcia pasów jest włączony. Prosimy o pozostanie na miejscach. Ze względów bezpieczeństwa, personel pokładowy również ograniczy swoje ruchy, dopóki warunki nie ustabilizują się.",
+        "de": "Meine Damen und Herren, das Anschnallzeichen ist jetzt an. Wir bitten Sie, so viel wie möglich sitzen zu bleiben. Aus Sicherheitsgründen wird auch unser Kabinenpersonal ihre Bewegungen minimieren, bis sich die Bedingungen stabilisieren.",
+        "pt_br": "Senhoras e senhores, o aviso de atar os cintos está ligado. Pedimos que permaneçam sentados o máximo possível. Por motivos de segurança, nossa tripulação de cabine também minimizará seus movimentos até que as condições se estabilizem.",
+        "es": "Damas y caballeros, la señal de cinturón de seguridad está encendida. Les pedimos que permanezcan sentados tanto como sea posible. Por razones de seguridad, nuestro personal de cabina también minimizará sus movimientos hasta que las condiciones se estabilicen.",
+        "fr": "Mesdames et messieurs, le signal de ceinture de sécurité est allumé. Nous vous demandons de rester assis autant que possible. Pour des raisons de sécurité, notre personnel de cabine minimisera également ses mouvements jusqu'à ce que les conditions se stabilisent.",
+        "it": "Signore e signori, il segnale delle cinture di sicurezza è acceso. Vi preghiamo di rimanere seduti il più possibile. Per motivi di sicurezza, il nostro personale di cabina ridurrà al minimo anche i propri movimenti fino a quando le condizioni si stabilizzeranno.",
+        "tr": "Bayanlar ve baylar, emniyet kemeri işareti şu anda açık. Mümkün olduğunca oturmanızı rica ederiz. Güvenlik nedenleriyle kabin ekibimiz de koşullar stabilize olana kadar hareketlerini en aza indirecektir.",
+        "nl": "Dames en heren, het stoelriemen vast teken is nu aan. We vragen u om zoveel mogelijk te blijven zitten. Om veiligheidsredenen zal ons cabinepersoneel ook hun bewegingen minimaliseren totdat de omstandigheden stabiliseren.",
+        "ko": "여러분, 좌석벨트 싸인이 켜졌습니다. 최대한 앉아 계시기 바랍니다. 안전상의 이유로 우리의 승무원도 상황이 안정될 때까지 움직임을 최소화할 것입니다.",
+        "pt_pt": "Senhoras e senhores, o sinal de apertar os cintos está ligado. Pedimos que permaneçam sentados o máximo possível. Por motivos de segurança, a nossa tripulação de cabine também minimizará os seus movimentos até que as condições se estabilizem.",
+        "no": "Mine damer og herrer, skiltet med sikkerhetsbeltet er nå på. Vi ber om at dere forblir sittende så mye som mulig. Av sikkerhetsmessige årsaker vil også vårt kabinpersonell minimere bevegelsene sine til forholdene stabiliserer seg.",
+        "th": "ท่านผู้โดยสารทุกท่าน สัญญาณรัดเข็มขัดที่นั่งเปิดอยู่  ขอความกรุณาทุกท่านนั่งประจำที่  ในเวลานี้  ขอให้พนักงานบนเครื่องจำกัดการเคลื่อนไหวของตนเองให้น้อยลงจนกว่าส ภาพจะเสถียร",
+        "zh": "女士们，先生们，安全带标志现在已经打开。我们要求您尽量保持就座。出于安全考虑，我们的机组人员也会尽量减少移动，直到条件稳定。"
+      },
+      {
+        "en": "Ladies and gentlemen, for everyone’s safety, we ask that you avoid moving around the cabin while the seatbelt sign is on. If you’re not seated, please return to your seat immediately.",
+        "pl": "Szanowni państwo, dla bezpieczeństwa wszystkich, prosimy o unikanie poruszania się po kabinie, gdy sygnał zapięcia pasów jest włączony. Jeśli nie siedzą państwo, prosimy o natychmiastowy powrót na miejsce.",
+        "de": "Meine Damen und Herren, zur Sicherheit aller bitten wir Sie, sich während des eingeschalteten Anschnallzeichens nicht in der Kabine zu bewegen. Wenn Sie nicht sitzen, kehren Sie bitte sofort zu Ihrem Platz zurück.",
+        "pt_br": "Senhoras e senhores, para a segurança de todos, pedimos que evitem se movimentar pela cabine enquanto o aviso de atar os cintos estiver ligado. Se não estiverem sentados, por favor, retornem imediatamente aos seus assentos.",
+        "es": "Damas y caballeros, por la seguridad de todos, les pedimos que eviten moverse por la cabina mientras el cinturón de seguridad esté encendido. Si no están sentados, por favor regresen inmediatamente a sus asientos.",
+        "fr": "Mesdames et messieurs, pour la sécurité de tous, nous vous demandons d'éviter de vous déplacer dans la cabine lorsque le signal de ceinture est allumé. Si vous n'êtes pas assis, veuillez retourner immédiatement à votre siège.",
+        "it": "Signore e signori, per la sicurezza di tutti, vi chiediamo di evitare di muovervi in cabina mentre il segnale delle cinture di sicurezza è acceso. Se non siete seduti, vi preghiamo di tornare immediatamente al vostro posto.",
+        "tr": "Bayanlar ve baylar, herkesin güvenliği için emniyet kemeri işareti açıkken kabin içinde hareket etmekten kaçınmanızı rica ederiz. Eğer oturmuyorsanız, lütfen hemen koltuğunuza geri dönün.",
+        "nl": "Dames en heren, voor ieders veiligheid vragen wij u om niet door de cabine te lopen terwijl het stoelriemen vast teken aan staat. Als u niet zit, gaat u alstublieft onmiddellijk terug naar uw stoel.",
+        "ko": "여러분, 안전을 위해 좌석벨트 싸인이 켜져 있는 동안 캐빈 내에서 이동을 피해 주시기 바랍니다. 앉아 계시지 않은 경우 즉시 자리로 돌아가 주세요.",
+        "pt_pt": "Senhoras e senhores, para a segurança de todos, pedimos que evitem movimentar-se pela cabine enquanto o sinal de apertar os cintos estiver ligado. Se não estiverem sentados, por favor, retornem imediatamente aos vossos lugares.",
+        "no": "Mine damer og herrer, for alles sikkerhet ber vi om at dere unngår å bevege dere rund i kabinen mens skiltet med sikkerhetsbeltet er på. Hvis du ikke sitter, vennligst returner umiddelbart til ditt sete.",
+        "th": "ท่านผู้โดยสารทุกท่าน  เพื่อความปลอดภัยของทุกคน  ขอความกรุณาท่านงดการเคลื่อนไหวในห้องโดยสารขณะที่สัญญ าณรัดเข็มขัดที่นั่งเปิดอยู่  หากท่านไม่ได้นั่ง  ขอให้ท่านกลับไปนั่งที่นั่งของท่านทันที",
+        "zh": "女士们，先生们，为了所有人的安全，我们要求您在安全带标志打开时不要在机舱内移动。如果您没有坐下，请立即返回座位。"
+      },
+      {
+        "en": "Ladies and gentlemen, the seatbelt sign is now illuminated. Even if you’re familiar with flying, we kindly remind you to follow this safety procedure and remain seated. Thank you for your cooperation.",
+        "pl": "Szanowni państwo, sygnał zapięcia pasów jest teraz włączony. Nawet jeśli są państwo doświadczeni w podróżowaniu samolotem, uprzejmie przypominamy o przestrzeganiu tej procedury bezpieczeństwa i pozostaniu na miejscach. Dziękujemy za współpracę.",
+        "de": "Meine Damen und Herren, das Anschnallzeichen ist jetzt beleuchtet. Auch wenn Sie mit dem Fliegen vertraut sind, erinnern wir Sie höflich daran, dieses Sicherheitsverfahren zu befolgen und sitzen zu bleiben. Vielen Dank für Ihre Kooperation.",
+        "pt_br": "Senhoras e senhores, o aviso de atar os cintos está aceso. Mesmo que estejam acostumados a voar, lembramos gentilmente que sigam este procedimento de segurança e permaneçam sentados. Agradecemos a sua cooperação.",
+        "es": "Damas y caballeros, la señal de cinturón de seguridad está encendida. Incluso si están familiarizados con volar, les recordamos amablemente que sigan este procedimiento de seguridad y permanezcan sentados. Gracias por su cooperación.",
+        "fr": "Mesdames et messieurs, le signal de ceinture de sécurité est maintenant allumé. Même si vous êtes familier avec le vol, nous vous rappelons gentiment de suivre cette procédure de sécurité et de rester assis. Merci pour votre coopération.",
+        "it": "Signore e signori, il segnale delle cinture di sicurezza è acceso. Anche se siete abituati a volare, vi ricordiamo gentilmente di seguire questa procedura di sicurezza e di rimanere seduti. Grazie per la vostra collaborazione.",
+        "tr": "Bayanlar ve baylar, emniyet kemeri işareti şu anda yanıyor. Uçmaya aşina olsanız bile, bu güvenlik prosedürünü takip etmenizi ve oturmanızı rica ederiz. İşbirliğiniz için teşekkür ederiz.",
+        "nl": "Dames en heren, het stoelriemen vast teken is nu verlicht. Ook als u bekend bent met vliegen, herinneren wij u vriendelijk om deze veiligheidsprocedure te volgen en te blijven zitten. Dank u voor uw medewerking.",
+        "ko": "여러분, 좌석벨트 싸인이 켜져 있습니다. 비행에 익숙하시더라도 이 안전 절차를 따르고 앉아 계시기 바랍니다. 협조해 주셔서 감사합니다.",
+        "pt_pt": "Senhoras e senhores, o sinal de apertar os cintos está aceso. Mesmo que estejam habituados a voar, lembramos gentilmente que sigam este procedimento de segurança e permaneçam sentados. Agradecemos a sua cooperação.",
+        "no": "Mine damer og herrer, skiltet med sikkerhetsbeltet er nå tent. Selv om du er kjent med å fly, minner vi deg vennlig om å følge denne sikkerhetsprosedyren og forbli sittende. Takk for din samarbeid.",
+        "th": "ท่านผู้โดยสารทุกท่าน  สัญญาณรัดเข็มขัดที่นั่งเปิดอยู่  แม้ว่าท่านจะเคยเคลื่อนไหวในเครื่องบินมาก่อน  ข อความกรุณาท่านปฏิบัติตามขั้นตอนการรักษาความปลอดภัยนี้ และนั่งอยู่ ขอบคุณท่านที่ร่วมมือ",
+        "zh": "女士们，先生们，安全带标志现在已经点亮。即使您已经熟悉飞行，我们也要求您遵守这一安全程序并保持就座。感谢您的合作。"
       }
     ]
   },
@@ -663,7 +791,7 @@ const texts: Text[] = [
         "pt_pt": "Tripulação de cabine, portas de braço e verificação cruzada.",
         "no": "Kabinpersonale, armdører og krysssjekk.",
         "th": "ลูกเรือเปิดประตูและตรวจค้น",
-        "zh": "机组人员、扶手​​门和交叉检查。"
+        "zh": "机组人员，请打开舱门并进行交叉检查。"
       }
     ]
   },
@@ -764,6 +892,22 @@ const texts: Text[] = [
         "no": "Lysene vil dempes før avgang. Hvis du trenger ekstra lys, bruk en leselampe over setet.",
         "th": "ไฟจะหรี่ลงก่อนเครื่องขึ้น หากคุณต้องการแสงสว่างเพิ่มเติม โปรดใช้โคมไฟอ่านหนังสือเหนือที่นั่งของคุณ",
         "zh": "起飞前灯光将变暗。如果您需要额外的照明，请使用座位上方的阅读灯。"
+      },
+      {
+        "en": "Ladies and gentlemen, we will be dimming the cabin lights for takeoff. If you require additional light, please use the button above your seat to activate your reading light.",
+        "pl": "Szanowni państwo, światła w kabinie zostaną ściemnione przed startem. Jeśli potrzebują państwo dodatkowego światła, proszę skorzystać z przycisku nad swoim miejscem, aby włączyć lampkę do czytania.",
+        "de": "Meine Damen und Herren, wir werden die Kabinenbeleuchtung für den Start dimmen. Wenn Sie zusätzliches Licht benötigen, verwenden Sie bitte den Knopf über Ihrem Sitzplatz, um Ihre Leselampe zu aktivieren.",
+        "pt_br": "Senhoras e senhores, as luzes da cabine serão reduzidas para a decolagem. Se precisar de luz adicional, use o botão acima do seu assento para ativar a sua luz de leitura.",
+        "es": "Damas y caballeros, atenuaremos las luces de la cabina para el despegue. Si necesita luz adicional, utilice el botón encima de su asiento para activar su luz de lectura.",
+        "fr": "Mesdames et messieurs, nous allons tamiser les lumières de la cabine pour le décollage. Si vous avez besoin de lumière supplémentaire, veuillez utiliser le bouton au-dessus de votre siège pour activer votre lampe de lecture.",
+        "it": "Signore e signori, abbasseremo le luci della cabina per il decollo. Se hai bisogno di luce aggiuntiva, utilizza il pulsante sopra il tuo sedile per attivare la tua lampada da lettura.",
+        "tr": "Bayanlar ve baylar, kalkış için kabin ışıklarını kısacağız. Ek ışığa ihtiyacınız varsa okuma lambanızı etkinleştirmek için koltuğunuzun üzerindeki düğmeyi kullanın.",
+        "nl": "Dames en heren, we zullen de cabineverlichting dimmen voor het opstijgen. Als u extra licht nodig heeft, gebruik dan de knop boven uw stoel om uw leeslamp te activeren.",
+        "ko": "여러분, 이륙을 위해 캐빈 조명을 어둡게 할 것입니다. 추가 조명이 필요하면 좌석 위 버튼을 눌러 독서등을 켜세요.",
+        "pt_pt": "Senhoras e senhores, as luzes da cabine serão reduzidas para a descolagem. Se precisar de luz adicional, utilize o botão acima do seu assento para ativar a sua luz de leitura.",
+        "no": "Mine damer og herrer, vi vil dempe kabinlyset før avgang. Hvis du trenger ekstra lys, bruk knappen over setet ditt for å aktivere leselyset.",
+        "th": "ลูกเรือทุกท่าน เราจะปิดแสงในห้องโดยสารสำหรับการออกเดินทาง หากคุณต้องการแสงสว่างเพิ่มเติม โปรดใช้ปุ่มเหนือที่นั่งของคุณเพื่อเปิดไฟอ่านหนังสือของคุณ",
+        "zh": "女士们，先生们，我们将为起飞调暗客舱灯光。如果您需要额外的照明，请使用座位上方的按钮激活阅读灯。"
       }
     ]
   },
@@ -833,6 +977,22 @@ const texts: Text[] = [
         "no": "Vi stiger nå til vår marsjhøyde. Vi vil snart starte vår service om bord. Dere kan finne menyen vår i setelommen foran dere.",
         "th": "ขณะนี้เรากำลังไต่ระดับไปสู่ระดับความสูงสำหรับการบิน เราจะเริ่มให้บริการบนเครื่องบินในไม่ช้า ท่านสามารถดูเมนูบนเครื่องได้ที่ช่องใส่ของหน้าที่นั่งของท่าน",
         "zh": "我们正在爬升至巡航高度。我们将很快开始机上服务。您可以在前方座椅口袋中找到我们的空中菜单。"
+      },
+      {
+        "en": "Ladies and gentlemen, in just a few moments, our cabin crew will begin serving refreshments. Please have your tray tables down and be ready to make your selection.",
+        "pl": "Szanowni państwo, za chwilę nasza załoga pokładowa rozpocznie serwowanie napojów. Prosimy o otworzenie stolików i przygotowanie się do wyboru.",
+        "de": "Meine Damen und Herren, in wenigen Augenblicken wird unser Kabinenpersonal mit der Erfrischungsgetränkeausgabe beginnen. Bitte klappen Sie Ihre Tische herunter und seien Sie bereit, Ihre Auswahl zu treffen.",
+        "pt_br": "Senhoras e senhores, em poucos instantes, nossa tripulação de cabine começará a servir bebidas. Por favor, mantenha a bandeja abaixada e esteja pronto para fazer sua escolha.",
+        "es": "Damas y caballeros, en unos momentos, nuestra tripulación de cabina comenzará a servir refrescos. Por favor, mantengan las mesas de bandeja abajo y estén listos para hacer su elección.",
+        "fr": "Mesdames et messieurs, dans quelques instants, notre personnel de cabine commencera à servir des rafraîchissements. Veuillez abaisser vos tablettes et soyez prêts à faire votre choix.",
+        "it": "Signore e signori, tra pochi istanti il nostro personale di cabina inizierà a servire i rinfreschi. Si prega di abbassare i tavoli e di essere pronti a fare la vostra scelta.",
+        "tr": "Bayanlar ve baylar, birkaç dakika içinde kabin ekibimiz içecek servisine başlayacak. Lütfen tepsi masalarınızı indirin ve seçiminizi yapmaya hazır olun.",
+        "nl": "Dames en heren, over enkele ogenblikken zal ons cabinepersoneel beginnen met het serveren van drankjes. Houd uw tafeltjes naar beneden en wees klaar om uw keuze te maken.",
+        "ko": "여러분, 잠시 후 캐빈크루가 음료를 제공하기 시작할 것입니다. 트레이 테이블을 내리고 선택할 준비를 하세요.",
+        "pt_pt": "Senhoras e senhores, dentro de momentos, a nossa tripulação de cabine começará a servir bebidas. Por favor, mantenha a bandeja baixa e esteja pronto para fazer a sua escolha.",
+        "no": "Mine damer og herrer, om et øyeblikk vil kabinpersonalet vårt begynne å servere forfriskninger. Vennligst ha bordet nede og vær klar til å velge.",
+        "th": "ลูกเรือทุกท่าน ในไม่ช้าพวกเราจะเริ่มให้บริการเครื่องดื่ม กรุณาเปิดโต๊ะลงและเตรียมเลือกเมนูของท่าน",
+        "zh": "女士们，先生们，过一会儿，我们的机组人员将开始为您提供饮料。请将托盘桌放下，并准备好选择。"
       }
     ]
   },
@@ -948,6 +1108,86 @@ const texts: Text[] = [
         "no": "Vi starter nå vår shoppingservice om bord. I dag anbefaler vi sterkt vårt spesialtilbud – et sett med tre parfymer til prisen av to. Vi har også et bredt utvalg av andre produkter tilgjengelig for kjøp, som suvenirer, kosmetikk og snacks. Dere kan finne vår shoppingkatalog i setelommen foran dere. Vi aksepterer både kortbetalinger og kontanter.",
         "th": "ขณะนี้เราเริ่มบริการขายสินค้าบนเครื่องบินแล้ว วันนี้เราขอแนะนำข้อเสนอพิเศษ เซ็ตน้ำหอม 3 ขวดในราคาสองขวดเท่านั้น เรามีสินค้าอื่น ๆ ให้เลือกซื้อมากมาย เช่น ของที่ระลึก เครื่องสำอาง และขนมขบเคี้ยว ท่านสามารถดูแคทตาล็อกสินค้าได้ที่ช่องใส่ของหน้าที่นั่งของท่าน เรารับชำระด้วยบัตรเครดิตและเงินสด",
         "zh": "现在开始机上购物服务。今天我们特别推荐优惠活动，三瓶香水只需两瓶的价格。我们还有各种产品供您选购，例如纪念品、化妆品和零食。您可以在前方座椅口袋中找到我们的购物目录。我们接受信用卡和现金支付。"
+      },
+      {
+        "en": "Ladies and gentlemen, our in-flight shopping service is now available. Treat yourself or a loved one with our exclusive collection of duty-free items. We are highlighting our new travel kits and limited-edition accessories on this flight. Find the catalog in your seat pocket, and feel free to ask our cabin crew for assistance. Card payments and cash are accepted.",
+        "pl": "Szanowni państwo, nasza usługa zakupów na pokładzie jest już dostępna. Obdarujcie siebie lub kogoś bliskiego naszą ekskluzywną kolekcją produktów bezcłowych. Na tym locie prezentujemy nasze nowe zestawy podróżne i akcesoria w limitowanej edycji. Katalog produktów znajdą państwo w kieszeni siedzenia przed sobą. Płatności kartą i gotówką są akceptowane.",
+        "de": "Meine Damen und Herren, unser Einkaufsservice an Bord ist jetzt verfügbar. Verwöhnen Sie sich selbst oder einen geliebten Menschen mit unserer exklusiven Kollektion zollfreier Artikel. Auf diesem Flug stellen wir unsere neuen Reisesets und Accessoires in limitierter Auflage vor. Finden Sie den Katalog in Ihrer Sitztasche und wenden Sie sich gerne an unser Kabinenpersonal, wenn Sie Hilfe benötigen. Kartenzahlungen und Bargeld werden akzeptiert.",
+        "pt_br": "Senhoras e senhores, nosso serviço de compras a bordo já está disponível. Presenteie a si mesmo ou a um ente querido com nossa coleção exclusiva de itens duty-free. Estamos destacando nossos novos kits de viagem e acessórios de edição limitada neste voo. Encontre o catálogo no bolso do seu assento e sinta-se à vontade para pedir ajuda à nossa tripulação de cabine. Pagamentos com cartão e dinheiro são aceitos.",
+        "es": "Damas y caballeros, nuestro servicio de compras a bordo ya está disponible. Regálate a ti mismo o a un ser querido nuestra exclusiva colección de artículos libres de impuestos. En este vuelo, destacamos nuestros nuevos kits de viaje y accesorios de edición limitada. Encuentra el catálogo en el bolsillo de tu asiento y no dudes en pedir ayuda a nuestra tripulación de cabina. Se aceptan pagos con tarjeta y en efectivo.",
+        "fr": "Mesdames et messieurs, notre service de shopping à bord est désormais disponible. Faites-vous plaisir ou faites plaisir à un proche avec notre collection exclusive d'articles duty free. Nous mettons en avant nos nouveaux kits de voyage et nos accessoires en édition limitée sur ce vol. Retrouvez le catalogue dans la pochette de votre siège et n'hésitez pas à demander de l'aide à notre personnel de cabine. Les paiements par carte et en espèces sont acceptés.",
+        "it": "Signore e signori, il nostro servizio di shopping in volo è ora disponibile. Fate un regalo a voi stessi o a una persona cara con la nostra esclusiva collezione di articoli duty-free. Stiamo evidenziando i nostri nuovi kit da viaggio e accessori in edizione limitata su questo volo. Trovate il catalogo nella tasca del vostro sedile e sentitevi liberi di chiedere assistenza al nostro personale di cabina. Sono accettati pagamenti con carta e contanti.",
+        "tr": "Bayanlar ve baylar, uçak içi alışveriş hizmetimiz artık mevcut. Kendinize veya sevdiklerinize gümrüksüz ürünlerden oluşan özel koleksiyonumuzla bir jest yapın. Bu uçuşta yeni seyahat kitlerimizi ve sınırlı sayıdaki aksesuarlarımızı öne çıkarıyoruz. Kataloğu koltuk cebinizde bulun ve kabin ekibimizden yardım istemekten çekinmeyin. Kart ödemeleri ve nakit kabul edilmektedir.",
+        "nl": "Dames en heren, onze in-flight shopping service is nu beschikbaar. Trakteer uzelf of een geliefde op onze exclusieve collectie dutyfree artikelen. We lichten onze nieuwe reiskits en limited edition accessoires uit op deze vlucht. Zoek de catalogus in uw stoelvak en vraag gerust onze cabinebemanning om hulp. Kaartbetalingen en contant geld worden geaccepteerd.",
+        "ko": "신사 숙녀 여러분, 저희의 기내 쇼핑 서비스가 이제 이용 가능합니다. 저희의 독점적인 면세품 컬렉션으로 자신이나 사랑하는 사람을 대접하세요. 저희는 이번 항공편에서 새로운 여행 키트와 한정판 액세서리를 강조하고 있습니다. 좌석 주머니에서 카탈로그를 찾고, 객실 승무원에게 도움을 요청하세요. 카드 결제와 현금 결제가 가능합니다.",
+        "pt_pt": "Senhoras e senhores, o nosso serviço de compras a bordo já está disponível. Presenteie-se a si ou a alguém querido com a nossa coleção exclusiva de artigos duty-free. Destacamos os nossos novos kits de viagem e acessórios de edição limitada neste voo. Encontre o catálogo no bolso do seu lugar e sinta-se à vontade para pedir ajuda à nossa tripulação de cabine. Pagamentos com cartão e dinheiro são aceites.",
+        "no": "Mine damer og herrer, vår shoppingtjeneste på fly er nå tilgjengelig. Unn deg selv eller en du er glad i med vår eksklusive samling av avgiftsfrie varer. Vi fremhever våre nye reisesett og tilbehør i begrenset opplag på denne flyturen. Finn katalogen i setelommen, og spør gjerne kabinpersonalet vårt om hjelp. Kortbetalinger og kontanter aksepteres.",
+        "th": "",
+        "zh": "女士们先生们，我们的机上购物服务现已推出。用我们独家的免税商品系列犒劳自己或爱人。我们将在本次航班上重点介绍我们的全新旅行套装和限量版配件。您可以在座位口袋中找到目录，并随时向我们的机组人员寻求帮助。接受信用卡和现金付款。"
+      },
+      {
+        "en": "Ladies and gentlemen, as we cruise at our cruising altitude, we invite you to explore our curated in-flight shopping selection. This month, we’re offering unique, locally inspired items and seasonal gifts. Don’t miss out on these limited-edition products! Please refer to the catalog in the seat pocket in front of you. Our crew is here to assist, and all major payment methods are accepted.",
+        "pl": "Panie i panowie, podczas gdy lecimy na naszej wysoksci przelotowej, zapraszamy do zapoznania się z naszą starannie dobraną ofertą zakupów w trakcie lotu. W tym miesiącu oferujemy wyjątkowe, inspirowane lokalnie przedmioty i sezonowe prezenty. Nie przegap tych produktów z limitowanej edycji! Zapoznaj się z katalogiem w kieszeni fotela przed Tobą. Nasza załoga jest tutaj, aby pomóc, a wszystkie główne metody płatności są akceptowane.",
+        "de": "Meine Damen und Herren, während wir auf Reiseflughöhe fliegen, laden wir Sie ein, unsere kuratierte Auswahl an Bordeinkäufen zu erkunden. Diesen Monat bieten wir einzigartige, lokal inspirierte Artikel und saisonale Geschenke an. Lassen Sie sich diese Produkte in limitierter Auflage nicht entgehen! Bitte sehen Sie sich den Katalog in der Sitztasche vor Ihnen an. Unsere Crew ist hier, um Ihnen zu helfen, und wir akzeptieren alle gängigen Zahlungsmethoden.",
+        "pt_br": "Senhoras e senhores, enquanto navegamos em nossa altitude de cruzeiro, convidamos vocês a explorar nossa seleção de compras de bordo com curadoria. Este mês, estamos oferecendo itens exclusivos, inspirados localmente, e presentes sazonais. Não perca esses produtos de edição limitada! Consulte o catálogo no bolso do assento à sua frente. Nossa equipe está aqui para ajudar, e todos os principais métodos de pagamento são aceitos.",
+        "es": "Damas y caballeros, mientras navegamos a nuestra altitud de crucero, los invitamos a explorar nuestra selección de compras a bordo. Este mes, ofrecemos artículos únicos de inspiración local y regalos de temporada. ¡No se pierda estos productos de edición limitada! Consulte el catálogo en el bolsillo del asiento frente a usted. Nuestra tripulación está aquí para ayudarlo y se aceptan todos los métodos de pago principales.",
+        "fr": "Mesdames et messieurs, alors que nous naviguons à notre altitude de croisière, nous vous invitons à explorer notre sélection de produits d'achats en vol. Ce mois-ci, nous proposons des articles uniques d'inspiration locale et des cadeaux de saison. Ne manquez pas ces produits en édition limitée ! Veuillez vous référer au catalogue dans la pochette du siège devant vous. Notre équipage est là pour vous aider et tous les principaux modes de paiement sont acceptés.",
+        "it": "Signore e signori, mentre viaggiamo alla nostra altitudine di crociera, vi invitiamo a esplorare la nostra selezione di shopping in volo. Questo mese, offriamo articoli unici, ispirati alla gente del posto e regali stagionali. Non perdetevi questi prodotti in edizione limitata! Consultate il catalogo nella tasca del sedile di fronte a voi. Il nostro equipaggio è qui per assistervi e sono accettati tutti i principali metodi di pagamento.",
+        "tr": "Bayanlar ve baylar, seyir irtifamızda seyrederken, özenle seçilmiş uçak içi alışveriş seçkimizi keşfetmenizi rica ediyoruz. Bu ay, benzersiz, yerel esintili ürünler ve mevsimsel hediyeler sunuyoruz. Bu sınırlı sayıdaki ürünleri kaçırmayın! Lütfen önünüzdeki koltuk cebindeki kataloğa bakın. Mürettebatımız size yardımcı olmak için burada ve tüm önemli ödeme yöntemleri kabul edilmektedir.",
+        "nl": "Dames en heren, terwijl we op onze cruisehoogte varen, nodigen we u uit om onze samengestelde in-flight shopping selectie te verkennen. Deze maand bieden we unieke, lokaal geïnspireerde artikelen en seizoensgebonden geschenken. Mis deze producten in beperkte oplage niet! Raadpleeg de catalogus in de stoelzak voor u. Onze bemanning staat voor u klaar en alle gangbare betaalmethoden worden geaccepteerd.",
+        "ko": "신사 숙녀 여러분, 순항 고도에서 순항하는 동안, 엄선된 기내 쇼핑 셀렉션을 살펴보시기 바랍니다. 이번 달에는 독특하고 현지에서 영감을 받은 품목과 계절별 선물을 제공합니다. 이 한정판 제품을 놓치지 마세요! 앞 좌석 주머니에 있는 카탈로그를 참조하세요. 승무원이 도와드릴 준비가 되어 있으며, 모든 주요 결제 방법이 허용됩니다.",
+        "pt_pt": "Senhoras e senhores, enquanto navegamos na nossa altitude de cruzeiro, convidamo-los a explorar a nossa seleção selecionada de compras a bordo. Este mês, oferecemos artigos exclusivos de inspiração local e presentes sazonais. Não perca estes produtos de edição limitada! Consulte o catálogo no bolso do assento à sua frente. A nossa equipa está aqui para ajudar e todos os principais métodos de pagamento são aceites.",
+        "no": "Mine damer og herrer, mens vi cruiser i cruisehøyden vår, inviterer vi deg til å utforske vårt utvalgte shoppingutvalg under fly. Denne måneden tilbyr vi unike, lokalt inspirerte varer og sesongbaserte gaver. Ikke gå glipp av disse produktene i begrenset opplag! Se katalogen i setelommen foran deg. Vårt mannskap er her for å hjelpe, og alle viktige betalingsmetoder aksepteres.",
+        "th": "",
+        "zh": "女士们先生们，当我们在巡航高度巡航时，我们邀请您探索我们精心挑选的机上购物选择。本月，我们将提供独特的、具有当地特色的商品和季节性礼品。不要错过这些限量版产品！请参阅您前方座椅口袋中的目录。我们的机组人员随时为您提供帮助，并且接受所有主要付款方式。"
+      },
+      {
+        "en": "Ladies and gentlemen, we are pleased to offer our in-flight shopping service during this portion of your journey. Whether you're looking for a thoughtful gift, a travel essential, or just something to indulge yourself, we've got you covered. Flip through the catalog in your seat pocket, and let our crew know if you have any questions. We accept payments in cash or by card.",
+        "pl": "Panie i panowie, z przyjemnością oferujemy naszą usługę zakupów w trakcie lotu na tym etapie podróży. Niezależnie od tego, czy szukasz przemyślanego prezentu, niezbędnego przedmiotu w podróży, czy po prostu czegoś, co pozwoli ci się rozpieścić, mamy coś dla ciebie. Przejrzyj katalog w kieszeni fotela i daj znać naszej załodze, jeśli masz jakieś pytania. Akceptujemy płatności gotówką lub kartą.",
+        "de": "Sehr geehrte Damen und Herren, wir freuen uns, Ihnen während dieses Teils Ihrer Reise unseren Einkaufsservice an Bord anbieten zu können. Egal, ob Sie ein nettes Geschenk, ein Reiseutensil oder einfach nur etwas für sich selbst suchen, wir haben das Richtige für Sie. Blättern Sie durch den Katalog in Ihrer Sitztasche und wenden Sie sich bei Fragen an unsere Crew. Wir akzeptieren Zahlungen in bar oder mit Karte.",
+        "pt_br": "Senhoras e senhores, temos o prazer de oferecer nosso serviço de compras a bordo durante esta parte da sua viagem. Quer você esteja procurando um presente atencioso, um item essencial para viagem ou apenas algo para se mimar, nós temos o que você precisa. Folheie o catálogo no bolso do seu assento e avise nossa equipe se tiver alguma dúvida. Aceitamos pagamentos em dinheiro ou cartão.",
+        "es": "Damas y caballeros, nos complace ofrecer nuestro servicio de compras a bordo durante esta parte de su viaje. Ya sea que esté buscando un obsequio especial, un artículo esencial para el viaje o simplemente algo para darse un gusto, lo tenemos cubierto. Hojee el catálogo en el bolsillo de su asiento y comuníquese con nuestra tripulación si tiene alguna pregunta. Aceptamos pagos en efectivo o con tarjeta.",
+        "fr": "Mesdames et messieurs, nous sommes heureux de vous proposer notre service d'achats en vol pendant cette partie de votre voyage. Que vous recherchiez un cadeau attentionné, un article de voyage indispensable ou simplement quelque chose pour vous faire plaisir, nous avons ce qu'il vous faut. Feuilletez le catalogue dans la pochette de votre siège et faites savoir à notre équipage si vous avez des questions. Nous acceptons les paiements en espèces ou par carte.",
+        "it": "Signore e signori, siamo lieti di offrirvi il nostro servizio di shopping in volo durante questa parte del vostro viaggio. Che stiate cercando un regalo premuroso, un articolo essenziale per il viaggio o semplicemente qualcosa per coccolarvi, abbiamo quello che fa per voi. Sfogliate il catalogo nella tasca del vostro sedile e fate sapere al nostro equipaggio se avete domande. Accettiamo pagamenti in contanti o con carta.",
+        "tr": "Bayanlar ve baylar, yolculuğunuzun bu bölümünde uçak içi alışveriş hizmetimizi sunmaktan mutluluk duyuyoruz. İster düşünceli bir hediye, ister seyahat için olmazsa olmaz bir şey, ister sadece kendinizi şımartabileceğiniz bir şey arıyor olun, sizi düşündük. Koltuk cebinizdeki kataloğu inceleyin ve herhangi bir sorunuz varsa mürettebatımıza bildirin. Nakit veya kartla ödeme kabul ediyoruz.",
+        "nl": "Dames en heren, we bieden u graag onze in-flight shopping service aan tijdens dit deel van uw reis. Of u nu op zoek bent naar een attent cadeau, een reisbenodigdheden of gewoon iets om uzelf te verwennen, wij hebben het voor u. Blader door de catalogus in uw stoelzak en laat het onze bemanning weten als u vragen hebt. Wij accepteren betalingen in contanten of per kaart.",
+        "ko": "신사 숙녀 여러분, 저희는 여행의 이 구간 동안 기내 쇼핑 서비스를 제공하게 되어 기쁩니다. 사려 깊은 선물, 여행 필수품, 또는 그저 자신을 만족시킬 무언가를 찾고 계시든, 저희가 준비해 놓았습니다. 좌석 주머니에 있는 카탈로그를 넘기고, 궁금한 사항이 있으면 승무원에게 말씀해 주세요. 현금 또는 카드로 결제가 가능합니다.",
+        "pt_pt": "Senhoras e senhores, temos o prazer de oferecer o nosso serviço de compras a bordo durante esta parte da vossa viagem. Quer esteja à procura de um presente atencioso, um item essencial para viagem ou apenas algo para se mimar, nós temos o que precisa. Percorra o catálogo no bolso do seu lugar e informe a nossa tripulação se tiver alguma dúvida. Aceitamos pagamentos em dinheiro ou cartão.",
+        "no": "Mine damer og herrer, vi er glade for å kunne tilby vår shoppingtjeneste under denne delen av reisen din. Enten du leter etter en omtenksom gave, en nødvendig reise eller bare noe å unne deg selv, har vi dekket deg. Bla gjennom katalogen i setelommen, og gi beskjed til teamet vårt hvis du har spørsmål. Vi aksepterer betaling kontant eller med kort.",
+        "th": "",
+        "zh": "女士们先生们，我们很高兴在您旅程的这一阶段为您提供机上购物服务。无论您是在寻找贴心的礼物、旅行必需品还是只是一些让自己放纵的东西，我们都能满足您的需求。翻阅您座位口袋里的目录，如果您有任何问题，请告知我们的工作人员。我们接受现金或信用卡付款。"
+      },
+      {
+        "en": "Attention, passengers! Don’t miss our special offer available only during this flight: purchase any two duty-free items and get 20% off your third item. Our catalog features a wide range of items, including premium fragrances, gadgets, and travel-exclusive items. Find the catalog in the seat pocket and speak with the cabin crew to learn more.",
+        "pl": "Uwaga, pasażerowie! Nie przegapcie naszej oferty specjalnej dostępnej tylko podczas tego lotu: kup dwa dowolne produkty bezcłowe i otrzymaj 20% zniżki na trzeci produkt. Nasz katalog zawiera szeroki wybór produktów, w tym perfumy premium, gadżety i produkty dostępne wyłącznie w podróży. Znajdź katalog w kieszeni fotela i porozmawiaj z personelem pokładowym, aby dowiedzieć się więcej.",
+        "de": "Achtung, Passagiere! Verpassen Sie nicht unser Sonderangebot, das nur während dieses Fluges verfügbar ist: Kaufen Sie zwei beliebige zollfreie Artikel und erhalten Sie 20 % Rabatt auf Ihren dritten Artikel. Unser Katalog umfasst eine große Auswahl an Artikeln, darunter hochwertige Düfte, Gadgets und Reiseartikel. Finden Sie den Katalog in der Sitztasche und sprechen Sie mit dem Kabinenpersonal, um mehr zu erfahren.",
+        "pt_br": "Atenção, passageiros! Não perca nossa oferta especial disponível somente durante este voo: compre dois itens duty-free e ganhe 20% de desconto no seu terceiro item. Nosso catálogo apresenta uma ampla variedade de itens, incluindo fragrâncias premium, gadgets e itens exclusivos para viagens. Encontre o catálogo no bolso do assento e fale com a tripulação da cabine para saber mais.",
+        "es": "¡Atención, pasajeros! No se pierdan nuestra oferta especial disponible solo durante este vuelo: compre dos artículos libres de impuestos y obtenga un 20 % de descuento en el tercero. Nuestro catálogo incluye una amplia gama de artículos, incluidas fragancias premium, gadgets y artículos exclusivos para viajes. Encuentre el catálogo en el bolsillo del asiento y hable con la tripulación de cabina para obtener más información.",
+        "fr": "Attention, passagers ! Ne manquez pas notre offre spéciale disponible uniquement pendant ce vol : achetez deux articles duty free et obtenez 20 % de réduction sur le troisième article. Notre catalogue propose une large gamme d'articles, notamment des parfums haut de gamme, des gadgets et des articles de voyage exclusifs. Trouvez le catalogue dans la pochette du siège et parlez avec l'équipage de cabine pour en savoir plus.",
+        "it": "Attenzione, passeggeri! Non perdetevi la nostra offerta speciale disponibile solo durante questo volo: acquistate due articoli duty-free e ricevete il 20% di sconto sul terzo articolo. Il nostro catalogo presenta un'ampia gamma di articoli, tra cui profumi di alta qualità, gadget e articoli esclusivi per i viaggi. Trovate il catalogo nella tasca del sedile e parlate con l'equipaggio di cabina per saperne di più.",
+        "tr": "Dikkat yolcular! Sadece bu uçuşta geçerli olan özel teklifimizi kaçırmayın: iki duty free ürünü satın alın ve üçüncü ürününüzde %20 indirim kazanın. Kataloğumuzda premium parfümler, aletler ve seyahate özel ürünler dahil olmak üzere çok çeşitli ürünler yer almaktadır. Kataloğu koltuk cebinde bulun ve daha fazla bilgi edinmek için kabin ekibiyle görüşün.",
+        "nl": "Let op, passagiers! Mis onze speciale aanbieding niet die alleen tijdens deze vlucht beschikbaar is: koop twee dutyfree artikelen en ontvang 20% ​​korting op het derde artikel. Onze catalogus bevat een breed scala aan artikelen, waaronder premium geuren, gadgets en exclusieve reisartikelen. Zoek de catalogus in het stoelvak en spreek met het cabinepersoneel voor meer informatie.",
+        "ko": "주의하세요, 승객 여러분! 이 항공편에서만 제공되는 특별 혜택을 놓치지 마세요. 면세품 2개를 구매하시면 3번째 품목은 20% 할인됩니다. 저희 카탈로그에는 프리미엄 향수, 가젯, 여행 전용 품목을 포함한 다양한 품목이 있습니다. 좌석 주머니에서 카탈로그를 찾고 객실 승무원에게 문의하여 자세히 알아보세요.",
+        "pt_pt": "Atenção, passageiros! Não perca a nossa oferta especial disponível apenas durante este voo: compre quaisquer dois artigos duty-free e obtenha 20% de desconto no terceiro artigo. O nosso catálogo apresenta uma ampla variedade de artigos, incluindo fragrâncias premium, gadgets e artigos exclusivos para viagens. Encontre o catálogo no bolso do assento e fale com a tripulação de cabine para saber mais.",
+        "no": "OBS, passasjerer! Ikke gå glipp av spesialtilbudet vårt som kun er tilgjengelig under denne flyturen: Kjøp to tollfrie varer og få 20 % rabatt på den tredje varen din. Katalogen vår inneholder et bredt utvalg av varer, inkludert førsteklasses dufter, dingser og reiseeksklusive varer. Finn katalogen i setelommen og snakk med kabinpersonalet for å lære mer.",
+        "th": "",
+        "zh": "乘客请注意！不要错过我们仅在此航班期间提供的特别优惠：购买任何两件免税商品，第三件商品可享受 20% 折扣。我们的产品目录包含各种商品，包括高级香水、小工具和旅行专属商品。请在座位口袋中找到目录，并与机组人员交谈以了解更多信息。"
+      },
+      {
+        "en": "Ladies and gentlemen, we are delighted to bring you a personalized shopping experience during your flight. Our catalog offers exclusive collections tailored for our travelers, including bestselling perfumes, luxury watches, and travel must-haves. If you’d like recommendations or assistance, please let our crew know.",
+        "pl": "Panie i panowie, z przyjemnością zaoferujemy Państwu spersonalizowane zakupy podczas lotu. Nasz katalog oferuje ekskluzywne kolekcje dostosowane do potrzeb naszych podróżnych, w tym bestsellerowe perfumy, luksusowe zegarki i niezbędne w podróży rzeczy. Jeśli chcieliby Państwo uzyskać rekomendacje lub pomoc, proszę dać znać naszej załodze.",
+        "de": "Meine Damen und Herren, wir freuen uns, Ihnen während Ihres Fluges ein personalisiertes Einkaufserlebnis bieten zu können. Unser Katalog bietet exklusive Kollektionen, die speziell auf unsere Reisenden zugeschnitten sind, darunter Bestseller-Parfums, Luxusuhren und Must-haves für die Reise. Wenn Sie Empfehlungen oder Hilfe benötigen, wenden Sie sich bitte an unsere Crew.",
+        "pt_br": "Senhoras e senhores, estamos felizes em trazer a vocês uma experiência de compras personalizada durante seu voo. Nosso catálogo oferece coleções exclusivas sob medida para nossos viajantes, incluindo perfumes campeões de vendas, relógios de luxo e itens essenciais para viagens. Se você quiser recomendações ou assistência, informe nossa tripulação.",
+        "es": "Damas y caballeros, estamos encantados de brindarles una experiencia de compras personalizada durante su vuelo. Nuestro catálogo ofrece colecciones exclusivas diseñadas para nuestros viajeros, incluidos los perfumes más vendidos, relojes de lujo y artículos imprescindibles para viajar. Si desea recomendaciones o asistencia, comuníquese con nuestra tripulación.",
+        "fr": "Mesdames et messieurs, nous sommes ravis de vous offrir une expérience de shopping personnalisée pendant votre vol. Notre catalogue propose des collections exclusives adaptées à nos voyageurs, notamment des parfums à succès, des montres de luxe et des incontournables du voyage. Si vous avez besoin de recommandations ou d'aide, n'hésitez pas à en faire part à notre équipage.",
+        "it": "Signore e signori, siamo lieti di offrirvi un'esperienza di shopping personalizzata durante il vostro volo. Il nostro catalogo offre collezioni esclusive su misura per i nostri viaggiatori, tra cui profumi bestseller, orologi di lusso e must-have da viaggio. Se desiderate consigli o assistenza, fatelo sapere al nostro equipaggio.",
+        "tr": "Bayanlar ve baylar, uçuşunuz sırasında size kişiselleştirilmiş bir alışveriş deneyimi sunmaktan mutluluk duyuyoruz. Kataloğumuz, en çok satan parfümler, lüks saatler ve seyahatte olmazsa olmazlar dahil olmak üzere yolcularımıza özel olarak hazırlanmış özel koleksiyonlar sunmaktadır. Öneri veya yardıma ihtiyacınız varsa lütfen mürettebatımıza bildirin.",
+        "nl": "Dames en heren, we zijn verheugd u een gepersonaliseerde winkelervaring te bieden tijdens uw vlucht. Onze catalogus biedt exclusieve collecties die speciaal zijn afgestemd op onze reizigers, waaronder bestverkopende parfums, luxe horloges en onmisbare reisartikelen. Als u aanbevelingen of hulp wilt, laat het onze bemanning dan weten.",
+        "ko": "신사 숙녀 여러분, 비행 중에 개인화된 쇼핑 경험을 제공하게 되어 기쁩니다. 저희 카탈로그는 베스트셀러 향수, 고급 시계, 여행 필수품을 포함하여 여행객을 위해 맞춤화된 독점 컬렉션을 제공합니다. 추천이나 도움이 필요하면 승무원에게 알려주십시오.",
+        "pt_pt": "Senhoras e senhores, temos o prazer de vos oferecer uma experiência de compra personalizada durante o vosso voo. O nosso catálogo oferece coleções exclusivas feitas à medida para os nossos viajantes, incluindo perfumes best-sellers, relógios de luxo e artigos essenciais de viagem. Se desejar recomendações ou assistência, informe a nossa equipa.",
+        "no": "Mine damer og herrer, vi er glade for å kunne gi deg en personlig handleopplevelse under flyturen. Vår katalog tilbyr eksklusive kolleksjoner skreddersydd for våre reisende, inkludert bestselgende parfymer, luksusklokker og reisemust-haves. Hvis du vil ha anbefalinger eller hjelp, vennligst gi beskjed til teamet vårt.",
+        "th": "",
+        "zh": "女士们，先生们，我们很高兴为您在飞行途中提供个性化的购物体验。我们的产品目录提供专为旅客量身定制的独家系列，包括畅销香水、豪华手表和旅行必备品。如果您需要建议或帮助，请告知我们的工作人员。"
       }
     ]
   },
@@ -1268,11 +1508,38 @@ const texts: Text[] = [
     ]
   },
 
+  // Disarm doors and cross-check
+  {
+    "category": "captain-disarm-doors-and-cross-check",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_ON_BLOCKS']},
+    "timeout": [5, 10],
+    "onlyPriorityLanguage": true,
+    "runtimeGenerated": true,
+    "texts": [
+      {
+        "en": "Cabin crew, disarm doors and cross-check.",
+        "pl": "Proszę personel pokładowy o rozbrojenie drzwi i sprawdzenie.",
+        "de": "Kabinenpersonal, entriegeln Sie die Türen und führen Sie eine Quersicherung durch.",
+        "pt_br": "Tripulação, desarmar portas e verificação cruzada.",
+        "es": "Tripulación de cabina, desarmen las puertas y hagan una verificación cruzada.",
+        "fr": "Personnel de cabine, désarmez les portes et effectuez une vérification croisée.",
+        "it": "Assistenti di volo, disarmare le porte e controllare incrociato.",
+        "tr": "Kabin ekibi, kapıları devre dışı bırakın ve çapraz kontrol yapın.",
+        "nl": "Cabinepersoneel, ontgrendel de deuren en voer een kruiscontrole uit.",
+        "ko": "캐빈크루, 문을 해제하고 교차 확인해주세요.",
+        "pt_pt": "Tripulação de cabine, desarmar portas e verificação cruzada.",
+        "no": "Kabinpersonalet, deaktiver dørene og krysskontroller.",
+        "th": "ลูกเรือ ปลดปืนประตูและตรวจสอบแบบ cross-check",
+        "zh": "机组人员，请解除门锁并进行交叉检查。"
+      }
+    ]
+  },
+
   // Deboarding
   {
     "category": "crew-deboarding",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_ON_BLOCKS']},
-    "timeout": [10, 20],
+    "timeout": [20, 30],
     "chime": "DING_DONG",
     "runtimeGenerated": true,
     "texts": [
