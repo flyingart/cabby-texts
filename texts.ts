@@ -1402,7 +1402,6 @@ const texts: Text[] = [
       {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
     ],
     "timeout": [500, 510],
-    "onlyPriorityLanguage": false,
     "runtimeGenerated": true,
     "texts": [
       {
