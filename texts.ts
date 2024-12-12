@@ -52,7 +52,8 @@ const texts: Text[] = [
     "category": "captain-seatbelt-sign-change-information",
     "trigger": {"event": "simValueChanged", "key": ["seatBelt"], "newValue": [1]},
     "conditions": [
-      {"type": "flightState", "value": ["FLIGHT_CRUISE"]}
+      {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
     ],
     "timeout": [2, 5],
     "numberOfEagerTextGenerations": 2,
@@ -143,7 +144,8 @@ const texts: Text[] = [
     "category": "crew-seatbelt-sign-change-information",
     "trigger": {"event": "messagePlayed", "category": ["captain-seatbelt-sign-change-information"]},
     "conditions": [
-      {"type": "flightState", "value": ["FLIGHT_CRUISE"]}
+      {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
     ],
     "timeout": [2, 5],
     "numberOfEagerTextGenerations": 2,
@@ -251,7 +253,8 @@ const texts: Text[] = [
     "trigger": {"event": "simValueChanged", "key": ["seatBelt"], "newValue": [1]},
     "conditions": [
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
-      {"type": "settingNotActive", "value": ["captain-seatbelt-sign-change-information"]}
+      {"type": "settingNotActive", "value": ["captain-seatbelt-sign-change-information"]},
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
     ],
     "timeout": [2, 5],
     "numberOfEagerTextGenerations": 2,
@@ -342,7 +345,8 @@ const texts: Text[] = [
     "category": "crew-seatbelt-sign-change-information",
     "trigger": {"event": "simValueChanged", "key": ["seatBelt"], "newValue": [0]},
     "conditions": [
-      {"type": "flightState", "value": ["FLIGHT_CLIMB", "FLIGHT_CRUISE"]}
+      {"type": "flightState", "value": ["FLIGHT_CLIMB", "FLIGHT_CRUISE"]},
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
     ],
     "timeout": [2, 5],
     "numberOfEagerTextGenerations": 2,
@@ -1004,6 +1008,9 @@ const texts: Text[] = [
     "timeout": [240, 360],
     "runtimeGenerated": true,
     "chime": "DING",
+    "conditions": [
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
+    ],
     "texts": [
       {
         "en": "Ladies and gentlemen, we are now starting our in-flight service. We'd like to remind you that we accept card payments as well as cash. You can find our sky menu in the seat pocket in front of you. Please remain seated while we serve you. If you need anything, please don't hesitate to ask one of our cabin crew members. Thank you.",
@@ -1045,7 +1052,8 @@ const texts: Text[] = [
     "category": "crew-shopping-information",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CRUISE']},
     "conditions": [
-      {"type": "airlineCode", "value": ["RYR"]}
+      {"type": "airlineCode", "value": ["RYR"]},
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
     ],
     "timeout": [300, 420],
     "chime": "DING",
@@ -1076,6 +1084,9 @@ const texts: Text[] = [
     "timeout": [300, 420],
     "chime": "DING_DONG",
     "runtimeGenerated": true,
+    "conditions": [
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
+    ],
     "texts": [
       {
         "en": "Ladies and gentlemen, we are now starting our in-flight shopping service. Today we have a special offer for you. If you buy two perfumes, you will get a 10% discount on the third one. On this flight we highly recommend latest fragrances from our collection. You can find our shopping catalog in the seat pocket in front of you. We accept card payments as well as cash.",
@@ -1199,6 +1210,9 @@ const texts: Text[] = [
     "timeout": [600, 720],
     "chime": "DING_DONG",
     "runtimeGenerated": true,
+    "conditions": [
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
+    ],
     "texts": [
       {
         "en": "Ladies and gentleman, this is your captain speaking. Let me share some information with you. We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees. The rest of the flight should be smooth, with a small chance of light turbulences. Please remember to keep your seatbelt fastened while seated and whenever the seatbelt sign is illuminated. Thank you, and enjoy the flight.",
@@ -1231,6 +1245,52 @@ const texts: Text[] = [
         "no": "Hei, det er meg igjen. Jeg ville bare dele litt informasjon med dere. Vi flyr for øyeblikket på en høyde av {currentAltitudeFt} fot med en hastighet på {groundSpeed} {% usesKMPH ? 'kilometer' : 'mil' %} i timen. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Resten av flyturen bør bli jevn. Hvis dere har spørsmål, ikke nøl med å spørre en av våre kabinansatte. Takk, og nyt flyturen.",
         "th": "สวัสดีครับ นี่คือกัปตันอีกครั้ง ขณะนี้เรากำลังบินที่ระดับความสูง {currentAltitudeFt} ฟุต ด้วยความเร็ว {groundSpeed} {% usesKMPH ? 'กิโลเมตรต่อชั่วโมง' : 'ไมล์ต่อชั่วโมง' %} สภาพอากาศใน {destinationCityName} คือ {destinationCityWeatherHumanDescription} อุณหภูมิอยู่ที่ {destinationCityTemperature} องศา เราคาดว่าเที่ยวบินที่เหลือน่าจะราบรื่น หากท่านมีคำถามใด ๆ โปรดแจ้งพนักงานต้อนรับบนเครื่องบิน ขอบคุณและขอให้ท่านเพลิดเพลินกับการเดินทาง",
         "zh": "大家好，又是我。我想与您分享一些信息。我们现在在海拔 {currentAltitudeFt} 英尺的高度上巡航，速度为每小时 {groundSpeed} {% usesKMPH ? '公里' : '英里' %}。[The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] 接下来的飞行应该会非常平稳。如果有任何问题，请随时向我们的机组人员提出。谢谢，祝您飞行愉快。"
+      }
+    ]
+  },
+
+  // Close to descend
+  {
+    "category": "captain-close-to-descend-information",
+    "trigger": {"event": "runtimeFlightMetadataChange", "key": ["closeToDescend"], "newValue": [1]},
+    "conditions": [
+      {"type": "flightState", "value": ["FLIGHT_CLIMB", "FLIGHT_CRUISE"]}
+    ],
+    "timeout": [2, 10],
+    "chime": "DING_DONG",
+    "runtimeGenerated": true,
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, we'll be starting our descent into {destinationCityName} shortly. Please make sure your seatbelt is fastened and follow the instructions of the cabin crew. Thank you.",
+        "pl": "[Ladies and gentlemen, we'll be starting our descent into {destinationCityName} shortly.] Proszę upewnić się, że państwa pasy są zapięte i proszę postępować zgodnie z instrukcjami członków załogi. Dziękujemy.",
+        "de": "",
+        "pt_br": "",
+        "es": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "nl": "",
+        "ko": "",
+        "pt_pt": "",
+        "no": "",
+        "th": "",
+        "zh": ""
+      },
+      {
+        "en": "Ladies and gentlemen, we'll be starting our descent in a few minutes. Please make sure your seatbelt is fastened and follow the instructions of the cabin crew. Thank you.",
+        "pl": "Szanowni państwo, wkrótce rozpoczniemy zniżanie. Proszę upewnić się, że państwa pasy są zapięte i proszę postępować zgodnie z instrukcjami członków załogi. Dziękujemy.",
+        "de": "",
+        "pt_br": "",
+        "es": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "nl": "",
+        "ko": "",
+        "pt_pt": "",
+        "no": "",
+        "th": "",
+        "zh": ""
       }
     ]
   },
