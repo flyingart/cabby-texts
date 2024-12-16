@@ -30,7 +30,7 @@ type Text = {
     type: 'flightState' | 'settingActive' | 'settingNotActive' | 'airlineCode';
     value: string[];
   } | {
-    type: 'runtimeFlightMetadata';
+    type: 'runtimeFlightMetadata' | 'metadata';
     key: string;
     value: (string|number)[];
   })[];
@@ -1211,7 +1211,8 @@ const texts: Text[] = [
     "chime": "DING_DONG",
     "runtimeGenerated": true,
     "conditions": [
-      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]},
+      {"type": "metadata", key: "enroutePOIsNumber", value: [0]}
     ],
     "texts": [
       {
@@ -1245,6 +1246,66 @@ const texts: Text[] = [
         "no": "Hei, det er meg igjen. Jeg ville bare dele litt informasjon med dere. Vi flyr for øyeblikket på en høyde av {currentAltitudeFt} fot med en hastighet på {groundSpeed} {% usesKMPH ? 'kilometer' : 'mil' %} i timen. [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] Resten av flyturen bør bli jevn. Hvis dere har spørsmål, ikke nøl med å spørre en av våre kabinansatte. Takk, og nyt flyturen.",
         "th": "สวัสดีครับ นี่คือกัปตันอีกครั้ง ขณะนี้เรากำลังบินที่ระดับความสูง {currentAltitudeFt} ฟุต ด้วยความเร็ว {groundSpeed} {% usesKMPH ? 'กิโลเมตรต่อชั่วโมง' : 'ไมล์ต่อชั่วโมง' %} สภาพอากาศใน {destinationCityName} คือ {destinationCityWeatherHumanDescription} อุณหภูมิอยู่ที่ {destinationCityTemperature} องศา เราคาดว่าเที่ยวบินที่เหลือน่าจะราบรื่น หากท่านมีคำถามใด ๆ โปรดแจ้งพนักงานต้อนรับบนเครื่องบิน ขอบคุณและขอให้ท่านเพลิดเพลินกับการเดินทาง",
         "zh": "大家好，又是我。我想与您分享一些信息。我们现在在海拔 {currentAltitudeFt} 英尺的高度上巡航，速度为每小时 {groundSpeed} {% usesKMPH ? '公里' : '英里' %}。[The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] 接下来的飞行应该会非常平稳。如果有任何问题，请随时向我们的机组人员提出。谢谢，祝您飞行愉快。"
+      }
+    ]
+  },
+  {
+    "category": "captain-random-information-about-the-flight",
+    "trigger": {"event": "runtimeFlightMetadataChange", "key": ["inPOIRange"], "newValue": [1]},
+    "timeout": [5, 10],
+    "chime": "DING_DONG",
+    "runtimeGenerated": true,
+    "conditions": [
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]},
+      {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
+      {"type": "runtimeFlightMetadata", key: "currentPOIDirection", value: ['left', 'right']}
+    ],
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, I'd like to share some information with you. We're currently flying near {currentPOIName}. You can see it by looking out of the window on the {currentPOIDirection} side of the aircraft. Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour. Temperature outside is {currentTemperature} degrees. Rest of the flight should be smooth. In case of any questions, please don't hesitate to ask one of our cabin crew members. Thank you and enjoy the flight.",
+        "pl": "Szanowni Państwo, chciałbym przekazać garść informacji od siebie. [We're currently flying near {currentPOIName}. [You can see it by looking out of the window on the {currentPOIDirection} side of the aircraft.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] Reszta lotu powinna być spokojna. W razie pytań proszę zwrócić się do członków załogi. Dziękuję za uwagę i życzę miłego lotu.",
+        "de": "",
+        "pt_br": "",
+        "es": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "nl": "",
+        "ko": "",
+        "pt_pt": "",
+        "no": "",
+        "th": "",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "category": "captain-random-information-about-the-flight",
+    "trigger": {"event": "runtimeFlightMetadataChange", "key": ["inPOIRange"], "newValue": [1]},
+    "timeout": [5, 10],
+    "chime": "DING_DONG",
+    "runtimeGenerated": true,
+    "conditions": [
+      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]},
+      {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
+      {"type": "runtimeFlightMetadata", key: "currentPOIDirection", value: ['front']}
+    ],
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, I'd like to share some information with you. We'll be passing {currentPOIName} in a few moments. Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour. Temperature outside is {currentTemperature} degrees. Rest of the flight should be smooth. In case of any questions, please don't hesitate to ask one of our cabin crew members. Thank you and enjoy the flight.",
+        "pl": "Szanowni Państwo, chciałbym przekazać garść informacji od siebie. [We'll be passing {currentPOIName} in a few moments.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] Reszta lotu powinna być spokojna. W razie pytań proszę zwrócić się do członków załogi. Dziękuję za uwagę i życzę miłego lotu.",
+        "de": "",
+        "pt_br": "",
+        "es": "",
+        "fr": "",
+        "it": "",
+        "tr": "",
+        "nl": "",
+        "ko": "",
+        "pt_pt": "",
+        "no": "",
+        "th": "",
+        "zh": ""
       }
     ]
   },
