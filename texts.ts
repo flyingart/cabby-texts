@@ -1356,7 +1356,6 @@ const texts: Text[] = [
     "chime": "DING_DONG",
     "runtimeGenerated": true,
     "conditions": [
-      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]},
       {"type": "metadata", key: "enroutePOIsNumber", value: [0]}
     ],
     "texts": [
@@ -1401,7 +1400,6 @@ const texts: Text[] = [
     "chime": "DING_DONG",
     "runtimeGenerated": true,
     "conditions": [
-      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]},
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
       {"type": "runtimeFlightMetadata", key: "currentPOIDirection", value: ['left', 'right']}
     ],
@@ -1479,7 +1477,6 @@ const texts: Text[] = [
     "chime": "DING_DONG",
     "runtimeGenerated": true,
     "conditions": [
-      {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]},
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
       {"type": "runtimeFlightMetadata", key: "currentPOIDirection", value: ['front']}
     ],
