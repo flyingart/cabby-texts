@@ -23,6 +23,14 @@ type Text = {
     event: 'runtimeFlightMetadataChange';
     key: string[];
     newValue: number[];
+  } | {
+    event: 'runtimeFlightMetadataChange';
+    key: string;
+    newValueLowerThan: number;
+  } | {
+    event: 'runtimeFlightMetadataChange';
+    key: string;
+    newValueGreaterThan: number;
   },
 
   // Additional conditions. If trigger was met, the text will be played only if all conditions are met.
@@ -1478,6 +1486,23 @@ const texts: Text[] = [
     ]
   },
 
+  {
+    "category": "crew-secondary-service-information",
+    "trigger": {"event": "runtimeFlightMetadataChange", "key": "distanceToDestination", "newValueLowerThan": 450000},
+    "timeout": [10, 30],
+    "runtimeGenerated": true,
+    "chime": "DING_DONG",
+    "conditions": [
+      {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
+      {"type": "metadata", key: "isLongHaul", value: [1]}
+    ],
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, we'll be starting our service shortly. Please take a moment to review the menu in your seat pocket. We have a selection of meals and beverages available for you to enjoy. If you have any questions or special requests, please let our crew know.",
+      }
+    ]
+  },
+
   // Random information about the flight
   {
     "category": "captain-random-information-about-the-flight",
@@ -1850,6 +1875,35 @@ const texts: Text[] = [
         "zh": "女士们，先生们，我们现在开始下降。请确保您的安全带已经系好，座椅靠背和小桌板处于竖直位置。我们将在几分钟内收集剩下的服务物品。谢谢。",
         "ja": "皆様、降下を開始します。シートベルトが締められ、座席の背もたれとトレイテーブルが直立していることを確認してください。残りのサービスアイテムは数分以内に回収いたします。ありがとうございます。",
         "ar": "أيها السيدات والسادة، نحن نبدأ الآن الهبوط. يرجى التأكد من ربط حزام الأمان الخاص بك وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. سنقوم بجمع العناصر المتبقية من الخدمة في غضون بضع دقائق. شكرًا لك."
+      }
+    ]
+  },
+
+  {
+    "category": "captain-10k-announcement",
+    "trigger": {"event": "runtimeFlightMetadataChange", "key": "planeAltitude", "newValueLowerThan": 10500},
+    "conditions": [
+      {"type": "flightState", "value": ["FLIGHT_DESCENT"]},
+    ],
+    "timeout": [5, 10],
+    "chime": "DING",
+    "texts": [
+      {
+        "en": "Cabin crew, ten thousand feet.",
+      }
+    ]
+  },
+  {
+    "category": "crew-10k-announcement",
+    "trigger": {"event": "runtimeFlightMetadataChange", "key": "planeAltitude", "newValueLowerThan": 10500},
+    "conditions": [
+      {"type": "flightState", "value": ["FLIGHT_DESCENT"]},
+    ],
+    "timeout": [10, 20],
+    "chime": "DING_DONG",
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, we'll be landing in a few minutes. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. The use of the lavatory is not permitted at this time. Thank you.",
       }
     ]
   },
