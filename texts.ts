@@ -6,6 +6,7 @@ type Text = {
   onlyPriorityLanguage?: boolean; // If set to true, the text will be played only in the priority language.
   numberOfEagerTextGenerations?: number; // Number of eager text generations. If some message can be played multiple times (like Seatbelt sign change), you can set this number to generate multiple texts in advance.
   chime?: 'DING' | 'DONG' | 'DING_DONG'; // If set, the sound will be played before the text.
+  singleTimeAnnouncement?: boolean; // If the announcement should be played only once, even if trigger will be detected multiple times
 
   // Trigger event
   trigger: {
@@ -1132,7 +1133,6 @@ const texts: Text[] = [
     "category": "crew-information-about-upcoming-service",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB']},
     "timeout": [30, 60],
-    "runtimeGenerated": true,
     "chime": "DING",
     "texts": [
       {
@@ -1269,7 +1269,6 @@ const texts: Text[] = [
     "category": "crew-service-information",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB'], "ignoreFlightStateChange": ['FLIGHT_CRUISE']},
     "timeout": [240, 360],
-    "runtimeGenerated": true,
     "chime": "DING",
     "conditions": [
       {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
@@ -1324,7 +1323,6 @@ const texts: Text[] = [
     ],
     "timeout": [300, 420],
     "chime": "DING",
-    "runtimeGenerated": true,
     "weight": 9,
     "texts": [
       {
@@ -1352,7 +1350,6 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CRUISE']},
     "timeout": [300, 420],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "conditions": [
       {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
     ],
@@ -1490,8 +1487,8 @@ const texts: Text[] = [
     "category": "crew-secondary-service-information",
     "trigger": {"event": "runtimeFlightMetadataChange", "key": "distanceToDestination", "newValueLowerThan": 450000},
     "timeout": [10, 30],
-    "runtimeGenerated": true,
     "chime": "DING_DONG",
+    "singleTimeAnnouncement": true,
     "conditions": [
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
       {"type": "metadata", key: "isLongHaul", value: [1]}
@@ -1696,7 +1693,6 @@ const texts: Text[] = [
     ],
     "timeout": [2, 10],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we'll be starting our descent into {destinationCityName} shortly. Please make sure your seatbelt is fastened and follow the instructions of the cabin crew. Thank you.",
@@ -1743,7 +1739,6 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_DESCENT']},
     "timeout": [10, 30],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please follow the instructions of the cabin crew as we prepare for landing. Thank you.",
@@ -1790,7 +1785,6 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_DESCENT"]}
     ],
     "timeout": [5, 10],
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -1838,7 +1832,6 @@ const texts: Text[] = [
     ],
     "timeout": [10, 30],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -1887,6 +1880,7 @@ const texts: Text[] = [
     ],
     "timeout": [5, 10],
     "chime": "DING",
+    "singleTimeAnnouncement": true,
     "texts": [
       {
         "en": "Cabin crew, ten thousand feet.",
@@ -1901,6 +1895,7 @@ const texts: Text[] = [
     ],
     "timeout": [10, 20],
     "chime": "DING_DONG",
+    "singleTimeAnnouncement": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we'll be landing in a few minutes. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. The use of the lavatory is not permitted at this time. Thank you.",
@@ -2068,7 +2063,6 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_ON_BLOCKS']},
     "timeout": [5, 10],
     "onlyPriorityLanguage": true,
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Cabin crew, disarm doors and cross-check.",
