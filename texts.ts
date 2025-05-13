@@ -1133,6 +1133,7 @@ const texts: Text[] = [
     "category": "crew-information-about-upcoming-service",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB']},
     "timeout": [30, 60],
+    "runtimeGenerated": true,
     "chime": "DING",
     "texts": [
       {
@@ -1269,6 +1270,7 @@ const texts: Text[] = [
     "category": "crew-service-information",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB'], "ignoreFlightStateChange": ['FLIGHT_CRUISE']},
     "timeout": [240, 360],
+    "runtimeGenerated": true,
     "chime": "DING",
     "conditions": [
       {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
@@ -1323,6 +1325,7 @@ const texts: Text[] = [
     ],
     "timeout": [300, 420],
     "chime": "DING",
+    "runtimeGenerated": true,
     "weight": 9,
     "texts": [
       {
@@ -1350,6 +1353,7 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CRUISE']},
     "timeout": [300, 420],
     "chime": "DING_DONG",
+    "runtimeGenerated": true,
     "conditions": [
       {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
     ],
@@ -1708,6 +1712,7 @@ const texts: Text[] = [
     ],
     "timeout": [2, 10],
     "chime": "DING_DONG",
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we'll be starting our descent into {destinationCityName} shortly. Please make sure your seatbelt is fastened and follow the instructions of the cabin crew. Thank you.",
@@ -1754,6 +1759,7 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_DESCENT']},
     "timeout": [10, 30],
     "chime": "DING_DONG",
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please follow the instructions of the cabin crew as we prepare for landing. Thank you.",
@@ -1800,6 +1806,7 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_DESCENT"]}
     ],
     "timeout": [5, 10],
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -1847,6 +1854,7 @@ const texts: Text[] = [
     ],
     "timeout": [10, 30],
     "chime": "DING_DONG",
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -2109,6 +2117,7 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_ON_BLOCKS']},
     "timeout": [5, 10],
     "onlyPriorityLanguage": true,
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Cabin crew, disarm doors and cross-check.",
