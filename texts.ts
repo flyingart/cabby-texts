@@ -1496,6 +1496,21 @@ const texts: Text[] = [
     "texts": [
       {
         "en": "Ladies and gentlemen, we'll be starting our service shortly. Please take a moment to review the menu in your seat pocket. We have a selection of meals and beverages available for you to enjoy. If you have any questions or special requests, please let our crew know.",
+        "pl": "Panie i panowie, wkrótce rozpoczniemy nasz serwis. Prosimy o poświęcenie chwili na zapoznanie się z menu w kieszeni fotela. Oferujemy szeroki wybór posiłków i napojów. W razie jakichkolwiek pytań lub specjalnych życzeń prosimy o poinformowanie o tym naszej załogi.",
+        "de": "Meine Damen und Herren, wir werden in Kürze mit dem Service beginnen. Bitte nehmen Sie sich einen Moment Zeit, um die Speisekarte in Ihrer Sitztasche zu studieren. Wir halten eine Auswahl an Speisen und Getränken für Sie bereit. Wenn Sie Fragen oder besondere Wünsche haben, lassen Sie es unsere Crew bitte wissen.",
+        "pt_br": "Senhoras e senhores, iniciaremos nosso serviço em breve. Por favor, reserve um momento para examinar o menu que está no bolso de seu assento. Temos uma seleção de refeições e bebidas disponíveis para você desfrutar. Se tiver alguma dúvida ou solicitação especial, informe à nossa equipe.",
+        "es": "Señoras y señores, en breve comenzaremos nuestro servicio. Por favor, tómense un momento para revisar el menú en el bolsillo de su asiento. Tenemos una selección de comidas y bebidas a su disposición. Si tienen alguna pregunta o petición especial, por favor, háganselo saber a nuestra tripulación.",
+        "fr": "Mesdames et Messieurs, nous allons bientôt commencer notre service. Veuillez prendre le temps de consulter le menu dans la pochette de votre siège. Nous vous proposons une sélection de repas et de boissons. Si vous avez des questions ou des souhaits particuliers, n'hésitez pas à en faire part à notre équipage.",
+        "it": "Signore e signori, tra poco inizierà il servizio. Vi invitiamo a prendere visione del menu nella tasca del vostro posto. Abbiamo una selezione di pasti e bevande che potrete gustare. Se avete domande o richieste particolari, fatelo sapere al nostro personale di bordo.",
+        "tr": "Bayanlar ve baylar, birazdan servisimize başlayacağız. Lütfen koltuk cebinizdeki menüyü incelemek için bir dakikanızı ayırın. Keyfini çıkarmanız için çeşitli yemek ve içecek seçeneklerimiz mevcuttur. Herhangi bir sorunuz veya özel isteğiniz varsa lütfen ekibimize bildirin.",
+        "nl": "Dames en heren, we beginnen zo met onze service. Neemt u alstublieft even de tijd om het menu in uw stoelzak te bekijken. We hebben een selectie van maaltijden en dranken voor u klaarstaan. Als u vragen of speciale verzoeken hebt, laat het onze bemanning dan weten.",
+        "ko": "신사 숙녀 여러분, 곧 서비스를 시작하겠습니다. 잠시 시간을 내어 좌석 주머니에 있는 메뉴를 확인하시기 바랍니다. 다양한 기내식과 음료를 즐기실 수 있습니다. 질문이나 특별 요청 사항이 있으시면 승무원에게 알려 주시기 바랍니다.",
+        "pt_pt": "Senhoras e senhores, vamos começar o nosso serviço em breve. Por favor, tomem um momento para rever o menu no bolso do vosso lugar. Temos uma seleção de refeições e bebidas disponíveis para que possam desfrutar. Se tiver alguma dúvida ou pedido especial, por favor informe a nossa equipa.",
+        "no": "Mine damer og herrer, vi begynner snart med serveringen. Vennligst ta deg tid til å se gjennom menyen i setelommen din. Vi har et utvalg av måltider og drikkevarer som du kan nyte. Hvis du har spørsmål eller spesielle ønsker, vennligst gi beskjed til mannskapet vårt.",
+        "th": "",
+        "zh": "女士们先生们，我们的服务即将开始。请花一点时间查看您座位口袋里的菜单。我们为您准备了精选的餐食和饮料。如果您有任何问题或特殊要求，请告知我们的工作人员。",
+        "ja": "皆様、まもなくサービスを開始いたします。お席のポケットにあるメニューをご覧ください。お食事とお飲み物をご用意しております。ご質問や特別なご要望がございましたら、クルーまでお知らせください。",
+        "ar": "سيداتي وسادتي، سنبدأ خدمتنا بعد قليل. يرجى التوقف للحظة لمراجعة قائمة الطعام في جيب مقعدك. لدينا مجموعة مختارة من الوجبات والمشروبات المتاحة لكم لتستمتعوا بها. إذا كانت لديكم أي أسئلة أو طلبات خاصة، يُرجى إعلام طاقمنا بذلك."
       }
     ]
   },
@@ -1880,10 +1895,26 @@ const texts: Text[] = [
     ],
     "timeout": [5, 10],
     "chime": "DING",
+    "onlyPriorityLanguage": true,
     "singleTimeAnnouncement": true,
     "texts": [
       {
         "en": "Cabin crew, ten thousand feet.",
+        "pl": "Załogo, dziesięć tysięcy stóp.",
+        "de": "Kabinenpersonal, zehntausend Fuß.",
+        "pt_br": "Tripulação da cabine, dez mil pés.",
+        "es": "Tripulación de cabina, diez mil pies.",
+        "fr": "Personnel de cabine, dix mille pieds.",
+        "it": "Equipaggio di cabina, diecimila piedi.",
+        "tr": "Kabin ekibi, 10 bin feet.",
+        "nl": "Cabinepersoneel, tienduizend voet.",
+        "ko": "객실 승무원, 1만 피트 상공.",
+        "pt_pt": "Tripulação de cabina, dez mil pés.",
+        "no": "Kabinpersonale, ti tusen fot.",
+        "th": "机组人员，一万英尺",
+        "zh": "机组人员，一万英尺",
+        "ja": "客室乗務員、高度1万フィート。",
+        "ar": "طاقم المقصورة، عشرة آلاف قدم"
       }
     ]
   },
@@ -1899,6 +1930,21 @@ const texts: Text[] = [
     "texts": [
       {
         "en": "Ladies and gentlemen, we'll be landing in a few minutes. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. The use of the lavatory is not permitted at this time. Thank you.",
+        "pl": "Panie i panowie, wylądujemy za kilka minut. Prosimy o upewnienie się, że pasy bezpieczeństwa są zapięte, a oparcie fotela i stolik na tacę znajdują się w pozycji pionowej. Korzystanie z toalety jest obecnie niedozwolone. Dziękujemy.",
+        "de": "Meine Damen und Herren, wir werden in wenigen Minuten landen. Bitte vergewissern Sie sich, dass Sie angeschnallt sind und Ihre Sitzlehne und Ihr Tablett in aufrechter Position sind. Die Benutzung der Toilette ist zu diesem Zeitpunkt nicht gestattet. Wir danken Ihnen.",
+        "pt_br": "Senhoras e senhores, aterrissaremos em alguns minutos. Certifique-se de que seu cinto de segurança esteja afivelado e que o encosto do assento e a mesa da bandeja estejam na posição vertical. O uso do banheiro não é permitido neste momento. Obrigado.",
+        "es": "Señoras y señores, aterrizaremos en unos minutos. Por favor, asegúrense de que tienen abrochado el cinturón de seguridad y de que el respaldo y la bandeja están en posición vertical. El uso del lavabo no está permitido en este momento. Muchas gracias.",
+        "fr": "Mesdames et Messieurs, nous atterrirons dans quelques minutes. Veuillez vous assurer que votre ceinture de sécurité est attachée et que le dossier de votre siège et la tablette sont en position verticale. L'utilisation des toilettes n'est pas autorisée pour le moment. Nous vous remercions de votre attention.",
+        "it": "Signore e signori, atterreremo tra pochi minuti. Assicuratevi che le cinture di sicurezza siano allacciate e che lo schienale e il tavolino siano in posizione verticale. L'uso della toilette non è consentito in questo momento. Grazie.",
+        "tr": "Bayanlar ve baylar, birkaç dakika içinde iniş yapacağız. Lütfen emniyet kemerinizin takılı olduğundan ve koltuk sırtlığınız ile tepsi masanızın dik konumda olduğundan emin olun. Şu anda tuvalet kullanımına izin verilmemektedir. Teşekkürler.",
+        "nl": "Dames en heren, we landen over een paar minuten. Zorg ervoor dat uw veiligheidsgordel vastzit en dat uw rugleuning en tafeltje rechtop staan. Het gebruik van het toilet is op dit moment niet toegestaan. Dank u.",
+        "ko": "승객 여러분, 몇 분 후 착륙하겠습니다. 안전벨트를 착용하고 좌석 등받이와 트레이 테이블이 똑바로 세워져 있는지 확인해 주시기 바랍니다. 현재 화장실 사용은 허용되지 않습니다. 감사합니다.",
+        "pt_pt": "Senhoras e senhores, aterraremos dentro de alguns minutos. Por favor, certifiquem-se de que o vosso cinto de segurança está apertado e que as costas do assento e a mesa do tabuleiro estão na posição vertical. A utilização da casa de banho não é permitida nesta altura. Obrigado.",
+        "no": "Mine damer og herrer, vi lander om noen minutter. Vennligst sørg for at sikkerhetsbeltet er festet, og at seteryggen og bakkebordet er i oppreist stilling. Det er ikke tillatt å bruke toalettet nå. Takk skal dere ha.",
+        "th": "",
+        "zh": "女士们先生们，我们将在几分钟后着陆。请确保系好安全带，并将椅背和托盘放在直立位置。现在不允许使用厕所。谢谢",
+        "ja": "皆様、まもなく着陸します。シートベルトが締められ、座席の背もたれとトレイテーブルが直立していることをご確認ください。お手洗いのご利用はご遠慮ください。ありがとうございました。",
+        "ar": "سيداتي وسادتي، سنهبط بعد دقائق قليلة. يُرجى التأكد من ربط حزام الأمان ومن وضع ظهر المقعد وطاولة الطعام في وضع مستقيم. لا يُسمح باستخدام المرحاض في هذا الوقت. شكراً لكم."
       }
     ]
   },
