@@ -523,6 +523,17 @@ const texts: Text[] = [
       }
     ]
   },
+  {
+    "category": "crew-boarding-chatter",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_BOARDING']},
+    "timeout": [3600, 3600],
+    "texts": [
+      {
+        "en": "Welcome aboard. {% ['Good morning', 'Good afternoon', 'Good evening'][departureDayPhase]='Hello' %}. Welcome. May I see your boarding pass?",
+        "pl": "Witamy na pokładzie. {% ['Dzień dobry', 'Dzień dobry', 'Dobry wieczór'][departureDayPhase]='Dzień dobry' %}. Witam. Proszę pokazać kartę pokładową.",
+      }
+    ]
+  },
 
   // Pre-flight
   {
