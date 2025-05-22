@@ -531,6 +531,20 @@ const texts: Text[] = [
       {
         "en": "Welcome aboard. {% ['Good morning', 'Good afternoon', 'Good evening'][departureDayPhase]='Hello' %}. Welcome. May I see your boarding pass?",
         "pl": "Witamy na pokładzie. {% ['Dzień dobry', 'Dzień dobry', 'Dobry wieczór'][departureDayPhase]='Dzień dobry' %}. Witam. Proszę pokazać kartę pokładową.",
+        "de": "Willkommen an Bord. {% ['Guten Morgen', 'Guten Tag', 'Guten Abend'][departureDayPhase]='Hallo' %}. Willkommen. Darf ich bitte Ihr Boarding-Pass sehen?",
+        "pt_br": "Bem-vindo a bordo. {% ['Bom dia', 'Boa tarde', 'Boa noite'][departureDayPhase]='Olá' %}. Bem-vindo. Posso ver seu cartão de embarque?",
+        "es": "Bienvenido a bordo. {% ['Buenos días', 'Buenas tardes', 'Buenas noches'][departureDayPhase]='Hola' %}. Bienvenido. ¿Puedo ver su tarjeta de embarque?",
+        "fr": "Bienvenue à bord. {% ['Bonjour', 'Bon après-midi', 'Bonsoir'][departureDayPhase]='Bonjour' %}. Bienvenue. Puis-je voir votre carte d'embarquement?",
+        "it": "Benvenuti a bordo. {% ['Buongiorno', 'Buon pomeriggio', 'Buona sera'][departureDayPhase]='Ciao' %}. Benvenuti. Posso vedere la vostra carta d'imbarco?",
+        "tr": "Hoş geldiniz. {% ['Günaydın', 'İyi günler', 'İyi akşamlar'][departureDayPhase]='Merhaba' %}. Hoş geldiniz. Biniş kartınızı görebilir miyim?",
+        "nl": "Welkom aan boord. {% ['Goedemorgen', 'Goedemiddag', 'Goedenavond'][departureDayPhase]='Hallo' %}. Welkom. Mag ik uw instapkaart zien?",
+        "ko": "탑승을 환영합니다. {% ['안녕하세요', '안녕하세요', '안녕하세요'][departureDayPhase]='안녕하세요' %}. 환영합니다. 탑승권을 보여주시겠습니까?",
+        "pt_pt": "Bem-vindo a bordo. {% ['Bom dia', 'Boa tarde', 'Boa noite'][departureDayPhase]='Olá' %}. Bem-vindo. Posso ver o seu cartão de embarque?",
+        "no": "Velkommen ombord. {% ['God morgen', 'God ettermiddag', 'God kveld'][departureDayPhase]='Hallo' %}. Velkommen. Kan jeg få se boardingkortet ditt?",
+        "th": "ยินดีต้อนรับสู่เที่ยวบินของเรา {% ['สวัสดีตอนเช้า', 'สวัสดีตอนบ่าย', 'สวัสดีตอนเย็น'][departureDayPhase]='สวัสดี' %} ยินดีต้อนรับค่ะ ขอให้ท่านแสดงบัตรขึ้นเครื่องได้ไหมคะ",
+        "zh": "欢迎登机。 {% ['早上好', '下午好', '晚上好'][departureDayPhase]='你好' %}。欢迎。请出示您的登机牌。",
+        "ja": "ご搭乗いただきありがとうございます。 {% ['おはようございます', 'こんにちは', 'こんばんは'][departureDayPhase]='こんにちは' %}。いらっしゃいませ。搭乗券を見せていただけますか？",
+        "ar": "مرحبًا."
       }
     ]
   },
