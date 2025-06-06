@@ -1960,6 +1960,7 @@ const texts: Text[] = [
     "timeout": [10, 20],
     "chime": "DING_DONG",
     "singleTimeAnnouncement": true,
+    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we'll be landing in a few minutes. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. The use of the lavatory is not permitted at this time. Thank you.",
