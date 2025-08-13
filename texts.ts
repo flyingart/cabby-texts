@@ -2308,4 +2308,4 @@ const texts: Text[] = [
   }
 ]
 
-export default texts;'
+export default texts;
