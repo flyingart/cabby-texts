@@ -118,7 +118,7 @@ const texts: Text[] = [
         "ko": "여러분, 앞으로 날씨 상황에 변화가 예상됩니다. 예방 조치로 좌석벨트 싸인이 켜졌습니다. 자리에 앉아 좌석벨트를 착용해 주세요. 협조해 주셔서 감사합니다.",
         "pt_pt": "Senhoras e senhores, estamos à espera de algumas mudanças nas condições climáticas à frente. Como precaução, o sinal de apertar os cintos foi ligado. Por favor, permaneçam sentados e mantenham os cintos de segurança apertados. Obrigado pela cooperação.",
         "no": "Mine damer og herrer, vi forventer noen endringer i værforholdene foran oss. Som en forholdsregel har vi slått på sikkerhetsbeltet. Vennligst bli sittende og hold sikkerhetsbeltet festet. Takk for samarbeidet.",
-        "th": "ท่านผู้โดยสารทุกท่าน เรากำลังคาดการณ์ว่าจะมีการเปลี่ยนแปลงในสภาพอากาศข้างหน้า  ในการป้องกัน  เราได้เปิดสัญญาณรัดเข็มขัด  ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดท   ่นั่งของท่านให้กระชับ ขอบคุณที่ร่วมมือ",
+        "th": "ท่านผู้โดยสารทุกท่าน เรากำลังคาดการณ์ว่าจะมีการเปลี่ยนแปลงในสภาพอากาศข้างหน้า  ในการป้องกัน  เราได้เปิดสัญญาณรัดเข็มขัด  ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดท���่นั่งของท่านให้กระชับ ขอบคุณที่ร่วมมือ",
         "zh": "女士们，先生们，我们预计前方的天气条件会有一些变化。作为预防措施，我们已经打开了安全带标志。请您保持就座，并系好安全带。感谢您的合作。",
         "ja": "皆様、今後数分以内に天候が変化すると予想されます。予防措置として、シートベルト着用サインが点灯しました。お席に留まり、シートベルトをお締めください。ご協力をお願いいたします。",
         "ar": "سيداتي وسادتي، نتوقع بعض التغييرات في الظروف الجوية في المستقبل. كإجراء احترازي، تم تشغيل إشارة حزام الأمان. يرجى البقاء في مقاعدكم وابقاء أحزمة الأمان مربوطة. شكرًا لتعاونكم.",
