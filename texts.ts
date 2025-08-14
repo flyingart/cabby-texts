@@ -855,6 +855,7 @@ const texts: Text[] = [
         "ja": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] 着席中およびシートベルト着用サイン点灯中は、必ずシートベルトを締めてください。",
         "ar": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] يرجى تذكر ربط حزام الأمان أثناء الجلوس وعند إضاءة علامة حزام الأمان.",
         "hu": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Kérjük, ne felejtse el becsatolni a biztonsági övét ülés közben, és amikor a biztonsági öv becsatolására figyelmeztető jelzés világít."
+      },
       {
         "en": "Ladies and gentleman, this is your captain speaking again. Our flight today will take approximately {flightTime}. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}. We expect a smooth flight. Please relax and enjoy the flight.",
         "pl": "Panie i Panowie, z tej strony Wasz kapitan. [Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Spodziwamy się spokojnego lotu. Życzę miłego lotu.",
