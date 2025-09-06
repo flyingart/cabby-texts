@@ -531,7 +531,7 @@ const texts: Text[] = [
       {
         "en": "Welcome aboard. {% ['Good morning', 'Good afternoon', 'Good evening'][departureDayPhase]='Hello' %}. Welcome. May I see your boarding pass?",
         "pl": "Witamy na pokładzie. {% ['Dzień dobry', 'Dzień dobry', 'Dobry wieczór'][departureDayPhase]='Dzień dobry' %}. Witam. Proszę pokazać kartę pokładową.",
-        "de": "Willkommen an Bord. {% ['Guten Morgen', 'Guten Tag', 'Guten Abend'][departureDayPhase]='Hallo' %}. Willkommen. Darf ich bitte Ihr Boarding-Pass sehen?",
+        "de": "Willkommen an Bord. {% ['Guten Morgen', 'Guten Tag', 'Guten Abend'][departureDayPhase]='Hallo' %}. Willkommen. Darf ich bitte Ihren Boarding-Pass sehen?",
         "pt_br": "Bem-vindo a bordo. {% ['Bom dia', 'Boa tarde', 'Boa noite'][departureDayPhase]='Olá' %}. Bem-vindo. Posso ver seu cartão de embarque?",
         "es": "Bienvenido a bordo. {% ['Buenos días', 'Buenas tardes', 'Buenas noches'][departureDayPhase]='Hola' %}. Bienvenido. ¿Puedo ver su tarjeta de embarque?",
         "fr": "Bienvenue à bord. {% ['Bonjour', 'Bon après-midi', 'Bonsoir'][departureDayPhase]='Bonjour' %}. Bienvenue. Puis-je voir votre carte d'embarquement?",
