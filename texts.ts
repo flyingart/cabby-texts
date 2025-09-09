@@ -486,7 +486,7 @@ const texts: Text[] = [
     "conditions": [
       {"type": "runtimeFlightMetadata", "key": "arrivalDelay", "value": [1]}
     ],
-    "timeout": [21, 21],
+    "timeout": [40, 60],
     "runtimeGenerated": true,
     "texts": [
       {
