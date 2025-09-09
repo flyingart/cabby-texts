@@ -514,14 +514,30 @@ const texts: Text[] = [
 
   // Boarding
   {
+    "category": "crew-gate-boarding-waiting",
+    "trigger": {"event": "flightStateChange", "value": ['GENERATION_COMPLETED']},
+    "timeout": [10, 30],
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, boarding will begin in a few minutes. Please make sure to have your boarding pass ready. Thank you for your patience.",
+      }
+    ]
+  },
+  {
+    "category": "crew-gate-boarding-started",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_BOARDING']},
+    "timeout": [0, 5],
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, boarding has begun. Please make sure to have your boarding pass ready. Thank you for your cooperation.",
+      }
+    ]
+  },
+  {
     "category": "crew-boarding",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_BOARDING']},
     "timeout": [0, 0],
-    "texts": [
-      {
-        "en": "Boarding started.",
-      }
-    ]
+    "texts": []
   },
   {
     "category": "crew-boarding-chatter",
