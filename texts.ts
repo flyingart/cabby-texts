@@ -520,7 +520,7 @@ const texts: Text[] = [
     "texts": [
       {
         "en": "Ladies and gentlemen, boarding will begin in a few minutes. Please make sure to have your boarding pass ready. Thank you for your patience.",
-        "pl": "Drogi pasażerowie, boarding rozpocznie się za chwilę. Prosimy o sprawdzenie, czy posiadacie kartę pokładową. Dziękujemy za cierpliwość.",
+        "pl": "Drodzy pasażerowie, boarding rozpocznie się za chwilę. Prosimy o sprawdzenie, czy posiadacie kartę pokładową. Dziękujemy za cierpliwość.",
         "de": "Guten Tag, die Boarding-Beginn ist in Kürze. Bitte stellen Sie sicher, dass Sie Ihren Boarding-Pass bereit haben. Vielen Dank für Ihre Geduld.",
         "pt_br": "Senhoras e senhores, a partiragem começará em breve. Por favor, certifique-se de ter seu cartão de embarque pronto. Obrigado pela sua paciência.",
         "es": "Señoras y señores, la llegada a la cabina comenzará en breve. Por favor, asegúrese de tener su tarjeta de embarque lista. Gracias por su paciencia.",
@@ -538,7 +538,7 @@ const texts: Text[] = [
       },
       {
         "en": "Ladies and gentlemen, boarding is about to begin. Please stand in line and have your boarding pass ready, so we can get you on board as soon as possible. Thank you for your patience.",
-        "pl": "Drogi pasażerowie, boarding rozpocznie się za chwilę. Prosimy o ustawienie się w kolejce i o naszykowanie karty pokładowej, abyśmy mogli państwa na pokład jak najszybciej. Dziękujemy za cierpliwość.",
+        "pl": "Drodzy pasażerowie, boarding rozpocznie się za chwilę. Prosimy o ustawienie się w kolejce i o naszykowanie karty pokładowej, abyśmy mogli państwa na pokład jak najszybciej. Dziękujemy za cierpliwość.",
         "de": "Guten Tag, die Boarding-Beginn ist in Kürze. Bitte stehen Sie in der Reihe und haben Sie Ihren Boarding-Pass bereit, damit wir Sie so schnell wie möglich auf den Flug bringen können. Vielen Dank für Ihre Geduld.",
         "pt_br": "Senhoras e senhores, o embarque começará em breve. Por favor, fique na fila e tenha seu cartão de embarque pronto, para que possamos você embarcar o mais rápido possível. Obrigado pela sua paciência.",
         "es": "Señoras y señores, la llegada a la cabina comenzará en breve. Por favor, quede en la fila y tenga su tarjeta de embarque lista, para que podamos llevársela al avión lo antes posible. Gracias por su paciencia.",
@@ -563,7 +563,7 @@ const texts: Text[] = [
     "texts": [
       {
         "en": "Ladies and gentlemen, boarding has begun. Please make sure to have your boarding pass ready. Thank you for your cooperation.",
-        "pl": "Drogi pasażerowie, boarding rozpoczął się. Prosimy o naszykować kartę pokładową. Dziękujemy za współpracę.",
+        "pl": "Drodzy pasażerowie, boarding rozpoczął się. Prosimy o naszykować kartę pokładową. Dziękujemy za współpracę.",
         "de": "Guten Tag, die Boarding-Beginn ist begonnen. Bitte stellen Sie sicher, dass Sie Ihren Boarding-Pass bereit haben. Vielen Dank für Ihre Zusammenarbeit.",
         "pt_br": "Senhoras e senhores, a partiragem começou. Por favor, certifique-se de ter seu cartão de embarque pronto. Obrigado pela sua cooperação.",
         "es": "Señoras y señores, la llegada a la cabina comenzó. Por favor, asegúrese de tener su tarjeta de embarque lista. Gracias por su cooperación.",
@@ -581,7 +581,7 @@ const texts: Text[] = [
       },
       {
         "en": "Ladies and gentlemen, gate is now open. We'll be happy to see you on board. Thank you.",
-        "pl": "Drogi pasażerowie, bramki zostały otwarte. Cieszymy się, że możemy państwa zobaczyć na pokładzie. Dziękujemy.",
+        "pl": "Drodzy pasażerowie, bramki zostały otwarte. Cieszymy się, że możemy państwa zobaczyć na pokładzie. Dziękujemy.",
         "de": "Guten Tag, die Gate ist jetzt offen. Wir freuen uns, Sie an Bord zu sehen. Vielen Dank.",
         "pt_br": "Senhoras e senhores, a porta está agora aberta. Estaremos felizes em ver você a bordo. Obrigado.",
         "es": "Señoras y señores, la puerta está ahora abierta. Estaremos felices de verlos a bordo. Gracias.",
