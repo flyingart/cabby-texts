@@ -14,6 +14,14 @@ type Text = {
     key: string[];
     newValue: number[];
   } | {
+    event: 'simValueChanged';
+    key: string;
+    newValueLowerThan: number;
+  } | {
+    event: 'simValueChanged';
+    key: string;
+    newValueGreaterThan: number;
+  } | {
     event: 'flightStateChange';
     value: string[];
     ignoreFlightStateChange?: string[]; // By default, Cabby will ignore messages scheduled to be played during one phase, when the flight state changes to another phase. If you want to play the message anyway, you can add the flight state to this array.
@@ -2004,7 +2012,7 @@ const texts: Text[] = [
 
   {
     "category": "captain-10k-announcement",
-    "trigger": {"event": "runtimeFlightMetadataChange", "key": "planeAltitude", "newValueLowerThan": 10500},
+    "trigger": {"event": "simValueChanged", "key": "planeAltitude", "newValueLowerThan": 10500},
     "conditions": [
       {"type": "flightState", "value": ["FLIGHT_DESCENT"]},
     ],
@@ -2035,7 +2043,7 @@ const texts: Text[] = [
   },
   {
     "category": "crew-10k-announcement",
-    "trigger": {"event": "runtimeFlightMetadataChange", "key": "planeAltitude", "newValueLowerThan": 10500},
+    "trigger": {"event": "simValueChanged", "key": "planeAltitude", "newValueLowerThan": 10500},
     "conditions": [
       {"type": "flightState", "value": ["FLIGHT_DESCENT"]},
     ],
