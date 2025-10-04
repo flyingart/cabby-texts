@@ -611,7 +611,26 @@ const texts: Text[] = [
     "category": "crew-boarding",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_BOARDING']},
     "timeout": [0, 0],
-    "texts": []
+    "texts": [
+      {
+        "en": "Captain, boarding has started.",
+        "pl": "Kapitanie, rozpoczęliśmy przyjmowanie pasaerów na pokład",
+        "de": "Kapitän, wir haben mit dem Einsteigen der Passagiere begonnen.",
+        "pt_br": "Capitão, começamos a embarcar passageiros.",
+        "es": "Capitán, hemos comenzado el embarque de pasajeros.",
+        "fr": "Capitaine, nous avons commencé l'embarquement des passagers.",
+        "it": "Capitano, abbiamo iniziato a imbarcare i passeggeri.",
+        "tr": "Kaptan, yolcu alımına başladık.",
+        "nl": "Kapitein, we zijn begonnen met het aan boord nemen van passagiers.",
+        "ko": "선장님, 승객 탑승을 시작했습니다.",
+        "pt_pt": "Capitão, começámos a embarcar passageiros.",
+        "no": "Kaptein, vi har begynt å gå ombord på passasjerer.",
+        "th": "กัปตัน เราได้เริ่มนำผู้โดยสารขึ้นเครื่องแล้ว",
+        "zh": "机长，我们已经开始登机了。",
+        "ja": "機長、乗客の搭乗を開始しました。",
+        "ar": "يا كابتن، لقد بدأنا في صعود الركاب.",
+      }
+    ]
   },
   {
     "category": "crew-boarding-chatter",
