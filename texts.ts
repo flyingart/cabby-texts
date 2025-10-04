@@ -14,6 +14,14 @@ type Text = {
     key: string[];
     newValue: number[];
   } | {
+    event: 'simValueChanged';
+    key: string;
+    newValueLowerThan: number;
+  } | {
+    event: 'simValueChanged';
+    key: string;
+    newValueGreaterThan: number;
+  } | {
     event: 'flightStateChange';
     value: string[];
     ignoreFlightStateChange?: string[]; // By default, Cabby will ignore messages scheduled to be played during one phase, when the flight state changes to another phase. If you want to play the message anyway, you can add the flight state to this array.
@@ -514,14 +522,96 @@ const texts: Text[] = [
 
   // Boarding
   {
+    "category": "crew-gate-boarding-waiting",
+    "trigger": {"event": "flightStateChange", "value": ['GENERATION_COMPLETED']},
+    "timeout": [10, 30],
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, boarding will begin in a few minutes. Please make sure to have your boarding pass ready. Thank you for your patience.",
+        "pl": "Drodzy pasażerowie, boarding rozpocznie się za chwilę. Prosimy o sprawdzenie, czy posiadacie kartę pokładową. Dziękujemy za cierpliwość.",
+        "de": "Guten Tag, die Boarding-Beginn ist in Kürze. Bitte stellen Sie sicher, dass Sie Ihren Boarding-Pass bereit haben. Vielen Dank für Ihre Geduld.",
+        "pt_br": "Senhoras e senhores, a partiragem começará em breve. Por favor, certifique-se de ter seu cartão de embarque pronto. Obrigado pela sua paciência.",
+        "es": "Señoras y señores, la llegada a la cabina comenzará en breve. Por favor, asegúrese de tener su tarjeta de embarque lista. Gracias por su paciencia.",
+        "fr": "Mesdames et messieurs, le départ à la cabine commencera dans quelques minutes. Veuillez vous assurer de bien avoir votre carte d'embarquement à portée de main. Merci pour votre patience.",
+        "it": "Signore e signore, l'imbarco inizierà in breve. Assicurati di avere il tuo cartello di imbarco pronto. Grazie per la tua pazienza.",
+        "tr": "Bayanlar ve bayanlar, kabin girişi yaklaşıyor. Lütfen kabin giriş kartınızı hazırda bekleyin. Teşekkür ederiz.",
+        "nl": "Dames en heren, het boarding zal binnenkort beginnen. Zorg ervoor dat uw instapkaart klaar is. Bedankt voor uw geduld.",
+        "ko": "여러분, 착륙 시작 전에 준비를 시작합니다. 착륙 카드를 준비해주세요. 감사합니다.",
+        "pt_pt": "Senhoras e senhores, o embarque começará em breve. Por favor, certifique-se de ter o seu cartão de embarque pronto. Obrigado pela sua paciência.",
+        "no": "Dames og herrer, boarding vil begynne om noen minutter. Vennligst sørg for at du har kjøpt inn pas. Takk for din tålmodighet.",
+        "th": "นักท่องเที่ยวทุกท่าน การจองที่นั่งจะเริ่มในไม่นานอีก กรุณาตรวจสอบว่าคุณมีบัตรขึ้นเครื่องพร้อมกัน ขอบคุณสำหรับความอดทนของท่าน",
+        "zh": "女士们，先生们，登机即将开始。请确保您已准备好登机牌。感谢您的耐心等待。",
+        "ja": "お客様各位、登機がすぐに始まります。ご乗船券をご用意ください。ご理解とご協力をお願いします。",
+        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم."
+      },
+      {
+        "en": "Ladies and gentlemen, boarding is about to begin. Please stand in line and have your boarding pass ready, so we can get you on board as soon as possible. Thank you for your patience.",
+        "pl": "Drodzy pasażerowie, boarding rozpocznie się za chwilę. Prosimy o ustawienie się w kolejce i o naszykowanie karty pokładowej, abyśmy mogli państwa na pokład jak najszybciej. Dziękujemy za cierpliwość.",
+        "de": "Guten Tag, die Boarding-Beginn ist in Kürze. Bitte stehen Sie in der Reihe und haben Sie Ihren Boarding-Pass bereit, damit wir Sie so schnell wie möglich auf den Flug bringen können. Vielen Dank für Ihre Geduld.",
+        "pt_br": "Senhoras e senhores, o embarque começará em breve. Por favor, fique na fila e tenha seu cartão de embarque pronto, para que possamos você embarcar o mais rápido possível. Obrigado pela sua paciência.",
+        "es": "Señoras y señores, la llegada a la cabina comenzará en breve. Por favor, quede en la fila y tenga su tarjeta de embarque lista, para que podamos llevársela al avión lo antes posible. Gracias por su paciencia.",
+        "fr": "Mesdames et messieurs, le départ à la cabine commencera dans quelques minutes. Veuillez rester en file d'attente et avoir votre carte d'embarquement à portée de main, afin que nous puissions vous embarquer dès que possible. Merci pour votre patience.",
+        "it": "Signore e signore, l'imbarco inizierà in breve. Per favore, restate in fila e tenete il vostro cartello di imbarco pronto, affinché possiamo portarti a bordo il più presto possibile. Grazie per la tua pazienza.",
+        "tr": "Bayanlar ve bayanlar, kabin girişi yaklaşıyor. Lütfen sıraya koyulun ve kabin giriş kartınızı hazırda bekleyin, böylece mümkün olduğunca çabuk alabiliriz. Teşekkür ederiz.",
+        "nl": "Dames en heren, het boarding zal binnenkort beginnen. Zorg ervoor dat u in de rij staat en dat uw instapkaart klaar is, zodat we u zo snel mogelijk aan boord kunnen brengen. Bedankt voor uw geduld.",
+        "ko": "여러분, 착륙 시작 전에 준비를 시작합니다. 착륙 카드를 준비해주세요. 감사합니다.",
+        "pt_pt": "Senhoras e senhores, o embarque começará em breve. Por favor, fique na fila e tenha o seu cartão de embarque pronto, para que possamos levar-lo a bordo o mais rápido possível. Obrigado pela sua paciência.",
+        "no": "Dames og herrer, boarding vil begynne om noen minutter. Vennligst stå i kø og ha kjøpt inn pas, slik at vi kan få deg ombord så raskt som mulig. Takk for din tålmodighet.",
+        "th": "นักท่องเที่ยวทุกท่าน การจองที่นั่งจะเริ่มในไม่นานอีก กรุณานั่งในคิวและตรวจสอบว่าคุณมีบัตรขึ้นเครื่องพร้อมกัน ขอบคุณสำหรับความอดทนของท่าน",
+        "zh": "女士们，先生们，登机即将开始。请站在队伍中，准备好登机牌，以便我们尽快将您带上飞机。感谢您的耐心等待。",
+        "ja": "お客様各位、登機がすぐに始まります。ご乗船券をご用意ください。ご理解とご協力をお願いします。",
+        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم."
+      }
+    ]
+  },
+  {
+    "category": "crew-gate-boarding-started",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_BOARDING']},
+    "timeout": [0, 5],
+    "texts": [
+      {
+        "en": "Ladies and gentlemen, boarding has begun. Please make sure to have your boarding pass ready. Thank you for your cooperation.",
+        "pl": "Drodzy pasażerowie, boarding rozpoczął się. Prosimy o naszykować kartę pokładową. Dziękujemy za współpracę.",
+        "de": "Guten Tag, die Boarding-Beginn ist begonnen. Bitte stellen Sie sicher, dass Sie Ihren Boarding-Pass bereit haben. Vielen Dank für Ihre Zusammenarbeit.",
+        "pt_br": "Senhoras e senhores, a partiragem começou. Por favor, certifique-se de ter seu cartão de embarque pronto. Obrigado pela sua cooperação.",
+        "es": "Señoras y señores, la llegada a la cabina comenzó. Por favor, asegúrese de tener su tarjeta de embarque lista. Gracias por su cooperación.",
+        "fr": "Mesdames et messieurs, le départ à la cabine a commencé. Veuillez vous assurer de bien avoir votre carte d'embarquement à portée de main. Merci pour votre coopération.",
+        "it": "Signore e signore, l'imbarco ha iniziato. Assicurati di avere il tuo cartello di imbarco pronto. Grazie per la tua cooperazione.",
+        "tr": "Bayanlar ve bayanlar, kabin girişi başladı. Lütfen kabin giriş kartınızı hazırda bekleyin. Teşekkür ederiz.",
+        "nl": "Dames en heren, het boarding is begonnen. Zorg ervoor dat uw instapkaart klaar is. Bedankt voor uw samenwerking.",
+        "ko": "여러분, 착륙 시작 전에 준비를 시작합니다. 착륙 카드를 준비해주세요. 감사합니다.",
+        "pt_pt": "Senhoras e senhores, o embarque começou. Por favor, certifique-se de ter o seu cartão de embarque pronto. Obrigado pela sua cooperação.",
+        "no": "Dames og herrer, boarding har begynt. Vennligst sørg for at du har kjøpt inn pas. Takk for din samarbeid.",
+        "th": "นักท่องเที่ยวทุกท่าน การจองที่นั่งจะเริ่มในไม่นานอีก กรุณาตรวจสอบว่าคุณมีบัตรขึ้นเครื่องพร้อมกัน ขอบคุณสำหรับความร่วมมือของท่าน",
+        "zh": "女士们，先生们，登机已经开始。请确保您已准备好登机牌。感谢您的合作。",
+        "ja": "お客様各位、登機が始まります。ご乗船券をご用意ください。ご理解とご協力をお願いします。",
+        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم."
+      },
+      {
+        "en": "Ladies and gentlemen, gate is now open. We'll be happy to see you on board. Thank you.",
+        "pl": "Drodzy pasażerowie, bramki zostały otwarte. Cieszymy się, że możemy państwa zobaczyć na pokładzie. Dziękujemy.",
+        "de": "Guten Tag, die Gate ist jetzt offen. Wir freuen uns, Sie an Bord zu sehen. Vielen Dank.",
+        "pt_br": "Senhoras e senhores, a porta está agora aberta. Estaremos felizes em ver você a bordo. Obrigado.",
+        "es": "Señoras y señores, la puerta está ahora abierta. Estaremos felices de verlos a bordo. Gracias.",
+        "fr": "Mesdames et messieurs, la porte est maintenant ouverte. Nous serons ravis de vous accueillir à bord. Merci.",
+        "it": "Signore e signore, la porta è ora aperta. Saremo felici di vedervi a bordo. Grazie.",
+        "tr": "Bayanlar ve bayanlar, kapı şimdi açık. Kabineye merak ediyoruz. Teşekkür ederiz.",
+        "nl": "Dames en heren, de poort is nu open. We zullen blij zijn om u aan boord te zien. Bedankt.",
+        "ko": "여러분, 브레이크 시작 전에 준비를 시작합니다. 브레이크 카드를 준비해주세요. 감사합니다.",
+        "pt_pt": "Senhoras e senhores, a porta está agora aberta. Estaremos felizes em ver você a bordo. Obrigado.",
+        "no": "Dames og herrer, gate er nå åpen. Vi vil være glade for å se deg a bord. Takk.",
+        "th": "นักท่องเที่ยวทุกท่าน การจองที่นั่งจะเริ่มในไม่นานอีก กรุณาตรวจสอบว่าคุณมีบัตรขึ้นเครื่องพร้อมกัน ขอบคุณสำหรับความร่วมมือของท่าน",
+        "zh": "女士们，先生们，登机已经开始。请确保您已准备好登机牌。感谢您的合作。",
+        "ja": "お客様各位、登機が始まります。ご乗船券をご用意ください。ご理解とご協力をお願いします。",
+        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم."
+      }
+    ]
+  },
+  {
     "category": "crew-boarding",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_BOARDING']},
     "timeout": [0, 0],
-    "texts": [
-      {
-        "en": "Boarding started.",
-      }
-    ]
+    "texts": []
   },
   {
     "category": "crew-boarding-chatter",
@@ -1922,7 +2012,7 @@ const texts: Text[] = [
 
   {
     "category": "captain-10k-announcement",
-    "trigger": {"event": "runtimeFlightMetadataChange", "key": "planeAltitude", "newValueLowerThan": 10500},
+    "trigger": {"event": "simValueChanged", "key": "planeAltitude", "newValueLowerThan": 10500},
     "conditions": [
       {"type": "flightState", "value": ["FLIGHT_DESCENT"]},
     ],
@@ -1953,7 +2043,7 @@ const texts: Text[] = [
   },
   {
     "category": "crew-10k-announcement",
-    "trigger": {"event": "runtimeFlightMetadataChange", "key": "planeAltitude", "newValueLowerThan": 10500},
+    "trigger": {"event": "simValueChanged", "key": "planeAltitude", "newValueLowerThan": 10500},
     "conditions": [
       {"type": "flightState", "value": ["FLIGHT_DESCENT"]},
     ],
