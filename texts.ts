@@ -614,7 +614,7 @@ const texts: Text[] = [
     "texts": [
       {
         "en": "Captain, boarding has started.",
-        "pl": "Kapitanie, rozpoczęliśmy przyjmowanie pasaerów na pokład",
+        "pl": "Kapitanie, rozpoczęliśmy przyjmowanie pasaerów na pokład.",
         "de": "Kapitän, wir haben mit dem Einsteigen der Passagiere begonnen.",
         "pt_br": "Capitão, começamos a embarcar passageiros.",
         "es": "Capitán, hemos comenzado el embarque de pasajeros.",
@@ -1258,6 +1258,24 @@ const texts: Text[] = [
         "zh": "机组人员，请准备起飞。",
         "ja": "客室乗務員の皆さん、離陸の準備をしてください。",
         "ar": "طاقم الطائرة، استعدوا للإقلاع."
+      },
+      {
+        "en": "Cabin crew, take your seats for takeoff.",
+        "pl": "Załogo, zajmijcie miejsca do startu.",
+        "de": "Kabinenpersonal, nehmen Sie Ihre Sitze für den Start ein.",
+        "pt_br": "Tripulação de cabine, sentem-se para a decolagem.",
+        "es": "Tripulación de cabina, tomen asiento para el despegue.",
+        "fr": "Équipage de cabine, prenez place pour le décollage.",
+        "it": "Assistenti di volo, sedetevi per il decollo.",
+        "tr": "Kabin ekibi, kalkış için yerlerinizi alın.",
+        "nl": "Cabinepersoneel, neem plaats voor het opstijgen.",
+        "ko": "캐빈크루, 이륙을 위해 자리에 앉아주세요.",
+        "pt_pt": "Tripulação de cabine, sentem-se para a descolagem.",
+        "no": "Kabinpersonalet, sett dere for avgang.",
+        "th": "ลูกเรือทุกท่าน กรุณานั่งประจำที่เพื่อเตรียมพร้อมสำหรับการขึ้นบิน",
+        "zh": "机组人员，请就座，准备起飞。",
+        "ja": "客室乗務員の皆さん、離陸のために着席してください。",
+        "ar": "طاقم الطائرة، تفضلوا بالجلوس استعدادًا للإقلاع."
       }
     ]
   },
@@ -2196,6 +2214,42 @@ const texts: Text[] = [
         "zh": "机组人员，请就座，准备降落。",
         "ja": "客室乗務員の皆さん、着陸に備えて着席してください。",
         "ar": "طاقم الطائرة، تفضلوا بالجلوس استعدادًا للهبوط."
+      },
+      {
+        "en": "Cabin crew, prepare for landing.",
+        "pl": "Załogo, przygotować się do lądowania.",
+        "de": "Kabinenpersonal, bitte bereiten Sie sich auf die Landung vor.",
+        "pt_br": "Tripulação, preparar para o pouso.",
+        "es": "Tripulación de cabina, prepárense para el aterrizaje.",
+        "fr": "Personnel de cabine, préparez-vous pour l'atterrissage.",
+        "it": "Assistenti di volo, prepararsi per l'atterraggio.",
+        "tr": "Kabin ekibi, iniş için hazırlanın.",
+        "nl": "Cabinepersoneel, maak u gereed voor de landing.",
+        "ko": "캐빈크루, 착륙 준비를 해주세요.",
+        "pt_pt": "Tripulação de cabine, preparar para a aterragem.",
+        "no": "Kabinpersonalet, gjør dere klare for landing.",
+        "th": "ลูกเรือทุกท่าน กรุณาเตรียมพร้อมสำหรับการลงจอด",
+        "zh": "机组人员，请准备降落。",
+        "ja": "客室乗務員の皆さん、着陸の準備をしてください。",
+        "ar": "طاقم الطائرة، استعدوا للهبوط."
+      },
+      {
+        "en": "Cabin crew, please be seated for landing.",
+        "pl": "Załogo, proszę zająć miejsca do lądowania.",
+        "de": "Kabinenpersonal, bitte nehmen Sie Ihre Sitze für die Landung ein.",
+        "pt_br": "Tripulação, por favor, sentem-se para o pouso.",
+        "es": "Tripulación de cabina, por favor tomen asiento para el aterrizaje.",
+        "fr": "Personnel de cabine, veuillez vous asseoir pour l'atterrissage.",
+        "it": "Assistenti di volo, per favore sedetevi per l'atterraggio.",
+        "tr": "Kabin ekibi, lütfen iniş için yerlerinizi alın.",
+        "nl": "Cabinepersoneel, neem alstublieft plaats voor de landing.",
+        "ko": "캐빈크루, 착륙을 위해 자리에 앉아주세요.",
+        "pt_pt": "Tripulação de cabine, por favor sentem-se para a aterragem.",
+        "no": "Kabinpersonalet, vennligst sett dere for landing.",
+        "th": "ลูกเรือทุกท่าน กรุณานั่งประจำที่เพื่อเตรียมตัวสำหรับการลงจอด",
+        "zh": "机组人员，请就座，准备降落。",
+        "ja": "客室乗務員の皆さん、着陸のために着席してください。",
+        "ar": "طاقم الطائرة، الرجاء الجلوس استعدادًا للهبوط."
       }
     ]
   },
@@ -2243,6 +2297,52 @@ const texts: Text[] = [
         "ja": "[Welcome to {destinationCityName}.] [Temperature outside is {currentTemperature} degrees.] [Current local time is {localTimeMinutes} minutes past {localTimeHours}.] 航空機が完全に停止し、シートベルト着用サインが消えるまで、シートベルトを締めてお座りください。航空機を離れる前に、すべての所持品をお持ちであることを確認してください。乗務員を代表して、本日のご利用に感謝申し上げます。快適なフライトであったことを願っております。またのご搭乗を心よりお待ちしています。",
         "ar": "[Welcome to {destinationCityName}.] [Temperature outside is {currentTemperature} degrees.] [Current local time is {localTimeMinutes} minutes past {localTimeHours}.] يرجى البقاء في مقاعدكم مع ربط حزام الأمان حتى تتوقف الطائرة تمامًا ويتم إيقاف إشارة ربط الأحزمة. تأكد من أن لديك جميع متعلقاتك الشخصية معك قبل مغادرة الطائرة. نيابة عن الطاقم، أود أن أشكرك على السفر معنا اليوم. نأمل أن تكون قد قضيت رحلة ممتعة ونتطلع إلى الترحيب بك مرة أخرى قريبًا."
       }
+    ]
+  },
+
+  {
+    "category": "crew-taxi-to-gate-please-remain-seated",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_POST_LANDING']},
+    "timeout": [120, 180],
+    "runtimeGenerated": true,
+    "chanceOfPlaying": 0.2,
+    "texts": [
+      {
+        "en": "Passengers, please sit down! Aircraft is still moving and seatbelt sign is still on.",
+        "pl": "Pasażerowie, proszę usiąść! Samolot wciąż się porusza i sygnał zapięcia pasów jest nadal włączony.",
+        "de": "Meine Damen und Herren, bitte setzen Sie sich! Das Flugzeug bewegt sich noch und das Anschnallzeichen ist weiterhin eingeschaltet.",
+        "pt_br": "Senhores passageiros, por favor, sentem-se! A aeronave ainda está em movimento e o aviso de apertar os cintos continua aceso.",
+        "es": "Pasajeros, por favor, tomen asiento. El avión todavía está en movimiento y la señal del cinturón de seguridad sigue encendida.",
+        "fr": "Mesdames et messieurs, veuillez vous asseoir, s’il vous plaît. L’avion est encore en mouvement et le signal « attachez vos ceintures » reste allumé.",
+        "it": "Signore e signori passeggeri, per favore sedetevi! L’aereo è ancora in movimento e il segnale delle cinture di sicurezza è ancora acceso.",
+        "tr": "Sayın yolcular, lütfen oturun! Uçak hâlâ hareket ediyor ve kemer ikaz ışığı yanmaya devam ediyor.",
+        "nl": "Dames en heren, gaat u alstublieft zitten! Het vliegtuig is nog in beweging en het gordelteken brandt nog.",
+        "ko": "승객 여러분, 자리에 앉아주세요! 항공기가 아직 이동 중이며, 좌석벨트 표시등이 켜져 있습니다.",
+        "pt_pt": "Senhores passageiros, por favor sentem-se! A aeronave ainda está em movimento e o sinal de apertar os cintos continua ligado.",
+        "no": "Passasjerer, vennligst sett dere! Flyet beveger seg fortsatt, og skiltet for setebelte er fortsatt på.",
+        "th": "ผู้โดยสารทุกท่าน กรุณานั่งประจำที่ด้วยค่ะ เครื่องบินยังเคลื่อนที่อยู่และสัญญาณรัดเข็มขัดยังเปิดอยู่",
+        "zh": "各位乘客，请坐好！飞机仍在滑行，系好安全带的指示灯仍然亮着。",
+        "ja": "お客様、どうぞお座りください。航空機はまだ移動中で、シートベルトサインは点灯しています。",
+        "ar": "أيها الركاب، يرجى الجلوس! الطائرة لا تزال تتحرك وإشارة ربط الأحزمة لا تزال مضاءة."
+      },
+      {
+        "en": "Please remain seated — the aircraft is still moving, and it’s unsafe to stand up.",
+        "pl": "Proszę pozostać na miejscach — samolot wciąż się porusza i wstawanie jest niebezpieczne.",
+        "de": "Bitte bleiben Sie sitzen — das Flugzeug bewegt sich noch, das Aufstehen ist unsicher.",
+        "pt_br": "Por favor, permaneçam sentados — a aeronave ainda está em movimento e é perigoso levantar-se.",
+        "es": "Por favor, permanezcan sentados — el avión todavía está en movimiento y es peligroso levantarse.",
+        "fr": "Veuillez rester assis — l’avion est encore en mouvement et il est dangereux de se lever.",
+        "it": "Per favore, rimanete seduti — l’aereo è ancora in movimento ed è pericoloso alzarsi.",
+        "tr": "Lütfen oturduğunuz yerde kalın — uçak hâlâ hareket ediyor ve ayağa kalkmak tehlikelidir.",
+        "nl": "Blijft u alstublieft zitten — het vliegtuig is nog in beweging en het is onveilig om op te staan.",
+        "ko": "자리에 앉아 계십시오 — 항공기가 아직 이동 중이며, 일어서는 것은 위험합니다.",
+        "pt_pt": "Por favor, permaneçam sentados — a aeronave ainda está em movimento e é perigoso levantar-se.",
+        "no": "Vennligst bli sittende — flyet beveger seg fortsatt, og det er farlig å reise seg.",
+        "th": "กรุณานั่งอยู่กับที่ เครื่องบินยังเคลื่อนที่อยู่และการลุกขึ้นอาจเป็นอันตราย",
+        "zh": "请保持坐好——飞机仍在滑行，现在起身不安全。",
+        "ja": "座ったままでお待ちください。航空機はまだ移動中で、立ち上がるのは危険です。",
+        "ar": "يرجى البقاء جالسين — الطائرة لا تزال تتحرك ومن غير الآمن الوقوف الآن."
+      }  
     ]
   },
 
