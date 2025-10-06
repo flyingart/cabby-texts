@@ -1258,6 +1258,24 @@ const texts: Text[] = [
         "zh": "机组人员，请准备起飞。",
         "ja": "客室乗務員の皆さん、離陸の準備をしてください。",
         "ar": "طاقم الطائرة، استعدوا للإقلاع."
+      },
+      {
+        "en": "Cabin crew, take your seats for takeoff.",
+        "pl": "Załogo, zajmijcie miejsca do startu.",
+        "de": "Kabinenpersonal, nehmen Sie Ihre Sitze für den Start ein.",
+        "pt_br": "Tripulação de cabine, sentem-se para a decolagem.",
+        "es": "Tripulación de cabina, tomen asiento para el despegue.",
+        "fr": "Équipage de cabine, prenez place pour le décollage.",
+        "it": "Assistenti di volo, sedetevi per il decollo.",
+        "tr": "Kabin ekibi, kalkış için yerlerinizi alın.",
+        "nl": "Cabinepersoneel, neem plaats voor het opstijgen.",
+        "ko": "캐빈크루, 이륙을 위해 자리에 앉아주세요.",
+        "pt_pt": "Tripulação de cabine, sentem-se para a descolagem.",
+        "no": "Kabinpersonalet, sett dere for avgang.",
+        "th": "ลูกเรือทุกท่าน กรุณานั่งประจำที่เพื่อเตรียมพร้อมสำหรับการขึ้นบิน",
+        "zh": "机组人员，请就座，准备起飞。",
+        "ja": "客室乗務員の皆さん、離陸のために着席してください。",
+        "ar": "طاقم الطائرة، تفضلوا بالجلوس استعدادًا للإقلاع."
       }
     ]
   },
@@ -2196,6 +2214,42 @@ const texts: Text[] = [
         "zh": "机组人员，请就座，准备降落。",
         "ja": "客室乗務員の皆さん、着陸に備えて着席してください。",
         "ar": "طاقم الطائرة، تفضلوا بالجلوس استعدادًا للهبوط."
+      },
+      {
+        "en": "Cabin crew, prepare for landing.",
+        "pl": "Załogo, przygotować się do lądowania.",
+        "de": "Kabinenpersonal, bitte bereiten Sie sich auf die Landung vor.",
+        "pt_br": "Tripulação, preparar para o pouso.",
+        "es": "Tripulación de cabina, prepárense para el aterrizaje.",
+        "fr": "Personnel de cabine, préparez-vous pour l'atterrissage.",
+        "it": "Assistenti di volo, prepararsi per l'atterraggio.",
+        "tr": "Kabin ekibi, iniş için hazırlanın.",
+        "nl": "Cabinepersoneel, maak u gereed voor de landing.",
+        "ko": "캐빈크루, 착륙 준비를 해주세요.",
+        "pt_pt": "Tripulação de cabine, preparar para a aterragem.",
+        "no": "Kabinpersonalet, gjør dere klare for landing.",
+        "th": "ลูกเรือทุกท่าน กรุณาเตรียมพร้อมสำหรับการลงจอด",
+        "zh": "机组人员，请准备降落。",
+        "ja": "客室乗務員の皆さん、着陸の準備をしてください。",
+        "ar": "طاقم الطائرة، استعدوا للهبوط."
+      },
+      {
+        "en": "Cabin crew, please be seated for landing.",
+        "pl": "Załogo, proszę zająć miejsca do lądowania.",
+        "de": "Kabinenpersonal, bitte nehmen Sie Ihre Sitze für die Landung ein.",
+        "pt_br": "Tripulação, por favor, sentem-se para o pouso.",
+        "es": "Tripulación de cabina, por favor tomen asiento para el aterrizaje.",
+        "fr": "Personnel de cabine, veuillez vous asseoir pour l'atterrissage.",
+        "it": "Assistenti di volo, per favore sedetevi per l'atterraggio.",
+        "tr": "Kabin ekibi, lütfen iniş için yerlerinizi alın.",
+        "nl": "Cabinepersoneel, neem alstublieft plaats voor de landing.",
+        "ko": "캐빈크루, 착륙을 위해 자리에 앉아주세요.",
+        "pt_pt": "Tripulação de cabine, por favor sentem-se para a aterragem.",
+        "no": "Kabinpersonalet, vennligst sett dere for landing.",
+        "th": "ลูกเรือทุกท่าน กรุณานั่งประจำที่เพื่อเตรียมตัวสำหรับการลงจอด",
+        "zh": "机组人员，请就座，准备降落。",
+        "ja": "客室乗務員の皆さん、着陸のために着席してください。",
+        "ar": "طاقم الطائرة، الرجاء الجلوس استعدادًا للهبوط."
       }
     ]
   },
