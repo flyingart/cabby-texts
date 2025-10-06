@@ -614,7 +614,7 @@ const texts: Text[] = [
     "texts": [
       {
         "en": "Captain, boarding has started.",
-        "pl": "Kapitanie, rozpoczęliśmy przyjmowanie pasaerów na pokład",
+        "pl": "Kapitanie, rozpoczęliśmy przyjmowanie pasaerów na pokład.",
         "de": "Kapitän, wir haben mit dem Einsteigen der Passagiere begonnen.",
         "pt_br": "Capitão, começamos a embarcar passageiros.",
         "es": "Capitán, hemos comenzado el embarque de pasajeros.",
