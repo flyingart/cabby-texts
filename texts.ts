@@ -2300,6 +2300,52 @@ const texts: Text[] = [
     ]
   },
 
+  {
+    "category": "crew-taxi-to-gate-please-remain-seated",
+    "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_POST_LANDING']},
+    "timeout": [120, 180],
+    "runtimeGenerated": true,
+    "chanceOfPlaying": 0.2,
+    "texts": [
+      {
+        "en": "Passengers, please sit down! Aircraft is still moving and seatbelt sign is still on.",
+        "pl": "Pasażerowie, proszę usiąść! Samolot wciąż się porusza i sygnał zapięcia pasów jest nadal włączony.",
+        "de": "Meine Damen und Herren, bitte setzen Sie sich! Das Flugzeug bewegt sich noch und das Anschnallzeichen ist weiterhin eingeschaltet.",
+        "pt_br": "Senhores passageiros, por favor, sentem-se! A aeronave ainda está em movimento e o aviso de apertar os cintos continua aceso.",
+        "es": "Pasajeros, por favor, tomen asiento. El avión todavía está en movimiento y la señal del cinturón de seguridad sigue encendida.",
+        "fr": "Mesdames et messieurs, veuillez vous asseoir, s’il vous plaît. L’avion est encore en mouvement et le signal « attachez vos ceintures » reste allumé.",
+        "it": "Signore e signori passeggeri, per favore sedetevi! L’aereo è ancora in movimento e il segnale delle cinture di sicurezza è ancora acceso.",
+        "tr": "Sayın yolcular, lütfen oturun! Uçak hâlâ hareket ediyor ve kemer ikaz ışığı yanmaya devam ediyor.",
+        "nl": "Dames en heren, gaat u alstublieft zitten! Het vliegtuig is nog in beweging en het gordelteken brandt nog.",
+        "ko": "승객 여러분, 자리에 앉아주세요! 항공기가 아직 이동 중이며, 좌석벨트 표시등이 켜져 있습니다.",
+        "pt_pt": "Senhores passageiros, por favor sentem-se! A aeronave ainda está em movimento e o sinal de apertar os cintos continua ligado.",
+        "no": "Passasjerer, vennligst sett dere! Flyet beveger seg fortsatt, og skiltet for setebelte er fortsatt på.",
+        "th": "ผู้โดยสารทุกท่าน กรุณานั่งประจำที่ด้วยค่ะ เครื่องบินยังเคลื่อนที่อยู่และสัญญาณรัดเข็มขัดยังเปิดอยู่",
+        "zh": "各位乘客，请坐好！飞机仍在滑行，系好安全带的指示灯仍然亮着。",
+        "ja": "お客様、どうぞお座りください。航空機はまだ移動中で、シートベルトサインは点灯しています。",
+        "ar": "أيها الركاب، يرجى الجلوس! الطائرة لا تزال تتحرك وإشارة ربط الأحزمة لا تزال مضاءة."
+      },
+      {
+        "en": "Please remain seated — the aircraft is still moving, and it’s unsafe to stand up.",
+        "pl": "Proszę pozostać na miejscach — samolot wciąż się porusza i wstawanie jest niebezpieczne.",
+        "de": "Bitte bleiben Sie sitzen — das Flugzeug bewegt sich noch, das Aufstehen ist unsicher.",
+        "pt_br": "Por favor, permaneçam sentados — a aeronave ainda está em movimento e é perigoso levantar-se.",
+        "es": "Por favor, permanezcan sentados — el avión todavía está en movimiento y es peligroso levantarse.",
+        "fr": "Veuillez rester assis — l’avion est encore en mouvement et il est dangereux de se lever.",
+        "it": "Per favore, rimanete seduti — l’aereo è ancora in movimento ed è pericoloso alzarsi.",
+        "tr": "Lütfen oturduğunuz yerde kalın — uçak hâlâ hareket ediyor ve ayağa kalkmak tehlikelidir.",
+        "nl": "Blijft u alstublieft zitten — het vliegtuig is nog in beweging en het is onveilig om op te staan.",
+        "ko": "자리에 앉아 계십시오 — 항공기가 아직 이동 중이며, 일어서는 것은 위험합니다.",
+        "pt_pt": "Por favor, permaneçam sentados — a aeronave ainda está em movimento e é perigoso levantar-se.",
+        "no": "Vennligst bli sittende — flyet beveger seg fortsatt, og det er farlig å reise seg.",
+        "th": "กรุณานั่งอยู่กับที่ เครื่องบินยังเคลื่อนที่อยู่และการลุกขึ้นอาจเป็นอันตราย",
+        "zh": "请保持坐好——飞机仍在滑行，现在起身不安全。",
+        "ja": "座ったままでお待ちください。航空機はまだ移動中で、立ち上がるのは危険です。",
+        "ar": "يرجى البقاء جالسين — الطائرة لا تزال تتحرك ومن غير الآمن الوقوف الآن."
+      }  
+    ]
+  },
+
   // Disarm doors and cross-check
   {
     "category": "captain-disarm-doors-and-cross-check",
