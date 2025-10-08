@@ -1,0 +1,3 @@
+Program name: The British Airways Club (formerly Executive Club)
+
+Uses Avios as the points currency and Tier Points to determine membership status. As of April 2025, they moved to a revenue-based model for earning Tier Points (i.e. based on how much you spend rather than just distance flown). Higher tiers give benefits like lounge access, priority boarding/check-in, etc.

@@ -1,0 +1,5 @@
+Program name: Miles & More
+
+This is the central loyalty / frequent flyer programme used across Lufthansa Group. 
+It has status levels (Frequent Traveller, Senator, HON Circle) and uses “miles / points / qualifying / HON Circle points” depending on the level. 
+Also, many partner airlines use Miles & More (including LOT, Swiss, Austrian, etc.).

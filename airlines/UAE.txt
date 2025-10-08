@@ -1,0 +1,6 @@
+Program name: Emirates Skywards
+
+The frequent flyer / loyalty programme for Emirates (and flydubai) 
+They have tier levels: Blue, Silver, Gold, Platinum, with increasing benefits (bonus miles, lounge access, priority). 
+They also have Business Rewards — a corporate (business) loyalty scheme for companies. 
+And a “My Family” account feature, where family members can pool (share) Skywards Miles. 

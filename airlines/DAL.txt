@@ -1,0 +1,3 @@
+Program name: SkyMiles
+
+Members earn miles for flying (eligible fare classes) and via many partners (credit cards, hotels, etc.). Miles don’t expire. There are Medallion status tiers (Silver, Gold, Platinum, Diamond) with increasing perks: upgrades, waived fees (baggage, change), priority airport/screening/boarding.

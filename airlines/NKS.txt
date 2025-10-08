@@ -1,0 +1,3 @@
+Program name: Free Spirit
+
+A free-to-join loyalty program with status levels (e.g. Silver, Gold). Earn points based on fares and also optional extras (“Á La Smarte” etc). New features include extra legroom seat options, expanded redemption options, complimentary upgrades for status members (where available), more ways to earn with credit card spend etc.
