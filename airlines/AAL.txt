@@ -1,0 +1,3 @@
+Program name: AAdvantage
+
+Members earn miles for flights, credit card spend, shopping, etc. There is a status system (Gold, Platinum, Platinum Pro, Executive Platinum) that gives perks like priority boarding, free checked bags, complimentary upgrades, etc. Recently simplified status-earn to primarily use “Loyalty Points.”

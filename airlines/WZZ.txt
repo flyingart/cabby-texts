@@ -1,0 +1,5 @@
+Program name: WIZZ Discount Club
+
+This is a paid membership (annual) giving discounts on flight tickets, checked baggage, and sometimes priority boarding etc. 
+They also have All You Can Fly, a 12-month membership to fly many Wizz Air flights at fixed segment fee. 
+They also have a “Light” version (free) with more limited benefits (e.g. on-board coupons) under the discount club “Light” tier.
