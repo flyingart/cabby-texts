@@ -1094,7 +1094,7 @@ const texts: Text[] = [
   {
     "category": "crew-safety-briefing",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_PRE_TAKEOFF']},
-    "timeout": [120, 180],
+    "timeout": [80, 140],
     "texts": [
       {
         "en": "Ladies and gentlemen, on behalf of the crew I ask that you please direct your attention to the crew members as we review the emergency procedures. There are {aircraftEmergencyExistsCount} emergency exits on this aircraft. Take a minute to locate the exit closest to you. Note that the nearest exit may be behind you. Should the cabin experience sudden pressure loss, stay calm and listen for instructions from the cabin crew. Oxygen masks will drop down from above your seat. Place the mask over your mouth and nose, like this. Pull the strap to tighten it. If you are traveling with children, make sure that your own mask is on first before helping your children. In the unlikely event of an emergency landing and evacuation, leave your carry-on items behind. Life rafts are located below your seats and emergency lighting will lead you to your closest exit. We ask that you make sure that all carry-on luggage is stowed away safely during the flight. While we wait for take off, please take a moment to review the safety data card in the seat pocket in front of you. Thank you for your attention.",
@@ -1142,7 +1142,7 @@ const texts: Text[] = [
     "conditions": [
       {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
     ],
-    "timeout": [120, 140],
+    "timeout": [140, 180],
     "onlyPriorityLanguage": true,
     "runtimeGenerated": true,
     "chime": "DING",
