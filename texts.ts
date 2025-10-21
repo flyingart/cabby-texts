@@ -2,7 +2,6 @@ type Text = {
   category: string; // Category of the text. If the same category is used in multiple texts, only one of them will be played if text is triggered by flightStateChange event.
   weight?: number; // >= 1, default 1. This may be useful when determining which text to play when multiple texts are in the same category, and one of them should be played more often than others (basing on conditions for example).
   chanceOfPlaying?: number; // 0 - 1. If set, the text will be played with this chance. If not set, the text will always be played.
-  runtimeGenerated?: boolean; // If set to true, the text will be generated at runtime, not in pre-flight generation. This may be useful when the text should be generated based on the current state of the flight (e.g. captain random information about the flight).
   onlyPriorityLanguage?: boolean; // If set to true, the text will be played only in the priority language.
   numberOfEagerTextGenerations?: number; // Number of eager text generations. If some message can be played multiple times (like Seatbelt sign change), you can set this number to generate multiple texts in advance.
   chime?: 'DING' | 'DONG' | 'DING_DONG'; // If set, the sound will be played before the text.
@@ -162,7 +161,6 @@ const texts: Text[] = [
     ],
     "timeout": [2, 5],
     "numberOfEagerTextGenerations": 2,
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, our captain has just informed us that we are expecting some light turbulence. Please return to your seats and remain seated until the seatbelt sign is turned off. Use of the lavatories is not allowed at this time.",
@@ -466,7 +464,6 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_STARTED"]}
     ],
     "timeout": [60, 70],
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are currently experiencing a delay. We apologize for the inconvenience and we will keep you updated on the progress. We are working hard to get you on your way as soon as possible. Thank you for your patience.",
@@ -515,7 +512,6 @@ const texts: Text[] = [
       {"type": "runtimeFlightMetadata", "key": "arrivalDelay", "value": [1]}
     ],
     "timeout": [40, 60],
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "We would like to apologize you again for the delay. We hope that you had a pleasant flight and we are looking forward to seeing you again soon.",
@@ -1194,7 +1190,6 @@ const texts: Text[] = [
     ],
     "timeout": [140, 180],
     "onlyPriorityLanguage": true,
-    "runtimeGenerated": true,
     "chime": "DING",
     "texts": [
       {
@@ -1226,7 +1221,6 @@ const texts: Text[] = [
     ],
     "timeout": [140, 150],
     "onlyPriorityLanguage": false,
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, lights will be dimmed for takeoff due to safety reasons.",
@@ -1341,7 +1335,6 @@ const texts: Text[] = [
     "category": "crew-information-about-upcoming-service",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB']},
     "timeout": [30, 60],
-    "runtimeGenerated": true,
     "chime": "DING",
     "texts": [
       {
@@ -1485,7 +1478,6 @@ const texts: Text[] = [
     "category": "crew-service-information",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CLIMB'], "ignoreFlightStateChange": ['FLIGHT_CRUISE']},
     "timeout": [240, 360],
-    "runtimeGenerated": true,
     "chime": "DING",
     "conditions": [
       {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
@@ -1542,7 +1534,6 @@ const texts: Text[] = [
     ],
     "timeout": [300, 420],
     "chime": "DING",
-    "runtimeGenerated": true,
     "weight": 9,
     "texts": [
       {
@@ -1571,7 +1562,6 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CRUISE']},
     "timeout": [300, 420],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "conditions": [
       {"type": "runtimeFlightMetadata", key: "closeToDescend", value: [0]}
     ],
@@ -1751,7 +1741,6 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_CRUISE']},
     "timeout": [600, 720],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "conditions": [
       {"type": "metadata", key: "enroutePOIsNumber", value: [0]}
     ],
@@ -1801,7 +1790,6 @@ const texts: Text[] = [
     "trigger": {"event": "runtimeFlightMetadataChange", "key": ["inPOIRange"], "newValue": [1]},
     "timeout": [5, 10],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "conditions": [
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
       {"type": "runtimeFlightMetadata", key: "currentPOIDirection", value: ['left', 'right']}
@@ -1890,7 +1878,6 @@ const texts: Text[] = [
     "trigger": {"event": "runtimeFlightMetadataChange", "key": ["inPOIRange"], "newValue": [1]},
     "timeout": [5, 10],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "conditions": [
       {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
       {"type": "runtimeFlightMetadata", key: "currentPOIDirection", value: ['front']}
@@ -1946,7 +1933,6 @@ const texts: Text[] = [
     ],
     "timeout": [2, 10],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we'll be starting our descent into {destinationCityName} shortly. Please make sure your seatbelt is fastened and follow the instructions of the cabin crew. Thank you.",
@@ -1995,7 +1981,6 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_DESCENT']},
     "timeout": [10, 30],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please follow the instructions of the cabin crew as we prepare for landing. Thank you.",
@@ -2044,7 +2029,6 @@ const texts: Text[] = [
       {"type": "flightState", "value": ["FLIGHT_DESCENT"]}
     ],
     "timeout": [5, 10],
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -2094,7 +2078,6 @@ const texts: Text[] = [
     ],
     "timeout": [10, 30],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we are starting our descent into {destinationCityName}. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -2178,7 +2161,6 @@ const texts: Text[] = [
     "timeout": [10, 20],
     "chime": "DING_DONG",
     "singleTimeAnnouncement": true,
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, we'll be landing in a few minutes. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. The use of the lavatory is not permitted at this time. Thank you.",
@@ -2211,7 +2193,6 @@ const texts: Text[] = [
     ],
     "timeout": [480, 500],
     "onlyPriorityLanguage": true,
-    "runtimeGenerated": true,
     "chime": "DING",
     "texts": [
       {
@@ -2242,7 +2223,6 @@ const texts: Text[] = [
       {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
     ],
     "timeout": [500, 510],
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, lights will be dimmed for landing due to safety reasons.",
@@ -2357,7 +2337,6 @@ const texts: Text[] = [
     "category": "crew-taxi-to-gate-welcome-message",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_POST_LANDING']},
     "timeout": [15, 20],
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Ladies and gentlemen, welcome to {destinationCityName}. The time is currently {localTimeHours} {localTimeMinutes}. We have {currentTemperature} degrees outside. Please remain seated with your seatbelt fastened until the aircraft has come to a complete stop and the seatbelt sign has been turned off. Please make sure you have all your personal belongings with you before you leave the aircraft. On behalf of the crew, I would like to thank you for flying with us today. We hope you had a pleasant flight and we look forward to welcoming you on board again soon.",
@@ -2404,7 +2383,6 @@ const texts: Text[] = [
     "category": "crew-taxi-to-gate-please-remain-seated",
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_TAXI_POST_LANDING']},
     "timeout": [120, 180],
-    "runtimeGenerated": true,
     "chanceOfPlaying": 0.2,
     "texts": [
       {
@@ -2454,7 +2432,6 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_ON_BLOCKS']},
     "timeout": [5, 10],
     "onlyPriorityLanguage": true,
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Cabin crew, disarm doors and cross-check.",
@@ -2484,7 +2461,6 @@ const texts: Text[] = [
     "trigger": {"event": "flightStateChange", "value": ['FLIGHT_ON_BLOCKS']},
     "timeout": [20, 30],
     "chime": "DING_DONG",
-    "runtimeGenerated": true,
     "texts": [
       {
         "en": "Doors will be opened shortly. Please remember to take all your personal belongings with you. Make sure you have everything you brought on board. Thank you.",
