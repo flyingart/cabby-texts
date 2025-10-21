@@ -91,7 +91,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน เนื่องจากสภาพอากาศแปรปรวน ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดที่นั่งของท่านให้กระชับ",
         "zh": "女士们，先生们，前方预计会有一些轻微的颠簸。请您回到座位并系好安全带。",
         "ja": "皆様、今後は軽い乱気流が予想されます。席に戻り、シートベルトを締めてください。",
-        "ar": "سيداتي وسادتي، نتوقع بعض الاضطرابات الخفيفة. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان."
+        "ar": "سيداتي وسادتي، نتوقع بعض الاضطرابات الخفيفة. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان.",
+		    "hu": "Hölgyeim és uraim, enyhe turbulenciára számíthatunk. Kérjük, foglalják el helyüket, és csatolják be biztonsági öveiket.",
       },
       {
         "en": "Hello, this is your captain speaking. We had to turn on the seatbelt sign due to expected light turbulence. Please return to your seats and fasten your seat belts.",
@@ -109,7 +110,8 @@ const texts: Text[] = [
         "th": "สวัสดีครับ นี่คือกัปตันของคุณ ที่พูดคุย  เราต้องเปิดสัญญาณรัดเข็มขัดเนื่องจากมีการคาดการณ์ว่าจะมีการแรงอากาศแปรปรวน  ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดที่นั่งของท่านให้กระชับ",
         "zh": "您好，这里是您的机长。由于预计会有轻微颠簸，我们不得不打开安全带标志。请您回到座位并系好安全带。",
         "ja": "巡航高度での気流が不安定なため、シートベルト着用サインを作動させました。安全のため、追って通知があるまで着席したままシートベルトを締めてください。",
-        "ar": "مرحبًا، هذا هو قائدك يتحدث. كان علينا تشغيل إشارة حزام الأمان بسبب الاضطرابات الخفيفة المتوقعة. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان."
+        "ar": "مرحبًا، هذا هو قائدك يتحدث. كان علينا تشغيل إشارة حزام الأمان بسبب الاضطرابات الخفيفة المتوقعة. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان.",
+		    "hu": "Üdv!, a kapitány beszél. Be kellett kapcsolnunk a biztonsági öv jelzést a várható enyhe turbulencia miatt. Kérjük, foglalják el helyeiket, és csatolják be biztonsági öveiket.",
       },
       {
         "en": "Ladies and gentlemen, we’re expecting some changes in weather conditions ahead. As a precaution, the seatbelt sign has been turned on. Please remain seated and keep your seatbelt fastened. Thank you for your cooperation.",
@@ -127,7 +129,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน เรากำลังคาดการณ์ว่าจะมีการเปลี่ยนแปลงในสภาพอากาศข้างหน้า  ในการป้องกัน  เราได้เปิดสัญญาณรัดเข็มขัด  ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดท���่นั่งของท่านให้กระชับ ขอบคุณที่ร่วมมือ",
         "zh": "女士们，先生们，我们预计前方的天气条件会有一些变化。作为预防措施，我们已经打开了安全带标志。请您保持就座，并系好安全带。感谢您的合作。",
         "ja": "皆様、今後数分以内に天候が変化すると予想されます。予防措置として、シートベルト着用サインが点灯しました。お席に留まり、シートベルトをお締めください。ご協力をお願いいたします。",
-        "ar": "سيداتي وسادتي، نتوقع بعض التغييرات في الظروف الجوية في المستقبل. كإجراء احترازي، تم تشغيل إشارة حزام الأمان. يرجى البقاء في مقاعدكم وابقاء أحزمة الأمان مربوطة. شكرًا لتعاونكم."
+        "ar": "سيداتي وسادتي، نتوقع بعض التغييرات في الظروف الجوية في المستقبل. كإجراء احترازي، تم تشغيل إشارة حزام الأمان. يرجى البقاء في مقاعدكم وابقاء أحزمة الأمان مربوطة. شكرًا لتعاونكم.",
+		    "hu": "Hölgyeim és uraim, az előttünk álló szakaszon időjárási változásokra számítunk. Elővigyázatosságból bekapcsoltuk a biztonsági öv jelzést. Kérjük, maradjanak a helyükön, és tartsák becsatolva a biztonsági övüket. Köszönjük együttműködésüket.",
       },
       {
         "en": "Hello, this is your captain speaking. We’re encountering some unstable airflow at our cruising altitude, so we’ve turned on the seatbelt sign. For your safety, please remain seated with your seatbelts fastened until further notice.",
@@ -145,7 +148,8 @@ const texts: Text[] = [
         "th": "สวัสดีครับ นี่คือกัปตันของคุณ ที่พูดคุย เรากำลังพบกับการไหลลมที่ไม่เสถียรที่ระดับความสูงของเรา  ดังนั้นเราได้เปิดสัญญาณรัดเข็มขัด  สำหรับความปลอดภัยของท่าน  ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดที่นั่งของท่านให้กระชับ จนกว่าจะมีข้อความเพิ่มเติม",
         "zh": "您好，这里是您的机长。我们在巡航高度遇到了一些不稳定的气流，所以我们打开了安全带标志。为了您的安全，请保持就座，并系好安全带，直到进一步通知。",
         "ja": "こんにちは、機長です。巡航高度で気流が不安定なため、シートベルト着用サインを点灯しました。安全のため、追って通知があるまでシートベルトを締めてお座りください。",
-        "ar": "مرحبًا، هذا هو قائدك يتحدث. نحن نواجه تدفقًا هوائيًا غير مستقر على ارتفاعنا، لذا قمنا بتشغيل إشارة حزام الأمان. من أجل سلامتك، يرجى البقاء في مقاعدك مع ربط أحزمة الأمان حتى إشعار آخر."
+        "ar": "مرحبًا، هذا هو قائدك يتحدث. نحن نواجه تدفقًا هوائيًا غير مستقر على ارتفاعنا، لذا قمنا بتشغيل إشارة حزام الأمان. من أجل سلامتك، يرجى البقاء في مقاعدك مع ربط أحزمة الأمان حتى إشعار آخر.",
+		    "hu": "Üdv, itt a kapitány beszél. Jelenlegi utazómagasságunkon instabil légáramlatok várhatóak, ezért bekapcsoltuk a biztonsági öv jelzést. Az Önök biztonsága érdekében kérjük, maradjanak ülve, és tartsák becsatolva biztonsági övüket a következő tájékoztatásig.",
       }
     ]
   },
@@ -176,7 +180,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้กัปตันกำลังจะบินผ่านเขตสภาพอากาศแปรปรวน   ขอความกรุณาทุกท่านนั่งประจำที่ จนกว่าสัญญาณรัดเข็มขัดที่นั่งจะดับลง และกรุณางดใช้ห้องน้ำในช่วงเวลานี้",
         "zh": "女士们，先生们，机长刚刚通知我们前方预计会有一些轻微的颠簸。请您回到座位并保持就座，直到安全带标志熄灭。目前暂时不允许使用洗手间。",
         "ja": "皆様、私たちの船長から、今後軽い乱気流が予想されるとの連絡がありました。席にお戻りいただき、ベルト着用サインが消えるまでお座りください。現時点ではトイレの使用は禁止されています。",
-        "ar": "سيداتي وسادتي، أبلغنا قائد طائرتنا للتو بتوقع بعض الاضطرابات الخفيفة. يرجى العودة إلى مقاعدكم والبقاء فيها حتى إطفاء إشارة ربط حزام الأمان. استخدام دورات المياه ممنوع حاليًا."
+        "ar": "سيداتي وسادتي، أبلغنا قائد طائرتنا للتو بتوقع بعض الاضطرابات الخفيفة. يرجى العودة إلى مقاعدكم والبقاء فيها حتى إطفاء إشارة ربط حزام الأمان. استخدام دورات المياه ممنوع حاليًا.",
+		    "hu": "Hölgyeim és uraim, a kapitány most tájékoztatott bennünket, hogy enyhe turbulenciára számíthatunk. Kérjük, térjenek vissza a helyükre, és maradjanak ülve, amíg a biztonsági öv jelzés ki nem kapcsol. A mosdók használata jelenleg nem engedélyezett.",
       },
       {
         "en": "Our captain has just informed us that we are expecting some light turbulence. Please fasten your seatbelts.",
@@ -194,7 +199,8 @@ const texts: Text[] = [
         "th": "ขณะนี้กัปตันกำลังจะบินผ่านเขตสภาพอากาศแปรปรวน   ขอความกรุณาทุกท่านรัดเข็มขัดนิรภัยของท่าน",
         "zh": "机长刚刚通知我们，前方预计会有一些轻微的颠簸。请您系好安全带。",
         "ja": "船長から、この先軽い乱気流が予想されるとの連絡がありました。シートベルトを締めてください。",
-        "ar": "أبلغنا قائد طائرتنا للتو بتوقع بعض الاضطرابات الخفيفة. يرجى ربط أحزمة الأمان."
+        "ar": "أبلغنا قائد طائرتنا للتو بتوقع بعض الاضطرابات الخفيفة. يرجى ربط أحزمة الأمان.",
+		    "hu": "A kapitány most tájékoztatott bennünket, hogy enyhe turbulenciára számíthatunk. Kérjük, csatolják be biztonsági öveiket.",
       },
       {
         "en": "As you heard from our captain, we are expecting some light turbulence. Please return to your seats and fasten your seat belts. Use of the lavatories is not allowed at this time.",
@@ -212,7 +218,8 @@ const texts: Text[] = [
         "th": "ขณะนี้กัปตันกำลังจะบินผ่านเขตสภาพอากาศแปรปรวน ขอความกรุณาทุกท่านนั่งประจำที่ จนกว่าสัญญาณรัดเข็มขัดที่นั่งจะดับลง และกรุณางดใช้ห้องน้ำในช่วงเวลานี้",
         "zh": "正如机长所说，前方预计会有一些轻微的颠簸。请您回到座位并系好安全带。目前暂时不允许使用洗手间。",
         "ja": "船長から聞いた通り、今後は軽い乱気流が予想されます。席に戻り、シートベルトを締めてください。現時点ではトイレの使用は禁止されています。",
-        "ar": "كما سمعتم من قائدنا، نتوقع بعض الاضطرابات الخفيفة. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان. استخدام دورات المياه ممنوع حاليًا."
+        "ar": "كما سمعتم من قائدنا، نتوقع بعض الاضطرابات الخفيفة. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان. استخدام دورات المياه ممنوع حاليًا.",
+		    "hu": "Ahogy a kapitány is említette, enyhe turbulenciára számítunk. Kérjük, térjenek vissza a helyükre, és csatolják be biztonsági öveiket. A mosdók használata jelenleg nem engedélyezett.",
       },
       {
         "en": "Ladies and gentlemen, the seatbelt sign is now on. We ask that you remain seated as much as possible. For safety reasons, our cabin crew will also minimize their movement until conditions stabilize.",
@@ -230,7 +237,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน สัญญาณรัดเข็มขัดที่นั่งเปิดอยู่  ขอความกรุณาทุกท่านนั่งประจำที่  ในเวลานี้  ขอให้พนักงานบนเครื่องจำกัดการเคลื่อนไหวของตนเองให้น้อยลงจนกว่าส ภาพจะเสถียร",
         "zh": "女士们，先生们，安全带标志现在已经打开。我们要求您尽量保持就座。出于安全考虑，我们的机组人员也会尽量减少移动，直到条件稳定。",
         "ja": "Ladies and gentlemen, the seat belt signs have been switched on. Please remain seated as much as possible. For safety reasons, our cabin crew will also minimize movement until the situation stabilizes.",
-        "ar": "سيداتي وسادتي، إشارة حزام الأمان الآن مضاءة. نطلب منكم البقاء في مقاعدكم قدر الإمكان. لأسباب تتعلق بالسلامة، سيقوم طاقم الطائرة أيضًا بتقليل حركتهم حتى تستقر الظروف."
+        "ar": "سيداتي وسادتي، إشارة حزام الأمان الآن مضاءة. نطلب منكم البقاء في مقاعدكم قدر الإمكان. لأسباب تتعلق بالسلامة، سيقوم طاقم الطائرة أيضًا بتقليل حركتهم حتى تستقر الظروف.",
+		    "hu": "Hölgyeim és uraim, a biztonsági öv jelzés most be van kapcsolva. Kérjük, lehetőség szerint maradjanak a helyükön. Biztonsági okokból a személyzet mozgását is minimálisra csökkentjük, amíg az időjárási körülmények nem stabilizálódnak.",
       },
       {
         "en": "Ladies and gentlemen, for everyone’s safety, we ask that you avoid moving around the cabin while the seatbelt sign is on. If you’re not seated, please return to your seat immediately.",
@@ -248,7 +256,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน  เพื่อความปลอดภัยของทุกคน  ขอความกรุณาท่านงดการเคลื่อนไหวในห้องโดยสารขณะที่สัญญ าณรัดเข็มขัดที่นั่งเปิดอยู่  หากท่านไม่ได้นั่ง  ขอให้ท่านกลับไปนั่งที่นั่งของท่านทันที",
         "zh": "女士们，先生们，为了所有人的安全，我们要求您在安全带标志打开时不要在机舱内移动。如果您没有坐下，请立即返回座位。",
         "ja": "皆様の安全のため、シートベルト着用サインが点灯している間は機内を移動しないようお願いいたします。着席していない場合は、直ちにお席にお戻りください。",
-        "ar": "سيداتي وسادتي، من أجل سلامة الجميع، نطلب منكم تجنب التحرك في المقصورة أثناء إضاءة إشارة حزام الأمان. إذا لم تكونوا جالسين، يرجى العودة إلى مقاعدكم على الفور."
+        "ar": "سيداتي وسادتي، من أجل سلامة الجميع، نطلب منكم تجنب التحرك في المقصورة أثناء إضاءة إشارة حزام الأمان. إذا لم تكونوا جالسين، يرجى العودة إلى مقاعدكم على الفور.",
+		    "hu": "Hölgyeim és uraim, mindenki biztonsága érdekében kérjük, hogy a biztonsági öv jelzés bekapcsolt állapotában ne közlekedjenek a kabinban. Amennyiben még nem ülnek a helyükön, kérjük, azonnal foglalják el azt.",
       },
       {
         "en": "Ladies and gentlemen, the seatbelt sign is now illuminated. Even if you’re familiar with flying, we kindly remind you to follow this safety procedure and remain seated. Thank you for your cooperation.",
@@ -266,7 +275,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน  สัญญาณรัดเข็มขัดที่นั่งเปิดอยู่  แม้ว่าท่านจะเคยเคลื่อนไหวในเครื่องบินมาก่อน  ข อความกรุณาท่านปฏิบัติตามขั้นตอนการรักษาความปลอดภัยนี้ และนั่งอยู่ ขอบคุณท่านที่ร่วมมือ",
         "zh": "女士们，先生们，安全带标志现在已经点亮。即使您已经熟悉飞行，我们也要求您遵守这一安全程序并保持就座。感谢您的合作。",
         "ja": "皆様、シートベルト着用サインが点灯しました。飛行機に乗るのに慣れている方でも、この安全手順に従って着席したままでいてください。ご協力ありがとうございます。",
-        "ar": "سيداتي وسادتي، إشارة حزام الأمان مضاءة الآن. حتى لو كنتم معتادين على الطيران، نذكركم بلطف باتباع هذا الإجراء الأمني والبقاء في مقاعدكم. شكرًا لتعاونكم."
+        "ar": "سيداتي وسادتي، إشارة حزام الأمان مضاءة الآن. حتى لو كنتم معتادين على الطيران، نذكركم بلطف باتباع هذا الإجراء الأمني والبقاء في مقاعدكم. شكرًا لتعاونكم.",
+		    "hu": "Hölgyeim és uraim, a biztonsági öv jelzés most be van kapcsolva. Még ha jártasak is a repülésben, kérjük, tartsák be ezt a biztonsági előírást, és maradjanak a helyükön. Köszönjük együttműködésüket.",
       }
     ]
   },
@@ -297,7 +307,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เราได้เปิดสัญญาณแจ้งรัดเข็มขัด ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดขัดนิรภัยของท่านให้กระชับ",
         "zh": "女士们，先生们，机长已经打开了安全带标志。请您回到座位并系好安全带。",
         "ja": "Ladies and gentlemen, the captain has switched on the seat belt signs. Please return to your seats and fasten your seat belts.",
-        "ar": "سيداتي وسادتي، قام قائد الطائرة بتشغيل إشارة حزام الأمان. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان."
+        "ar": "سيداتي وسادتي، قام قائد الطائرة بتشغيل إشارة حزام الأمان. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان.",
+		    "hu": "Hölgyeim és uraim, a kapitány bekapcsolta a biztonsági öv jelzést. Kérjük, térjenek vissza a helyükre, és csatolják be biztonsági öveiket.",
       },
       {
         "en": "Ladies and gentlemen, the seatbelt sign has been turned on. Please return to your seats and fasten your seat belts. Use of the lavatories is not allowed at this time.",
@@ -315,7 +326,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เราได้เปิดสัญญาณแจ้งรัดเข็มขัดที่นั่ง ขอความกรุณาทุกท่านนั่งประจำที่ และรัดเข็มขัดขัดนิรภัยของท่านให้กระชับ และกรุณางดใช้ห้องน้ำในช่วงเวลานี้",
         "zh": "女士们，先生们，安全带标志已经打开。请您回到座位并系好安全带。目前暂时不允许使用洗手间。",
         "ja": "皆様、シートベルト着用サインが点灯しました。お席にお戻りいただき、シートベルトをお締めください。現在、トイレのご利用はできません。",
-        "ar": "سيداتي وسادتي، تم تشغيل إشارة حزام الأمان. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان. لا يُسمح باستخدام دورات المياه في الوقت الحالي."
+        "ar": "سيداتي وسادتي، تم تشغيل إشارة حزام الأمان. يرجى العودة إلى مقاعدكم وربط أحزمة الأمان. لا يُسمح باستخدام دورات المياه في الوقت الحالي.",
+		    "hu": "Hölgyeim és uraim, a biztonsági öv jelzés be van kapcsolva. Kérjük, térjenek vissza a helyükre, és csatolják be biztonsági öveiket. A mosdók használata jelenleg nem engedélyezett.",
       },
       {
         "en": "Ladies and gentlemen, the seatbelt sign is now on. We ask that you remain seated as much as possible. For safety reasons, our cabin crew will also minimize their movement until conditions stabilize.",
@@ -333,7 +345,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน สัญญาณรัดเข็มขัดที่นั่งเปิดอยู่  ขอความกรุณาทุกท่านนั่งประจำที่  ในเวลานี้  ขอให้พนักงานบนเครื่องจำกัดการเคลื่อนไหวของตนเองให้น้อยลงจนกว่าส ภาพจะเสถียร",
         "zh": "女士们，先生们，安全带标志现在已经打开。我们要求您尽量保持就座。出于安全考虑，我们的机组人员也会尽量减少移动，直到条件稳定。",
         "ja": "皆様、シートベルト着用サインが点灯しました。できるだけ着席したままでお待ちください。また、安全上の理由により、状況が安定するまで客室乗務員も移動を最小限に抑えます。",
-        "ar": "سيداتي وسادتي، إشارة حزام الأمان الآن مضاءة. نطلب منكم البقاء في مقاعدكم قدر الإمكان. لأسباب تتعلق بالسلامة، سيقوم طاقم الطائرة أيضًا بتقليل حركتهم حتى تستقر الظروف."
+        "ar": "سيداتي وسادتي، إشارة حزام الأمان الآن مضاءة. نطلب منكم البقاء في مقاعدكم قدر الإمكان. لأسباب تتعلق بالسلامة، سيقوم طاقم الطائرة أيضًا بتقليل حركتهم حتى تستقر الظروف.",
+		    "hu": "Hölgyeim és uraim, a biztonsági öv jelzés most be van kapcsolva. Kérjük, lehetőség szerint maradjanak a helyükön. Biztonsági okokból a személyzet mozgását is minimálisra csökkentjük, amíg az időjárási körülmények nem stabilizálódnak.",
       },
       {
         "en": "Ladies and gentlemen, for everyone’s safety, we ask that you avoid moving around the cabin while the seatbelt sign is on. If you’re not seated, please return to your seat immediately.",
@@ -351,7 +364,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน  เพื่อความปลอดภัยของทุกคน  ขอความกรุณาท่านงดการเคลื่อนไหวในห้องโดยสารขณะที่สัญญ าณรัดเข็มขัดที่นั่งเปิดอยู่  หากท่านไม่ได้นั่ง  ขอให้ท่านกลับไปนั่งที่นั่งของท่านทันที",
         "zh": "女士们，先生们，为了所有人的安全，我们要求您在安全带标志打开时不要在机舱内移动。如果您没有坐下，请立即返回座位。",
         "ja": "皆様の安全のため、シートベルト着用サインが点灯している間は機内を移動しないようお願いいたします。着席していない場合は、直ちにお席にお戻りください。",
-        "ar": "سيداتي وسادتي، من أجل سلامة الجميع، نطلب منكم تجنب التحرك في المقصورة أثناء إضاءة إشارة حزام الأمان. إذا لم تكونوا جالسين، يرجى العودة إلى مقاعدكم على الفور."
+        "ar": "سيداتي وسادتي، من أجل سلامة الجميع، نطلب منكم تجنب التحرك في المقصورة أثناء إضاءة إشارة حزام الأمان. إذا لم تكونوا جالسين، يرجى العودة إلى مقاعدكم على الفور.",
+		    "hu": "Hölgyeim és uraim, mindenki biztonsága érdekében kérjük, hogy a biztonsági öv jelzés bekapcsolt állapotában ne közlekedjenek a kabinban. Amennyiben még nem ülnek a helyükön, kérjük, azonnal foglalják el azt.",
       },
       {
         "en": "Ladies and gentlemen, the seatbelt sign is now illuminated. Even if you’re familiar with flying, we kindly remind you to follow this safety procedure and remain seated. Thank you for your cooperation.",
@@ -369,7 +383,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน  สัญญาณรัดเข็มขัดที่นั่งเปิดอยู่  แม้ว่าท่านจะเคยเคลื่อนไหวในเครื่องบินมาก่อน  ข อความกรุณาท่านปฏิบัติตามขั้นตอนการรักษาความปลอดภัยนี้ และนั่งอยู่ ขอบคุณท่านที่ร่วมมือ",
         "zh": "女士们，先生们，安全带标志现在已经点亮。即使您已经熟悉飞行，我们也要求您遵守这一安全程序并保持就座。感谢您的合作。",
         "ja": "皆様、シートベルト着用サインが点灯しました。飛行機に乗るのに慣れている方でも、この安全手順に従って着席したままでいてください。ご協力ありがとうございます。",
-        "ar": "سيداتي وسادتي، إشارة حزام الأمان مضاءة الآن. حتى لو كنتم معتادين على الطيران، نذكركم بلطف باتباع هذا الإجراء الأمني والبقاء في مقاعدكم. شكرًا لتعاونكم."
+        "ar": "سيداتي وسادتي، إشارة حزام الأمان مضاءة الآن. حتى لو كنتم معتادين على الطيران، نذكركم بلطف باتباع هذا الإجراء الأمني والبقاء في مقاعدكم. شكرًا لتعاونكم.",
+		    "hu": "Hölgyeim és uraim, a biztonsági öv jelzés most fel van kapcsolva. Még ha jártasak is a repülésben, kérjük, tartsák be ezt a biztonsági előírást, és maradjanak a helyükön. Köszönjük együttműködésüket.",
       }
     ]
   },
@@ -399,7 +414,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้กัปตันได้ปิดสัญญาณแจ้งรัดเข็มขัดที่นั่งลงแล้ว ท่านสามารถเคลื่อนย้ายภายในห้องโดยสาร เพื่อความปลอดภัยในเวลาสภาพอากาศแปรปรวนฉับพลัน โปรดรัดเข็มขัดนิรภัยของท่านเวลานั่งที่",
         "zh": "女士们，先生们，机长已经关闭了安全带标志。您现在可以在客舱内走动，但我们建议您在就座时继续系好安全带，以防突发颠簸。",
         "ja": "皆様、機長がシートベルト着用サインを消しました。機内を移動していただいて構いませんが、予期せぬ乱気流に備えて、着席中はシートベルトを締めておくことをお勧めします。",
-        "ar": "سيداتي وسادتي، لقد أطفأ القبطان إشارة حزام الأمان. يمكنكم الآن التحرك في المقصورة، ولكننا نوصي بأن تبقوا أحزمة الأمان مربوطة أثناء الجلوس في حالة حدوث اضطرابات جوية غير متوقعة."
+        "ar": "سيداتي وسادتي، لقد أطفأ القبطان إشارة حزام الأمان. يمكنكم الآن التحرك في المقصورة، ولكننا نوصي بأن تبقوا أحزمة الأمان مربوطة أثناء الجلوس في حالة حدوث اضطرابات جوية غير متوقعة.",
+		    "hu": "Hölgyeim és uraim, a kapitány kikapcsolta a biztonsági öv jelzést. Most már szabadon mozoghatnak a kabinban, de ajánljuk, hogyha helyükön ülnek akkor továbbra is tartsák becsatolva biztonsági övüket az esetleges váratlan turbulencia miatt.",
       },
       {
         "en": "As you can see, the seatbelt sign has been turned off. You may now move around the cabin, but we recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
@@ -417,7 +433,8 @@ const texts: Text[] = [
         "th": "ขณะนี้เราได้ปิดสัญญาณแจ้งรัดเข็มขัดที่นั่งลงแล้ว ท่านสามารถเคลื่อนย้ายภายในห้องโดยสารได้ เพื่อความปลอดภัยของท่านในเวลาสภาพอากาศแปรปรวนฉับพลัน กรุณารัดเข็มขัดนิรภัยเวลานั่งที่",
         "zh": "正如您所见，安全带标志已关闭。您现在可以在客舱内走动，但我们建议您在就座时继续系好安全带，以防突发颠簸。",
         "ja": "ご覧のとおり、シートベルト着用サインは消灯しています。機内を移動することは可能ですが、予期せぬ乱気流が発生した場合に備えて、着席中はシートベルトを締めておくことをお勧めします。",
-        "ar": "كما ترون، إشارة حزام الأمان قد أطفئت. يمكنكم الآن التحرك في المقصورة، ولكننا نوصي بأن تبقوا أحزمة الأمان مربوطة أثناء الجلوس في حالة حدوث اضطرابات جوية غير متوقعة."
+        "ar": "كما ترون، إشارة حزام الأمان قد أطفئت. يمكنكم الآن التحرك في المقصورة، ولكننا نوصي بأن تبقوا أحزمة الأمان مربوطة أثناء الجلوس في حالة حدوث اضطرابات جوية غير متوقعة.",
+		    "hu": "Amint láthatják, a biztonsági öv jelzés ki van kapcsolva. Most már szabadon mozoghatnak a kabinban, de ajánljuk, hogyha helyükön ülnek akkor továbbra is tartsák becsatolva biztonsági övüket az esetleges váratlan turbulencia miatt.",
       },
       {
         "en": "Seatbelt sign has just been turned off. You may now move around the cabin. We recommend that you keep your seatbelt fastened while seated in case of unexpected turbulence.",
@@ -435,7 +452,8 @@ const texts: Text[] = [
         "th": "ขณะนี้สัญญาณแจ้งรัดเข็มขัดดับลงแล้ว ท่านสามารถเคลื่อนย้ายภายในห้องโดยสารได้ เพื่อความปลอดภัยของท่านในเวลาสภาพอากาศแปรปรวนฉับพลัน กรุณารัดเข็มขัดนิรภัยเวลานั่งที่",
         "zh": "安全带标志刚刚关闭。您现在可以在客舱内走动，但我们建议您在就座时继续系好安全带，以防突发颠簸。",
         "ja": "シートベルト着用サインが消えました。機内を移動できます。予期せぬ乱気流に備えて、着席中はシートベルトを締めておくことをお勧めします。",
-        "ar": "إشارة حزام الأمان قد أطفئت للتو. يمكنكم الآن التحرك في المقصورة. نوصي بأن تبقوا أحزمة الأمان مربوطة أثناء الجلوس في حالة حدوث اضطرابات جوية غير متوقعة."
+        "ar": "إشارة حزام الأمان قد أطفئت للتو. يمكنكم الآن التحرك في المقصورة. نوصي بأن تبقوا أحزمة الأمان مربوطة أثناء الجلوس في حالة حدوث اضطرابات جوية غير متوقعة.",
+		    "hu": "A biztonsági öv jelzés most kapcsolt ki. Most már szabadon mozoghatnak a kabinban. Ajánljuk, hogyha helyükön ülnek akkor továbbra is tartsák becsatolva biztonsági övüket az esetleges váratlan turbulencia miatt.",
       }
     ]
   },
@@ -466,7 +484,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้สายการบินกำลังเผชิญความล่าช้า  เราขออภัยในความไม่สะดวกในที่นี้  และจะอัปเดตความคืบหน้าให้ท่านทราบ  เราคาดการณ์ว่าเราจะเดินทางได้โดยเร็วๆนี้  ขอบคุณสำหรับความเข้าใจของท่าน",
         "zh": "女士们，先生们，我们目前遇到了一些延误。我们对此不便深感抱歉，并将持续向您通报进展。我们正努力尽快让您启程，感谢您的耐心等待。",
         "ja": "みなさん、こんにちは。現在、遅延が発生しています。ご不便をおかけして申し訳ございませんが、進捗状況については随時お知らせいたします。できるだけ早く目的地に到着できるよう全力で取り組んでおりますので、今しばらくお待ちください。",
-        "ar": "سيداتي وسادتي، نحن نواجه حاليًا تأخيرًا. نعتذر عن الإزعاج وسنوافيكم بالتحديثات حول سير الأمور. نحن نعمل بجد لإيصالكم إلى وجهتكم في أقرب وقت ممكن. شكرًا لصبركم."
+        "ar": "سيداتي وسادتي، نحن نواجه حاليًا تأخيرًا. نعتذر عن الإزعاج وسنوافيكم بالتحديثات حول سير الأمور. نحن نعمل بجد لإيصالكم إلى وجهتكم في أقرب وقت ممكن. شكرًا لصبركم.",
+		    "hu": "Hölgyeim és uraim, jelenleg késés tapasztalható. Elnézésüket kérjük a kellemetlenségért, és folyamatosan tájékoztatjuk Önöket a helyzetről. Mindent megteszünk, hogy minél hamarabb útnak indulhassanak. Köszönjük türelmüket.",
       },
       {
         "en": "Hi, this is your captain speaking. We are currently experiencing a delay. We apologize for the inconvenience and we will keep you updated on the progress. Thank you for your patience and understanding.",
@@ -484,7 +503,8 @@ const texts: Text[] = [
         "th": "นี่คือกัปตันของท่าน ขณะนี้เรากำลังเผชิญกับความล่าช้า เราขออภัยในความไม่สะดวกในที่นี้ และจะคอยอัปเดตความคืบหน้าให้ท่านทราบ ขอบคุณสำหรับความอดทนและความเข้าใจของท่าน",
         "zh": "您好，我是您的机长。我们目前遇到了一些延误。我们对此不便深感抱歉，并将持续向您通报进展。感谢您的耐心和理解。",
         "ja": "こんにちは。機長です。現在、遅延が発生しています。ご不便をおかけして申し訳ございませんが、進捗状況については随時お知らせいたします。ご理解とご協力をよろしくお願いいたします。",
-        "ar": "مرحبًا، هذا هو قائد الطائرة يتحدث. نحن نواجه حاليًا تأخيرًا. نعتذر عن الإزعاج وسنوافيكم بالتحديثات حول سير الأمور. شكرًا لصبركم وتفهمكم."
+        "ar": "مرحبًا، هذا هو قائد الطائرة يتحدث. نحن نواجه حاليًا تأخيرًا. نعتذر عن الإزعاج وسنوافيكم بالتحديثات حول سير الأمور. شكرًا لصبركم وتفهمكم.",
+		    "hu": "Üdvözlöm, itt a kapitány beszél. Jelenleg késés tapasztalható. Elnézésüket kérjük a kellemetlenségért, és folyamatosan tájékoztatjuk Önöket a helyzetről. Köszönjük türelmüket és megértésüket.",
       }
     ]
   },
@@ -513,7 +533,8 @@ const texts: Text[] = [
         "th": "เราขออภัยอีกครั้งสำหรับความล่าช้า เราหวังเป็นอย่างยิ่งว่าท่านได้รับความพอใจในการบริการระหว่างการเดินทางของท่าน และเราหวังว่าจะได้พบท่านอีกเร็วๆ นี้",
         "zh": "我们再次对延误深表歉意。希望您有一个愉快的旅程，并期待很快再次见到您。",
         "ja": "遅延について再度お詫び申し上げます。快適なフライトをお楽しみいただき、またのお越しをお待ちしております。",
-        "ar": "نود أن نعتذر لكم مرة أخرى عن التأخير. نأمل أن تكونوا قد استمتعتم بالرحلة ونتطلع إلى رؤيتكم مرة أخرى قريبًا."
+        "ar": "نود أن نعتذر لكم مرة أخرى عن التأخير. نأمل أن تكونوا قد استمتعتم بالرحلة ونتطلع إلى رؤيتكم مرة أخرى قريبًا.",
+		    "hu": "Szeretnénk ismét elnézést kérni a késésért. Reméljük, kellemes volt a repülésük, és hamarosan újra találkozunk.",
       }
     ]
   },
@@ -542,7 +563,8 @@ const texts: Text[] = [
         "th": "นักท่องเที่ยวทุกท่าน การจองที่นั่งจะเริ่มในไม่นานอีก กรุณาตรวจสอบว่าคุณมีบัตรขึ้นเครื่องพร้อมกัน ขอบคุณสำหรับความอดทนของท่าน",
         "zh": "女士们，先生们，登机即将开始。请确保您已准备好登机牌。感谢您的耐心等待。",
         "ja": "お客様各位、登機がすぐに始まります。ご乗船券をご用意ください。ご理解とご協力をお願いします。",
-        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم."
+        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم.",
+		    "hu": "Hölgyeim és uraim, a beszállás néhány percen belül megkezdődik. Kérjük, készítsék elő beszállókártyájukat. Köszönjük türelmüket.",
       },
       {
         "en": "Ladies and gentlemen, boarding is about to begin. Please stand in line and have your boarding pass ready, so we can get you on board as soon as possible. Thank you for your patience.",
@@ -560,7 +582,8 @@ const texts: Text[] = [
         "th": "นักท่องเที่ยวทุกท่าน การจองที่นั่งจะเริ่มในไม่นานอีก กรุณานั่งในคิวและตรวจสอบว่าคุณมีบัตรขึ้นเครื่องพร้อมกัน ขอบคุณสำหรับความอดทนของท่าน",
         "zh": "女士们，先生们，登机即将开始。请站在队伍中，准备好登机牌，以便我们尽快将您带上飞机。感谢您的耐心等待。",
         "ja": "お客様各位、登機がすぐに始まります。ご乗船券をご用意ください。ご理解とご協力をお願いします。",
-        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم."
+        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم.",
+		    "hu": "Hölgyeim és uraim, a beszállás hamarosan megkezdődik. Kérjük, álljanak sorba, és készítsék elő beszállókártyájukat, hogy minél előbb fedélzetre juthassanak. Köszönjük türelmüket.",
       }
     ]
   },
@@ -585,7 +608,8 @@ const texts: Text[] = [
         "th": "นักท่องเที่ยวทุกท่าน การจองที่นั่งจะเริ่มในไม่นานอีก กรุณาตรวจสอบว่าคุณมีบัตรขึ้นเครื่องพร้อมกัน ขอบคุณสำหรับความร่วมมือของท่าน",
         "zh": "女士们，先生们，登机已经开始。请确保您已准备好登机牌。感谢您的合作。",
         "ja": "お客様各位、登機が始まります。ご乗船券をご用意ください。ご理解とご協力をお願いします。",
-        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم."
+        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم.",
+		    "hu": "Hölgyeim és uraim, megkezdődött a beszállás. Kérjük, készítsék elő beszállókártyájukat. Köszönjük együttműködésüket.",
       },
       {
         "en": "Ladies and gentlemen, gate is now open. We'll be happy to see you on board. Thank you.",
@@ -603,7 +627,8 @@ const texts: Text[] = [
         "th": "นักท่องเที่ยวทุกท่าน การจองที่นั่งจะเริ่มในไม่นานอีก กรุณาตรวจสอบว่าคุณมีบัตรขึ้นเครื่องพร้อมกัน ขอบคุณสำหรับความร่วมมือของท่าน",
         "zh": "女士们，先生们，登机已经开始。请确保您已准备好登机牌。感谢您的合作。",
         "ja": "お客様各位、登機が始まります。ご乗船券をご用意ください。ご理解とご協力をお願いします。",
-        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم."
+        "ar": "السيدات والسيدات، سيبدأ العلمانية قريبًا. يرجى التأكد من وجود بطاقة العلمانية الخاصة بك. شكرًا لصبركم.",
+		    "hu": "Hölgyeim és uraim, a kapu most nyílt meg. Örömmel várjuk Önöket a fedélzeten. Köszönjük.",
       }
     ]
   },
@@ -629,6 +654,7 @@ const texts: Text[] = [
         "zh": "机长，我们已经开始登机了。",
         "ja": "機長、乗客の搭乗を開始しました。",
         "ar": "يا كابتن، لقد بدأنا في صعود الركاب.",
+		    "hu": "Kapitány, megkezdődött a beszállás.",
       }
     ]
   },
@@ -653,7 +679,8 @@ const texts: Text[] = [
         "th": "ยินดีต้อนรับสู่เที่ยวบินของเรา {% ['สวัสดีตอนเช้า', 'สวัสดีตอนบ่าย', 'สวัสดีตอนเย็น'][departureDayPhase]='สวัสดี' %} ยินดีต้อนรับค่ะ ขอให้ท่านแสดงบัตรขึ้นเครื่องได้ไหมคะ",
         "zh": "欢迎登机。 {% ['早上好', '下午好', '晚上好'][departureDayPhase]='你好' %}。欢迎。请出示您的登机牌。",
         "ja": "ご搭乗いただきありがとうございます。 {% ['おはようございます', 'こんにちは', 'こんばんは'][departureDayPhase]='こんにちは' %}。いらっしゃいませ。搭乗券を見せていただけますか？",
-        "ar": "مرحبًا."
+        "ar": "مرحبًا.",
+		    "hu": "Üdvözöljük a fedélzeten. {% ['Jó reggelt', 'Jó napot', 'Jó estét'][departureDayPhase]='Üdvözlöm' %}. Üdvözlöm. Megnézhetem a beszállókártyáját?",
       }
     ]
   },
@@ -681,7 +708,8 @@ const texts: Text[] = [
         "th": "[Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] ฉันชื่อ {captainName} และฉันเป็นกัปตันของเที่ยวบินนี้ ฉันขอต้อนรับคุณเข้าสู่เครื่องบินและขอขอบคุณที่เลือกบินกับเราในวันนี้ ขณะนี้เรากำลังเตรียมตัวออกเดินทางและจะออกเดินทางในเร็วๆ นี้ [Our flight today will take approximately {flightTime}.] หากคุณมีคำถามหรือต้องการความช่วยเหลือ โปรดอย่าลังเลที่จะถามสมาชิกลูกเรือของเรา [Thank you for flying with {airlineName}.]",
         "zh": "[Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] 我的名字是{captainName}，我是本次航班的機長。我熱烈歡迎您登機，並感謝您今天選擇搭乘我們的航班。目前我們正在準備出發，不久後就會起飛。[Our flight today will take approximately {flightTime}.] 如果您有任何疑問或需要協助，請隨時詢問我們的機組人員。[Thank you for flying with {airlineName}.]",
         "ja": "[Welcome aboard on this {airlineName} flight from {originCityName} to {destinationCityName}.] 私の名前は {captainName} で、このフライトの機長です。本日はご搭乗を歓迎いたします。本日は当社へのご搭乗をお選びいただき、誠にありがとうございます。現在出発準備を行っており、まもなく離陸する予定です。[Our flight today will take approximately {flightTime}.] ご質問がある場合やサポートが必要な場合は、お気軽に客室乗務員にお問い合わせください。 [Thank you for flying with {airlineName}.]",
-        "ar": "[Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] اسمي {captainName} وأنا قائد هذه الرحلة. أود أن أرحب بكم على متن الطائرة وأشكركم على اختيار السفر معنا اليوم. نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. [Our flight today will take approximately {flightTime}.] إذا كان لديك أي أسئلة أو تحتاج إلى مساعدة، فلا تتردد في سؤال أحد أفراد طاقم الطائرة. [Thank you for flying with {airlineName}.]"
+        "ar": "[Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] اسمي {captainName} وأنا قائد هذه الرحلة. أود أن أرحب بكم على متن الطائرة وأشكركم على اختيار السفر معنا اليوم. نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. [Our flight today will take approximately {flightTime}.] إذا كان لديك أي أسئلة أو تحتاج إلى مساعدة، فلا تتردد في سؤال أحد أفراد طاقم الطائرة. [Thank you for flying with {airlineName}.]",
+		    "hu": "[Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] A nevem {captainName}, és én vagyok ennek a járatnak a kapitánya. Szeretném köszönteni Önöket a fedélzeten, és megköszönni, hogy ma velünk repülnek. Jelenleg az indulás előkészületein dolgozunk, és hamarosan felszállunk. A mai repülési idő körülbelül {flightTime}. Ha bármilyen kérdésük van vagy segítségre van szükségük, kérjük, forduljanak bizalommal a személyzet egyik tagjához. [Thank you for flying with {airlineName}.]",
       },
       {
         "en": "Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}. My name is {captainName} and I am the captain of this flight. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing {airlineName}. Enjoy your flight.",
@@ -699,7 +727,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ยินดีต้อนรับสู่สายการบิน {airlineName} จาก {originCityName} ซึ่งจะเดินทางไปยัง {destinationCityName} ผมชื่อ {captainName} เป็นกัปตันของท่านในเที่ยวบินนี้ ขณะนี้เรากำลังเตรียมตัวสำหรับการออกเดินทาง และจะออกเดินทางในไม่ช้านี้ ขอบคุณที่เลือกใช้บริการ {airlineName} เราหวังเป็นอย่างยิ่งว่าท่านจะมีความพึงพอใจกับการเดินทาง",
         "zh": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] 我是 {captainName}，此次航班的机长。我们正在准备起飞，稍后即将起飞。[Thank you for choosing {airlineName}.]",
         "ja": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] 私の名前は {captainName} で、このフライトの機長です。現在出発準備を行っており、まもなく離陸する予定です。 [Thank you for choosing {airlineName}.] フライトをお楽しみください。",
-        "ar": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] اسمي {captainName} وأنا قائد هذه الرحلة. نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. [Thank you for choosing {airlineName}.] نتمنى لكم رحلة سعيدة."
+        "ar": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] اسمي {captainName} وأنا قائد هذه الرحلة. نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. [Thank you for choosing {airlineName}.] نتمنى لكم رحلة سعيدة.",
+		    "hu": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] A nevem {captainName}, én vagyok ennek a járatnak a kapitánya. Jelenleg az indulás előkészületein dolgozunk, és hamarosan felszállunk. [Thank you for choosing {airlineName}.] Kellemes utat kívánunk.",
       },
       {
         "en": "{% ['Good morning', 'Good afternoon', 'Good evening'][departureDayPhase]='Hello' %}, this is your captain speaking. My name is {captainName}. Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing to fly with us today.",
@@ -717,7 +746,8 @@ const texts: Text[] = [
         "th": "นี่คือกัปตันของท่าน ยินดีต้อนรับสู่สายการบิน {airlineName} จาก {originCityName} ซึ่งจะเดินทางไปยัง {destinationCityName} ขณะนี้เรากำลังเตรียมตัวสำหรับการออกเดินทาง และเราจะออกเดินทางในไม่ช้า ขอบคุณที่เลือกใช้บริการกับเราในวันนี้",
         "zh": "女士们，先生们，我是您的机长。[Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] 我是 {captainName}. 我们正在准备起飞，稍后即将起飞。感谢您今天选择与我们一同飞行。",
         "ja": "{% ['おはようございます', 'こんにちは', 'こんばんは'][departureDayPhase]='こんにちは' %},これはあなたの船長が話しています。 [Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] 現在出発準備を行っており、まもなく離陸する予定です。本日は当社のご利用をお選びいただきありがとうございます。",
-        "ar": "{% ['صباح الخير', 'مساء الخير', 'مساء الخير'][departureDayPhase]='مرحبًا' %} ، هذا هو قائدك يتحدث. اسمي {captainName}. [Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. شكرًا لاختيارك الطيران معنا اليوم."
+        "ar": "{% ['صباح الخير', 'مساء الخير', 'مساء الخير'][departureDayPhase]='مرحبًا' %} ، هذا هو قائدك يتحدث. اسمي {captainName}. [Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. شكرًا لاختيارك الطيران معنا اليوم.",
+		    "hu": "{% ['Jó reggelt', 'Jó napot', 'Jó estét'][departureDayPhase]='Helló' %}, a kapitány beszél. A nevem {captainName}. [Welcome aboard on this {% isShortHaul ? 'short' : '' %} {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] Jelenleg az indulás előkészületein dolgozunk, és hamarosan felszállunk. Köszönjük, hogy ma velünk repülnek.",
       },
       {
         "en": "{% ['Good morning', 'Good afternoon', 'Good evening'][departureDayPhase]='Hello' %}, this is your captain speaking. Welcome onboard this {aircraftName} aircraft. This is {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing to fly with us today.",
@@ -735,7 +765,8 @@ const texts: Text[] = [
         "th": "นี่คือกัปตันของท่าน ยินดีต้อนรับสู่สายการบิน {airlineName} จาก {originCityName} ซึ่งจะเดินทางไปยัง {destinationCityName} ขณะนี้เรากำลังเตรียมตัวสำหรับการออกเดินทาง และเราจะออกเดินทางในไม่ช้า ขอบคุณที่เลือกใช้บริการกับเราในวันนี้",
         "zh": "女士们，先生们，我是您的机长。[Welcome onboard this {aircraftName} aircraft.] [This is {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] 我们正在准备起飞，稍后即将起飞。感谢您今天选择与我们一同飞行。",
         "ja": "{% ['おはようございます', 'こんにちは', 'こんばんは'][departureDayPhase]='こんにちは' %},これはあなたの船長が話しています。この {aircraftName} 航空機へようこそ。[This is {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] 現在出発準備を行っており、まもなく離陸する予定です。本日は当社のご利用をお選びいただきありがとうございます。",
-        "ar": "{% ['صباح الخير', 'مساء الخير', 'مساء الخير'][departureDayPhase]='مرحبًا' %} ، هذا هو قائدك يتحدث. [Welcome onboard this {aircraftName} aircraft.] [This is {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. شكرًا لاختيارك الطيران معنا اليوم."
+        "ar": "{% ['صباح الخير', 'مساء الخير', 'مساء الخير'][departureDayPhase]='مرحبًا' %} ، هذا هو قائدك يتحدث. [Welcome onboard this {aircraftName} aircraft.] [This is {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. شكرًا لاختيارك الطيران معنا اليوم.",
+		    "hu": "{% ['Jó reggelt', 'Jó napot', 'Jó estét'][departureDayPhase]='Helló' %}, a kapitány beszél. Üdvözöljük a fedélzeten ezen a(z) {aircraftName} típusú repülőgépen. [This is {airlineName} flight number {flightNumber} from {originCityName} to {destinationCityName}.] Jelenleg az indulás előkészületein dolgozunk, és hamarosan felszállunk. Köszönjük, hogy ma velünk repülnek.",
       },
       {
         "en": "{% ['Good morning', 'Good afternoon', 'Good evening'][departureDayPhase]='Hello' %}, this is your captain speaking. On behalf of {airlineName} I would like to welcome you on board our {aircraftName} aircraft. Today we're flying from {originCityName} to {destinationCityName}. We are currently preparing for departure and we will be taking off shortly. Thank you for choosing to fly with us today.",
@@ -753,7 +784,8 @@ const texts: Text[] = [
         "th": "นี่คือกัปตันของท่าน ยินดีต้อนรับสู่สายการบิน {airlineName} จาก {originCityName} ซึ่งจะเดินทางไปยัง {destinationCityName} ขณะนี้เรากำลังเตรียมตัวสำหรับการออกเดินทาง และเราจะออกเดินทางในไม่ช้า ขอบคุณที่เลือกใช้บริการกับเราในวันนี้",
         "zh": "女士们，先生们，我是您的机长。[On behalf of {airlineName} I would like to welcome you on board our {aircraftName} aircraft.] [Today we're flying from {originCityName} to {destinationCityName}.] 我们正在准备起飞，稍后即将起飞。感谢您今天选择与我们一同飞行。",
         "ja": "{% ['おはようございます', 'こんにちは', 'こんばんは'][departureDayPhase]='こんにちは' %}, これはあなたの船長が話しています。 [On behalf of {airlineName} I would like to welcome you on board our {aircraftName} aircraft.] [Today we're flying from {originCityName} to {destinationCityName}.] 現在出発準備を行っており、まもなく離陸する予定です。本日は当社のご搭乗をご選択いただき、誠にありがとうございます。",
-        "ar": "{% ['صباح الخير', 'مساء الخير', 'مساء الخير'][departureDayPhase]='مرحبًا' %} ، هذا هو قائدك يتحدث. [On behalf of {airlineName} I would like to welcome you on board our {aircraftName} aircraft.] [Today we're flying from {originCityName} to {destinationCityName}.] نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. شكرًا لاختيارك الطيران معنا اليوم."
+        "ar": "{% ['صباح الخير', 'مساء الخير', 'مساء الخير'][departureDayPhase]='مرحبًا' %} ، هذا هو قائدك يتحدث. [On behalf of {airlineName} I would like to welcome you on board our {aircraftName} aircraft.] [Today we're flying from {originCityName} to {destinationCityName}.] نحن حاليًا في مرحلة الاستعداد للإقلاع وسنقلع قريبًا. شكرًا لاختيارك الطيران معنا اليوم.",
+		    "hu": "{% ['Jó reggelt', 'Jó napot', 'Jó estét'][departureDayPhase]='Helló' %}, a kapitány beszél. [On behalf of {airlineName} I would like to welcome you on board our {aircraftName} aircraft.] [Today we're flying from {originCityName} to {destinationCityName}.] Jelenleg az indulás előkészületein dolgozunk, és hamarosan felszállunk. Köszönjük, hogy ma velünk repülnek.",
       }
     ]
   },
@@ -781,7 +813,8 @@ const texts: Text[] = [
         "th": "สวัสดีและยินดีต้อนรับสู่สายการบิน ดิฉัน {crewName} เป็นพนักงานต้อนรับบนเที่ยวบินนี้ ขณะนี้เรากำลังเตรียมตัวสำหรับการออกเดินทาง และจะออกเดินทางในไม่ช้า กรุณานั่งประจำที่และรัดเข็มขัดที่นั่ง ปรับพนักเก้าอี้ของท่านให้อยู่ในระดับตรง พับโต๊ะหน้าที่นั่ง กรุณาปิดอุปกรณ์อิเล็กทรอนิกส์ รวมถึงแล็ปท็อปและโทรศัพท์มือถือ และเราขอเรียนให้ท่านทราบว่า เราเป็นสายการบินปรอดบุหรี่ หากท่านมีข้อสงสัยหรือต้องการความช่วยเหลือ กรุณาติดต่อสอบถามได้จากพนักงานทุกคน",
         "zh": "女士们，先生们，欢迎登机。我叫 {crewName}，是此次航班的乘务员。正如机长所说，我们正在准备起飞，稍后即将起飞。请确保您的安全带已系好，座椅靠背和小桌板处于竖直状态。请关闭所有个人电子设备，包括笔记本电脑和手机。飞行期间禁止吸烟。如有任何问题或需要帮助，请随时向我或其他乘务员提出。",
         "ja": "こんにちは、ご搭乗ありがとうございます。私の名前は {crewName} で、このフライトの客室乗務員です。機長からお聞きのとおり、現在出発準備中で、まもなく離陸します。シートベルトが締められ、シートの背もたれとトレイ テーブルが直立していることを確認してください。ノートパソコンや携帯電話を含むすべての個人用電子機器の電源をお切りください。フライト中は喫煙は禁止されています。ご質問やサポートが必要な場合は、私または同僚に遠慮なくお尋ねください。",
-        "ar": "مرحبًا بكم في الطائرة. اسمي {crewName} وأنا عضو في طاقم الطائرة في هذه الرحلة. كما سمعتم من قائدنا - نحن حاليًا نستعد للإقلاع وسنقلع قريبًا. يرجى التأكد من ربط حزام الأمان الخاص بك وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. يرجى إيقاف تشغيل جميع الأجهزة الإلكترونية الشخصية، بما في ذلك أجهزة الكمبيوتر المحمولة والهواتف المحمولة. التدخين محظور طوال مدة الرحلة. إذا كانت لديك أي أسئلة أو تحتاج إلى مساعدة، فلا تتردد في سؤالني أو أحد زملائي."
+        "ar": "مرحبًا بكم في الطائرة. اسمي {crewName} وأنا عضو في طاقم الطائرة في هذه الرحلة. كما سمعتم من قائدنا - نحن حاليًا نستعد للإقلاع وسنقلع قريبًا. يرجى التأكد من ربط حزام الأمان الخاص بك وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. يرجى إيقاف تشغيل جميع الأجهزة الإلكترونية الشخصية، بما في ذلك أجهزة الكمبيوتر المحمولة والهواتف المحمولة. التدخين محظور طوال مدة الرحلة. إذا كانت لديك أي أسئلة أو تحتاج إلى مساعدة، فلا تتردد في سؤالني أو أحد زملائي.",
+		    "hu": "Üdvözlöm és köszönöm, hogy velünk repül. A nevem {crewName}, én vagyok a légiutaskísérő ezen a járaton. Ahogy a kapitány is említette, jelenleg az indulás előkészületein dolgozunk, és hamarosan felszállunk. Kérjük, győződjön meg róla, hogy biztonsági öve be van kapcsolva, az ülés háttámlája és az étkezőasztal függőleges helyzetbe van állítva. Kérjük, kapcsoljon ki minden személyes elektronikai eszközt, beleértve a laptopokat és a mobiltelefonokat is. A dohányzás a teljes repülés alatt tilos. Ha bármilyen kérdése van vagy segítségre van szüksége, kérjük, forduljon hozzám vagy kollégáimhoz.",
       },
       {
         "en": "Ladies and gentlemen, welcome onboard. My name is {crewName} and I am the cabin crew member on this flight. We ask that you please fasten your seatbelts at this time and secure all baggage underneath your seat or in the overhead compartments. We also ask that your seats and table trays are in the upright position for take-off. Please turn off all personal electronic devices, including laptops and cell phones. Smoking is prohibited for the duration of the flight. Thank you for choosing {airlineName}. Enjoy your flight.",
@@ -799,7 +832,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ยินดีต้อนรับสู่เที่ยวบินนี้ ดิฉัน {crewName} เป็นพนักงานต้อนรับบนสายการบินของท่านในวันนี้ กรุณานั่งประจำที่และรัดเข็มขัดที่นั่ง ปรับพนักเก้าอี้ของท่านให้อยู่ในระดับตรง พับโต๊ะหน้าที่นั่ง กรุณาปิดอุปกรณ์อิเล็กทรอนิกส์ รวมถึงแล็ปท็อปและโทรศัพท์มือถือ และเราขอเรียนให้ท่านทราบว่า เราเป็นสายการบินปรอดบุหรี่  ขอบคุณที่เลือกใช้บริการ {airlineName} ขอให้ท่านมีความสุขกับการเดินทาง",
         "zh": "女士们，先生们，欢迎登上 {airlineName} 航班。我叫 {crewName}，是此次航班的乘务员。请您现在系好安全带，并将所有行李放置在座位下或头顶行李架内。请将座椅靠背和小桌板调整至竖直状态，以便起飞。请关闭所有个人电子设备，包括笔记本电脑和手机。[Thank you for choosing {airlineName}.]",
         "ja": "皆様、ご搭乗ありがとうございます。私の名前は {crewName} で、このフライトの客室乗務員です。シートベルトをお締めいただき、すべての手荷物を座席の下または頭上の収納スペースに固定してください。また、離陸時には座席とテーブルトレイを直立させてください。ノートパソコンや携帯電話を含むすべての個人用電子機器の電源をお切りください。フライト中は喫煙は禁止されています。[Thank you for choosing {airlineName}.] フライトをお楽しみください。",
-        "ar": "مرحبًا بكم في الطائرة. اسمي {crewName} وأنا عضو في طاقم الطائرة في هذه الرحلة. نطلب منكم ربط حزام الأمان في هذه المرحلة وتأمين جميع الأمتعة تحت مقعدكم أو في الصناديق العلوية. كما نطلب أن تكون المقاعد وصواني الطاولات في وضع مستقيم للإقلاع. يرجى إيقاف تشغيل جميع الأجهزة الإلكترونية الشخصية، بما في ذلك أجهزة الكمبيوتر المحمولة والهواتف المحمولة. التدخين محظور طوال مدة الرحلة. [Thank you for choosing {airlineName}.] استمتع برحلتك."
+        "ar": "مرحبًا بكم في الطائرة. اسمي {crewName} وأنا عضو في طاقم الطائرة في هذه الرحلة. نطلب منكم ربط حزام الأمان في هذه المرحلة وتأمين جميع الأمتعة تحت مقعدكم أو في الصناديق العلوية. كما نطلب أن تكون المقاعد وصواني الطاولات في وضع مستقيم للإقلاع. يرجى إيقاف تشغيل جميع الأجهزة الإلكترونية الشخصية، بما في ذلك أجهزة الكمبيوتر المحمولة والهواتف المحمولة. التدخين محظور طوال مدة الرحلة. [Thank you for choosing {airlineName}.] استمتع برحلتك.",
+		    "hu": "Hölgyeim és uraim, üdvözöljük a fedélzeten. A nevem {crewName}, én vagyok a légiutaskísérő ezen a járaton. Kérjük, hogy most kapcsolják be biztonsági öveiket, és helyezzék el minden kézipoggyászukat az ülés alatt vagy a felettük lévő tárolórekeszekben. Kérjük továbbá, hogy az ülések és az étkezőasztalok legyenek függőleges helyzetben a felszálláshoz. Kérjük, kapcsoljanak ki minden személyes elektronikai eszközt, beleértve a laptopokat és a mobiltelefonokat is. A dohányzás a repülés teljes időtartama alatt tilos. [Thank you for choosing {airlineName}.] Kellemes utat kívánunk.",
       },
       {
         "en": "Ladies and gentlemen, welcome onboard. My name is {crewName}, and I am one of your cabin crew members today. Our captain, {captainName}, and the rest of the crew are delighted to have you with us on this flight to {destinationCityName}. We kindly ask you to stow your carry-on items securely in the overhead compartments or under the seat in front of you and fasten your seatbelt. Please ensure that your seat is in the upright position, and your tray table is stowed. We hope you enjoy your flight with us. Thank you for choosing {airlineName}.",
@@ -817,7 +851,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน, ขอต้อนรับทุกท่านสู่เที่ยวบินของเรา ดิฉันชื่อ {crewName} เป็นหนึ่งในพนักงานต้อนรับบนเครื่องบินวันนี้ [Our captain, {captainName}, and the rest of the crew are delighted to have you with us on this flight to {destinationCityName}.] โปรดจัดเก็บสัมภาระของท่านให้เรียบร้อยในช่องเก็บสัมภาระเหนือศีรษะหรือใต้ที่นั่งด้านหน้าของท่าน และคาดเข็มขัดนิรภัยให้เรียบร้อย กรุณาปรับที่นั่งให้อยู่ในตำแหน่งตั้งตรงและพับโต๊ะให้เรียบร้อย เราหวังว่าท่านจะมีความสุขกับการเดินทางครั้งนี้ [Thank you for choosing {airlineName}.]",
         "zh": "女士们，先生们，欢迎登机。我叫{crewName}，是今天的机组成员之一。[Our captain, {captainName}, and the rest of the crew are delighted to have you with us on this flight to {destinationCityName}.] 请您将随身行李妥善放置在头顶行李舱或前排座椅下，并系好安全带。请确保座椅靠背已竖直，折叠桌已收起。希望您享受这次飞行。 [Thank you for choosing {airlineName}.]",
         "ja": "皆様、ご搭乗ありがとうございます。本日、客室乗務員の 1 人を務める {crewName} と申します。[Our captain, {captainName}, and the rest of the crew are delighted to have you with us on this flight to {destinationCityName}.] 機内持ち込み手荷物は頭上の収納棚または前の座席の下に安全に収納し、シートベルトをお締めください。座席は直立した状態で、トレイ テーブルは収納されていることを確認してください。弊社のフライトをお楽しみいただければ幸いです。[Thank you for choosing {airlineName}.]",
-        "ar": "مرحبًا بكم في الطائرة. اسمي {crewName} وأنا أحد أعضاء طاقم الطائرة اليوم. [Our captain, {captainName}, and the rest of the crew are delighted to have you with us on this flight to {destinationCityName}.] نطلب منكم تأمين الأمتعة اليدوية في المقصورات العلوية أو تحت المقعد أمامكم وربط حزام الأمان. يرجى التأكد من أن مقعدكم في وضع مستقيم وأن طاولة الطعام مطوية. نأمل أن تستمتعوا برحلتكم معنا. [Thank you for choosing {airlineName}.]"
+        "ar": "مرحبًا بكم في الطائرة. اسمي {crewName} وأنا أحد أعضاء طاقم الطائرة اليوم. [Our captain, {captainName}, and the rest of the crew are delighted to have you with us on this flight to {destinationCityName}.] نطلب منكم تأمين الأمتعة اليدوية في المقصورات العلوية أو تحت المقعد أمامكم وربط حزام الأمان. يرجى التأكد من أن مقعدكم في وضع مستقيم وأن طاولة الطعام مطوية. نأمل أن تستمتعوا برحلتكم معنا. [Thank you for choosing {airlineName}.]",
+		    "hu": "Hölgyeim és uraim, üdvözöljük a fedélzeten. A nevem {crewName}, és ma az Önök egyik légiutaskísérője vagyok. [Our captain, {captainName}, and the rest of the crew are delighted to have you with us on this flight to {destinationCityName}.] Kérjük, helyezzék el kézipoggyászaikat biztonságosan a felettük lévő tárolórekeszekben vagy az előttük lévő ülés alatt, és csatolják be biztonsági övüket. Kérjük, győződjenek meg róla, hogy ülésük függőleges helyzetben van, és az étkezőasztaluk fel van csukva. Reméljük, hogy kellemes lesz az utazásuk velünk. [Thank you for choosing {airlineName}.]",
       },
       {
         "en": "{% ['Good morning', 'Good afternoon', 'Good evening'][departureDayPhase]='Good day' %}, ladies and gentlemen, and welcome onboard. My name is {crewName}, and together with our captain, {captainName}, and the rest of the crew, I’ll ensure your journey to {destinationCityName} is a pleasant one. Please take a moment to store your carry-on luggage properly and make sure your seatbelt is fastened. If you need any assistance settling in, don’t hesitate to ask one of our crew members. Sit back, relax, and thank you for flying with {airlineName}.",
@@ -835,7 +870,8 @@ const texts: Text[] = [
         "th": "{% ['สวัสดีตอนเช้า', 'สวัสดีตอนบ่าย', 'สวัสดีตอนเย็น'][departureDayPhase]='สวัสดีค่ะ' %}, ท่านผู้โดยสารทุกท่าน ยินดีต้อนรับสู่การเดินทางของเรา. [My name is {crewName}, and together with our captain, {captainName}, and the rest of the crew, I’ll ensure your journey to {destinationCityName} is a pleasant one.] กรุณาใช้เวลาในการจัดเก็บกระเป๋าเดินทางของท่านอย่างเหมาะสม และตรวจสอบให้แน่ใจว่าเข็มขัดนิรภัยของท่านได้รับการรัดอย่างถูกต้อง หากท่านต้องการความช่วยเหลือในการจัดที่นั่ง กรุณาติดต่อพนักงานของเรา [Sit back, relax, and thank you for flying with {airlineName}.]",
         "zh": "{% ['早安', '下午好', '晚上好'][departureDayPhase]='日安' %}, 女士們，先生們，歡迎登機。 [My name is {crewName}, and together with our captain, {captainName}, and the rest of the crew, I’ll ensure your journey to {destinationCityName} is a pleasant one.] 請花一點時間正確放置您的手提行李並確保安全帶已經繫好。如果您需要協助安頓下來，請隨時向我們的機組人員詢問。 [Sit back, relax, and thank you for flying with {airlineName}.]",
         "ja": "{% ['おはようございます', 'こんにちは', 'こんばんは'][departureDayPhase]='こんにちは' %}、皆様、ご搭乗ありがとうございます。[My name is {crewName}, and together with our captain, {captainName}, and the rest of the crew, I’ll ensure your journey to {destinationCityName} is a pleasant one.] お時間を取って機内持ち込み手荷物を適切に保管し、シートベルトが締められていることを確認してください。機内で落ち着くのにお手伝いが必要な場合は、乗務員に遠慮なくお尋ねください。ゆったりとおくつろぎください。 [Sit back, relax, and thank you for flying with {airlineName}.]",
-        "ar": "{% ['صباح الخير', 'مساء الخير', 'مساء الخير'][departureDayPhase]='يوم سعيد' %}، أيها السيدات والسادة، ومرحبًا بكم على متن الطائرة. [My name is {crewName}, and together with our captain, {captainName}, and the rest of the crew, I’ll ensure your journey to {destinationCityName} is a pleasant one.] يرجى أخذ لحظة لتخزين الأمتعة المحمولة بشكل صحيح والتأكد من ربط حزام الأمان. إذا كنت بحاجة إلى أي مساعدة في الاستقرار، فلا تتردد في سؤال أحد أفراد طاقمنا. [Sit back, relax, and thank you for flying with {airlineName}.]"
+        "ar": "{% ['صباح الخير', 'مساء الخير', 'مساء الخير'][departureDayPhase]='يوم سعيد' %}، أيها السيدات والسادة، ومرحبًا بكم على متن الطائرة. [My name is {crewName}, and together with our captain, {captainName}, and the rest of the crew, I’ll ensure your journey to {destinationCityName} is a pleasant one.] يرجى أخذ لحظة لتخزين الأمتعة المحمولة بشكل صحيح والتأكد من ربط حزام الأمان. إذا كنت بحاجة إلى أي مساعدة في الاستقرار، فلا تتردد في سؤال أحد أفراد طاقمنا. [Sit back, relax, and thank you for flying with {airlineName}.]",
+		    "hu": "{% ['Jó reggelt', 'Jó napot', 'Jó estét'][departureDayPhase]='Jó napot' %}, hölgyeim és uraim, üdvözöljük a fedélzeten. [My name is {crewName}, and together with our captain, {captainName}, and the rest of the crew, I’ll ensure your journey to {destinationCityName} is a pleasant one.] Kérjük, szánjanak egy pillanatot kézipoggyászuk megfelelő elhelyezésére, és győződjenek meg róla, hogy be vannak csatolva a biztonsági öveik. Ha segítségre van szükségük a helyük elfoglalásához, ne habozzanak megkérdezni valamelyik személyzet tagját. [Sit back, relax, and thank you for flying with {airlineName}.]",
       },
       {
         "en": "Ladies and gentlemen, welcome aboard! My name is {crewName}, and I’ll be looking after you today along with our captain, {captainName}, and the entire crew. We’re headed to {destinationCityName}, and we couldn’t be happier to have you with us. As you get settled, please ensure your bags are safely stowed, your seatbelt is fastened, and your seat is in the upright position. If there’s anything we can do to make your flight more comfortable, don’t hesitate to let us know. Thank you for flying with {airlineName}, and enjoy the journey.",
@@ -853,7 +889,9 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ยินดีต้อนรับสู่การเดินทางของเรา! [My name is {crewName}, and I’ll be looking after you today along with our captain, {captainName}, and the entire crew.] [We’re flying to {destinationCityName}, and we couldn’t be happier to have you with us.] กรุณาใช้เวลาในการจัดเก็บกระเป๋าเดินทางของท่านอย่างเหมาะสม และตรวจสอบให้แน่ใจว่าเข็มขัดนิรภัยของท่านได้รับการรัดอย่างถูกต้อง เมื่อท่านจัดที่นั่งเสร็จเรียบร้อยแล้ว หากท่านต้องการความช่วยเหลือในการจัดที่นั่ง กรุณาติดต่อพนักงานของเรา [Thank you for flying with {airlineName}, and enjoy the journey.]",
         "zh": "女士們，先生們，歡迎登機！ [My name is {crewName}, and I’ll be looking after you today along with our captain, {captainName}, and the entire crew.] [We’re flying to {destinationCityName}, and we couldn’t be happier to have you with us.] 請花一點時間正確放置您的手提行李並確保安全帶已經繫好。當您安頓好時，如果您需要任何協助，請隨時向我們的機組人員詢問。 [Thank you for flying with {airlineName}, and enjoy the journey.]",
         "ja": "皆様、ご搭乗ありがとうございます！[My name is {crewName}, and I’ll be looking after you today along with our captain, {captainName}, and the entire crew.] [We’re flying to {destinationCityName}, and we couldn’t be happier to have you with us.] 皆様がご搭乗くださることを心から嬉しく思っております。お着きになりましたら、お荷物が安全に収納されていること、シートベルトが締められていること、座席が直立していることをご確認ください。フライトをより快適にするために私たちができることがございましたら、遠慮なくお知らせください。[Thank you for flying with {airlineName}, and enjoy the journey.] 楽しい旅をお過ごしください。",
-        "ar": "مرحبًا بكم على متن الطائرة! [My name is {crewName}, and I’ll be looking after you today along with our captain, {captainName}, and the entire crew.] [We’re flying to {destinationCityName}, and we couldn’t be happier to have you with us.] أثناء جلوسكم، يرجى التأكد من أن حقائبكم مؤمنة بشكل آمن وأن حزام الأمان مربوط وأن المقعد في وضع مستقيم. إذا كان هناك أي شيء يمكننا القيام به لجعل رحلتكم أكثر راحة، فلا تترددوا في إخبارنا. [Thank you for flying with {airlineName}, and enjoy the journey.]"
+        "ar": "مرحبًا بكم على متن الطائرة! [My name is {crewName}, and I’ll be looking after you today along with our captain, {captainName}, and the entire crew.] [We’re flying to {destinationCityName}, and we couldn’t be happier to have you with us.] أثناء جلوسكم، يرجى التأكد من أن حقائبكم مؤمنة بشكل آمن وأن حزام الأمان مربوط وأن المقعد في وضع مستقيم. إذا كان هناك أي شيء يمكننا القيام به لجعل رحلتكم أكثر راحة، فلا تترددوا في إخبارنا. [Thank you for flying with {airlineName}, and enjoy the journey.]",
+		    "hu": "[My name is {crewName}, and I’ll be looking after you today along with our captain, {captainName}, and the entire crew.] [We’re flying to {destinationCityName}, and we couldn’t be happier to have you with us.] Jelenleg az indulás előkészületein dolgozunk, és hamarosan felszállunk. Kérjük, győződjön meg róla, hogy biztonsági öve be van kapcsolva, az ülés háttámlája és az étkezőasztal függőleges helyzetbe állítva. Ha bármilyen kérdése van vagy segítségre van szüksége, kérjük, forduljon hozzám vagy kollégáimhoz. [Thank you for flying with {airlineName}, and enjoy the journey.]",
+		
       }
     ]
   },
@@ -882,7 +920,8 @@ const texts: Text[] = [
         "th": "ยินดีต้อนรับบนเที่ยวบิน {airlineName} วันนี้เราเดินทางจาก {originCityName} ซึ่งจะเดินทางไป {destinationCityName} ดิฉัน {crewName} เป็นพนักงานต้อนรับบนเที่ยวบินนี้ ขณะนี้เรากำลังเตรียมตัวออกเดินทาง และจะออกเดินทางในไม่ช้า กรุณานั่งประจำที่และรัดเข็มขัดที่นั่ง ปรับพนักเก้าอี้ของท่านให้อยู่ในระดับตรง พับโต๊ะหน้าที่นั่ง หากท่านมีข้อสงสัยหรือต้องการความช่วยเหลือ กรุณาติดต่อสอบถามได้จากพนักงานบริการ ขอบคุณที่เลือกใช้บริการ {airlineName}",
         "zh": "[Welcome aboard on this {airlineName} flight number {flightNumber}.] [Today we are flying from {originCityName} to {destinationCityName}.] 我是 {crewName}，此次航班的乘务员。我们正在准备起飞，稍后即将起飞。请确保您的安全带已系好，座椅靠背和小桌板处于竖直状态。如有任何问题或需要帮助，请随时向我或其他乘务员提出。[Thank you for flying with {airlineName}.]",
         "ja": "[Welcome aboard on this {airlineName} flight number {flightNumber}.] [Today we are flying from {originCityName} to {destinationCityName}.] 私の名前は {crewName} で、このフライトの客室乗務員です。現在出発の準備中で、まもなく離陸します。シートベルトが締められ、シートの背もたれとトレイ テーブルが直立していることを確認してください。ご質問やサポートが必要な場合は、遠慮なく私または同僚にお尋ねください。[Thank you for flying with {airlineName}.]",
-        "ar": "[Welcome aboard on this {airlineName} flight number {flightNumber}.] [Today we are flying from {originCityName} to {destinationCityName}.] اسمي {crewName} وأنا عضو في طاقم الطائرة في هذه الرحلة. نحن حاليًا نستعد للإقلاع وسنقلع قريبًا. يرجى التأكد من ربط حزام الأمان وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. إذا كان لديك أي أسئلة أو تحتاج إلى المساعدة، فلا تتردد في طرحها علي أو على أحد زملائي. [Thank you for flying with {airlineName}.]"
+        "ar": "[Welcome aboard on this {airlineName} flight number {flightNumber}.] [Today we are flying from {originCityName} to {destinationCityName}.] اسمي {crewName} وأنا عضو في طاقم الطائرة في هذه الرحلة. نحن حاليًا نستعد للإقلاع وسنقلع قريبًا. يرجى التأكد من ربط حزام الأمان وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. إذا كان لديك أي أسئلة أو تحتاج إلى المساعدة، فلا تتردد في طرحها علي أو على أحد زملائي. [Thank you for flying with {airlineName}.]",
+		    "hu": "[Welcome aboard on this {airlineName} flight number {flightNumber}.] [Today we are flying from {originCityName} to {destinationCityName}.] A nevem {crewName}, én vagyok a légiutaskísérő ezen a járaton. Jelenleg az indulás előkészületein dolgozunk, és hamarosan felszállunk. Kérjük, győződjön meg róla, hogy biztonsági öve be van kapcsolva, az ülés háttámlája és az étkezőasztal függőleges helyzetbe van állítva. Ha bármilyen kérdése van vagy segítségre van szüksége, kérjük, forduljon hozzám vagy kollégáimhoz. [Thank you for flying with {airlineName}.]",
       },
       {
         "en": "Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}. My name is {crewName} and I am the cabin crew member on this flight. We ask that you please fasten your seatbelts at this time and secure all baggage underneath your seat or in the overhead compartments. We also ask that your seats and table trays are in the upright position for take-off. Please turn off all personal electronic devices, including laptops and cell phones. Smoking is prohibited for the duration of the flight. Thank you for choosing {airlineName}. Enjoy your flight.",
@@ -900,7 +939,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ยินดีต้อนรับสู่สายการบิน {airlineName} จาก {originCityName} ซึ่งจะเดินทางไป {destinationCityName} ดิฉัน {crewName} เป็นพนักงานต้อนรับบนเครื่องบินของท่านในวันนี้ กรุณานั่งประจำที่และรัดเข็มขัดที่นั่ง ปรับพนักเก้าอี้ของท่านให้อยู่ในระดับตรง พับโต๊ะหน้าที่นั่ง กรุณาปิดอุปกรณ์อิเล็กทรอนิกส์ รวมถึงแล็ปท็อปและโทรศัพท์มือถือ และเราขอเรียนให้ท่านทราบว่า เราเป็นสายการบินปรอดบุหรี่ ขอบคุณทุกท่านที่เลือกใช้บริการ {airlineName} ขอให้ท่านมีความสุขกับการเดินทาง",
         "zh": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] 我叫 {crewName}，是此次航班的乘务员。请您现在系好安全带，并将所有行李放置在座位下或头顶行李架内。请将座椅靠背和小桌板调整至竖直状态，以便起飞。请关闭所有个人电子设备，包括笔记本电脑和手机。[Thank you for flying with {airlineName}.]",
         "ja": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] 私の名前は{crewName}で、この便の客室乗務員です。シートベルトをお締めいただき、すべての手荷物を座席の下または頭上の収納スペースに固定してください。また、離陸時には座席とテーブルトレイを直立させてください。ノートパソコンや携帯電話を含むすべての個人用電子機器の電源をお切りください。飛行中は喫煙は禁止されています。[Thank you for flying with {airlineName}.] 楽しいフライトをお過ごしください。",
-        "ar": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] اسمي {crewName} وأنا عضو في طاقم الطائرة في هذه الرحلة. نطلب منكم ربط أحزمة الأمان في هذا الوقت وتأمين جميع الأمتعة تحت مقعدكم أو في صناديق الأمتعة العلوية. نطلب أيضًا أن تكون المقاعد وصواني الطاولات في وضع مستقيم للإقلاع. يرجى إيقاف تشغيل جميع الأجهزة الإلكترونية الشخصية، بما في ذلك أجهزة الكمبيوتر المحمولة والهواتف المحمولة. يُحظر التدخين طوال مدة الرحلة. [Thank you for choosing {airlineName}.] نتمنى لكم رحلة ممتعة."
+        "ar": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] اسمي {crewName} وأنا عضو في طاقم الطائرة في هذه الرحلة. نطلب منكم ربط أحزمة الأمان في هذا الوقت وتأمين جميع الأمتعة تحت مقعدكم أو في صناديق الأمتعة العلوية. نطلب أيضًا أن تكون المقاعد وصواني الطاولات في وضع مستقيم للإقلاع. يرجى إيقاف تشغيل جميع الأجهزة الإلكترونية الشخصية، بما في ذلك أجهزة الكمبيوتر المحمولة والهواتف المحمولة. يُحظر التدخين طوال مدة الرحلة. [Thank you for choosing {airlineName}.] نتمنى لكم رحلة ممتعة.",
+		    "hu": "[Ladies and gentlemen, welcome onboard {airlineName} flight from {originCityName} to {destinationCityName}.] A nevem {crewName}, én vagyok a légiutaskísérő ezen a járaton. Kérjük, kapcsolják be biztonsági öveiket, és helyezzék el minden kézipoggyászukat az ülés alatt vagy a felettük lévő tárolórekeszekben. Kérjük továbbá, hogy az ülések és az étkezőasztalok legyenek függőleges helyzetben a felszálláshoz. Kérjük, kapcsoljanak ki minden személyes elektronikai eszközt, beleértve a laptopokat és a mobiltelefonokat is. A dohányzás a repülés teljes időtartama alatt tilos. [Thank you for choosing {airlineName}.] Kellemes utat kívánunk.",
       }
     ]
   },
@@ -928,7 +968,8 @@ const texts: Text[] = [
         "th": "การเดินทางของเราในวันนี้จะใช้เวลาประมาณ {flightTime} สภาพอากาศใน {destinationCityName} คือ {destinationCityWeatherHumanDescription} กรุณานั่งประจำที่และรัดเข็มขัดที่นั่งในขนะนั่งอยู่กับที่ และทุกครั้งที่กัปตันเปิดสัญญาณแจ้งรัดเข็มขัดนิรภัย",
         "zh": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] 请记得在就座时系好安全带，并在安全带标志亮起时保持系好状态。",
         "ja": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] 着席中およびシートベルト着用サイン点灯中は、必ずシートベルトを締めてください。",
-        "ar": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] يرجى تذكر ربط حزام الأمان أثناء الجلوس وعند إضاءة علامة حزام الأمان."
+        "ar": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] يرجى تذكر ربط حزام الأمان أثناء الجلوس وعند إضاءة علامة حزام الأمان.",
+		    "hu": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Kérjük, mindig kapcsolja be a biztonsági övét, amikor ül, illetve amikor a biztonsági öv jelzőfény világít.",
       },
       {
         "en": "Ladies and gentleman, this is your captain speaking again. Our flight today will take approximately {flightTime}. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}. We expect a smooth flight. Please relax and enjoy the flight.",
@@ -946,7 +987,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสาร นี่คือกัปตันของท่านอีกครั้ง การเดินทางของเราในวันนี้จะใช้เวลาประมาณ {flightTime} สภาพอากาศใน {destinationCityName} คือ {destinationCityWeatherHumanDescription} เราหวังว่าท่านจะได้รับความสะดวกสบายในการเดินทางในวันนี้  มีการคาดการณ์ว่าจะบินผ่านเขตสภาพอากาศแปรปรวนเล็กน้อย เราหวังเป็นอย่างยิ่งว่าท่านจะได้รับความสะดวกสบายในการเดินทาง",
         "zh": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] 我们期望飞行能够非常顺利。请放松并享受旅程。",
         "ja": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] フライトは順調に運航されるものと予想されます。どうぞリラックスしてフライトをお楽しみください。",
-        "ar": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] نتوقع أن تكون الرحلة سلسة. يرجى الاسترخاء والاستمتاع بالرحلة."
+        "ar": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] نتوقع أن تكون الرحلة سلسة. يرجى الاسترخاء والاستمتاع بالرحلة.",
+        "hu": "[Our flight today will take approximately {flightTime}.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}.] Várhatóan zökkenőmentes lesz az út. Kérjük, kényelmesen helyezkedjenek el, és élvezzék az utazást.",
       }
     ]
   },
@@ -974,7 +1016,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน หลังจากที่สัญญาณแจ้งรัดเข็มขัดที่นั่งได้ดับลงแล้ว เราจะเริ่มให้บริการของว่างและเครื่องดื่ม ท่านสามารถเลือกดูเมนูบนเครื่องได้ที่ช่องใส่ของหน้าที่นั่งของท่าน",
         "zh": "女士们，先生们，飞机起飞后不久我们将开始提供小吃和饮料。您可以在前方座椅口袋中找到我们的空中菜单。",
         "ja": "皆様、離陸後すぐに軽食とドリンクの提供を開始します。メニューは前方の座席ポケットにあります。",
-        "ar": "سيداتي وسادتي، بعد فترة وجيزة من الإقلاع، سنبدأ بتقديم الوجبات الخفيفة والمشروبات. يمكنك العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامك."
+        "ar": "سيداتي وسادتي، بعد فترة وجيزة من الإقلاع، سنبدأ بتقديم الوجبات الخفيفة والمشروبات. يمكنك العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامك.",
+		    "hu": "Hölgyeim és uraim, a felszállás után nem sokkal megkezdjük a snackek és italok felszolgálását. Az étlapot az Önök előtt lévő ülés zsebében találják.",
       },
       {
         "en": "Shortly after takeoff we'll start serving snacks and drinks. You can find our menu in the seat pocket in front of you.",
@@ -992,7 +1035,8 @@ const texts: Text[] = [
         "th": "หลังจากที่สัญญาณแจ้งรัดเข็มขัดที่นั่งได้ดับลงแล้ว เราจะเริ่มให้บริการของว่างและเครื่องดื่ม ท่านสามารถดูเมนูบนเครื่องได้ที่ช่องใส่ของหน้าที่นั่งของท่าน",
         "zh": "飞机起飞后不久我们将开始提供小吃和饮料。您可以在前方座椅口袋中找到我们的空中菜单。",
         "ja": "離陸後すぐに軽食とドリンクの提供を開始します。メニューは前方の座席ポケットにあります。",
-        "ar": "بعد فترة وجيزة من الإقلاع، سنبدأ بتقديم الوجبات الخفيفة والمشروبات. يمكنك العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامك."
+        "ar": "بعد فترة وجيزة من الإقلاع، سنبدأ بتقديم الوجبات الخفيفة والمشروبات. يمكنك العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامك.",
+		    "hu": "A felszállás után nem sokkal megkezdjük a snackek és italok felszolgálását. Az étlapot az Önök előtt lévő ülés zsebében találják.",
       },
       {
         "en": "Ladies and gentlemen, shortly after takeoff, we’ll begin our onboard service with a selection of snacks and beverages. You’ll find our menu in the seat pocket in front of you. If you have any specific dietary preferences or requests, please don’t hesitate to let one of our crew members know. Thank you.",
@@ -1010,7 +1054,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน, หลังจากที่เครื่องบินบินขึ้นไปไม่นาน เราจะเริ่มบริการบนเครื่องด้วยขนมและเครื่องดื่มท่านสามารถดูเมนูของเราได้จากกระเป๋าที่นั่งด้านหน้า หากท่านมีข้อกำหนดพิเศษเกี่ยวกับอาหารหรือต้องการอะไรเพิ่มเติม โปรดแจ้งให้พนักงานของเราทราบ ขอบคุณค่ะ",
         "zh": "女士们，先生们，起飞后不久，我们将开始提供机上服务，包括各类小吃和饮料。您可以在前排座椅的口袋里找到我们的菜单。如果您有任何特殊饮食要求或请求，请随时告知我们的机组人员。谢谢。",
         "ja": "皆様、離陸後すぐに機内サービスとして軽食とお飲み物をご用意いたします。メニューはお客様の前の座席ポケットにございます。特別な食事の好みやご要望がございましたら、遠慮なく乗務員にお知らせください。よろしくお願いいたします。",
-        "ar": "سيداتي وسادتي، بعد فترة وجيزة من الإقلاع، سنبدأ خدمتنا على متن الطائرة مع مجموعة مختارة من الوجبات الخفيفة والمشروبات. يمكنك العثور على قائمتنا في جيب المقعد أمامك. إذا كان لديك أي تفضيلات غذائية خاصة أو طلبات، فلا تتردد في إبلاغ أحد أفراد طاقمنا. شكرًا لك."
+        "ar": "سيداتي وسادتي، بعد فترة وجيزة من الإقلاع، سنبدأ خدمتنا على متن الطائرة مع مجموعة مختارة من الوجبات الخفيفة والمشروبات. يمكنك العثور على قائمتنا في جيب المقعد أمامك. إذا كان لديك أي تفضيلات غذائية خاصة أو طلبات، فلا تتردد في إبلاغ أحد أفراد طاقمنا. شكرًا لك.",
+		    "hu": "Hölgyeim és uraim, a felszállás után nem sokkal megkezdjük fedélzeti kiszolgálásunkat különféle snackekkel és italokkal. Az étlapot az Önök előtt lévő ülés zsebében találják. Ha speciális étkezési igényeik vagy kéréseik vannak, kérjük, jelezzék valamelyik személyzet tagjának. Köszönjük.",
       },
       {
         "en": "Ladies and gentlemen, we’d like to remind you that duty-free shopping will be available shortly after takeoff. You’ll find a catalog in the seat pocket in front of you, showcasing a selection of exclusive products. If you’d like to make a purchase, please have your payment ready, and one of our crew members will assist you. Thank you.",
@@ -1028,7 +1073,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน เราขอเตือนท่านว่า ท่านสามารถทำการช้อปปิ้งปลอดภาษีได้ในไม่ช้า หลังจากเครื่องบินบินขึ้นไปไม่นาน ท่านสามารถดูแคตตาล็อกของเราได้จากกระเป๋าที่นั่งด้านหน้า ซึ่งแสดงผลิตภัณฑ์พิเศษ หากท่านต้องการซื้อสินค้าใด ๆ กรุณาจัดเตรียมวิธีการชำระเงินและพนักงานของเราจะช่วยท่าน ขอบคุณค่ะ",
         "zh": "女士们，先生们，我们想提醒您，起飞后不久将会开放免税购物。您可以在前排座位的口袋里找到我们的产品目录，其中展示了精选的独家产品。如果您想购买，请准备好付款方式，我们的机组人员将为您提供帮助。谢谢。",
         "ja": "皆様、離陸後すぐに免税ショッピングがご利用可能になりますのでお知らせいたします。目の前の座席ポケットに、厳選された限定商品を紹介するカタログがあります。ご購入をご希望の場合は、代金をご用意ください。乗務員がお手伝いいたします。よろしくお願いいたします。",
-        "ar": "سيداتي وسادتي، نود أن نذكركم بأن التسوق المعفى من الرسوم الجمركية سيكون متاحًا بعد فترة وجيزة من الإقلاع. ستجدون كتالوجًا في جيب المقعد أمامكم، يعرض مجموعة مختارة من المنتجات الحصرية. إذا كنتم ترغبون في إجراء عملية شراء، يرجى تجهيز وسيلة الدفع الخاصة بكم، وسيساعدكم أحد أفراد طاقمنا. شكرًا لكم."
+        "ar": "سيداتي وسادتي، نود أن نذكركم بأن التسوق المعفى من الرسوم الجمركية سيكون متاحًا بعد فترة وجيزة من الإقلاع. ستجدون كتالوجًا في جيب المقعد أمامكم، يعرض مجموعة مختارة من المنتجات الحصرية. إذا كنتم ترغبون في إجراء عملية شراء، يرجى تجهيز وسيلة الدفع الخاصة بكم، وسيساعدكم أحد أفراد طاقمنا. شكرًا لكم.",
+		    "hu": "Hölgyeim és uraim, szeretnénk emlékeztetni Önöket, hogy a vámmentes vásárlás a felszállás után nem sokkal elérhető lesz. Az Önök előtt lévő ülés zsebében egy katalógust találnak, amely exkluzív termékek válogatását mutatja be. Ha vásárolni szeretnének, kérjük, készítsék elő a fizetőeszközüket, és személyzetünk egyik tagja szívesen segít Önöknek. Köszönjük.",
       }
     ]
   },
@@ -1057,7 +1103,8 @@ const texts: Text[] = [
         "th": "การเดินทางของเราในวันนี้จะใช้เวลาประมาณ {flightTime} กัปตันและลูกเรือทุกคนหวังว่าผู้โดยสารทุกท่านจะได้รับการบริการที่ราบรื่น หลังจากที่สัญญาณแจ้งรัดเข็มขัดที่นั่งได้ดับลงแล้ว เราจะเริ่มให้บริการของว่างและเครื่องดื่ม ท่านสามารถดูเมนูบนเครื่องได้ที่ช่องใส่ของหน้าที่นั่งของท่าน",
         "zh": "[Our flight today will take approximately {flightTime}.] 机长刚刚通知我，飞行应该会很平稳。飞机起飞后不久我们将开始提供小吃和饮料。您可以在前方座椅口袋中找到我们的空中菜单。",
         "ja": "[Our flight today will take approximately {flightTime}.] 機長からフライトは順調に運航するとの連絡がありました。離陸後すぐに軽食とドリンクの提供を開始します。スカイ メニューは前方の座席ポケットにあります。",
-        "ar": "[Our flight today will take approximately {flightTime}.] الطيار للتو أبلغني أن الرحلة يجب أن تكون سلسة. بعد فترة وجيزة من الإقلاع، سنبدأ بتقديم الوجبات الخفيفة والمشروبات. يمكنك العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامك."
+        "ar": "[Our flight today will take approximately {flightTime}.] الطيار للتو أبلغني أن الرحلة يجب أن تكون سلسة. بعد فترة وجيزة من الإقلاع، سنبدأ بتقديم الوجبات الخفيفة والمشروبات. يمكنك العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامك.",
+		    "hu": "[Our flight today will take approximately {flightTime}.] A kapitány éppen tájékoztatott, hogy a repülés várhatóan zökkenőmentes lesz. A felszállás után nem sokkal megkezdjük a snackek és italok felszolgálását. Az étlapot, az úgynevezett 'sky menüt', az Önök előtt lévő ülés zsebében találják.",
       }
     ]
   },
@@ -1085,7 +1132,8 @@ const texts: Text[] = [
         "th": "ลูกเรือเปิดประตูและตรวจค้น",
         "zh": "机组人员，请打开舱门并进行交叉检查。",
         "ja": "客室乗務員、ドアを開けてクロスチェック。",
-        "ar": "طاقم الطائرة، فتح الأبواب والتحقق المتبادل."
+        "ar": "طاقم الطائرة، فتح الأبواب والتحقق المتبادل.",
+		    "hu": "Cabin crew, arm doors and cross-check.",
       }
     ]
   },
@@ -1112,7 +1160,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน เพื่อความปลอดภัยขอให้ทุกท่านให้ความสนใจชมการสาธิตขั้นตอนฉุกเฉิน ในเครื่องบินลำนี้มีทางออกฉุกเฉินทั้งหมด {aircraftEmergencyExistsCount} จุด โปรดกรุณามองหาทางออกฉุกเฉินที่ใกล้ที่สุดซึ่งอาจอยู่ด้านหลังของท่าน ในกรณีฉุกเฉินหน้ากากออกซิเจนจะหล่นลงมาจากด้านบนที่นั่งของท่าน กรุณาสวมหน้ากากปิดปากและจมูก แล้วดึงสายรัดให้กระชับ หากท่านเดินทางพร้อมกับเด็ก กรุณาสวมหน้ากากให้ตัวเองก่อนแล้วจึงสวมให้เด็ก ในกรณีฉุกเฉิน ห้ามนำสัมภาระติดตัวไป เสื้อชูชีพจะอยู่ใต้ที่นั่งของท่าน และไฟฉุกเฉินจะนำท่านไปยังทางออกที่ใกล้ที่สุด โปรดเก็บสัมภาระในที่เก็บของเพื่อความปลอดภัยระหว่างเที่ยวบินนี้ ขณะที่เรารอเครื่องบินขึ้น กรุณาสละเวลาสักครู่เพื่อทบทวนข้อมูลความปลอดภัยที่อยู่ในช่องใส่ของหน้าที่นั่งของท่าน ขอบคุณสำหรับความสนใจของท่าน",
         "zh": "女士们，先生们，代表全体机组成员，我请您关注我们回顾的紧急情况程序。[There are {aircraftEmergencyExistsCount} emergency exits on this aircraft.] 请花点时间找出离您最近的出口。请注意，最近的出口可能在您的后方。如果机舱突然失压，请保持冷静并听从机组成员的指示。氧气面罩会从您的座位上方掉下来。将面罩罩住您的口鼻，如此操作。拉紧带子固定它。如果您与儿童同行，请先确保自己戴好面罩，再帮助您的孩子。在极少数紧急着陆和撤离的情况下，请放弃携带行李。救生筏位于您的座位下方，紧急照明将引导您到最近的出口。我们请您确保随身携带的行李在飞行过程中已妥善存放。在我们等待起飞时，请花几分钟时间阅读前方座椅口袋中的安全资料卡。感谢您的关注。",
         "ja": "皆様、緊急時の手順を確認している間、乗務員を代表して乗務員に注意を向けていただきますようお願いいたします。[There are {aircraftEmergencyExistsCount} emergency exits on this aircraft.] 1 分ほどお時間を取って、最寄りの出口を見つけてください。最寄りの出口は背後にある場合があります。客室の気圧が突然低下した場合は、落ち着いて客室乗務員の指示に耳を傾けてください。酸素マスクが座席の上から降りてきます。このようにマスクを口と鼻に当ててください。ストラップを引いて締めてください。お子様連れの場合は、お子様を助ける前に、まずご自身のマスクを装着してください。万が一、緊急着陸して避難しなければならない場合に備えて、機内持ち込み手荷物は置いてきてください。救命いかだは座席の下に設置されており、非常灯が最寄りの出口まで導いてくれます。飛行中は、機内持ち込み手荷物がすべて安全に収納されていることを確認してください。離陸を待つ間、少し時間を取って、前方の座席ポケットにある安全データ カードを確認してください。ご清聴ありがとうございました。",
-        "ar": "أيها السيدات والسادة، نيابة عن الطاقم أطلب منكم توجيه انتباهكم إلى أفراد الطاقم بينما نستعرض إجراءات الطوارئ. [There are {aircraftEmergencyExistsCount} emergency exits on this aircraft.] خذ دقيقة لتحديد أقرب مخرج لك. لاحظ أن أقرب مخرج قد يكون خلفك. إذا تعرضت المقصورة لفقدان مفاجئ للضغط، ابق هادئًا واستمع إلى تعليمات طاقم المقصورة. ستسقط أقنعة الأكسجين من فوق مقعدك. ضع القناع على فمك وأنفك، مثل هذا. اسحب الحزام لتشديده. إذا كنت تسافر مع أطفال، فتأكد من وضع قناعك أولاً قبل مساعدة أطفالك. في حالة الهبوط الاضطراري والإخلاء، اترك أمتعتك اليدوية خلفك. توجد قوارب النجاة تحت مقاعدك وستوجهك الإضاءة الطارئة إلى أقرب مخرج لك. نطلب منك التأكد من أن جميع الأمتعة اليدوية مخزنة بأمان أثناء الرحلة. بينما ننتظر الإقلاع، يرجى أخذ لحظة لمراجعة بطاقة بيانات السلامة في جيب المقعد أمامك. شكرًا لك على انتباهك."
+        "ar": "أيها السيدات والسادة، نيابة عن الطاقم أطلب منكم توجيه انتباهكم إلى أفراد الطاقم بينما نستعرض إجراءات الطوارئ. [There are {aircraftEmergencyExistsCount} emergency exits on this aircraft.] خذ دقيقة لتحديد أقرب مخرج لك. لاحظ أن أقرب مخرج قد يكون خلفك. إذا تعرضت المقصورة لفقدان مفاجئ للضغط، ابق هادئًا واستمع إلى تعليمات طاقم المقصورة. ستسقط أقنعة الأكسجين من فوق مقعدك. ضع القناع على فمك وأنفك، مثل هذا. اسحب الحزام لتشديده. إذا كنت تسافر مع أطفال، فتأكد من وضع قناعك أولاً قبل مساعدة أطفالك. في حالة الهبوط الاضطراري والإخلاء، اترك أمتعتك اليدوية خلفك. توجد قوارب النجاة تحت مقاعدك وستوجهك الإضاءة الطارئة إلى أقرب مخرج لك. نطلب منك التأكد من أن جميع الأمتعة اليدوية مخزنة بأمان أثناء الرحلة. بينما ننتظر الإقلاع، يرجى أخذ لحظة لمراجعة بطاقة بيانات السلامة في جيب المقعد أمامك. شكرًا لك على انتباهك.",
+		    "hu": "Hölgyeim és uraim, a személyzet nevében kérjük, hogy figyelmüket fordítsák a személyzet tagjaira, amint áttekintjük a vészhelyzeti eljárásokat. [There are {aircraftEmergencyExistsCount} emergency exits on this aircraft.] Szánjanak egy percet arra, hogy megtalálják a legközelebbi kijáratot. Vegyék figyelembe, hogy a legközelebbi kijárat lehet Önök mögött is. Amennyiben hirtelen nyomáscsökkenés következik be a kabinban, maradjanak nyugodtak és figyeljék a személyzet utasításait. Az oxigénmaszkok az ülések felett fognak leesni. Helyezzék a maszkot szájukra és orrukra, így. Húzzák meg a pántot, hogy szorosabb legyen. Ha gyerekekkel utaznak, először saját magukra helyezzék a maszkot, mielőtt segítenének a gyerekeknek. Rendkívül ritka esetben, vészhelyzeti leszállás és evakuálás esetén hagyják hátra kézipoggyászukat. A mentőmellények az ülések alatt találhatók, és a vészvilágítás vezet majd a legközelebbi kijárathoz. Kérjük, hogy a repülés során győződjenek meg róla, hogy minden kézipoggyász biztonságosan el van helyezve. Amíg várunk a felszállásra, kérem, szánjanak egy percet arra, hogy átnézzék a biztonsági tájékoztató kártyát az Önök előtt lévő ülés zsebében. Köszönjük a figyelmüket.",
       },
       {
         "en": "Ladies and gentlemen, as we prepare for departure, we kindly ask for your full attention as we go over the safety features of this aircraft. Seatbelts should be fastened at this time, and all carry-on items must be stowed in the overhead bins or under the seat in front of you. In the event of an emergency, follow the illuminated exit signs to locate your nearest exit. Remember that your nearest exit may be behind you. In the unlikely event of a water landing, this aircraft is equipped with life vests located under your seat. To use, pull the vest out, slip it over your head, and secure it with the straps. Inflate your vest by pulling the red tabs or by blowing into the tubes on either side. Do not inflate your vest until exiting the aircraft. If oxygen masks are needed, they will drop automatically from the panel above. Place the mask over your nose and mouth, secure it with the elastic band, and breathe normally. Assistance will be provided once everyone has their mask on. We appreciate your cooperation as we ensure your safety and comfort. Thank you.",
@@ -1130,7 +1179,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ในขณะที่เรากำลังเตรียมตัวสำหรับการออกเดินทาง ขอความกรุณาให้ท่านให้ความสนใจเต็มที่ ขณะนี้เราจะอธิบายฟีเจอร์ด้านความปลอดภัยของเครื่องบินนี้ โปรดคาดเข็มขัดนิรภัยในขณะนี้ และโปรดเก็บสัมภาระของท่านในช่องเหนือศีรษะหรือใต้ที่นั่งด้านหน้าท่าน หากเกิดเหตุฉุกเฉิน โปรดติดตามป้ายทางออกที่สว่างเพื่อหาทางออกที่ใกล้ที่สุด โปรดจำไว้ว่าทางออกที่ใกล้ที่สุดอาจอยู่ด้านหลังท่าน ในกรณีที่เครื่องบินลงจอดในน้ำ เครื่องบินนี้มีเสื้อชูชีพอยู่ใต้ที่นั่งของท่าน ใช้เสื้อชูชีพได้โดยดึงออกมา สวมใส่ที่ศีรษะ และรัดด้วยสายรัด จากนั้นเป่าลมเข้าไปในท่อทั้งสองข้างจนเสื้อชูชีพพองตัว อย่าเป่าลมในเสื้อชูชีพจนกว่าจะออกจากเครื่องบิน หากต้องใช้หน้ากากออกซิเจน หน้ากากจะหล่นออกมาจากแผงด้านบน สวมหน้ากากครอบจมูกและปาก รัดด้วยยางยืดแล้วหายใจตามปกติ จะมีเจ้าหน้าที่ช่วยเหลือหลังจากทุกคนสวมหน้ากากแล้ว ขอบคุณสำหรับความร่วมมือในการรักษาความปลอดภัยและความสะดวกสบายของท่าน",
         "zh": "女士们，先生们，在我们准备起飞时，请您全神贯注地听取飞机安全设施的介绍。此时请系好安全带，并确保所有随身物品已存放在头顶行李舱或前方座位下方。遇到紧急情况时，请按照照明的紧急出口标志前往最近的出口。请记住，最近的出口可能在您的后方。如果发生水上迫降，本机配有位于座位下方的救生衣。使用时，请将救生衣拉出，套过头部并系紧带子。通过拉红色标签或向两侧的管道吹气来充气。请勿在离开飞机前充气。如果需要氧气面罩，它们将自动从上方面板掉下。请将面罩覆盖在您的鼻子和嘴巴上，并用松紧带固定，正常呼吸。所有乘客戴好面罩后将提供帮助。感谢您的配合，以确保您的安全和舒适。谢谢。",
         "ja": "皆様、出発準備が整いましたので、この航空機の安全機能についてご説明しますので、どうぞご用心ください。この時点でシートベルトを締めてください。また、すべての機内持ち込み手荷物は頭上の棚または前の座席の下に収納してください。緊急事態が発生した場合は、点灯した出口標識に従って最寄りの出口を見つけてください。最寄りの出口は後ろにある場合があることにご注意ください。万が一、着水した場合に備えて、この航空機には座席の下にライフベストが装備されています。使用するには、ベストを引き出し、頭からかぶってストラップで固定します。赤いタブを引くか、両側のチューブに息を吹き込んでベストを膨らませます。航空機を出るまではベストを膨らませないでください。酸素マスクが必要な場合は、上部のパネルから自動的に落下します。マスクを鼻と口に当て、ゴムバンドで固定し、普通に呼吸してください。全員がマスクを着用したら、支援が提供されます。お客様の安全と快適さを確保するためにご協力をお願いいたします。ありがとうございます。",
-        "ar": "سيداتي وسادتي، بينما نستعد للمغادرة، نرجو منكم التفضل بالانتباه الكامل أثناء استعراضنا لتدابير السلامة في هذه الطائرة. يُرجى ربط أحزمة الأمان في هذا الوقت، ويجب وضع جميع الأمتعة المحمولة في الخزائن العلوية أو أسفل المقعد أمامكم. في حالة الطوارئ، اتبعوا لافتات الخروج المضيئة لتحديد أقرب مخرج. تذكروا أن أقرب مخرج قد يكون خلفكم. في حال هبوط الطائرة على الماء، وهو أمر نادر، فإن هذه الطائرة مجهزة بسترات نجاة أسفل مقعدكم. لاستخدامها، اسحبوا السترة، وضعها فوق رأسكم، وثبتوها بالأحزمة. انفخوا السترة بسحب الألسنة الحمراء أو بالنفخ في الأنابيب على كلا الجانبين. لا تنفخوا السترة إلا عند الخروج من الطائرة. في حال احتجتم لأقنعة أكسجين، فستسقط تلقائيًا من اللوحة العلوية. ضعوا القناع على أنفكم وفمكم، وثبتوه بالشريط المطاطي، وتنفسوا بشكل طبيعي. سيتم تقديم المساعدة بمجرد ارتداء الجميع للكمامة. نقدّر تعاونكم لضمان سلامتكم وراحتكم. شكرًا لكم."
+        "ar": "سيداتي وسادتي، بينما نستعد للمغادرة، نرجو منكم التفضل بالانتباه الكامل أثناء استعراضنا لتدابير السلامة في هذه الطائرة. يُرجى ربط أحزمة الأمان في هذا الوقت، ويجب وضع جميع الأمتعة المحمولة في الخزائن العلوية أو أسفل المقعد أمامكم. في حالة الطوارئ، اتبعوا لافتات الخروج المضيئة لتحديد أقرب مخرج. تذكروا أن أقرب مخرج قد يكون خلفكم. في حال هبوط الطائرة على الماء، وهو أمر نادر، فإن هذه الطائرة مجهزة بسترات نجاة أسفل مقعدكم. لاستخدامها، اسحبوا السترة، وضعها فوق رأسكم، وثبتوها بالأحزمة. انفخوا السترة بسحب الألسنة الحمراء أو بالنفخ في الأنابيب على كلا الجانبين. لا تنفخوا السترة إلا عند الخروج من الطائرة. في حال احتجتم لأقنعة أكسجين، فستسقط تلقائيًا من اللوحة العلوية. ضعوا القناع على أنفكم وفمكم، وثبتوه بالشريط المطاطي، وتنفسوا بشكل طبيعي. سيتم تقديم المساعدة بمجرد ارتداء الجميع للكمامة. نقدّر تعاونكم لضمان سلامتكم وراحتكم. شكرًا لكم.",
+		    "hu": "Hölgyeim és uraim, az indulás előkészítése során kérjük, fordítsák teljes figyelmüket a repülőgép biztonsági felszereléseinek bemutatására. Kérjük, hogy kapcsolják be biztonsági öveiket, és minden kézipoggyászt helyezzenek el a felettük lévő tárolórekeszekben vagy az előttük lévő ülés alatt. Vészhelyzet esetén kövessék a megvilágított kijáratjelzőket, hogy megtalálják a legközelebbi kijáratot. Ne feledjék, hogy a legközelebbi kijárat lehet Önök mögött is. Rendkívül ritka esetben, vízi leszállás esetén a repülőgép mentőmellényekkel van felszerelve, amelyek az ülések alatt találhatók. Használatukhoz húzza ki a mellényt, húzza át a fején, és rögzítse a pántokkal. A mellényt a piros fülekkel vagy a két oldalon található csövekbe fújva lehet felfújni. Ne fújja fel a mellényt, amíg el nem hagyja a repülőgépet. Ha oxigénmaszkokra van szükség, azok automatikusan leereszkednek a felettük lévő panelből. Helyezze a maszkot orra és szája elé, rögzítse a gumipánttal, és lélegezzen normálisan. Segítséget csak akkor kapnak, amikor mindenki felvette a maszkot. Köszönjük együttműködésüket, amellyel biztonságukat és kényelmüket biztosítjuk. Köszönjük.",
       }
     ]
   },
@@ -1163,7 +1213,8 @@ const texts: Text[] = [
         "th": "ลูกเรือทุกท่าน กรุณาปิดแสงสำหรับการออกเดินทาง",
         "zh": "机组人员，请为起飞调暗灯光。",
         "ja": "客室乗務員さん、離陸に備えて照明を暗くしてください。",
-        "ar": "طاقم الطائرة، يرجى خفض الأضواء استعدادًا للإقلاع."
+        "ar": "طاقم الطائرة، يرجى خفض الأضواء استعدادًا للإقلاع.",
+		    "hu": "Személyzet, kérjük, kapcsolják le a fényeket a felszálláshoz.",
       }
     ]
   },
@@ -1193,7 +1244,8 @@ const texts: Text[] = [
         "th": "ลูกเรือทุกท่าน กรุณาปิดแสงสำหรับการออกเดินทาง",
         "zh": "机组人员，请为起飞调暗灯光。",
         "ja": "皆様、安全上の理由により離陸時には照明が暗くなります。",
-        "ar": "سيداتي وسادتي، سيتم إطفاء الأنوار أثناء الإقلاع لأسباب تتعلق بالسلامة."
+        "ar": "سيداتي وسادتي، سيتم إطفاء الأنوار أثناء الإقلاع لأسباب تتعلق بالسلامة.",
+		    "hu": "Hölgyeim és uraim, a biztonsági előírások miatt a fényeket lekapcsoljuk a felszálláshoz.",
       },
       {
         "en": "We will be dimming the lights for takeoff. Please use the reading light above your seat if you need additional light.",
@@ -1211,7 +1263,8 @@ const texts: Text[] = [
         "th": "ไฟจะหรี่ลงก่อนเครื่องขึ้น หากคุณต้องการแสงสว่างเพิ่มเติม โปรดใช้โคมไฟอ่านหนังสือเหนือที่นั่งของคุณ",
         "zh": "起飞前灯光将变暗。如果您需要额外的照明，请使用座位上方的阅读灯。",
         "ja": "離陸時には照明を暗くさせていただきます。追加の照明が必要な場合は、座席の上にある読書灯をご利用ください。",
-        "ar": "سيتم إطفاء الأنوار قبل الإقلاع. إذا كنتم بحاجة إلى مزيد من الضوء، يرجى استخدام مصباح القراءة الموجود فوق مقعدكم."
+        "ar": "سيتم إطفاء الأنوار قبل الإقلاع. إذا كنتم بحاجة إلى مزيد من الضوء، يرجى استخدام مصباح القراءة الموجود فوق مقعدكم.",
+		    "hu": "A felszállás miatt le fogjuk kapcsolni a fényeket. Ha további világításra van szüksége, kérjük, használja az Ön feletti olvasólámpát.",
       },
       {
         "en": "Ladies and gentlemen, we will be dimming the cabin lights for takeoff. If you require additional light, please use the button above your seat to activate your reading light.",
@@ -1229,7 +1282,8 @@ const texts: Text[] = [
         "th": "ลูกเรือทุกท่าน เราจะปิดแสงในห้องโดยสารสำหรับการออกเดินทาง หากคุณต้องการแสงสว่างเพิ่มเติม โปรดใช้ปุ่มเหนือที่นั่งของคุณเพื่อเปิดไฟอ่านหนังสือของคุณ",
         "zh": "女士们，先生们，我们将为起飞调暗客舱灯光。如果您需要额外的照明，请使用座位上方的按钮激活阅读灯。",
         "ja": "皆様、離陸にあたり客室の照明を暗くさせていただきます。追加の照明が必要な場合は、座席の上にあるボタンを使用して読書灯を点灯してください。",
-        "ar": "سيداتي وسادتي، سنقوم بإطفاء أنوار المقصورة استعدادًا للإقلاع. إذا كنتم بحاجة إلى مزيد من الضوء، يرجى استخدام الزر الموجود فوق مقعدكم لتفعيل مصباح القراءة الخاص بكم."
+        "ar": "سيداتي وسادتي، سنقوم بإطفاء أنوار المقصورة استعدادًا للإقلاع. إذا كنتم بحاجة إلى مزيد من الضوء، يرجى استخدام الزر الموجود فوق مقعدكم لتفعيل مصباح القراءة الخاص بكم.",
+		    "hu": "Hölgyeim és uraim, a felszállás miatt lekapcsoljuk a kabin világítását. Ha további világításra van szükségük, kérjük, használják az ülésük feletti gombot az olvasólámpa bekapcsolásához.",
       }
     ]
   },
@@ -1257,7 +1311,8 @@ const texts: Text[] = [
         "th": "ลูกเรือทุกท่าน กรุณาเตรียมพร้อมสำหรับการออกเดินทาง",
         "zh": "机组人员，请准备起飞。",
         "ja": "客室乗務員の皆さん、離陸の準備をしてください。",
-        "ar": "طاقم الطائرة، استعدوا للإقلاع."
+        "ar": "طاقم الطائرة، استعدوا للإقلاع.",
+		    "hu": "Cabin crew, felszállásra felkészülni",
       },
       {
         "en": "Cabin crew, take your seats for takeoff.",
@@ -1275,7 +1330,8 @@ const texts: Text[] = [
         "th": "ลูกเรือทุกท่าน กรุณานั่งประจำที่เพื่อเตรียมพร้อมสำหรับการขึ้นบิน",
         "zh": "机组人员，请就座，准备起飞。",
         "ja": "客室乗務員の皆さん、離陸のために着席してください。",
-        "ar": "طاقم الطائرة، تفضلوا بالجلوس استعدادًا للإقلاع."
+        "ar": "طاقم الطائرة، تفضلوا بالجلوس استعدادًا للإقلاع.",
+		    "hu": "Cabin crew, takeoff",
       }
     ]
   },
@@ -1304,7 +1360,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน กรุณานั่งอยู่กับที่ขณะที่เราไต่ระดับสู่ระดับความสูงสำหรับการบิน เราจะเริ่มให้บริการบนเครื่องบินในไม่ช้า ท่านสามารถดูเมนูได้ที่ช่องใส่ของหน้าที่นั่งของท่าน",
         "zh": "女士们，先生们，在我们爬升至巡航高度时，请保持就座。我们将很快开始机上服务。您可以在前方座椅口袋中找到我们的空中菜单。",
         "ja": "皆様、巡航高度まで上昇中はお席にご着席ください。まもなく機内サービスが始まります。スカイ メニューは前方の座席ポケットにあります。",
-        "ar": "سيداتي وسادتي، يرجى البقاء في مقاعدكم بينما نصعد إلى ارتفاع الطيران. سنبدأ قريبًا الخدمة على متن الطائرة. يمكنكم العثور على قائمة السماء في جيب المقعد أمامكم."
+        "ar": "سيداتي وسادتي، يرجى البقاء في مقاعدكم بينما نصعد إلى ارتفاع الطيران. سنبدأ قريبًا الخدمة على متن الطائرة. يمكنكم العثور على قائمة السماء في جيب المقعد أمامكم.",
+		    "hu": "Hölgyeim és uraim, kérjük, maradjanak ülve, amíg elérjük a megszokott repülési magasságot. Hamarosan megkezdjük a fedélzeti kiszolgálást. Az étlapot, az úgynevezett 'sky menüt', az Önök előtt lévő ülés zsebében találják.",
       },
       {
         "en": "We are now climbing to our cruising altitude. We will be starting our in-flight service shortly. You can find our sky menu in the seat pocket in front of you.",
@@ -1322,7 +1379,8 @@ const texts: Text[] = [
         "th": "ขณะนี้เรากำลังไต่ระดับไปสู่ระดับความสูงสำหรับการบิน เราจะเริ่มให้บริการบนเครื่องบินในไม่ช้า ท่านสามารถดูเมนูบนเครื่องได้ที่ช่องใส่ของหน้าที่นั่งของท่าน",
         "zh": "我们正在爬升至巡航高度。我们将很快开始机上服务。您可以在前方座椅口袋中找到我们的空中菜单。",
         "ja": "現在、巡航高度まで上昇中です。まもなく機内サービスが始まります。スカイ メニューは前方の座席ポケットにあります。",
-        "ar": "نحن الآن نصعد إلى ارتفاع الطيران. سنبدأ قريبًا الخدمة على متن الطائرة. يمكنكم العثور على قائمة السماء في جيب المقعد أمامكم."
+        "ar": "نحن الآن نصعد إلى ارتفاع الطيران. سنبدأ قريبًا الخدمة على متن الطائرة. يمكنكم العثور على قائمة السماء في جيب المقعد أمامكم.",
+        "hu": "Jelenleg emelkedünk a megszokott repülési magasságunkra. Hamarosan megkezdjük a fedélzeti kiszolgálást. Az étlapot, az úgynevezett 'sky menüt', az Önök előtt lévő ülés zsebében találják.",
       },
       {
         "en": "Ladies and gentlemen, in just a few moments, our cabin crew will begin serving refreshments. Please have your tray tables down and be ready to make your selection.",
@@ -1340,7 +1398,8 @@ const texts: Text[] = [
         "th": "ลูกเรือทุกท่าน ในไม่ช้าพวกเราจะเริ่มให้บริการเครื่องดื่ม กรุณาเปิดโต๊ะลงและเตรียมเลือกเมนูของท่าน",
         "zh": "女士们，先生们，过一会儿，我们的机组人员将开始为您提供饮料。请将托盘桌放下，并准备好选择。",
         "ja": "皆様、まもなく客室乗務員が軽食の提供を開始します。トレーテーブルを下ろして、お選びいただけるようにしてください。",
-        "ar": "سيداتي وسادتي، بعد قليل، سيبدأ طاقم الطائرة بتقديم المرطبات. يرجى وضع طاولات الطعام في الأسفل والاستعداد لاختيار ما تفضلونه."
+        "ar": "سيداتي وسادتي، بعد قليل، سيبدأ طاقم الطائرة بتقديم المرطبات. يرجى وضع طاولات الطعام في الأسفل والاستعداد لاختيار ما تفضلونه.",
+		    "hu": "Hölgyeim és uraim, néhány pillanaton belül a személyzet megkezdi az italok és kisebb harapnivalók felszolgálását.",
       },
       {
         "en": "Ladies and gentlemen, we are now climbing to our cruising altitude. For your safety, please remain seated with your seatbelt fastened. Once we’ve leveled off, our cabin crew will begin the in-flight service. If there’s anything we can do to make your flight more comfortable, please let us know.",
@@ -1358,7 +1417,8 @@ const texts: Text[] = [
         "th": "เรียนผู้โดยสารทุกท่าน ขณะนี้เรากำลังไต่ระดับไปยังระดับความสูงเดินทางของเรา เพื่อความปลอดภัยของท่าน กรุณานั่งอยู่ในที่นั่งและคาดเข็มขัดนิรภัยให้เรียบร้อย เมื่อถึงระดับความสูงเดินทางแล้ว ลูกเรือของเราจะเริ่มให้บริการบนเครื่อง หากมีสิ่งใดที่เราสามารถทำเพื่อให้การเดินทางของท่านสะดวกสบายยิ่งขึ้น โปรดแจ้งให้เราทราบ",
         "zh": "各位乘客，我们现在正在爬升至巡航高度。为了您的安全，请保持就座并系好安全带。当我们达到巡航高度后，机组人员将开始机上服务。如果您需要任何帮助，请随时告知我们的机组成员。感谢您选择与我们一起飞行。",
         "ja": "皆様、現在、巡航高度まで上昇中です。安全のため、シートベルトを締めてお座りください。機体が水平飛行したら、客室乗務員が機内サービスを開始します。お客様のフライトをより快適にするために何かできることがございましたら、お知らせください。",
-        "ar": "سيداتي وسادتي، نحن الآن نصعد إلى ارتفاع الطيران. من أجل سلامتكم، يرجى البقاء في مقاعدكم مع ربط حزام الأمان. بمجرد أن نصل إلى ارتفاع الطيران، سيبدأ طاقم الطائرة الخدمة على متن الطائرة. إذا كان هناك أي شيء يمكننا القيام به لجعل رحلتكم أكثر راحة، يرجى إبلاغنا."
+        "ar": "سيداتي وسادتي، نحن الآن نصعد إلى ارتفاع الطيران. من أجل سلامتكم، يرجى البقاء في مقاعدكم مع ربط حزام الأمان. بمجرد أن نصل إلى ارتفاع الطيران، سيبدأ طاقم الطائرة الخدمة على متن الطائرة. إذا كان هناك أي شيء يمكننا القيام به لجعل رحلتكم أكثر راحة، يرجى إبلاغنا.",
+		    "hu": "Hölgyeim és uraim, néhány pillanaton belül a személyzet megkezdi az italok és kisebb harapnivalók felszolgálását.",
       },
       {
         "en": "Dear passengers, we’re ascending to our cruising altitude. During this time, we ask that you remain seated with your seatbelt securely fastened. Shortly, we will commence our in-flight service. You can browse our selection of refreshments and meals in the sky menu, conveniently located in your seat pocket.",
@@ -1376,7 +1436,8 @@ const texts: Text[] = [
         "th": "เรียนผู้โดยสารทุกท่าน ขณะนี้เรากำลังไต่ระดับไปยังระดับความสูงเดินทางของเรา ระหว่างนี้กรุณานั่งอยู่ในที่นั่งและคาดเข็มขัดนิรภัยให้แน่น ในไม่ช้าเราจะเริ่มให้บริการบนเครื่อง ท่านสามารถดูตัวเลือกเครื่องดื่มและอาหารได้จากเมนูบนเครื่องซึ่งอยู่ในกระเป๋าที่นั่งของท่าน",
         "zh": "各位乘客，我们现在正在爬升至巡航高度。在此期间，请保持就座并系好安全带。不久后，我们将开始机上服务。您可以在座椅前方的口袋中找到机上菜单，浏览我们的饮品和餐食选择。",
         "ja": "お客様各位、現在、巡航高度まで上昇中です。その間、シートベルトをしっかりと締めて着席したままでお待ちください。まもなく機内サービスを開始します。機内メニューには、シートポケットに便利な軽食やお食事をご用意しておりますので、ぜひご覧ください。",
-        "ar": "أعزائي الركاب، نحن نصعد الآن إلى ارتفاع الطيران. خلال هذه الفترة، نطلب منكم البقاء في مقاعدكم مع ربط حزام الأمان بإحكام. سنبدأ قريبًا الخدمة على متن الطائرة. يمكنكم الاطلاع على قائمة المشروبات والوجبات في جيب المقعد أمامكم."
+        "ar": "أعزائي الركاب، نحن نصعد الآن إلى ارتفاع الطيران. خلال هذه الفترة، نطلب منكم البقاء في مقاعدكم مع ربط حزام الأمان بإحكام. سنبدأ قريبًا الخدمة على متن الطائرة. يمكنكم الاطلاع على قائمة المشروبات والوجبات في جيب المقعد أمامكم.",
+		    "hu": "Kedves utasok, jelenleg emelkedünk a megszokott repülési magasságunkra. Ez idő alatt kérjük, maradjanak ülve, és kapcsolják be biztonsági övüket. Hamarosan megkezdjük a fedélzeti kiszolgálást. A kínálatunkat, beleértve italokat és ételeket, a 'sky menüben' találják, amely az ülés zsebében érhető el.",
       },
       {
         "en": "Ladies and gentlemen, as we climb to our cruising altitude, please remain seated and keep your seatbelt fastened at all times. The cabin crew will begin serving refreshments once it is safe to do so. Your comfort and safety are our priority. Thank you for your cooperation.",
@@ -1394,7 +1455,8 @@ const texts: Text[] = [
         "th": "เรียนผู้โดยสารทุกท่าน ขณะนี้เรากำลังไต่ระดับไปยังระดับความสูงเดินทาง กรุณานั่งประจำที่และคาดเข็มขัดนิรภัยให้แน่นตลอดเวลา พนักงานต้อนรับบนเครื่องจะเริ่มให้บริการเครื่องดื่มเมื่อปลอดภัยแล้ว ความสะดวกสบายและความปลอดภัยของท่านคือสิ่งสำคัญของเรา ขอขอบคุณสำหรับความร่วมมือ",
         "zh": "各位乘客，在我们爬升至巡航高度期间，请始终保持就座并系好安全带。机组人员将在安全的情况下开始提供饮品服务。您的舒适和安全是我们的首要任务。感谢您的合作。",
         "ja": "皆様、巡航高度まで上昇中は、座席に座ったまま、常にシートベルトをお締めください。客室乗務員は、安全が確保でき次第、軽食の提供を開始します。お客様の快適さと安全は、私たちの最優先事項です。ご協力のほどよろしくお願いいたします。",
-        "ar": "سيداتي وسادتي، أثناء صعودنا إلى ارتفاع الطيران، يرجى البقاء في مقاعدكم مع ربط حزام الأمان بإحكام في جميع الأوقات. سيبدأ طاقم الطائرة بتقديم المرطبات بمجرد أن يصبح ذلك آمنًا. راحتكم وسلامتكم هي أولويتنا. شكرًا لتعاونكم."
+        "ar": "سيداتي وسادتي، أثناء صعودنا إلى ارتفاع الطيران، يرجى البقاء في مقاعدكم مع ربط حزام الأمان بإحكام في جميع الأوقات. سيبدأ طاقم الطائرة بتقديم المرطبات بمجرد أن يصبح ذلك آمنًا. راحتكم وسلامتكم هي أولويتنا. شكرًا لتعاونكم.",
+		    "hu": "Hölgyeim és uraim, amint emelkedünk a megszokott repülési magasságra, kérjük, maradjanak ülve és tartsák bekapcsolva biztonsági övüket. A személyzet a megfelelő biztonsági feltételek mellett megkezdi az italok felszolgálását. Az Önök kényelme és biztonsága a legfontosabb számunkra. Köszönjük együttműködésüket.",
       },
       {
         "en": "We’re on our way up to cruising altitude! Please keep your seatbelt fastened and enjoy the view as we ascend. In just a little while, we’ll begin serving snacks and drinks. Take a moment to check out the menu in the seat pocket in front of you.",
@@ -1412,7 +1474,8 @@ const texts: Text[] = [
         "th": "เรากำลังไต่ระดับไปยังระดับความสูงเดินทาง! โปรดคาดเข็มขัดนิรภัยและเพลิดเพลินกับวิวระหว่างการไต่ระดับ อีกไม่นานเราจะเริ่มให้บริการของว่างและเครื่องดื่ม อย่าลืมดูเมนูในกระเป๋าที่นั่งด้านหน้าของคุณ",
         "zh": "我们正在爬升到巡航高度！请保持系好安全带，欣赏爬升中的美景。不久之后，我们将开始提供小吃和饮料服务。请抽空查看您座椅前方口袋中的菜单。",
         "ja": "巡航高度まで上昇中です。上昇中はシートベルトを締めて景色をお楽しみください。まもなく軽食とドリンクの提供が始まります。座席前のポケットにあるメニューをぜひご覧ください。",
-        "ar": "نحن في طريقنا إلى ارتفاع الطيران! يرجى إبقاء حزام الأمان مربوطًا والاستمتاع بالمنظر أثناء الصعود. بعد قليل، سنبدأ بتقديم الوجبات الخفيفة والمشروبات. خذ لحظة للاطلاع على القائمة الموجودة في جيب المقعد أمامك."
+        "ar": "نحن في طريقنا إلى ارتفاع الطيران! يرجى إبقاء حزام الأمان مربوطًا والاستمتاع بالمنظر أثناء الصعود. بعد قليل، سنبدأ بتقديم الوجبات الخفيفة والمشروبات. خذ لحظة للاطلاع على القائمة الموجودة في جيب المقعد أمامك.",
+		    "hu": "Éppen emelkedünk a megszokott repülési magasság felé! Kérjük, tartsák bekapcsolva biztonsági övüket, és élvezzék a kilátást az emelkedés során. Hamarosan megkezdjük a harapnivalók és italok felszolgálását. Kérjük, szánjanak egy pillanatot arra, hogy megtekintsék az ülésük előtti zsebben található étlapot.",
       }
     ]
   },
@@ -1444,7 +1507,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เราเริ่มให้บริการบนเครื่องบินแล้ว เราขอแจ้งให้ท่านทราบว่าเรารับชำระด้วยบัตรเครดิตและเงินสด ท่านสามารถดูเมนูบนเครื่องได้ที่ช่องใส่ของหน้าที่นั่งของท่าน กรุณานั่งประจำที่ขณะที่เราทำการบริการ หากท่านต้องการความช่วยเหลือใดๆ โปรดแจ้งพนักงานต้อนรับบนเครื่องบิน ขอบคุณค่ะ",
         "zh": "女士们，先生们，我们现在开始机上服务。我们提醒您，我们接受信用卡和现金支付。您可以在前方座椅口袋中找到我们的空中菜单。请在我们服务时保持就座。如果您需要任何帮助，请随时向我们的机组人员提出。谢谢。",
         "ja": "皆様、機内サービスを開始いたします。現金だけでなくカードでのお支払いも受け付けております。スカイメニューはお客様の前の座席ポケットにございます。サービス中はお席に座ったままでお待ちください。何かご用がありましたら、客室乗務員に遠慮なくお尋ねください。ありがとうございます。",
-        "ar": "سيداتي وسادتي، نحن الآن نبدأ خدمتنا على متن الطائرة. نود أن نذكركم أننا نقبل المدفوعات بالبطاقة وكذلك النقد. يمكنكم العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامكم. يرجى البقاء في مقاعدكم أثناء تقديم الخدمة. إذا كنتم بحاجة إلى أي شيء، فلا تترددوا في سؤال أحد أفراد طاقم الطائرة. شكرًا لكم."
+        "ar": "سيداتي وسادتي، نحن الآن نبدأ خدمتنا على متن الطائرة. نود أن نذكركم أننا نقبل المدفوعات بالبطاقة وكذلك النقد. يمكنكم العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامكم. يرجى البقاء في مقاعدكم أثناء تقديم الخدمة. إذا كنتم بحاجة إلى أي شيء، فلا تترددوا في سؤال أحد أفراد طاقم الطائرة. شكرًا لكم.",
+		    "hu": "Hölgyeim és uraim, megkezdjük a fedélzeti kiszolgálást. Szeretnénk emlékeztetni Önöket, hogy fizethetnek kártyával és készpénzzel is. Az étlapot, az úgynevezett 'sky menüt', az Önök előtt lévő ülés zsebében találják. Kérjük, maradjanak ülve a kiszolgálás alatt. Ha bármi szükségük van, ne habozzanak megkérdezni valamelyik személyzet tagot. Köszönjük.",
       },
       {
         "en": "We are now starting our in-flight service. We'd like to remind you that we accept card payments as well as cash. You can find our sky menu in the seat pocket in front of you. Please remain seated while we serve you. If you need anything, please don't hesitate to ask one of our cabin crew members. Thank you.",
@@ -1462,7 +1526,8 @@ const texts: Text[] = [
         "th": "ขณะนี้เราเริ่มให้บริการบนเครื่องบินแล้ว เราขอแจ้งให้ท่านทราบว่าเรารับชำระด้วยบัตรเครดิตและเงินสด ท่านสามารถดูเมนูบนเครื่องได้ที่ช่องใส่ของหน้าที่นั่งของท่าน กรุณานั่งประจำที่ขณะที่เราทำการบริการ หากท่านต้องการความช่วยเหลือใดๆ โปรดแจ้งพนักงานต้อนรับบนเครื่องบิน ขอบคุณค่ะ",
         "zh": "我们现在开始机上服务。我们提醒您，我们接受信用卡和现金支付。您可以在前方座椅口袋中找到我们的空中菜单。请在我们服务时保持就座。如有需要，请随时向我们的机组人员提出。谢谢。",
         "ja": "機内サービスを開始いたします。現金だけでなくカードでのお支払いも受け付けております。スカイメニューはお客様の前の座席ポケットにございます。サービス提供中はお席にご着席ください。ご要望がございましたら、客室乗務員までお気軽にお尋ねください。よろしくお願いいたします。",
-        "ar": "نبدأ الآن خدمتنا على متن الطائرة. نود أن نذكركم أننا نقبل المدفوعات بالبطاقة وكذلك النقد. يمكنكم العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامكم. يرجى البقاء في مقاعدكم أثناء تقديم الخدمة. إذا كنتم بحاجة إلى أي شيء، فلا تترددوا في سؤال أحد أفراد طاقم الطائرة. شكرًا لكم."
+        "ar": "نبدأ الآن خدمتنا على متن الطائرة. نود أن نذكركم أننا نقبل المدفوعات بالبطاقة وكذلك النقد. يمكنكم العثور على قائمة السماء الخاصة بنا في جيب المقعد أمامكم. يرجى البقاء في مقاعدكم أثناء تقديم الخدمة. إذا كنتم بحاجة إلى أي شيء، فلا تترددوا في سؤال أحد أفراد طاقم الطائرة. شكرًا لكم.",
+		    "hu": "Most kezdjük meg a fedélzeti kiszolgálást. Szeretnénk emlékeztetni Önöket, hogy fizethetnek kártyával és készpénzzel is. Az étlapot, az úgynevezett 'sky menüt', az Önök előtt lévő ülés zsebében találják. Kérjük, maradjanak ülve a kiszolgálás alatt. Ha bármi szükségük van, ne habozzanak megkérdezni valamelyik személyzet tagot. Köszönjük.",
       }
     ]
   },
@@ -1496,7 +1561,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เราเริ่มบริการจำน่ายสินค้าบนเครื่องบินแล้ว วันนี้เรามีข้อเสนอพิเศษสำหรับท่าน ท่านสามารถซื้อบัตรลุ้นรางวัลเพื่อโอกาสได้รับตั๋วเครื่องบินฟรีหรือของรางวัลอื่น ๆ เช่น อาหารหรือส่วนลดในเที่ยวบินถัดไป ผู้โดยสารสามารถลุ้นรางวัลทริบท่องเที่ยวฟรีอีกด้วย เราขอให้ท่านโชคดี!",
         "zh": "女士们，先生们，现已开始机上购物服务。今天我们有特别优惠。现在可以买我们的刮刮卡，您有机会赢取免费机票或其他丰厚奖品，如免费餐饮或下次航班的折扣。最幸运的乘客甚至可以赢得免费假期。祝您好运！",
         "ja": "皆様、機内ショッピング サービスが始まりました。本日は特別オファーをご用意しました。スクラッチ カードが購入可能になりました。無料フライトや、無料のお食事、次回のフライトの割引など、素晴らしい賞品を獲得できます。最も幸運な乗客は無料の休暇も獲得できます。幸運を祈ります!",
-        "ar": "سيداتي وسادتي، لقد بدأنا الآن خدمة التسوق على متن الطائرة. اليوم لدينا عرض خاص لكم. بطاقات الخدش لدينا متاحة الآن للشراء. يمكنك الفوز برحلة مجانية أو جوائز رائعة أخرى، مثل وجبة مجانية أو خصم على رحلتك القادمة. يمكن أن يفوز أكثر الركاب حظًا بعطلة مجانية أيضًا. حظًا سعيدًا!"
+        "ar": "سيداتي وسادتي، لقد بدأنا الآن خدمة التسوق على متن الطائرة. اليوم لدينا عرض خاص لكم. بطاقات الخدش لدينا متاحة الآن للشراء. يمكنك الفوز برحلة مجانية أو جوائز رائعة أخرى، مثل وجبة مجانية أو خصم على رحلتك القادمة. يمكن أن يفوز أكثر الركاب حظًا بعطلة مجانية أيضًا. حظًا سعيدًا!",
+		    "hu": "Hölgyeim és uraim, most kezdjük meg a fedélzeti árusítás szolgáltatást. Ma különleges ajánlattal készültünk Önöknek.Nyerhetnek egy ingyenes repülőutat vagy más nagyszerű nyereményeket, például ingyenes étkezést vagy kedvezményt a következő járatukra. A legszerencsésebb utasok akár egy ingyenes nyaralást is nyerhetnek. Sok szerencsét!",
       }
     ]
   },
@@ -1526,7 +1592,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เราเริ่มบริการจำน่ายสินค้าบนเครื่องบินแล้ว วันนี้เรามีข้อเสนอพิเศษสำหรับท่าน หากท่านซื้อน้ำหอมสองขวด ท่านจะได้รับส่วนลด 10% สำหรับขวดที่สาม ในเที่ยวบินนี้เราขอแนะนำกลิ่นหอมใหม่ล่าสุดจากคอลเลคชันของเรา ท่านสามารถดูแคทตาล็อกสินค้าของเราได้ที่ช่องใส่ของหน้าที่นั่งของท่าน เรารับชำระด้วยบัตรเครดิตและเงินสด",
         "zh": "女士们，先生们，我们现在开始机上购物服务。今天有特别优惠：购买两瓶香水，第三瓶可以享受10%的折扣。本次航班我们特别推荐我们最新的香水系列。您可以在前方座椅口袋中找到我们的购物目录。我们接受信用卡和现金支付。",
         "ja": "皆様、機内ショッピング サービスを開始いたします。本日は特別オファーをご用意しております。香水を 2 つご購入いただくと、3 つ目が 10% 割引になります。このフライトでは、当社のコレクションから最新のフレグランスを強くお勧めしています。ショッピング カタログは、お客様の前の座席ポケットにあります。お支払いは現金だけでなくカードでも承ります。",
-        "ar": "سيداتي وسادتي، نحن الآن نبدأ خدمتنا على متن الطائرة. اليوم لدينا عرض خاص لكم. إذا اشتريتم عطرين، ستحصلون على خصم 10% على الثالث. في هذه الرحلة نوصي بشدة بأحدث العطور من مجموعتنا. يمكنكم العثور على كتالوج التسوق الخاص بنا في جيب المقعد أمامكم. نقبل المدفوعات بالبطاقة وكذلك النقد."
+        "ar": "سيداتي وسادتي، نحن الآن نبدأ خدمتنا على متن الطائرة. اليوم لدينا عرض خاص لكم. إذا اشتريتم عطرين، ستحصلون على خصم 10% على الثالث. في هذه الرحلة نوصي بشدة بأحدث العطور من مجموعتنا. يمكنكم العثور على كتالوج التسوق الخاص بنا في جيب المقعد أمامكم. نقبل المدفوعات بالبطاقة وكذلك النقد.",
+		    "hu": "Hölgyeim és uraim, most kezdjük meg a fedélzeti árusítás szolgáltatást. Ma különleges ajánlatunk van Önöknek: ha két parfümöt vásárolnak, a harmadikra 10% kedvezményt kapnak. Ezen a járaton különösen ajánljuk legújabb illatainkat a kollekciónkból. Vásárlási katalógusunkat az Önök előtt lévő ülés zsebében találják. Fizethetnek kártyával és készpénzzel is.",
       },
       {
         "en": "We are now starting our in-flight shopping service. Today we highly recommend our special offer - a set of three perfumes for the price of two. We also have a wide selection of other products available for purchase, like souvenirs, cosmetics, and snacks. You can find our shopping catalog in the seat pocket in front of you. We accept card payments as well as cash.",
@@ -1544,7 +1611,8 @@ const texts: Text[] = [
         "th": "ขณะนี้เราเริ่มบริการขายสินค้าบนเครื่องบินแล้ว วันนี้เราขอแนะนำข้อเสนอพิเศษ เซ็ตน้ำหอม 3 ขวดในราคาสองขวดเท่านั้น เรามีสินค้าอื่น ๆ ให้เลือกซื้อมากมาย เช่น ของที่ระลึก เครื่องสำอาง และขนมขบเคี้ยว ท่านสามารถดูแคทตาล็อกสินค้าได้ที่ช่องใส่ของหน้าที่นั่งของท่าน เรารับชำระด้วยบัตรเครดิตและเงินสด",
         "zh": "现在开始机上购物服务。今天我们特别推荐优惠活动，三瓶香水只需两瓶的价格。我们还有各种产品供您选购，例如纪念品、化妆品和零食。您可以在前方座椅口袋中找到我们的购物目录。我们接受信用卡和现金支付。",
         "ja": "機内ショッピング サービスを開始しました。本日は、香水 3 本セットを 2 本セットの価格でご提供する特別キャンペーンをお勧めいたします。お土産、化粧品、スナックなど、その他の商品も豊富に取り揃えております。ショッピング カタログは、座席の前のポケットにあります。現金だけでなく、カードでのお支払いも承ります。",
-        "ar": "نبدأ الآن خدمة التسوق على متن الطائرة. اليوم نوصي بعرضنا الخاص - مجموعة من ثلاثة عطور بسعر اثنين. لدينا أيضًا مجموعة واسعة من المنتجات الأخرى المتاحة للشراء، مثل الهدايا التذكارية ومستحضرات التجميل والوجبات الخفيفة. يمكنكم العثور على كتالوج التسوق الخاص بنا في جيب المقعد أمامكم. نقبل المدفوعات بالبطاقة وكذلك النقد."
+        "ar": "نبدأ الآن خدمة التسوق على متن الطائرة. اليوم نوصي بعرضنا الخاص - مجموعة من ثلاثة عطور بسعر اثنين. لدينا أيضًا مجموعة واسعة من المنتجات الأخرى المتاحة للشراء، مثل الهدايا التذكارية ومستحضرات التجميل والوجبات الخفيفة. يمكنكم العثور على كتالوج التسوق الخاص بنا في جيب المقعد أمامكم. نقبل المدفوعات بالبطاقة وكذلك النقد.",
+		    "hu": "Most kezdjük meg a fedélzeti árusítás szolgáltatást. Ma különösen ajánljuk különleges ajánlatunkat – három parfüm szett két áráért. Emellett széles választékban kínálunk más termékeket is, mint például szuvenírek, kozmetikumok és harapnivalók. Vásárlási katalógusunkat az Önök előtt lévő ülés zsebében találják. Fizethetnek kártyával és készpénzzel is.",
       },
       {
         "en": "Ladies and gentlemen, our in-flight shopping service is now available. Treat yourself or a loved one with our exclusive collection of duty-free items. We are highlighting our new travel kits and limited-edition accessories on this flight. Find the catalog in your seat pocket, and feel free to ask our cabin crew for assistance. Card payments and cash are accepted.",
@@ -1562,7 +1630,8 @@ const texts: Text[] = [
         "th": "",
         "zh": "女士们先生们，我们的机上购物服务现已推出。用我们独家的免税商品系列犒劳自己或爱人。我们将在本次航班上重点介绍我们的全新旅行套装和限量版配件。您可以在座位口袋中找到目录，并随时向我们的机组人员寻求帮助。接受信用卡和现金付款。",
         "ja": "皆様、機内ショッピング サービスがご利用いただけるようになりました。ご自身や大切な人へのご褒美に、免税品の特別コレクションをぜひご利用ください。このフライトでは、新しいトラベル キットと限定版アクセサリーを特集しています。シート ポケットにカタログがありますので、お気軽に客室乗務員にお尋ねください。お支払いはカードと現金で承ります。",
-        "ar": "سيداتي وسادتي، خدمة التسوق على متن الطائرة متاحة الآن. دلل نفسك أو أحبائك مع مجموعتنا الحصرية من العناصر المعفاة من الرسوم الجمركية. نحن نسلط الضوء على مجموعات السفر الجديدة الخاصة بنا والإكسسوارات ذات الإصدار المحدود في هذه الرحلة. ابحث عن الكتالوج في جيب المقعد الخاص بك، ولا تتردد في طلب المساعدة من طاقم الطائرة لدينا. نقبل المدفوعات بالبطاقة وكذلك النقد."
+        "ar": "سيداتي وسادتي، خدمة التسوق على متن الطائرة متاحة الآن. دلل نفسك أو أحبائك مع مجموعتنا الحصرية من العناصر المعفاة من الرسوم الجمركية. نحن نسلط الضوء على مجموعات السفر الجديدة الخاصة بنا والإكسسوارات ذات الإصدار المحدود في هذه الرحلة. ابحث عن الكتالوج في جيب المقعد الخاص بك، ولا تتردد في طلب المساعدة من طاقم الطائرة لدينا. نقبل المدفوعات بالبطاقة وكذلك النقد.",
+		    "hu": "Hölgyeim és uraim, a fedélzeti á szolgáltatásunk most elérhető. Lepje meg magát vagy szeretteit exkluzív vámmentes termékeinkkel. Ezen a járaton kiemeljük új utazó készleteinket és limitált kiadású kiegészítőinket. A katalógust megtalálják az ülés zsebében, és kérjük, bátran forduljanak személyzetünkhöz segítségért. Kártyás és készpénzes fizetést is elfogadunk."
       },
       {
         "en": "Ladies and gentlemen, as we cruise at our cruising altitude, we invite you to explore our curated in-flight shopping selection. This month, we’re offering unique, locally inspired items and seasonal gifts. Don’t miss out on these limited-edition products! Please refer to the catalog in the seat pocket in front of you. Our crew is here to assist, and all major payment methods are accepted.",
@@ -1580,7 +1649,8 @@ const texts: Text[] = [
         "th": "",
         "zh": "女士们先生们，当我们在巡航高度巡航时，我们邀请您探索我们精心挑选的机上购物选择。本月，我们将提供独特的、具有当地特色的商品和季节性礼品。不要错过这些限量版产品！请参阅您前方座椅口袋中的目录。我们的机组人员随时为您提供帮助，并且接受所有主要付款方式。",
         "ja": "皆様、巡航高度で飛行中は、機内で厳選されたショッピング セレクションをぜひご覧ください。今月は、地元にインスピレーションを得たユニークな商品や季節のギフトをご用意しています。これらの限定版商品をお見逃しなく! 座席前のポケットにあるカタログをご覧ください。乗務員がお手伝いいたします。すべての主要なお支払い方法がご利用いただけます。",
-        "ar": "سيداتي وسادتي، بينما نبحر على ارتفاع الطيران، ندعوكم لاستكشاف مجموعة التسوق المختارة لدينا على متن الطائرة. هذا الشهر، نقدم عناصر فريدة مستوحاة محليًا وهدايا موسمية. لا تفوتوا هذه المنتجات ذات الإصدار المحدود! يرجى الرجوع إلى الكتالوج في جيب المقعد أمامكم. طاقمنا هنا للمساعدة، ويتم قبول جميع طرق الدفع الرئيسية."
+        "ar": "سيداتي وسادتي، بينما نبحر على ارتفاع الطيران، ندعوكم لاستكشاف مجموعة التسوق المختارة لدينا على متن الطائرة. هذا الشهر، نقدم عناصر فريدة مستوحاة محليًا وهدايا موسمية. لا تفوتوا هذه المنتجات ذات الإصدار المحدود! يرجى الرجوع إلى الكتالوج في جيب المقعد أمامكم. طاقمنا هنا للمساعدة، ويتم قبول جميع طرق الدفع الرئيسية.",
+		    "hu": "Hölgyeim és uraim, miközben utazunk utazómagasságunkon, meghívjuk Önöket, hogy tekintsék meg válogatott fedélzeti árusítás kínálatunkat. Ebben a hónapban egyedi, helyi inspirációjú termékeket és szezonális ajándékokat kínálunk. Ne hagyják ki ezeket a limitált kiadású termékeket! Kérjük, nézzék meg a katalógust az előttük lévő ülés zsebében. Személyzetünk készséggel áll rendelkezésükre, és minden jelentős fizetési módot elfogadunk.",
       },
       {
         "en": "Ladies and gentlemen, we are pleased to offer our in-flight shopping service during this portion of your journey. Whether you're looking for a thoughtful gift, a travel essential, or just something to indulge yourself, we've got you covered. Flip through the catalog in your seat pocket, and let our crew know if you have any questions. We accept payments in cash or by card.",
@@ -1598,7 +1668,8 @@ const texts: Text[] = [
         "th": "",
         "zh": "女士们先生们，我们很高兴在您旅程的这一阶段为您提供机上购物服务。无论您是在寻找贴心的礼物、旅行必需品还是只是一些让自己放纵的东西，我们都能满足您的需求。翻阅您座位口袋里的目录，如果您有任何问题，请告知我们的工作人员。我们接受现金或信用卡付款。",
         "ja": "皆様、この旅程の間、機内ショッピング サービスをご提供いたします。心のこもった贈り物、旅行の必需品、あるいは単に自分へのご褒美をお探しの場合でも、私たちが対応いたします。座席ポケットのカタログをご覧になり、ご質問がございましたら乗務員までお尋ねください。お支払いは現金またはカードで承ります。",
-        "ar": "سيداتي وسادتي، يسعدنا أن نقدم لكم خدمة التسوق على متن الطائرة خلال هذه المرحلة من رحلتكم. سواء كنتم تبحثون عن هدية مدروسة، أو عنصر أساسي للسفر، أو مجرد شيء لتدللوا به أنفسكم، فنحن هنا لمساعدتكم. تصفحوا الكتالوج في جيب المقعد الخاص بكم، وأخبروا طاقمنا إذا كان لديكم أي أسئلة. نقبل المدفوعات نقدًا أو بواسطة البطاقة."
+        "ar": "سيداتي وسادتي، يسعدنا أن نقدم لكم خدمة التسوق على متن الطائرة خلال هذه المرحلة من رحلتكم. سواء كنتم تبحثون عن هدية مدروسة، أو عنصر أساسي للسفر، أو مجرد شيء لتدللوا به أنفسكم، فنحن هنا لمساعدتكم. تصفحوا الكتالوج في جيب المقعد الخاص بكم، وأخبروا طاقمنا إذا كان لديكم أي أسئلة. نقبل المدفوعات نقدًا أو بواسطة البطاقة.",
+		    "hu": "Hölgyeim és uraim, örömmel kínáljuk Önöknek a fedélzeti árusítás szolgáltatásunkat utazásuk ezen szakaszában. Legyen szó egy gondosan választott ajándékról, utazási kellékről vagy csak egy kis kényeztetésről, nálunk megtalálja. Lapozzák át a katalógust az ülés zsebében, és jelezzék személyzetünknek, ha bármilyen kérdésük van. Fizetni készpénzzel vagy kártyával is lehet.",
       },
       {
         "en": "Attention, passengers! Don’t miss our special offer available only during this flight: purchase any two duty-free items and get 20% off your third item. Our catalog features a wide range of items, including premium fragrances, gadgets, and travel-exclusive items. Find the catalog in the seat pocket and speak with the cabin crew to learn more.",
@@ -1616,7 +1687,8 @@ const texts: Text[] = [
         "th": "",
         "zh": "乘客请注意！不要错过我们仅在此航班期间提供的特别优惠：购买任何两件免税商品，第三件商品可享受 20% 折扣。我们的产品目录包含各种商品，包括高级香水、小工具和旅行专属商品。请在座位口袋中找到目录，并与机组人员交谈以了解更多信息。",
         "ja": "乗客の皆様へ！このフライト限定の特別オファーをお見逃しなく。免税品を 2 つご購入いただくと、3 つ目が 20% オフになります。当社のカタログには、高級フレグランス、ガジェット、旅行限定商品など、幅広い商品が掲載されています。シートポケットにあるカタログを見つけて、客室乗務員に詳細をお尋ねください。",
-        "ar": "انتباه، أيها الركاب! لا تفوتوا عرضنا الخاص المتاح فقط خلال هذه الرحلة: اشترِ أي عنصرين معفيين من الرسوم الجمركية واحصل على خصم 20% على العنصر الثالث. يتميز كتالوجنا بمجموعة واسعة من العناصر، بما في ذلك العطور الفاخرة والأدوات والإكسسوارات الحصرية للسفر. ابحث عن الكتالوج في جيب المقعد وتحدث مع طاقم الطائرة لمعرفة المزيد."
+        "ar": "انتباه، أيها الركاب! لا تفوتوا عرضنا الخاص المتاح فقط خلال هذه الرحلة: اشترِ أي عنصرين معفيين من الرسوم الجمركية واحصل على خصم 20% على العنصر الثالث. يتميز كتالوجنا بمجموعة واسعة من العناصر، بما في ذلك العطور الفاخرة والأدوات والإكسسوارات الحصرية للسفر. ابحث عن الكتالوج في جيب المقعد وتحدث مع طاقم الطائرة لمعرفة المزيد.",
+		    "hu": "Figyelem, utasok! Ne hagyják ki különleges ajánlatunkat, amely kizárólag ezen a járaton érvényes: vásároljon bármilyen két vámmentes terméket, és a harmadik termékre 20% kedvezményt kap. Katalógusunk széles választékot kínál, beleértve prémium illatszereket, kütyüket és kizárólag utazáshoz elérhető termékeket. A katalógust megtalálják az ülés zsebében, további információért pedig forduljanak a kabinszemélyzethez.",
       },
       {
         "en": "Ladies and gentlemen, we are delighted to bring you a personalized shopping experience during your flight. Our catalog offers exclusive collections tailored for our travelers, including bestselling perfumes, luxury watches, and travel must-haves. If you’d like recommendations or assistance, please let our crew know.",
@@ -1634,7 +1706,8 @@ const texts: Text[] = [
         "th": "",
         "zh": "女士们，先生们，我们很高兴为您在飞行途中提供个性化的购物体验。我们的产品目录提供专为旅客量身定制的独家系列，包括畅销香水、豪华手表和旅行必备品。如果您需要建议或帮助，请告知我们的工作人员。",
         "ja": "皆様、フライト中にパーソナライズされたショッピング体験をご提供できることを嬉しく思います。当社のカタログには、ベストセラーの香水、高級腕時計、旅行の必需品など、お客様に合わせた限定コレクションをご用意しております。おすすめやサポートが必要な場合は、乗務員までお知らせください。",
-        "ar": "سيداتي وسادتي، يسعدنا أن نقدم لكم تجربة تسوق مخصصة خلال رحلتكم. يقدم كتالوجنا مجموعات حصرية مصممة خصيصًا للمسافرين لدينا، بما في ذلك العطور الأكثر مبيعًا، والساعات الفاخرة، وضروريات السفر. إذا كنت بحاجة إلى توصيات أو مساعدة، يرجى إبلاغ طاقمنا."
+        "ar": "سيداتي وسادتي، يسعدنا أن نقدم لكم تجربة تسوق مخصصة خلال رحلتكم. يقدم كتالوجنا مجموعات حصرية مصممة خصيصًا للمسافرين لدينا، بما في ذلك العطور الأكثر مبيعًا، والساعات الفاخرة، وضروريات السفر. إذا كنت بحاجة إلى توصيات أو مساعدة، يرجى إبلاغ طاقمنا.",
+		    "hu": "Hölgyeim és uraim, örömmel kínáljuk Önöknek a személyre szabott vásárlási élményt a repülés során. Katalógusunk exkluzív kollekciókat tartalmaz, amelyek utazóink igényeihez igazodnak, többek között bestsellerek illatszerek, luxusórák és utazási kellékek. Ha ajánlásra vagy segítségre van szüksége, kérjük, jelezze a személyzetnek."
       }
     ]
   },
@@ -1666,7 +1739,8 @@ const texts: Text[] = [
         "th": "",
         "zh": "女士们先生们，我们的服务即将开始。请花一点时间查看您座位口袋里的菜单。我们为您准备了精选的餐食和饮料。如果您有任何问题或特殊要求，请告知我们的工作人员。",
         "ja": "皆様、まもなくサービスを開始いたします。お席のポケットにあるメニューをご覧ください。お食事とお飲み物をご用意しております。ご質問や特別なご要望がございましたら、クルーまでお知らせください。",
-        "ar": "سيداتي وسادتي، سنبدأ خدمتنا بعد قليل. يرجى التوقف للحظة لمراجعة قائمة الطعام في جيب مقعدك. لدينا مجموعة مختارة من الوجبات والمشروبات المتاحة لكم لتستمتعوا بها. إذا كانت لديكم أي أسئلة أو طلبات خاصة، يُرجى إعلام طاقمنا بذلك."
+        "ar": "سيداتي وسادتي، سنبدأ خدمتنا بعد قليل. يرجى التوقف للحظة لمراجعة قائمة الطعام في جيب مقعدك. لدينا مجموعة مختارة من الوجبات والمشروبات المتاحة لكم لتستمتعوا بها. إذا كانت لديكم أي أسئلة أو طلبات خاصة، يُرجى إعلام طاقمنا بذلك.",
+		    "hu": "Hölgyeim és uraim, hamarosan megkezdjük a kiszolgálást. Kérjük, szánjon egy percet arra, hogy átnézze a menüt a szék előtti zsebben. Különféle ételek és italok közül választhatnak. Ha kérdése vagy különleges kérése van, kérjük, jelezze személyzetünknek."
       }
     ]
   },
@@ -1698,7 +1772,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสาร นี่คือกัปตันของท่าน ขณะนี้เรากำลังบินที่ระดับความสูง {currentAltitudeFt} ฟุต ด้วยความเร็ว {groundSpeed} {% usesKMPH ? 'กิโลเมตรต่อชั่วโมง' : 'ไมล์ต่อชั่วโมง' %} สภาพอากาศใน {destinationCityName} คือ {destinationCityWeatherHumanDescription} อุณหภูมิอยู่ที่ {destinationCityTemperature} องศา เราคาดว่าเที่ยวบินที่เหลือน่าจะราบรื่น อาจมีโอกาสที่จะเกิดสภาพอากาศแปรปรวนเล็กน้อย  กรุณาคาดเข็มขัดนิรภัยขณะนั่งที่และทุกครั้งที่ไฟสัญญาณเข็มขัดนิรภัยเปิด ขอบคุณและขอให้ท่านเพลิดเพลินกับการเดินทาง",
         "zh": "女士们，先生们，我是您的机长。让我与您分享一些信息。[We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] 接下来的飞行应该会非常平稳，仅有轻微颠簸的可能。请记得在座位上系好安全带，并在安全带标志亮起时保持系好状态。谢谢，祝您飞行愉快。",
         "ja": "皆様、機長です。いくつか情報をお伝えします。[We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] 残りのフライトは順調に進み、わずかな乱気流が発生する可能性はあります。着席中およびシートベルト着用サインが点灯しているときは、必ずシートベルトを締めてください。ありがとうございました。フライトをお楽しみください。",
-        "ar": "أيها السيدات والسادة، هذا هو قائد الطائرة. دعني أشارككم بعض المعلومات. [We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] من المتوقع أن تكون بقية الرحلة سلسة، مع فرصة ضئيلة لحدوث اضطرابات خفيفة. يرجى تذكر ربط حزام الأمان أثناء الجلوس وعندما يكون مصباح حزام الأمان مضاءً. شكرًا لك، واستمتع برحلتك."
+        "ar": "أيها السيدات والسادة، هذا هو قائد الطائرة. دعني أشارككم بعض المعلومات. [We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] من المتوقع أن تكون بقية الرحلة سلسة، مع فرصة ضئيلة لحدوث اضطرابات خفيفة. يرجى تذكر ربط حزام الأمان أثناء الجلوس وعندما يكون مصباح حزام الأمان مضاءً. شكرًا لك، واستمتع برحلتك.",
+		    "hu": "Hölgyeim és uraim, itt a kapitány. Engedjék meg, hogy néhány információt megosszak Önökkel. [We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] A repülés hátralévő része várhatóan sima lesz, kisebb eséllyel enyhe turbulenciák előfordulhatnak. Kérjük, hogy amíg ülnek, és amikor a biztonsági öv jelzőfény világít, kapcsolják be a biztonsági övüket. Köszönjük, és kellemes utazást kívánunk."
       },
       {
         "en": "Hi, this is your captain from the flight deck. I just wanted to share some information with you. We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour. Temperature outside is {currentTemperature} degrees. The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees. The rest of the flight should be smooth. In case of any questions, please don't hesitate to ask one of our cabin crew members. Thank you, and enjoy the flight.",
@@ -1716,7 +1791,8 @@ const texts: Text[] = [
         "th": "สวัสดีครับ นี่คือกัปตันอีกครั้ง ขณะนี้เรากำลังบินที่ระดับความสูง {currentAltitudeFt} ฟุต ด้วยความเร็ว {groundSpeed} {% usesKMPH ? 'กิโลเมตรต่อชั่วโมง' : 'ไมล์ต่อชั่วโมง' %} สภาพอากาศใน {destinationCityName} คือ {destinationCityWeatherHumanDescription} อุณหภูมิอยู่ที่ {destinationCityTemperature} องศา เราคาดว่าเที่ยวบินที่เหลือน่าจะราบรื่น หากท่านมีคำถามใด ๆ โปรดแจ้งพนักงานต้อนรับบนเครื่องบิน ขอบคุณและขอให้ท่านเพลิดเพลินกับการเดินทาง",
         "zh": "您好，我是飞行甲板的机长。我想与您分享一些信息。[We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] 接下来的飞行应该会非常平稳。如果有任何问题，请随时向我们的机组人员提出。谢谢，祝您飞行愉快。",
         "ja": "こんにちは。フライト デッキの機長です。いくつか情報をお伝えしたいと思います。[We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] 残りのフライトは順調に進むはずです。ご不明な点がございましたら、客室乗務員にお気軽にお尋ねください。ありがとうございました。フライトをお楽しみください。",
-        "ar": "مرحبًا، هذا هو قائد الطائرة من قمرة القيادة. أردت فقط أن أشارككم بعض المعلومات. [We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] من المتوقع أن تكون بقية الرحلة سلسة. إذا كانت لديك أي أسئلة، فلا تتردد في سؤال أحد أفراد طاقمنا. شكرًا لك، واستمتع برحلتك."
+        "ar": "مرحبًا، هذا هو قائد الطائرة من قمرة القيادة. أردت فقط أن أشارككم بعض المعلومات. [We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] من المتوقع أن تكون بقية الرحلة سلسة. إذا كانت لديك أي أسئلة، فلا تتردد في سؤال أحد أفراد طاقمنا. شكرًا لك، واستمتع برحلتك.",
+		    "hu": "Üdv, itt a kapitány a pilótafülkéből. Szeretnék megosztani néhány információt Önökkel. [We are currently cruising at an altitude of {currentAltitudeFt} feet at an speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] [The weather in {destinationCityName} is {destinationCityWeatherHumanDescription}, with a temperature of {destinationCityTemperature} degrees.] A repülés hátralévő része várhatóan sima lesz. Ha bármilyen kérdésük van, kérjük, forduljanak bizalommal a kabin személyzet egyik tagjához. Köszönjük, és kellemes utazást kívánunk."
       }
     ]
   },
@@ -1747,7 +1823,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน, ฉันขอแบ่งปันข้อมูลบางอย่างกับท่าน [We're currently flying near {currentPOIName}.] [You can see it by looking out of the window on the {currentPOIDirection} side of the aircraft.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] ที่เหลือของเที่ยวบินจะเป็นไปอย่างราบรื่น หากท่านมีคำถามใด ๆ โปรดอย่าลังเลที่จะถามสมาชิกของลูกเรือ ขอบคุณค่ะและขอให้ท่านเพลิดเพลินกับการเดินทาง",
         "zh": "各位乘客，我想与您分享一些信息。 [We're currently flying near {currentPOIName}.] [You can see it by looking out of the window on the {currentPOIDirection} side of the aircraft.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] 剩下的航程应该很平稳。如果您有任何问题，请随时向我们的机组成员询问。谢谢，祝您旅途愉快。",
         "ja": "皆様、いくつか情報をお伝えしたいと思います。[We're currently flying near {currentPOIName}.] [You can see it by looking out of the window on the {currentPOIDirection} side of the aircraft.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] 残りのフライトは順調に進むはずです。ご不明な点がございましたら、客室乗務員までお気軽にお尋ねください。ありがとうございました。フライトをお楽しみください。",
-        "ar": "أيها السيدات والسادة، أود أن أشارككم بعض المعلومات. [We're currently flying near {currentPOIName}.] [You can see it by looking out of the window on the {currentPOIDirection} side of the aircraft.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] من المتوقع أن تكون بقية الرحلة سلسة. إذا كانت لديك أي أسئلة، فلا تتردد في سؤال أحد أفراد طاقمنا. شكرًا لك واستمتع برحلتك."
+        "ar": "أيها السيدات والسادة، أود أن أشارككم بعض المعلومات. [We're currently flying near {currentPOIName}.] [You can see it by looking out of the window on the {currentPOIDirection} side of the aircraft.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] من المتوقع أن تكون بقية الرحلة سلسة. إذا كانت لديك أي أسئلة، فلا تتردد في سؤال أحد أفراد طاقمنا. شكرًا لك واستمتع برحلتك.",
+		    "hu": "Hölgyeim és uraim, szeretnék néhány információt megosztani Önökkel. [We're currently flying near {currentPOIName}.] [You can see it by looking out of the window on the {currentPOIDirection} side of the aircraft.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] A repülés hátralévő része várhatóan sima lesz. Ha kérdésük lenne, kérjük, forduljanak bizalommal a kabinszemélyzet tagjaihoz. Köszönjük, és jó utat kívánunk."
       },
       {
         "en": "Dear passengers, we're currently flying near {currentPOIName}, it's on our {currentPOIDirection} side. The temperature outside is {currentTemperature} degrees. Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour. I hope you're enjoying the flight. If you have any questions, feel free to ask our cabin crew. Thank you.",
@@ -1765,7 +1842,8 @@ const texts: Text[] = [
         "th": "[Dear passengers, we're currently flying near {currentPOIName}, it's on our {currentPOIDirection} side.] [The temperature outside is {currentTemperature} degrees.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] หวังว่าท่านจะเพลิดเพลินกับการเดินทาง หากท่านมีคำถามใด ๆ โปรดอย่าลังเลที่จะถามสมาชิกของลูกเรือ ขอบคุณค่ะ",
         "zh": "[Dear passengers, we're currently flying near {currentPOIName}, it's on our {currentPOIDirection} side.] [The temperature outside is {currentTemperature} degrees.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] 希望您正在享受飞行。如果您有任何问题，请随时向我们的机组人员询问。谢谢。",
         "ja": "[Dear passengers, we're currently flying near {currentPOIName}, it's on our {currentPOIDirection} side.] [The temperature outside is {currentTemperature} degrees.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] フライトをお楽しみいただければ幸いです。ご質問がございましたら、客室乗務員までお気軽にお尋ねください。ありがとうございます。",
-        "ar": "[Dear passengers, we're currently flying near {currentPOIName}, it's on our {currentPOIDirection} side.] [The temperature outside is {currentTemperature} degrees.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] آمل أن تستمتع برحلتك. إذا كانت لديك أي أسئلة، فلا تتردد في سؤال أحد أفراد طاقمنا. شكرًا لك."
+        "ar": "[Dear passengers, we're currently flying near {currentPOIName}, it's on our {currentPOIDirection} side.] [The temperature outside is {currentTemperature} degrees.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] آمل أن تستمتع برحلتك. إذا كانت لديك أي أسئلة، فلا تتردد في سؤال أحد أفراد طاقمنا. شكرًا لك.",
+		    "hu": "[Dear passengers, we're currently flying near {currentPOIName}, it's on our {currentPOIDirection} side.] [The temperature outside is {currentTemperature} degrees.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] Remélem, élvezik az utazást. Ha bármilyen kérdésük van, forduljanak bizalommal a kabinszemélyzethez. Köszönjük."
       },
       {
         "en": "Hello from the flight deck! If you’re looking out on the {currentPOIDirection} side, you’ll spot {currentPOIName}, a truly beautiful sight from this altitude of {currentAltitudeFt} feet. We’re cruising at a steady {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour, with the outside temperature at {currentTemperature} degrees. We hope you’re enjoying the flight and the scenery. Thank you for flying with {airlineName}.",
@@ -1783,7 +1861,8 @@ const texts: Text[] = [
         "th": "สวัสดีจากห้องนักบิน! [If you’re looking out on the {currentPOIDirection} side, you’ll spot {currentPOIName}, a truly beautiful sight from this altitude of {currentAltitudeFt} feet.] [We’re cruising at a steady {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour, with the outside temperature at {currentTemperature} degrees.] เราหวังว่าคุณจะสนุกกับเที่ยวบินและทิวทัศน์ [Thank you for flying with {airlineName}.]",
         "zh": "来自驾驶舱的问候！ [If you’re looking out on the {currentPOIDirection} side, you’ll spot {currentPOIName}, a truly beautiful sight from this altitude of {currentAltitudeFt} feet.] [We’re cruising at a steady {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour, with the outside temperature at {currentTemperature} degrees.] 我们希望您享受这次飞行和美丽的景色。 [Thank you for flying with {airlineName}].",
         "ja": "操縦室からこんにちは！[If you’re looking out on the {currentPOIDirection} side, you’ll spot {currentPOIName}, a truly beautiful sight from this altitude of {currentAltitudeFt} feet.] [We’re cruising at a steady {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour, with the outside temperature at {currentTemperature} degrees.] フライトと景色を楽しんでいただければ幸いです。[Thank you for flying with {airlineName}]",
-        "ar": "تحيات من قمرة القيادة! [If you’re looking out on the {currentPOIDirection} side, you’ll spot {currentPOIName}, a truly beautiful sight from this altitude of {currentAltitudeFt} feet.] [We’re cruising at a steady {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour, with the outside temperature at {currentTemperature} degrees.] نأمل أن تستمتع برحلتك والمناظر. [Thank you for flying with {airlineName}]."
+        "ar": "تحيات من قمرة القيادة! [If you’re looking out on the {currentPOIDirection} side, you’ll spot {currentPOIName}, a truly beautiful sight from this altitude of {currentAltitudeFt} feet.] [We’re cruising at a steady {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour, with the outside temperature at {currentTemperature} degrees.] نأمل أن تستمتع برحلتك والمناظر. [Thank you for flying with {airlineName}].",
+		    "hu": "Üdv a pilótafülkéből! [If you’re looking out on the {currentPOIDirection} side, you’ll spot {currentPOIName}, a truly beautiful sight from this altitude of {currentAltitudeFt} feet.] [We’re cruising at a steady {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour, with the outside temperature at {currentTemperature} degrees.] Reméljük, élvezik az utat és a kilátást. [Thank you for flying with {airlineName}]"
       },
       {
         "en": "Ladies and gentlemen, this is your captain speaking. We're currently flying near {currentPOIName}, visible on our {currentPOIDirection} side. At this moment, we’re cruising at an altitude of {currentAltitudeFt} feet and traveling at a speed of {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour. The temperature outside is {currentTemperature} degrees. I hope you’re enjoying the journey so far. If you have any questions or need assistance, our cabin crew is here to help.",
@@ -1801,7 +1880,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน นี่คือกัปตันของท่าน [We're currently flying near {currentPOIName}, visible on our {currentPOIDirection} side.] [At this moment, we’re cruising at an altitude of {currentAltitudeFt} feet and traveling at a speed of {groundSpeed} {% usesKMPH ? 'กิโลเมตร' : 'ไมล์' %} ต่อชั่วโมง.] [The temperature outside is {currentTemperature} degrees.] หวังว่าคุณจะสนุกกับการเดินทางจนถึงตอนนี้ หากคุณมีคำถามหรือจำเป็นต้องได้รับความช่วยเหลือ โปรดอย่าลังเลที่จะถามพนักงานประจำเครื่อง",
         "zh": "各位乘客，您好！这是您的机长。 [We're currently flying near {currentPOIName}, visible on our {currentPOIDirection} side.] [At this moment, we’re cruising at an altitude of {currentAltitudeFt} feet and traveling at a speed of {groundSpeed} {% usesKMPH ? '公里' : '英里' %} 每小时.] [The temperature outside is {currentTemperature} degrees.] 我们希望您目前正在享受航程。如果您有任何问题或需要帮助，请随时向我们的机组人员寻求帮助。",
         "ja": "皆様、機長よりご挨拶申し上げます。[We're currently flying near {currentPOIName}, visible on our {currentPOIDirection} side.] [At this moment, we’re cruising at an altitude of {currentAltitudeFt} feet and traveling at a speed of {groundSpeed} {% usesKMPH ? '公里' : '英里' %} 每小时.] [The temperature outside is {currentTemperature} degrees.] これまでの旅をお楽しみいただければ幸いです。ご質問やご支援が必要な場合は、客室乗務員がお手伝いいたします。",
-        "ar": "أيها السيدات والسادة، هذا هو قائد الطائرة. [We're currently flying near {currentPOIName}, visible on our {currentPOIDirection} side.] [At this moment, we’re cruising at an altitude of {currentAltitudeFt} feet and traveling at a speed of {groundSpeed} {% usesKMPH ? 'كيلومترات' : 'أميال' %} per hour.] [The temperature outside is {currentTemperature} degrees.] آمل أن تستمتع برحلتك حتى الآن. إذا كانت لديك أي أسئلة أو تحتاج إلى مساعدة، فإن طاقمنا هنا للمساعدة."
+        "ar": "أيها السيدات والسادة، هذا هو قائد الطائرة. [We're currently flying near {currentPOIName}, visible on our {currentPOIDirection} side.] [At this moment, we’re cruising at an altitude of {currentAltitudeFt} feet and traveling at a speed of {groundSpeed} {% usesKMPH ? 'كيلومترات' : 'أميال' %} per hour.] [The temperature outside is {currentTemperature} degrees.] آمل أن تستمتع برحلتك حتى الآن. إذا كانت لديك أي أسئلة أو تحتاج إلى مساعدة، فإن طاقمنا هنا للمساعدة.",
+		    "hu": "Hölgyeim és uraim, a kapitány beszél. [We're currently flying near {currentPOIName}, visible on our {currentPOIDirection} side.] [At this moment, we’re cruising at an altitude of {currentAltitudeFt} feet and traveling at a speed of {groundSpeed} {% usesKMPH ? 'كيلومترات' : 'أميال' %} per hour.] [The temperature outside is {currentTemperature} degrees.] Reméljük, eddig élvezik az utazást. Ha kérdésük van, vagy segítségre van szükségük, a légiutas-kísérő csapatunk áll rendelkezésükre."
       }
     ]
   },
@@ -1832,7 +1912,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ฉันขอแบ่งปันข้อมูลบางประการกับท่าน [We'll be flying over {currentPOIName} in a few moments.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'กิโลเมตร' : 'ไมล์' %} ต่อชั่วโมง.] [Temperature outside is {currentTemperature} degrees.] ส่วนที่เหลือของเที่ยวบินควรจะราบรื่น หากท่านมีคำถาม โปรดอย่าลังเลที่จะถามเจ้าหน้าที่ประจำเครื่อง ขอบคุณและขอให้ท่านสนุกกับการเดินทาง",
         "zh": "各位乘客，您好！我想与您分享一些信息。 [We'll be flying over {currentPOIName} in a few moments.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? '公里' : '英里' %} 每小时.] [Temperature outside is {currentTemperature} degrees.] 剩下的航程应该会很平稳。如果您有任何问题，请随时向我们的机组人员咨询。感谢您乘坐{airlineName}航空公司的航班。",
         "ja": "皆様、いくつか情報をお伝えしたいと思います。[We'll be flying over {currentPOIName} in a few moments.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? '公里' : '英里' %} 每小时.] [Temperature outside is {currentTemperature} degrees.] 残りの飛行は順調にいくはずです。ご質問がございましたら、客室乗務員にお気軽にお尋ねください。ありがとうございました。フライトをお楽しみください。",
-        "ar": "أيها السيدات والسادة، أود أن أشارككم بعض المعلومات. [We'll be flying over {currentPOIName} in a few moments.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'كيلومترات' : 'أميال' %} per hour.] [Temperature outside is {currentTemperature} degrees.] يجب أن تكون بقية الرحلة سلسة. إذا كانت لديك أي أسئلة، فلا تتردد في سؤال أحد أفراد طاقمنا. شكرًا لك واستمتع برحلتك."
+        "ar": "أيها السيدات والسادة، أود أن أشارككم بعض المعلومات. [We'll be flying over {currentPOIName} in a few moments.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'كيلومترات' : 'أميال' %} per hour.] [Temperature outside is {currentTemperature} degrees.] يجب أن تكون بقية الرحلة سلسة. إذا كانت لديك أي أسئلة، فلا تتردد في سؤال أحد أفراد طاقمنا. شكرًا لك واستمتع برحلتك.",
+		    "hu": "Hölgyeim és uraim, szeretnék megosztani önökkel néhány információt. [We'll be flying over {currentPOIName} in a few moments.] [Our altitude is {currentAltitudeFt} feet and our speed is {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [Temperature outside is {currentTemperature} degrees.] A repülés hátralévő része várhatóan sima lesz. Ha bármilyen kérdésük van, forduljanak bátran a személyzethez. Köszönjük, és kellemes utazást kívánunk."
       },
       {
         "en": "Hello, everyone. Just to keep you updated, we’re about to fly over {currentPOIName}. We’re maintaining a steady altitude of {currentAltitudeFt} feet and traveling at {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour. The outside temperature is {currentTemperature} degrees. In case of any questions, we’re here to help. Thank you for flying with us.",
@@ -1850,7 +1931,8 @@ const texts: Text[] = [
         "th": "สวัสดีทุกคน. [Just to keep you updated, we’re about to fly over {currentPOIName}.] [We’re maintaining a steady altitude of {currentAltitudeFt} feet and traveling at {groundSpeed} {% usesKMPH ? 'กิโลเมตร' : 'ไมล์' %} ต่อชั่วโมง.] [The outside temperature is {currentTemperature} degrees.] หากท่านมีคำถาม เราพร้อมที่จะช่วยเสมอ ขอบคุณที่บินกับเรา.",
         "zh": "大家好。[Just to keep you updated, we’re about to fly over {currentPOIName}.] [We’re maintaining a steady altitude of {currentAltitudeFt} feet and traveling at {groundSpeed} {% usesKMPH ? '公里' : '英里' %} 每小时.] [The outside temperature is {currentTemperature} degrees.] 如有任何问题，我们随时为您提供帮助。感谢您与我们一同飞行。",
         "ja": "みなさん、こんにちは。最新情報をお知らせします。[Just to keep you updated, we’re about to fly over {currentPOIName}.] [We’re maintaining a steady altitude of {currentAltitudeFt} feet and traveling at {groundSpeed} {% usesKMPH ? '公里' : '英里' %} 每小时.] [The outside temperature is {currentTemperature} degrees.] ご質問がございましたら、お気軽にお問い合わせください。ご利用いただきありがとうございます。",
-        "ar": "مرحبًا بالجميع. [Just to keep you updated, we’re about to fly over {currentPOIName}.] [We’re maintaining a steady altitude of {currentAltitudeFt} feet and traveling at {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [The outside temperature is {currentTemperature} degrees.] إذا كانت لديك أي أسئلة، فنحن هنا للمساعدة. شكرًا لك على الطيران معنا."
+        "ar": "مرحبًا بالجميع. [Just to keep you updated, we’re about to fly over {currentPOIName}.] [We’re maintaining a steady altitude of {currentAltitudeFt} feet and traveling at {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [The outside temperature is {currentTemperature} degrees.] إذا كانت لديك أي أسئلة، فنحن هنا للمساعدة. شكرًا لك على الطيران معنا.",
+		    "hu": "Üdvözlünk mindenkit! [Just to keep you updated, we’re about to fly over {currentPOIName}.] [We’re maintaining a steady altitude of {currentAltitudeFt} feet and traveling at {groundSpeed} {% usesKMPH ? 'kilometers' : 'miles' %} per hour.] [The outside temperature is {currentTemperature} degrees.] Ha bármilyen kérdésük van, örömmel segítünk. Köszönjük, hogy velünk repülnek."
       }
     ]
   },
@@ -1882,7 +1964,8 @@ const texts: Text[] = [
         "th": "[Ladies and gentlemen, we’ll be starting our descent into {destinationCityName} shortly.] โปรดตรวจสอบให้แน่ใจว่าเข็มขัดนิรภัยของท่านถูกล็อกและปฏิบัติตามคำแนะนำของลูกเรือ ขอบคุณค่ะ.",
         "zh": "[Ladies and gentlemen, we’ll be starting our descent into {destinationCityName} shortly.] 请确保系好安全带，并按照机组人员的指示操作。谢谢。",
         "ja": "[Ladies and gentlemen, we’ll be starting our descent into {destinationCityName} shortly.] シートベルトを締めて、客室乗務員の指示に従ってください。よろしくお願いいたします。",
-        "ar": "[Ladies and gentlemen, we’ll be starting our descent into {destinationCityName} shortly.] يرجى التأكد من ربط حزام الأمان الخاص بك واتباع تعليمات طاقم الطائرة. شكرًا لك."
+        "ar": "[Ladies and gentlemen, we’ll be starting our descent into {destinationCityName} shortly.] يرجى التأكد من ربط حزام الأمان الخاص بك واتباع تعليمات طاقم الطائرة. شكرًا لك.",
+		    "hu": "[Ladies and gentlemen, we’ll be starting our descent into {destinationCityName} shortly.] Kérjük, ellenőrizzék, hogy biztonsági övük be van-e csatolva, és kövessék a személyzet utasításait. Köszönjük."
       },
       {
         "en": "Ladies and gentlemen, we'll be starting our descent in a few minutes. Please make sure your seatbelt is fastened and follow the instructions of the cabin crew. Thank you.",
@@ -1900,7 +1983,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน เราจะเริ่มลดระดับในไม่ช้า โปรดตรวจสอบให้แน่ใจว่าเข็มขัดนิรภัยของท่านถูกล็อกและปฏิบัติตามคำแนะนำของลูกเรือ ขอบคุณค่ะ.",
         "zh": "各位乘客，我们将在几分钟后开始下降。请确保系好安全带，并按照机组人员的指示操作。谢谢。",
         "ja": "皆様、数分後に降下が始まります。シートベルトを締めて、客室乗務員の指示に従ってください。ありがとうございます。",
-        "ar": "أيها السيدات والسادة، سنبدأ الهبوط في غضون دقائق. يرجى التأكد من ربط حزام الأمان الخاص بك واتباع تعليمات طاقم الطائرة. شكرًا لك."
+        "ar": "أيها السيدات والسادة، سنبدأ الهبوط في غضون دقائق. يرجى التأكد من ربط حزام الأمان الخاص بك واتباع تعليمات طاقم الطائرة. شكرًا لك.",
+		    "hu": "Hölgyeim és uraim, néhány percen belül megkezdjük süllyedésünket. Kérjük, ellenőrizzék, hogy biztonsági övük be van-e csatolva, és kövessék a személyzet utasításait. Köszönjük."
       }
     ]
   },
@@ -1929,7 +2013,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เรากำลังเริ่มลดระดับเข้าสู่ {destinationCityName} กรุณาปฏิบัติตามคำแนะนำของพนักงานต้อนรับขณะเราเตรียมตัวลงจอด ขอบคุณค่ะ",
         "zh": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] 请遵循机组人员的指示准备着陆。谢谢。",
         "ja": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] 着陸準備中ですので、客室乗務員の指示に従ってください。ありがとうございます。",
-        "ar": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] يرجى اتباع تعليمات طاقم الطائرة أثناء استعدادنا للهبوط. شكرًا لك."
+        "ar": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] يرجى اتباع تعليمات طاقم الطائرة أثناء استعدادنا للهبوط. شكرًا لك.",
+		    "hu": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Kérjük, kövessék a személyzet utasításait a leszállás előkészítése során. Köszönjük."
       },
       {
         "en": "Ladies and gentlemen, we are starting our descent. Please follow the instructions of the cabin crew as we prepare for landing. Thank you.",
@@ -1947,7 +2032,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เราเริ่มลดระดับสู่จุดหมายปลายทาง กรุณาปฏิบัติตามคำแนะนำของพนักงานต้อนรับขณะเราเตรียมตัวลงจอด ขอบคุณ",
         "zh": "女士们，先生们，我们现在开始下降。请遵循机组人员的指示准备着陆。谢谢。",
         "ja": "皆様、降下を開始します。着陸準備のため、客室乗務員の指示に従ってください。ありがとうございます。",
-        "ar": "أيها السيدات والسادة، نحن نبدأ الآن الهبوط. يرجى اتباع تعليمات طاقم الطائرة أثناء استعدادنا للهبوط. شكرًا لك."
+        "ar": "أيها السيدات والسادة، نحن نبدأ الآن الهبوط. يرجى اتباع تعليمات طاقم الطائرة أثناء استعدادنا للهبوط. شكرًا لك.",
+		    "hu": "Hölgyeim és uraim, megkezdtük süllyedésünket. Kérjük, kövessék a személyzet utasításait a leszállás előkészítése során. Köszönjük."
       }
     ]
   },
@@ -1976,7 +2062,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน กัปตันของเราได้แจ้งว่าขณะนี้เราเริ่มลดระดับเข้าสู่ {destinationCityName} กรุณานั่งประจำที่และรัดเข็มขัดที่นั่ง ปรับพนักเก้าอี้ของท่านให้อยู่ในระดับตรง พับโต๊ะหน้าที่นั่ง เราจะเริ่มปิดการบริการในอีกไม่กี่นาที ขอบคุณค่ะ",
         "zh": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] 请确保您的安全带已经系好，座椅靠背和小桌板处于竖直位置。我们将在几分钟内收集剩下的服务物品。谢谢。",
         "ja": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] シートベルトが締められ、座席の背もたれとトレイ テーブルが直立していることを確認してください。残りのサービス アイテムは数分以内に回収いたします。ありがとうございます。",
-        "ar": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] يرجى التأكد من ربط حزام الأمان الخاص بك وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. سنقوم بجمع العناصر المتبقية من الخدمة في غضون بضع دقائق. شكرًا لك."
+        "ar": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] يرجى التأكد من ربط حزام الأمان الخاص بك وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. سنقوم بجمع العناصر المتبقية من الخدمة في غضون بضع دقائق. شكرًا لك.",
+		    "hu": "[Ladies and gentlemen, as you heard from our captain, we are starting our descent into {destinationCityName}.] Kérjük, ellenőrizzék, hogy biztonsági övük be van-e csatolva, valamint hogy az ülés háttámlája és a tálca fel van hajtva. Néhány percen belül összegyűjtjük a megmaradt felszolgálási eszközöket. Köszönjük."
       },
       {
         "en": "Ladies and gentlemen, as you heard from our captain, we are starting our descent. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -1994,7 +2081,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ตามที่กัปตันของเราได้แจ้ง ขณะนี้เราเริ่มลดระดับสู่จุดหมายปลายทาง กรุณานั่งประจำที่และรัดเข็มขัดที่นั่ง ปรับพนักเก้าอี้ของท่านให้อยู่ในระดับตรง พับโต๊ะหน้าที่นั่ง เราจะเริ่มปิดการบริการในอีกไม่กี่นาที ขอบคุณค่ะ",
         "zh": "女士们，先生们，正如机长所说，我们现在开始下降。请确保您的安全带已经系好，座椅靠背和小桌板处于竖直位置。我们将在几分钟内收集剩下的服务物品。谢谢。",
         "ja": "皆様、機長からお聞きのとおり、降下を開始いたします。シートベルトを締め、座席の背もたれとトレイテーブルを垂直に立てておいてください。残りのサービスアイテムは数分以内に回収いたします。ありがとうございます。",
-        "ar": "سيداتي وسادتي، كما علمتم من قائدنا، بدأنا هبوطنا. يرجى التأكد من ربط حزام الأمان، وأن مسند المقعد وطاولة الطعام في وضع مستقيم. سنستلم أي مستلزمات خدمة متبقية خلال دقائق. شكرًا لكم."
+        "ar": "سيداتي وسادتي، كما علمتم من قائدنا، بدأنا هبوطنا. يرجى التأكد من ربط حزام الأمان، وأن مسند المقعد وطاولة الطعام في وضع مستقيم. سنستلم أي مستلزمات خدمة متبقية خلال دقائق. شكرًا لكم.",
+		    "hu": "Hölgyeim és uraim, ahogy azt kapitányunktól is hallották, megkezdtük süllyedésünket. Kérjük, ellenőrizzék, hogy biztonsági övük be van-e csatolva, valamint hogy az ülés háttámlája és a tálca fel van hajtva. Néhány percen belül összegyűjtjük a megmaradt felszolgálási eszközöket. Köszönjük."
       }
     ]
   },
@@ -2024,7 +2112,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เราเริ่มลดระดับเข้าสู่ {destinationCityName} กรุณานั่งประจำที่และรัดเข็มขัดที่นั่ง ปรับพนักเก้าอี้ของท่านให้อยู่ในระดับตรง พับโต๊ะหน้าที่นั่ง เราจะเริ่มปิดการบริการในอีกไม่กี่นาที ขอบคุณค่ะ",
         "zh": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] 请确保您的安全带已经系好，座椅靠背和小桌板处于竖直位置。我们将在几分钟内收集剩下的服务物品。谢谢。",
         "ja": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] シートベルトが締められ、座席の背もたれとトレイテーブルが直立していることを確認してください。残りのサービスアイテムは数分以内に回収いたします。ありがとうございます。",
-        "ar": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] يرجى التأكد من ربط حزام الأمان الخاص بك وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. سنقوم بجمع العناصر المتبقية من الخدمة في غضون بضع دقائق. شكرًا لك."
+        "ar": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] يرجى التأكد من ربط حزام الأمان الخاص بك وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. سنقوم بجمع العناصر المتبقية من الخدمة في غضون بضع دقائق. شكرًا لك.",
+		    "hu": "[Ladies and gentlemen, we are starting our descent into {destinationCityName}.] Kérjük, ellenőrizzék, hogy biztonsági övük be van-e csatolva, valamint hogy az ülés háttámlája és a tálca fel van hajtva. Néhány percen belül összegyűjtjük a megmaradt felszolgálási eszközöket. Köszönjük."
       },
       {
         "en": "Ladies and gentlemen, we are starting our descent. Please make sure that your seatbelt is fastened and your seat back and tray table are in the upright position. We will collect any remaining service items in a few minutes. Thank you.",
@@ -2042,7 +2131,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ขณะนี้เรากำลังเริ่มลดระดับลงสู่จุดหมายปลายทาง กรุณานั่งประจำที่และรัดเข็มขัดที่นั่ง ปรับพนักเก้าอี้ของท่านให้อยู่ในระดับตรง พับโต๊ะหน้าที่นั่ง เราจะเริ่มปิดการบริการในอีกไม่กี่นาที ขอบคุณค่ะ",
         "zh": "女士们，先生们，我们现在开始下降。请确保您的安全带已经系好，座椅靠背和小桌板处于竖直位置。我们将在几分钟内收集剩下的服务物品。谢谢。",
         "ja": "皆様、降下を開始します。シートベルトが締められ、座席の背もたれとトレイテーブルが直立していることを確認してください。残りのサービスアイテムは数分以内に回収いたします。ありがとうございます。",
-        "ar": "أيها السيدات والسادة، نحن نبدأ الآن الهبوط. يرجى التأكد من ربط حزام الأمان الخاص بك وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. سنقوم بجمع العناصر المتبقية من الخدمة في غضون بضع دقائق. شكرًا لك."
+        "ar": "أيها السيدات والسادة، نحن نبدأ الآن الهبوط. يرجى التأكد من ربط حزام الأمان الخاص بك وأن ظهر المقعد وطاولة الطعام في وضع مستقيم. سنقوم بجمع العناصر المتبقية من الخدمة في غضون بضع دقائق. شكرًا لك.",
+		    "hu": "Hölgyeim és uraim, megkezdtük süllyedésünket. Kérjük, ellenőrizzék, hogy biztonsági övük be van-e csatolva, valamint hogy az ülés háttámlája és a tálca fel van hajtva. Néhány percen belül összegyűjtjük a megmaradt felszolgálási eszközöket. Köszönjük."
       }
     ]
   },
@@ -2074,7 +2164,8 @@ const texts: Text[] = [
         "th": "机组人员，一万英尺",
         "zh": "机组人员，一万英尺",
         "ja": "客室乗務員、高度1万フィート。",
-        "ar": "طاقم المقصورة، عشرة آلاف قدم"
+        "ar": "طاقم المقصورة، عشرة آلاف قدم",
+		    "hu": "Személyzet, tízezer láb."
       }
     ]
   },
@@ -2105,7 +2196,8 @@ const texts: Text[] = [
         "th": "",
         "zh": "女士们先生们，我们将在几分钟后着陆。请确保系好安全带，并将椅背和托盘放在直立位置。现在不允许使用厕所。谢谢",
         "ja": "皆様、まもなく着陸します。シートベルトが締められ、座席の背もたれとトレイテーブルが直立していることをご確認ください。お手洗いのご利用はご遠慮ください。ありがとうございました。",
-        "ar": "سيداتي وسادتي، سنهبط بعد دقائق قليلة. يُرجى التأكد من ربط حزام الأمان ومن وضع ظهر المقعد وطاولة الطعام في وضع مستقيم. لا يُسمح باستخدام المرحاض في هذا الوقت. شكراً لكم."
+        "ar": "سيداتي وسادتي، سنهبط بعد دقائق قليلة. يُرجى التأكد من ربط حزام الأمان ومن وضع ظهر المقعد وطاولة الطعام في وضع مستقيم. لا يُسمح باستخدام المرحاض في هذا الوقت. شكراً لكم.",
+		    "hu": "Hölgyeim és uraim, néhány percen belül landolunk. Kérjük, ellenőrizzék, hogy biztonsági övük be van-e csatolva, valamint hogy az ülés háttámlája és a tálca fel van hajtva. Jelenleg a mosdó használata nem engedélyezett. Köszönjük."
       }
     ]
   },
@@ -2138,7 +2230,8 @@ const texts: Text[] = [
         "th": "พนักงานบนเครื่อง กรุณาปิดแสงสำหรับการลงจอด",
         "zh": "机组人员，请为着陆调暗灯光。",
         "ja": "客室乗務員さん、着陸に備えて照明を暗くしてください。",
-        "ar": "طاقم الطائرة، يرجى خفض الأضواء للهبوط."
+        "ar": "طاقم الطائرة، يرجى خفض الأضواء للهبوط.",
+		    "hu": "Személyzet, kérjük, tompítsák a lámpákat a leszálláshoz."
       }
     ]
   },
@@ -2167,7 +2260,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ไฟจะหรี่ลงก่อนเครื่องขึ้น เนื่องจากเหตุผลด้านความปลอดภัย",
         "zh": "女士们，先生们，由于",
         "ja": "皆様、安全上の理由により着陸時には照明が暗くなります。",
-        "ar": "أيها السيدات والسادة، سيتم خفض الأضواء للهبوط لأسباب تتعلق بالسلامة."
+        "ar": "أيها السيدات والسادة، سيتم خفض الأضواء للهبوط لأسباب تتعلق بالسلامة.",
+		    "hu": "Hölgyeim és uraim, a biztonsági előírások miatt a leszálláshoz lekapcsoljuk a világítást."
       },
       {
         "en": "We will be dimming the lights for landing. Please use the reading light above your seat if you need additional light.",
@@ -2185,7 +2279,8 @@ const texts: Text[] = [
         "th": "เราจะปิดแสงสำหรับการลงจอด กรุณาใช้ไฟส่องสำหรับการอ่านข้างบนเพื่อเพิ่มแสง",
         "zh": "我们将为着陆调暗灯光。如果您需要额外的光，请使用座位上方的阅读灯。",
         "ja": "着陸時には照明を暗くさせていただきます。追加の照明が必要な場合は、座席の上にある読書灯をご利用ください。",
-        "ar": "سنقوم بخفض الأضواء للهبوط. يرجى استخدام ضوء القراءة فوق مقعدك إذا كنت بحاجة إلى مزيد من الضوء."
+        "ar": "سنقوم بخفض الأضواء للهبوط. يرجى استخدام ضوء القراءة فوق مقعدك إذا كنت بحاجة إلى مزيد من الضوء.",
+		    "hu": "lekapcsoljuk  a világítást a leszálláshoz. Kérjük, használja az ülés feletti olvasólámpát, ha további fényre van szüksége."
       }
     ]
   },
@@ -2213,7 +2308,8 @@ const texts: Text[] = [
         "th": "ลูกเรือทุกท่าน กรุณานั่งประจำที่เพื่อเตรียมตัวสำหรับการลงจอด",
         "zh": "机组人员，请就座，准备降落。",
         "ja": "客室乗務員の皆さん、着陸に備えて着席してください。",
-        "ar": "طاقم الطائرة، تفضلوا بالجلوس استعدادًا للهبوط."
+        "ar": "طاقم الطائرة، تفضلوا بالجلوس استعدادًا للهبوط.",
+		    "hu": "Cabin crew, foglalják el helyeiket a leszálláshoz."
       },
       {
         "en": "Cabin crew, prepare for landing.",
@@ -2231,7 +2327,8 @@ const texts: Text[] = [
         "th": "ลูกเรือทุกท่าน กรุณาเตรียมพร้อมสำหรับการลงจอด",
         "zh": "机组人员，请准备降落。",
         "ja": "客室乗務員の皆さん、着陸の準備をしてください。",
-        "ar": "طاقم الطائرة، استعدوا للهبوط."
+        "ar": "طاقم الطائرة، استعدوا للهبوط.",
+		    "hu": "Cabin crew, leszállás",
       },
       {
         "en": "Cabin crew, please be seated for landing.",
@@ -2249,7 +2346,8 @@ const texts: Text[] = [
         "th": "ลูกเรือทุกท่าน กรุณานั่งประจำที่เพื่อเตรียมตัวสำหรับการลงจอด",
         "zh": "机组人员，请就座，准备降落。",
         "ja": "客室乗務員の皆さん、着陸のために着席してください。",
-        "ar": "طاقم الطائرة، الرجاء الجلوس استعدادًا للهبوط."
+        "ar": "طاقم الطائرة، الرجاء الجلوس استعدادًا للهبوط.",
+		    "hu": "Személyzet, kérem, foglalják el helyeiket a leszálláshoz."
       }
     ]
   },
@@ -2277,7 +2375,8 @@ const texts: Text[] = [
         "th": "ท่านผู้โดยสารทุกท่าน ยินดีต้อนรับสู่ {destinationCityName} กรุณานั่งประจำที่และคาดเข็มที่นั่งไว้จนกว่าเครื่องบินจะหยุดสนิทและสัญญาณเข็มขัดนิรภัยจะดับลง กรุณาตรวจสอบสิ่งของส่วนตัวของท่านก่อนออกจากเครื่องบิน ในนามของลูกเรือ ดิฉันขอขอบคุณที่เลือกเดินทางกับเราในวันนี้ เราหวังเป็นอย่างยิ่งว่าท่านได้รับความพึงพอใจและหวังว่าเราจะได้ต้อนรับท่านอีก",
         "zh": "[Ladies and gentlemen, welcome to {destinationCityName}.] [The time is currently {localTimeHours} {localTimeMinutes}.] [We have {currentTemperature} degrees outside.]  请保持系好安全带并坐在座位上，直到飞机完全停稳且安全带标志熄灭。请在下飞机前确保携带好您的所有随身物品。代表全体机组人员，感谢您今天选择与我们一起飞行。我们希望您度过了一个愉快的旅程，并期待再次欢迎您登机。",
         "ja": "[Ladies and gentlemen, welcome to {destinationCityName}.] [The time is currently {localTimeHours} {localTimeMinutes}.] [We have {currentTemperature} degrees outside.] 航空機が完全に停止し、シートベルト着用サインが消えるまで、シートベルトを締めてお座りください。航空機を離れる前に、すべての所持品をお持ちであることをご確認ください。乗務員を代表して、本日はご利用いただきありがとうございました。快適なフライトであったことを願っております。またのご搭乗を心よりお待ちしています。",
-        "ar": "[Ladies and gentlemen, welcome to {destinationCityName}.] [The time is currently {localTimeHours} {localTimeMinutes}.] [We have {currentTemperature} degrees outside.]  يرجى البقاء في مقاعدكم مع ربط حزام الأمان حتى تتوقف الطائرة تمامًا ويتم إيقاف إشارة ربط الأحزمة. تأكد من أن لديك جميع متعلقاتك الشخصية معك قبل مغادرة الطائرة. نيابة عن الطاقم، أود أن أشكرك على السفر معنا اليوم. نأمل أن تكون قد قضيت رحلة ممتعة ونتطلع إلى الترحيب بك مرة أخرى قريبًا."
+        "ar": "[Ladies and gentlemen, welcome to {destinationCityName}.] [The time is currently {localTimeHours} {localTimeMinutes}.] [We have {currentTemperature} degrees outside.]  يرجى البقاء في مقاعدكم مع ربط حزام الأمان حتى تتوقف الطائرة تمامًا ويتم إيقاف إشارة ربط الأحزمة. تأكد من أن لديك جميع متعلقاتك الشخصية معك قبل مغادرة الطائرة. نيابة عن الطاقم، أود أن أشكرك على السفر معنا اليوم. نأمل أن تكون قد قضيت رحلة ممتعة ونتطلع إلى الترحيب بك مرة أخرى قريبًا.",
+		    "hu": "[Ladies and gentlemen, welcome to {destinationCityName}.] [The time is currently {localTimeHours} {localTimeMinutes}.] [We have {currentTemperature} degrees outside.] Kérjük, maradjanak ülve, biztonsági övüket bekapcsolva, amíg a repülőgép teljesen meg nem áll, és a biztonsági öv jelzője ki nem kapcsol. Kérjük, győződjenek meg róla, hogy minden személyes tárgyukat magukkal viszik a gép elhagyása előtt. A személyzet nevében köszönjük, hogy ma velünk repültek. Reméljük, kellemes utazásban volt részük, és várjuk vissza Önöket a fedélzetre hamarosan."
       },
       {
         "en": "Welcome to {destinationCityName}. Temperature outside is {currentTemperature} degrees. Current local time is {localTimeMinutes} minutes past {localTimeHours}. Please remain seated with your seatbelt fastened until the aircraft has come to a complete stop and the seatbelt sign has been turned off. Please make sure you have all your personal belongings with you before you leave the aircraft. On behalf of the crew, I would like to thank you for flying with us today. We hope you had a pleasant flight and we look forward to welcoming you on board again soon.",
@@ -2295,7 +2394,8 @@ const texts: Text[] = [
         "th": "ยินดีต้อนรับสู่ {destinationCityName} กรุณานั่งประจำที่และคาดเข็มขัดนิรภัยไว้จนกว่าเครื่องบินจะหยุดสนิทและไฟสัญญาณเข็มขัดนิรภัยจะดับลง กรุณาตรวจสอบสิ่งของส่วนตัวของท่านก่อนออกจากเครื่องบิน ในนามของลูกเรือ ดิฉันขอขอบคุณที่เลือกเดินทางกับเราในวันนี้ เราหวังเป็นอย่างยิ่งว่าท่านได้รับความพึงพอใจและหวังว่าเราจะได้ต้อนรับท่านอีก",
         "zh": "[Welcome to {destinationCityName}.] [Temperature outside is {currentTemperature} degrees.] [Current local time is {localTimeMinutes} minutes past {localTimeHours}.] 请保持系好安全带并坐在座位上，直到飞机完全停稳且安全带标志熄灭。请在下飞机前确保携带好您的所有随身物品。代表全体机组人员，感谢您今天选择与我们一起飞行。我们希望您度过了一个愉快的旅程，并期待再次欢迎您登机。",
         "ja": "[Welcome to {destinationCityName}.] [Temperature outside is {currentTemperature} degrees.] [Current local time is {localTimeMinutes} minutes past {localTimeHours}.] 航空機が完全に停止し、シートベルト着用サインが消えるまで、シートベルトを締めてお座りください。航空機を離れる前に、すべての所持品をお持ちであることを確認してください。乗務員を代表して、本日のご利用に感謝申し上げます。快適なフライトであったことを願っております。またのご搭乗を心よりお待ちしています。",
-        "ar": "[Welcome to {destinationCityName}.] [Temperature outside is {currentTemperature} degrees.] [Current local time is {localTimeMinutes} minutes past {localTimeHours}.] يرجى البقاء في مقاعدكم مع ربط حزام الأمان حتى تتوقف الطائرة تمامًا ويتم إيقاف إشارة ربط الأحزمة. تأكد من أن لديك جميع متعلقاتك الشخصية معك قبل مغادرة الطائرة. نيابة عن الطاقم، أود أن أشكرك على السفر معنا اليوم. نأمل أن تكون قد قضيت رحلة ممتعة ونتطلع إلى الترحيب بك مرة أخرى قريبًا."
+        "ar": "[Welcome to {destinationCityName}.] [Temperature outside is {currentTemperature} degrees.] [Current local time is {localTimeMinutes} minutes past {localTimeHours}.] يرجى البقاء في مقاعدكم مع ربط حزام الأمان حتى تتوقف الطائرة تمامًا ويتم إيقاف إشارة ربط الأحزمة. تأكد من أن لديك جميع متعلقاتك الشخصية معك قبل مغادرة الطائرة. نيابة عن الطاقم، أود أن أشكرك على السفر معنا اليوم. نأمل أن تكون قد قضيت رحلة ممتعة ونتطلع إلى الترحيب بك مرة أخرى قريبًا.",
+		    "hu": "[Welcome to {destinationCityName}.] [Temperature outside is {currentTemperature} degrees.] [Current local time is {localTimeMinutes} minutes past {localTimeHours}.] Kérjük, maradjanak ülve, biztonsági övüket bekapcsolva, amíg a repülőgép teljesen meg nem áll, és a biztonsági öv jelzője ki nem kapcsol. Kérjük, győződjenek meg róla, hogy minden személyes tárgyukat magukkal viszik a gép elhagyása előtt. A személyzet nevében köszönjük, hogy ma velünk repültek. Reméljük, kellemes utazásban volt részük, és várjuk vissza Önöket a fedélzetre hamarosan."
       }
     ]
   },
@@ -2323,7 +2423,8 @@ const texts: Text[] = [
         "th": "ผู้โดยสารทุกท่าน กรุณานั่งประจำที่ด้วยค่ะ เครื่องบินยังเคลื่อนที่อยู่และสัญญาณรัดเข็มขัดยังเปิดอยู่",
         "zh": "各位乘客，请坐好！飞机仍在滑行，系好安全带的指示灯仍然亮着。",
         "ja": "お客様、どうぞお座りください。航空機はまだ移動中で、シートベルトサインは点灯しています。",
-        "ar": "أيها الركاب، يرجى الجلوس! الطائرة لا تزال تتحرك وإشارة ربط الأحزمة لا تزال مضاءة."
+        "ar": "أيها الركاب، يرجى الجلوس! الطائرة لا تزال تتحرك وإشارة ربط الأحزمة لا تزال مضاءة.",
+		    "hu": "Utasok, kérjük, foglaljanak helyet! A gép még mozog, és a biztonsági öv jelzője még világít."
       },
       {
         "en": "Please remain seated — the aircraft is still moving, and it’s unsafe to stand up.",
@@ -2341,7 +2442,8 @@ const texts: Text[] = [
         "th": "กรุณานั่งอยู่กับที่ เครื่องบินยังเคลื่อนที่อยู่และการลุกขึ้นอาจเป็นอันตราย",
         "zh": "请保持坐好——飞机仍在滑行，现在起身不安全。",
         "ja": "座ったままでお待ちください。航空機はまだ移動中で、立ち上がるのは危険です。",
-        "ar": "يرجى البقاء جالسين — الطائرة لا تزال تتحرك ومن غير الآمن الوقوف الآن."
+        "ar": "يرجى البقاء جالسين — الطائرة لا تزال تتحرك ومن غير الآمن الوقوف الآن.",
+		    "hu": "Kérjük, maradjanak ülve — a repülőgép még mozog, és állni nem biztonságos."
       }  
     ]
   },
@@ -2370,7 +2472,8 @@ const texts: Text[] = [
         "th": "ลูกเรือ ปลดปืนประตูและตรวจสอบแบบ cross-check",
         "zh": "机组人员，请解除门锁并进行交叉检查。",
         "ja": "客室乗務員、ドアのロックを解除して相互確認してください。",
-        "ar": "طاقم الطائرة، يرجى إلغاء تسليح الأبواب وإجراء الفحص المتقاطع."
+        "ar": "طاقم الطائرة، يرجى إلغاء تسليح الأبواب وإجراء الفحص المتقاطع.",
+		    "hu": "Cabin crew, disarm doors and cross-check.",
       }
     ]
   },
@@ -2399,7 +2502,8 @@ const texts: Text[] = [
         "th": "ประตูจะถูกเปิดในไม่ช้า กรุณาตรวจสอบสิ่งของส่วนตัวของท่านก่อนออกจากเครื่องบิน ขอบคุณค่ะ",
         "zh": "舱门即将打开。请记得携带好您的所有随身物品，确保带齐您登机时的所有物品。谢谢。",
         "ja": "ドアはまもなく開きます。個人の持ち物はすべてお持ちください。機内に持ってきたものがすべて揃っていることを確認してください。ありがとうございます。",
-        "ar": "ستفتح الأبواب قريبًا. يرجى تذكر أخذ جميع متعلقاتك الشخصية معك. تأكد من أن لديك كل ما أحضرته على متن الطائرة. شكرًا لك."
+        "ar": "ستفتح الأبواب قريبًا. يرجى تذكر أخذ جميع متعلقاتك الشخصية معك. تأكد من أن لديك كل ما أحضرته على متن الطائرة. شكرًا لك.",
+		    "hu": "A kapuk hamarosan kinyílnak. Kérjük, ne felejtsék el magukkal vinni minden személyes tárgyukat. Győződjenek meg róla, hogy minden náluk lévő dolgot magukkal visznek. Köszönjük."
       },
       {
         "en": "We have arrived at the gate. Please remember to take all your personal belongings with you. Have a great day.",
@@ -2417,7 +2521,8 @@ const texts: Text[] = [
         "th": "เราได้มาถึงประตูทางออกแล้วค่ะ  กรุณาตรวจสอบสิ่งของส่วนตัวของท่านก่อนออกจากเครื่องบิน เราหวังเป็นอย่างยิ่งว่าท่านได้รับความพึงพอใจและหวังว่าเราจะได้ต้อนรับท่านอีก",
         "zh": "我们已到达登机口。请记得携带好您的所有随身物品。祝您度过美好的一天。",
         "ja": "ゲートに到着しました。所持品はすべてお持ちください。良い一日をお過ごしください。",
-        "ar": "لقد وصلنا إلى البوابة. يرجى تذكر أخذ جميع متعلقاتك الشخصية معك. أتمنى لك يوماً رائعاً."
+        "ar": "لقد وصلنا إلى البوابة. يرجى تذكر أخذ جميع متعلقاتك الشخصية معك. أتمنى لك يوماً رائعاً.",
+		    "hu": "Megérkeztünk a kapuhoz. Kérjük, ne felejtsék el magukkal vinni minden személyes tárgyukat. Kellemes napot kívánunk."
       }
     ]
   }
