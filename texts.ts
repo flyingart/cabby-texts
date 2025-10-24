@@ -1188,7 +1188,7 @@ const texts: Text[] = [
     "conditions": [
       {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
     ],
-    "timeout": [140, 180],
+    "timeout": [170, 180],
     "onlyPriorityLanguage": true,
     "chime": "DING",
     "texts": [
@@ -1219,7 +1219,7 @@ const texts: Text[] = [
     "conditions": [
       {"type": "runtimeFlightMetadata", "key": "isDarkOutside", "value": [1]}
     ],
-    "timeout": [140, 150],
+    "timeout": [180, 185],
     "onlyPriorityLanguage": false,
     "texts": [
       {
