@@ -17,11 +17,13 @@ You can find more information about the Cabby [on the official website](https://
 - Dutch (nl)
 - Korean (ko)
 - Norwegian (no)
-- Thai (th) - Temporary disabled due to translation service issues
+- Thai (th)
 - Chinese - Simplified (zh)
 - Japanese (ja)
 - Arabic (ar)
 - Hungarian (hu)
+- Ukrainian (uk)
+- Russian (ru)
 
 Please feel free to add more languages by creating a pull request. The more languages we have, the better the service will be.
 
