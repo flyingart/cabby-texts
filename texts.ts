@@ -1853,8 +1853,7 @@ const texts: Text[] = [
     "chime": "DING_DONG",
     "singleTimeAnnouncement": true,
     "conditions": [
-      {"type": "flightState", "value": ["FLIGHT_CRUISE"]},
-      {"type": "metadata", key: "isLongHaul", value: [1]}
+      {"type": "flightState", "value": ["FLIGHT_CRUISE"]}
     ],
     "texts": [
       {
